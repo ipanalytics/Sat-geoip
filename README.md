@@ -20,6 +20,7 @@ sat-geoip builds a satellite-internet intelligence dataset from operator GeoIP f
 
 | Resource | Location |
 |---|---|
+| Interactive dashboard | [GitHub Pages](https://ipanalytics.github.io/Sat-geoip/) |
 | Latest dataset release | [GitHub Releases](https://github.com/ipanalytics/Sat-geoip/releases) |
 | Generated artifacts | [`outputs/`](./outputs) |
 | Operator registry | [`config/operators.yaml`](./config/operators.yaml) |
@@ -130,6 +131,7 @@ The checked-in `outputs/` directory is generated from live public feeds. The exa
 - RIPEstat announced-prefix parser for live BGP state.
 - CSV, JSONL, and MaxMind DB outputs.
 - Release statistics in JSON and Markdown.
+- Static GitHub Pages dashboard generated from release outputs.
 - GitHub Actions workflow for scheduled dataset builds and release publishing.
 - Tests for the acceptance cases that guard field semantics and confidence separation.
 

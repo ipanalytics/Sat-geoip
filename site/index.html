@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>sat-geoip dashboard</title>
+    <link rel="preconnect" href="https://{s}.tile.openstreetmap.org">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Dataset controls">
+        <header class="brand">
+
+          <div class="brand-copy">
+            <h1>sat-geoip</h1>
+            <p>Satellite internet GeoIP, PoP, and BGP dataset map.</p>
+          </div>
+        </header>
+
+        <section class="metric-grid" aria-label="Dataset metrics">
+          <div class="metric">
+            <span>Prefixes</span>
+            <strong id="metric-prefixes">-</strong>
+          </div>
+          <div class="metric">
+            <span>Announced</span>
+            <strong id="metric-announced">-</strong>
+          </div>
+          <div class="metric">
+            <span>PoP mapped</span>
+            <strong id="metric-pops">-</strong>
+          </div>
+          <div class="metric">
+            <span>Operators</span>
+            <strong id="metric-operators">-</strong>
+          </div>
+        </section>
+
+        <section class="panel" aria-label="Map layers">
+          <h2>Layers</h2>
+          <label class="toggle-row">
+            <input type="checkbox" id="layer-coverage" checked>
+            <span>User prefix coverage</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="layer-pops" checked>
+            <span>PoP / gateway infrastructure</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="layer-orbits" checked>
+            <span>Approximate satellite tracks</span>
+          </label>
+        </section>
+
+        <section class="panel" aria-label="Operator filter">
+          <h2>Operators</h2>
+          <div id="operator-list" class="operator-list"></div>
+        </section>
+
+        <section class="panel details-panel" aria-label="Selected feature">
+          <h2>Selection</h2>
+          <div id="selection" class="selection">
+            <span class="muted">No feature selected.</span>
+          </div>
+        </section>
+      </aside>
+
+      <section class="map-stage" aria-label="sat-geoip map">
+        <div class="toolbar">
+          <div class="toolbar-title">
+            <span id="generated-at">Loading dataset</span>
+          </div>
+          <div class="toolbar-actions">
+            <a class="icon-link" href="../outputs/sat-geoip-prefixes.jsonl" title="Resolved JSONL">
+              <i data-lucide="database"></i>
+            </a>
+            <a class="icon-link" href="https://github.com/ipanalytics/Sat-geoip" title="Repository">
+              <i data-lucide="github"></i>
+            </a>
+          </div>
+        </div>
+        <div id="map"></div>
+        <div class="legend" aria-label="Map legend">
+          <span><b class="dot coverage"></b>GeoIP country clusters</span>
+          <span><b class="dot pop"></b>PoP / IATA</span>
+          <span><b class="dot gateway"></b>Gateway reference</span>
+          <span><b class="line orbit"></b>Approximate orbit</span>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
