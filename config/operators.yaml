@@ -1,0 +1,29 @@
+operators:
+  starlink:
+    operator_group: spacex
+    service_type: satellite_internet
+    orbit_class: leo
+    asns:
+      - 14593
+      - 45700
+    rir_org_tokens:
+      - starlink
+      - spacex
+      - space exploration
+    geoip_feed: https://geoip.starlinkisp.net/feed.csv
+    pop_feed: https://geoip.starlinkisp.net/pops.csv
+    notes: ASNs are discovered and expected to grow; AS45700 is a separate Indonesia entity.
+  viasat:
+    operator_group: viasat
+    service_type: satellite_internet
+    orbit_class: geo_or_hybrid_satellite
+    asns:
+      - 7155
+      - 40306
+      - 31515
+    rir_org_tokens:
+      - viasat
+      - inmarsat
+    geoip_feed: https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv
+    pop_feed:
+    notes: Viasat and acquired Inmarsat networks must be treated as a set.

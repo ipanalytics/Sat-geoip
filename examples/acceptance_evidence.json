@@ -1,0 +1,34 @@
+[
+  {
+    "prefix": "14.1.64.0/24",
+    "geoip_feed": {"country": "PH", "city": "Manila", "source": "starlink_feed_csv"},
+    "pop_feed": {"pop_code": "mnlaphl1", "pop_iata": "mnl", "source": "starlink_pops_csv"},
+    "ptr": {"record": "customer.mnlaphl1.pop.starlinkisp.net", "pop_code": "mnlaphl1"},
+    "bgp": {"announced": true, "origin_asns": [45700], "ever_announced": true},
+    "rir": {"org": "PT Starlink Services Indonesia", "country": "ID"},
+    "rpki": {"has_vrp": true, "valid_for_origin": true},
+    "first_seen": "2026-05-25",
+    "last_seen": "2026-05-25"
+  },
+  {
+    "prefix": "170.203.201.0/24",
+    "geoip_feed": {"country": "CA", "region": "CA-BC", "city": "Vancouver", "source": "starlink_feed_csv"},
+    "pop_feed": {"pop_code": "seataws1", "pop_iata": "sea", "source": "starlink_pops_csv"},
+    "ptr": {"record": "customer.yvr.pop.starlinkisp.net", "pop_code": "yvrbcca1"},
+    "bgp": {"announced": false, "origin_asns": [], "ever_announced": false},
+    "rir": {"org": "Space Exploration Technologies", "country": "US"},
+    "rpki": {"has_vrp": true},
+    "first_seen": "2026-05-25",
+    "last_seen": "2026-05-25"
+  },
+  {
+    "prefix": "184.63.131.8/29",
+    "geoip_feed": {"country": "LK", "city": "Riyadh", "source": "viasat_geofeed_csv"},
+    "bgp": {"announced": true, "origin_asns": [7155], "ever_announced": true},
+    "rir": {"org": "ViaSat, Inc.", "country": "US"},
+    "rpki": {"has_vrp": true, "valid_for_origin": true},
+    "first_seen": "2026-05-25",
+    "last_seen": "2026-05-25"
+  }
+]
+
