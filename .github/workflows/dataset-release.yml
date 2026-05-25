@@ -1,0 +1,76 @@
+name: Dataset Release
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sat-geoip-dataset-release
+  cancel-in-progress: false
+
+jobs:
+  build-release:
+    name: Build and publish dataset
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24.x"
+          cache: true
+
+      - name: Test
+        run: go test ./...
+
+      - name: Build live dataset artifacts
+        run: go run ./cmd/sat-geoip -format live-release -out outputs
+
+      - name: Update README statistics
+        run: go run ./cmd/sat-geoip -format update-readme-stats -stats outputs/stats.json -readme README.md
+
+      - name: Prepare release metadata
+        id: meta
+        run: |
+          tag="dataset-$(date -u +'%Y.%m.%d')"
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          echo "name=sat-geoip Dataset $(date -u +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Commit generated dataset files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md outputs/*.csv outputs/*.jsonl outputs/*.json outputs/*.md outputs/*.mmdb
+          if ! git diff --cached --quiet; then
+            git commit -m "Update sat-geoip dataset artifacts [skip ci]"
+            git push
+          fi
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.name }}
+          body_path: outputs/RELEASE_NOTES.md
+          make_latest: true
+          files: |
+            outputs/sat-geoip-prefixes.jsonl
+            outputs/sat-geoip-prefixes.csv
+            outputs/satellite-asns.csv
+            outputs/operator-geofeeds.csv
+            outputs/starlink-geoip-vs-bgp.csv
+            outputs/starlink-pop-mapping.csv
+            outputs/pops-vs-ptr-mismatch.csv
+            outputs/stats.json
+            outputs/RELEASE_NOTES.md
+            outputs/sat-geoip.mmdb
+
