@@ -36,7 +36,9 @@ func WriteResolvedCSV(w io.Writer, records []resolver.ResolvedPrefix) error {
 		"prefix", "operator", "operator_group", "service_type", "orbit_class", "origin_asn",
 		"geoip_country", "geoip_region", "geoip_city", "geoip_source", "pop_code", "pop_iata",
 		"bgp_state", "ground_station_claim", "active_user_claim", "quality_flags",
-		"attribution_confidence", "geo_confidence",
+		"attribution_confidence", "geo_confidence", "first_seen", "last_seen", "changed_at", "change_type",
+		"previous_bgp_state", "previous_origin_asn", "previous_operator", "previous_pop_code",
+		"previous_geoip_country", "previous_geoip_region", "previous_geoip_city",
 	}
 	if err := cw.Write(header); err != nil {
 		return err
@@ -46,11 +48,18 @@ func WriteResolvedCSV(w io.Writer, records []resolver.ResolvedPrefix) error {
 		if r.OriginASN != nil {
 			asn = fmt.Sprint(*r.OriginASN)
 		}
+		previousASN := ""
+		if r.PreviousOriginASN != nil {
+			previousASN = fmt.Sprint(*r.PreviousOriginASN)
+		}
 		if err := cw.Write([]string{
 			r.Prefix, r.Operator, r.OperatorGroup, r.ServiceType, r.OrbitClass, asn,
 			r.GeoIPCountry, r.GeoIPRegion, r.GeoIPCity, r.GeoIPSource, r.PoPCode, r.PoPIATA,
 			r.BGPState, fmt.Sprint(r.GroundStationClaim), fmt.Sprint(r.ActiveUserClaim),
 			fmt.Sprint(r.QualityFlags), fmt.Sprintf("%.3f", r.DataConfidence.Attribution), fmt.Sprintf("%.3f", r.DataConfidence.Geo),
+			r.FirstSeen, r.LastSeen, r.ChangedAt, r.ChangeType,
+			r.PreviousBGPState, previousASN, r.PreviousOperator, r.PreviousPoPCode,
+			r.PreviousGeoIPCountry, r.PreviousGeoIPRegion, r.PreviousGeoIPCity,
 		}); err != nil {
 			return err
 		}

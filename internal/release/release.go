@@ -7,8 +7,10 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"time"
 
 	"github.com/ipanalytics/Sat-geoip/internal/export"
+	"github.com/ipanalytics/Sat-geoip/internal/history"
 	"github.com/ipanalytics/Sat-geoip/internal/live"
 	"github.com/ipanalytics/Sat-geoip/internal/mmdb"
 	"github.com/ipanalytics/Sat-geoip/internal/reference"
@@ -57,6 +59,11 @@ func Write(outDir string, records []resolver.ResolvedPrefix) error {
 	if err := os.MkdirAll(outDir, 0o755); err != nil {
 		return err
 	}
+	historyResult, err := history.Apply(filepath.Join(outDir, "sat-geoip-prefixes.jsonl"), records, time.Now())
+	if err != nil {
+		return err
+	}
+	records = historyResult.Records
 	stats := ComputeStats(records)
 
 	writers := []struct {
@@ -71,6 +78,9 @@ func Write(outDir string, records []resolver.ResolvedPrefix) error {
 		{"starlink-geoip-vs-bgp.csv", func(w io.Writer) error { return export.WriteStarlinkGeoIPVsBGP(w, records) }},
 		{"starlink-pop-mapping.csv", func(w io.Writer) error { return export.WriteStarlinkPoPMapping(w, records) }},
 		{"pops-vs-ptr-mismatch.csv", func(w io.Writer) error { return export.WritePoPVsPTRMismatch(w, records) }},
+		{"prefix-changes.jsonl", func(w io.Writer) error { return history.WriteChangesJSONL(w, historyResult.Changes) }},
+		{"prefix-changes.csv", func(w io.Writer) error { return history.WriteChangesCSV(w, historyResult.Changes) }},
+		{"history-summary.json", func(w io.Writer) error { return history.WriteSummaryJSON(w, historyResult.Summary) }},
 		{"stats.json", func(w io.Writer) error { return WriteStatsJSON(w, stats) }},
 		{"RELEASE_NOTES.md", func(w io.Writer) error { return WriteStatsMarkdown(w, stats) }},
 	}

@@ -204,6 +204,9 @@ go run ./cmd/sat-geoip \
 | `satellite-asns.csv` | Operator ASN seed registry |
 | `operator-geofeeds.csv` | Known operator feed URLs and formats |
 | `operator-gateway-reference.csv` | Gateway country reference metadata; not customer GeoIP |
+| `prefix-changes.jsonl` | Per-prefix change events compared with the previous committed output |
+| `prefix-changes.csv` | Flattened change event table |
+| `history-summary.json` | Release-level history counters |
 | `starlink-geoip-vs-bgp.csv` | Starlink geofeed and BGP comparison |
 | `starlink-pop-mapping.csv` | Starlink prefix-to-PoP mapping |
 | `pops-vs-ptr-mismatch.csv` | PTR/PoP disagreement report |
@@ -259,6 +262,8 @@ These files are validation references, not GeoIP sources. They improve quality f
 - Scheduled releases run from GitHub Actions and publish a date-tagged dataset release.
 - Live builds fetch public operator feeds and RIPEstat Data API responses.
 - Release jobs update `README.md`, `outputs/`, and the GitHub Release body with dataset statistics.
+- `first_seen`, `last_seen`, `changed_at`, and `change_type` are repository snapshot history fields. They describe when sat-geoip first observed or changed a record, not when the operator originally allocated or routed the prefix.
+- Prefix change reports compare the current build against the previously committed `sat-geoip-prefixes.jsonl` artifact.
 - Raw snapshot retention is part of the long-term roadmap; current checked-in outputs represent the latest generated release artifact set.
 - The resolver keeps evidence layers separate by design. Consumers should select the field appropriate to their workflow instead of collapsing fields into a single location.
 
@@ -278,8 +283,8 @@ sat-geoip covers satellite-internet data engineering: operator feeds, BGP state,
 
 - Live BGP collection currently uses RIPEstat REST APIs, not MRT/RIS-Live streams.
 - PTR and RPKI enrichment are represented in the model but not fully collected in the first release pipeline.
-- OneWeb/Eutelsat and watchlist operators require BGP-derived discovery paths before they can produce complete records.
-- SES/O3b, Hughes, and Marlink are BGP-derived in the first release because no public RFC 8805 geofeed is known for those operators.
+- OneWeb/Eutelsat and most non-Starlink/Viasat operators are BGP-derived until public operator geofeeds are found.
+- SES/O3b, Hughes, Marlink, Intelsat, Avanti, Speedcast, Inmarsat, and Thuraya are BGP-derived in the first release because no public RFC 8805 geofeed is known for those operators.
 
 ## Directory Structure
 
@@ -291,6 +296,7 @@ sat-geoip covers satellite-internet data engineering: operator feeds, BGP state,
 ├── examples/                  # acceptance evidence fixtures
 ├── internal/collectors/       # feed and BGP collector helpers
 ├── internal/export/           # CSV and JSONL writers
+├── internal/history/          # per-prefix snapshot history and change reports
 ├── internal/live/             # live public-source dataset builder
 ├── internal/mmdb/             # MaxMind DB writer
 ├── internal/release/          # artifact and statistics generation
