@@ -29,6 +29,16 @@ jobs:
           go-version: "1.24.x"
           cache: true
 
+      - name: Download reference datasets
+        run: |
+          mkdir -p data/reference/geonames data/reference/ourairports
+          curl -fsSL --retry 3 --max-time 60 https://download.geonames.org/export/dump/countryInfo.txt -o data/reference/geonames/countryInfo.txt
+          curl -fsSL --retry 3 --max-time 60 https://download.geonames.org/export/dump/admin1CodesASCII.txt -o data/reference/geonames/admin1CodesASCII.txt
+          curl -fsSL --retry 3 --max-time 120 https://download.geonames.org/export/dump/cities1000.zip -o data/reference/geonames/cities1000.zip
+          unzip -o data/reference/geonames/cities1000.zip -d data/reference/geonames
+          rm -f data/reference/geonames/cities1000.zip
+          curl -fsSL --retry 3 --max-time 120 https://davidmegginson.github.io/ourairports-data/airports.csv -o data/reference/ourairports/airports.csv
+
       - name: Test
         run: go test ./...
 
