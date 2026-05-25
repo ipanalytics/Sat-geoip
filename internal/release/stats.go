@@ -107,6 +107,10 @@ func READMEStatsBlock(stats Stats) string {
 	fmt.Fprintf(&b, "| BGP-only prefixes | %d |\n", stats.BGPOnly)
 	fmt.Fprintf(&b, "| Prefixes with PoP assignment | %d |\n", stats.WithPoP)
 	fmt.Fprintf(&b, "| Ground station claims | %d |\n", stats.GroundStationClaims)
+	b.WriteString("\n### Operators\n\n")
+	b.WriteString(markdownCountTable(stats.Operators))
+	b.WriteString("\n### Orbit Classes\n\n")
+	b.WriteString(markdownCountTable(stats.OrbitClasses))
 	b.WriteString("<!-- SAT_GEOIP_STATS_END -->")
 	return b.String()
 }

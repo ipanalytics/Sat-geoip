@@ -72,6 +72,35 @@ The resolver applies fixed precedence rules:
 | BGP-only prefixes | 6958 |
 | Prefixes with PoP assignment | 3291 |
 | Ground station claims | 0 |
+
+### Operators
+
+| Name | Count |
+|---|---:|
+| `avanti` | 23 |
+| `eutelsat_skylogic` | 274 |
+| `hughes` | 675 |
+| `inmarsat` | 55 |
+| `intelsat` | 91 |
+| `marlink` | 29 |
+| `oneweb` | 17 |
+| `ses_o3b` | 22 |
+| `speedcast` | 106 |
+| `starlink` | 5407 |
+| `thuraya` | 10 |
+| `viasat` | 4523 |
+
+### Orbit Classes
+
+| Name | Count |
+|---|---:|
+| `geo` | 698 |
+| `geo_mss` | 10 |
+| `geo_or_hybrid_satellite` | 4852 |
+| `geo_or_multi_orbit` | 91 |
+| `leo` | 5424 |
+| `meo` | 22 |
+| `mixed_satellite` | 135 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
