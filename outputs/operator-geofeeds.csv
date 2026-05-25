@@ -1,7 +1,12 @@
 operator,url,type,status,format,notes
+avanti,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+eutelsat_skylogic,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 hughes,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+intelsat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 marlink,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+oneweb,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 ses_o3b,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+speedcast,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 starlink,https://geoip.starlinkisp.net/feed.csv,geoip_feed,active,rfc8805,operator-declared customer subnet GeoIP location
 starlink,https://geoip.starlinkisp.net/pops.csv,pop_feed,active,custom_csv,operator-declared subnet to PoP assignment
 viasat,https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv,geoip_feed,active,rfc8805,operator-declared customer subnet GeoIP location
