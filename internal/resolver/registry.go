@@ -39,10 +39,45 @@ var Registry = map[Operator]OperatorConfig{
 		ASNs: map[int]string{
 			7155:  "VIASAT-SP-BACKBONE",
 			40306: "Viasat Inc.",
+		},
+		OrgTokens: []string{"viasat"},
+		GeoIPFeed: "https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv",
+	},
+	OperatorInmarsat: {
+		OperatorGroup: "viasat",
+		ServiceType:   "satellite_internet",
+		OrbitClass:    OrbitHybrid,
+		ASNs: map[int]string{
 			31515: "Inmarsat Global Limited",
 		},
-		OrgTokens: []string{"viasat", "inmarsat"},
-		GeoIPFeed: "https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv",
+		OrgTokens: []string{"inmarsat", "inmarsat global"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"Inmarsat is modeled separately from Viasat AS7155 but remains under the Viasat operator group after acquisition.",
+			"No public RFC 8805 geofeed known for AS31515; Viasat group geofeed may cover adjacent networks.",
+		},
+	},
+	OperatorThuraya: {
+		OperatorGroup: "space42",
+		ServiceType:   "mss_narrowband",
+		OrbitClass:    OrbitGEOMSS,
+		ASNs: map[int]string{
+			44703: "Thuraya Telecommunications",
+		},
+		OrgTokens: []string{"thuraya", "yahsat", "space42"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"GEO mobile satellite services operator; treat as MSS/narrowband rather than broadband LEO.",
+			"No public geofeed known; gateway regions are not customer GeoIP.",
+		},
 	},
 	OperatorSESO3B: {
 		OperatorGroup: "ses",

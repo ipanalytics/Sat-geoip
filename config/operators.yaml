@@ -20,13 +20,50 @@ operators:
     asns:
       - 7155
       - 40306
-      - 31515
     rir_org_tokens:
       - viasat
-      - inmarsat
     geoip_feed: https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv
     pop_feed:
-    notes: Viasat and acquired Inmarsat networks must be treated as a set.
+    notes: Viasat backbone and group geofeed; Inmarsat AS31515 is modeled separately under the Viasat operator group.
+  inmarsat:
+    operator: "Inmarsat"
+    operator_group: viasat
+    service_type: satellite_internet
+    orbit_class: geo_or_hybrid_satellite
+    asns:
+      - 31515
+    rir_org_tokens:
+      - inmarsat
+      - inmarsat global
+    data_layers:
+      - bgp_origin_prefixes
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    notes:
+      - "Inmarsat is now under Viasat Group but AS31515 remains separately attributable."
+      - "No public RFC 8805 geofeed known for AS31515; gateway/mobile maritime semantics only."
+  thuraya:
+    operator: "Thuraya"
+    operator_group: space42
+    service_type: mss_narrowband
+    orbit_class: geo_mss
+    asns:
+      - 44703
+    rir_org_tokens:
+      - thuraya
+      - yahsat
+      - space42
+    data_layers:
+      - bgp_origin_prefixes
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    notes:
+      - "GEO mobile satellite services operator; not broadband LEO."
+      - "No public geofeed known; gateway regions are not customer GeoIP."
   ses_o3b:
     operator: "SES Networks / O3b"
     operator_group: ses

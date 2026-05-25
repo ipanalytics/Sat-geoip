@@ -30,6 +30,10 @@ func TestEvidenceBuildsFromFeedsAndBGP(t *testing.T) {
 			body = `{"data":{"prefixes":[{"prefix":"209.159.160.0/19"}]}}`
 		case strings.Contains(r.URL.String(), "resource=AS29286"):
 			body = `{"data":{"prefixes":[{"prefix":"176.227.128.0/20"}]}}`
+		case strings.Contains(r.URL.String(), "resource=AS31515"):
+			body = `{"data":{"prefixes":[{"prefix":"161.30.0.0/16"}]}}`
+		case strings.Contains(r.URL.String(), "resource=AS44703"):
+			body = `{"data":{"prefixes":[{"prefix":"185.34.28.0/22"}]}}`
 		default:
 			body = `{"data":{"prefixes":[]}}`
 		}
@@ -45,8 +49,8 @@ func TestEvidenceBuildsFromFeedsAndBGP(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(evidence) != 6 {
-		t.Fatalf("expected 6 evidence records, got %d", len(evidence))
+	if len(evidence) != 8 {
+		t.Fatalf("expected 8 evidence records, got %d", len(evidence))
 	}
 }
 

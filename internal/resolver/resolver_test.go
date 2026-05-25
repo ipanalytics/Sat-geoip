@@ -139,6 +139,22 @@ func TestNewBGPDerivedSatelliteOperators(t *testing.T) {
 			wantOrbit:   string(OrbitLEO),
 		},
 		{
+			name:        "inmarsat",
+			asn:         31515,
+			wantOp:      string(OperatorInmarsat),
+			wantGroup:   "viasat",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitHybrid),
+		},
+		{
+			name:        "thuraya",
+			asn:         44703,
+			wantOp:      string(OperatorThuraya),
+			wantGroup:   "space42",
+			wantService: "mss_narrowband",
+			wantOrbit:   string(OrbitGEOMSS),
+		},
+		{
 			name:        "intelsat",
 			asn:         22351,
 			wantOp:      string(OperatorIntelsat),

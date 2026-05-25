@@ -66,10 +66,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 11222 |
-| Announced prefixes | 7877 |
+| Prefixes | 11232 |
+| Announced prefixes | 7887 |
 | GeoFeed-only prefixes | 3345 |
-| BGP-only prefixes | 6948 |
+| BGP-only prefixes | 6958 |
 | Prefixes with PoP assignment | 3291 |
 | Ground station claims | 0 |
 <!-- SAT_GEOIP_STATS_END -->
@@ -82,7 +82,9 @@ The checked-in `outputs/` directory is generated from live public feeds. The exa
 |---|---|---|---|---|
 | Starlink | LEO | `satellite_internet` | GeoIP feed, PoP feed, BGP, RIR/RPKI model | active |
 | Eutelsat OneWeb | LEO | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model, facility reference metadata | not found |
-| Viasat / Inmarsat | GEO/hybrid | `satellite_internet` | GeoIP feed, BGP, RIR/RPKI model | active |
+| Viasat | GEO/hybrid | `satellite_internet` | GeoIP feed, BGP, RIR/RPKI model | active |
+| Inmarsat | GEO/hybrid | `satellite_internet` | BGP, RDAP/RPKI model | not found |
+| Thuraya | GEO MSS | `mss_narrowband` | BGP, RDAP/RPKI model | not found |
 | SES Networks / O3b | MEO | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model, gateway reference metadata | not found |
 | Hughes / HughesNet | GEO | `satellite_internet` | BGP, RDAP/RPKI model | not found |
 | Intelsat | GEO/multi-orbit | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model | not found |
@@ -94,7 +96,7 @@ The checked-in `outputs/` directory is generated from live public feeds. The exa
 ## Features
 
 - Go resolver with typed evidence and canonical resolved-prefix records.
-- Operator registry covering Starlink, OneWeb, Viasat, SES/O3b, Hughes/HughesNet, Intelsat, Avanti, Eutelsat/Skylogic, Marlink, and Speedcast.
+- Operator registry covering Starlink, OneWeb, Viasat, Inmarsat, Thuraya, SES/O3b, Hughes/HughesNet, Intelsat, Avanti, Eutelsat/Skylogic, Marlink, and Speedcast.
 - RFC 8805 geofeed parser and Starlink PoP CSV parser.
 - RIPEstat announced-prefix parser for live BGP state.
 - CSV, JSONL, and MaxMind DB outputs.
