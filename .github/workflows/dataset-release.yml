@@ -45,6 +45,9 @@ jobs:
       - name: Build live dataset artifacts
         run: go run ./cmd/sat-geoip -format live-release -out outputs
 
+      - name: Build GitHub Pages dashboard data
+        run: go run ./cmd/sat-geoip -format site-data -out site/data -stats outputs/stats.json -records outputs/sat-geoip-prefixes.jsonl -gateways outputs/operator-gateway-reference.csv -reference data/reference
+
       - name: Update README statistics
         run: go run ./cmd/sat-geoip -format update-readme-stats -stats outputs/stats.json -readme README.md
 
@@ -59,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md outputs/*.csv outputs/*.jsonl outputs/*.json outputs/*.md outputs/*.mmdb
+          git add README.md site outputs/*.csv outputs/*.jsonl outputs/*.json outputs/*.md outputs/*.mmdb
           if ! git diff --cached --quiet; then
             git commit -m "Update sat-geoip dataset artifacts [skip ci]"
             git push
