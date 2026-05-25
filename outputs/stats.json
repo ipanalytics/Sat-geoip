@@ -1,0 +1,29 @@
+{
+  "total_prefixes": 9985,
+  "announced_prefixes": 6640,
+  "geofeed_only_prefixes": 3345,
+  "bgp_only_prefixes": 5711,
+  "prefixes_with_pop": 3291,
+  "operators": {
+    "starlink": 5407,
+    "viasat": 4578
+  },
+  "orbit_classes": {
+    "geo_or_hybrid_satellite": 4578,
+    "leo": 5407
+  },
+  "quality_flags": {
+    "bgp_announced": 6640,
+    "bgp_not_announced": 3345,
+    "geoip_invalid_country_city_pair": 1,
+    "geoip_valid": 4274,
+    "origin_asn_expected": 6640,
+    "pop_missing": 983,
+    "pop_present": 3291,
+    "prefix_only_in_bgp": 5711,
+    "prefix_only_in_geofeed": 3345,
+    "ptr_missing": 3291
+  },
+  "ground_station_claims": 0,
+  "active_user_claims": 6640
+}

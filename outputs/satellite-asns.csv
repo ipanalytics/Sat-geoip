@@ -1,0 +1,6 @@
+operator,asn,asn_name,orbit_class,source,confidence,notes
+starlink,14593,SPACEX-STARLINK,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+starlink,45700,IDNIC-STARLINK-AS-ID,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+viasat,7155,VIASAT-SP-BACKBONE,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+viasat,40306,Viasat Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+viasat,31515,Inmarsat Global Limited,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
