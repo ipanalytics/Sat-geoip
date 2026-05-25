@@ -141,40 +141,37 @@ func addViasat(ctx context.Context, client *http.Client, evidence map[string]res
 }
 
 func addBGP(ctx context.Context, client *http.Client, evidence map[string]resolver.PrefixEvidence, today string) error {
-	type asnOperator struct {
-		asn int
-		org string
-	}
-	asns := []asnOperator{
-		{14593, "Space Exploration Technologies"},
-		{45700, "PT Starlink Services Indonesia"},
-		{7155, "ViaSat, Inc."},
-		{40306, "ViaSat, Inc."},
-		{31515, "Inmarsat Global Limited"},
-	}
-	for _, item := range asns {
-		url := fmt.Sprintf("https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS%d", item.asn)
-		body, err := fetch(ctx, client, url)
-		if err != nil {
-			return fmt.Errorf("RIPEstat AS%d: %w", item.asn, err)
+	for _, op := range resolver.Operators() {
+		cfg := resolver.Registry[op]
+		asns := make([]int, 0, len(cfg.ASNs))
+		for asn := range cfg.ASNs {
+			asns = append(asns, asn)
 		}
-		prefixes, err := collectors.ParseRIPEAnnouncedPrefixes(body)
-		body.Close()
-		if err != nil {
-			return fmt.Errorf("parse RIPEstat AS%d: %w", item.asn, err)
-		}
-		for _, prefix := range prefixes {
-			ev := evidence[prefix]
-			ev.Prefix = prefix
-			ev.BGP = mergeBGP(ev.BGP, item.asn)
-			if ev.RIR == nil {
-				ev.RIR = &resolver.RIREvidence{Org: item.org}
+		sort.Ints(asns)
+		for _, asn := range asns {
+			url := fmt.Sprintf("https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS%d", asn)
+			body, err := fetch(ctx, client, url)
+			if err != nil {
+				return fmt.Errorf("RIPEstat AS%d: %w", asn, err)
 			}
-			if ev.FirstSeen == "" {
-				ev.FirstSeen = today
+			prefixes, err := collectors.ParseRIPEAnnouncedPrefixes(body)
+			body.Close()
+			if err != nil {
+				return fmt.Errorf("parse RIPEstat AS%d: %w", asn, err)
 			}
-			ev.LastSeen = today
-			evidence[prefix] = ev
+			for _, prefix := range prefixes {
+				ev := evidence[prefix]
+				ev.Prefix = prefix
+				ev.BGP = mergeBGP(ev.BGP, asn)
+				if ev.RIR == nil {
+					ev.RIR = &resolver.RIREvidence{Org: cfg.ASNs[asn]}
+				}
+				if ev.FirstSeen == "" {
+					ev.FirstSeen = today
+				}
+				ev.LastSeen = today
+				evidence[prefix] = ev
+			}
 		}
 	}
 	return nil

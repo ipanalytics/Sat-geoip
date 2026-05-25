@@ -66,20 +66,30 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 9985 |
-| Announced prefixes | 6640 |
+| Prefixes | 10711 |
+| Announced prefixes | 7366 |
 | GeoFeed-only prefixes | 3345 |
-| BGP-only prefixes | 5711 |
+| BGP-only prefixes | 6437 |
 | Prefixes with PoP assignment | 3291 |
 | Ground station claims | 0 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
 
+## Operator Coverage
+
+| Operator | Orbit | Service class | Evidence layers | GeoFeed |
+|---|---|---|---|---|
+| Starlink | LEO | `satellite_internet` | GeoIP feed, PoP feed, BGP, RIR/RPKI model | active |
+| Viasat / Inmarsat | GEO/hybrid | `satellite_internet` | GeoIP feed, BGP, RIR/RPKI model | active |
+| SES Networks / O3b | MEO | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model, gateway reference metadata | not found |
+| Hughes / HughesNet | GEO | `satellite_internet` | BGP, RDAP/RPKI model | not found |
+| Marlink | mixed satellite | `satellite_service_provider` | BGP, PeeringDB/RDAP/RPKI model | not found |
+
 ## Features
 
 - Go resolver with typed evidence and canonical resolved-prefix records.
-- Starlink and Viasat operator registry with multi-ASN attribution.
+- Operator registry covering Starlink, Viasat, SES/O3b, Marlink, and Hughes/HughesNet.
 - RFC 8805 geofeed parser and Starlink PoP CSV parser.
 - RIPEstat announced-prefix parser for live BGP state.
 - CSV, JSONL, and MaxMind DB outputs.
@@ -157,6 +167,7 @@ go run ./cmd/sat-geoip \
 | `sat-geoip.mmdb` | MaxMind DB for prefix lookups |
 | `satellite-asns.csv` | Operator ASN seed registry |
 | `operator-geofeeds.csv` | Known operator feed URLs and formats |
+| `operator-gateway-reference.csv` | Gateway country reference metadata; not customer GeoIP |
 | `starlink-geoip-vs-bgp.csv` | Starlink geofeed and BGP comparison |
 | `starlink-pop-mapping.csv` | Starlink prefix-to-PoP mapping |
 | `pops-vs-ptr-mismatch.csv` | PTR/PoP disagreement report |
@@ -221,6 +232,7 @@ sat-geoip covers satellite-internet data engineering: operator feeds, BGP state,
 - Live BGP collection currently uses RIPEstat REST APIs, not MRT/RIS-Live streams.
 - PTR and RPKI enrichment are represented in the model but not fully collected in the first release pipeline.
 - OneWeb/Eutelsat and watchlist operators require BGP-derived discovery paths before they can produce complete records.
+- SES/O3b, Hughes, and Marlink are BGP-derived in the first release because no public RFC 8805 geofeed is known for those operators.
 
 ## Directory Structure
 

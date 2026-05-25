@@ -97,6 +97,69 @@ func TestBGPOnlyPrefixIsStillLiveBGP(t *testing.T) {
 	assertFlag(t, record, FlagPrefixOnlyInBGP)
 }
 
+func TestNewBGPDerivedSatelliteOperators(t *testing.T) {
+	cases := []struct {
+		name        string
+		asn         int
+		wantOp      string
+		wantGroup   string
+		wantService string
+		wantOrbit   string
+	}{
+		{
+			name:        "ses_o3b",
+			asn:         60725,
+			wantOp:      string(OperatorSESO3B),
+			wantGroup:   "ses",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitMEO),
+		},
+		{
+			name:        "marlink",
+			asn:         55784,
+			wantOp:      string(OperatorMarlink),
+			wantGroup:   "marlink",
+			wantService: "satellite_service_provider",
+			wantOrbit:   string(OrbitMixed),
+		},
+		{
+			name:        "hughes",
+			asn:         63062,
+			wantOp:      string(OperatorHughes),
+			wantGroup:   "echostar",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitGEO),
+		},
+	}
+
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			record := Resolve(PrefixEvidence{
+				Prefix: "203.0.113.0/24",
+				BGP:    &BGPEvidence{Announced: true, OriginASNs: []int{tc.asn}, EverAnnounced: true},
+			})
+			if record.Operator != tc.wantOp {
+				t.Fatalf("operator = %q, want %q", record.Operator, tc.wantOp)
+			}
+			if record.OperatorGroup != tc.wantGroup {
+				t.Fatalf("operator_group = %q, want %q", record.OperatorGroup, tc.wantGroup)
+			}
+			if record.ServiceType != tc.wantService {
+				t.Fatalf("service_type = %q, want %q", record.ServiceType, tc.wantService)
+			}
+			if record.OrbitClass != tc.wantOrbit {
+				t.Fatalf("orbit_class = %q, want %q", record.OrbitClass, tc.wantOrbit)
+			}
+			if record.GeoIPSemantics != GeoIPSemanticsNone {
+				t.Fatalf("BGP-derived operators without geofeed must not synthesize GeoIP semantics")
+			}
+			if !record.ActiveUserClaim {
+				t.Fatalf("live BGP-derived prefix must be marked active in BGP")
+			}
+		})
+	}
+}
+
 func assertFlag(t *testing.T, record ResolvedPrefix, want string) {
 	t.Helper()
 	for _, got := range record.QualityFlags {

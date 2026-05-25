@@ -58,6 +58,7 @@ func Write(outDir string, records []resolver.ResolvedPrefix) error {
 		{"sat-geoip-prefixes.csv", func(w io.Writer) error { return export.WriteResolvedCSV(w, records) }},
 		{"satellite-asns.csv", export.WriteSatelliteASNs},
 		{"operator-geofeeds.csv", export.WriteOperatorGeoFeeds},
+		{"operator-gateway-reference.csv", export.WriteGatewayReference},
 		{"starlink-geoip-vs-bgp.csv", func(w io.Writer) error { return export.WriteStarlinkGeoIPVsBGP(w, records) }},
 		{"starlink-pop-mapping.csv", func(w io.Writer) error { return export.WriteStarlinkPoPMapping(w, records) }},
 		{"pops-vs-ptr-mismatch.csv", func(w io.Writer) error { return export.WritePoPVsPTRMismatch(w, records) }},

@@ -27,3 +27,83 @@ operators:
     geoip_feed: https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv
     pop_feed:
     notes: Viasat and acquired Inmarsat networks must be treated as a set.
+  ses_o3b:
+    operator: "SES Networks / O3b"
+    operator_group: ses
+    service_type: satellite_internet
+    orbit_class: meo
+    asns:
+      - 60725
+    rir_org_tokens:
+      - o3b
+      - ses networks
+      - ses
+    irr_sets:
+      - AS-O3B
+      - AS-O3B-TX-US
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+      - gateway_reference_locations
+    geofeed:
+      status: not_found
+    gateway_country_reference:
+      - ZA
+      - PE
+      - BR
+      - PT
+      - AU
+      - GR
+      - US
+      - CL
+      - AE
+      - SN
+    notes:
+      - "Do not treat gateway countries as customer GeoIP."
+      - "Good model for discontiguous satellite gateway networks."
+      - "Do not include SES ASTRA AS12684; it is broadcast/media infrastructure, not satellite internet."
+  marlink:
+    operator: "Marlink"
+    operator_group: marlink
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns:
+      - 5377
+      - 55784
+    rir_org_tokens:
+      - marlink
+      - vizada
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    notes:
+      - "Do not classify as LEO."
+      - "Use as maritime/enterprise satellite connectivity provider."
+      - "Likely mixed satellite + terrestrial backbone."
+  hughes:
+    operator: "Hughes / HughesNet"
+    operator_group: echostar
+    service_type: satellite_internet
+    orbit_class: geo
+    asns:
+      - 6621
+      - 63062
+    rir_org_tokens:
+      - hughes
+      - echostar
+      - hughesnet
+    data_layers:
+      - bgp_origin_prefixes
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    notes:
+      - "No public RFC 8805 geofeed known; BGP-derived operator."
+      - "Regional Hughes entities should be discovered and appended over time."

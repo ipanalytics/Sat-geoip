@@ -4,6 +4,7 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io"
+	"sort"
 	"strings"
 
 	"github.com/ipanalytics/Sat-geoip/internal/resolver"
@@ -15,8 +16,11 @@ func WriteSatelliteASNs(w io.Writer) error {
 	if err := cw.Write([]string{"operator", "asn", "asn_name", "orbit_class", "source", "confidence", "notes"}); err != nil {
 		return err
 	}
-	for op, cfg := range resolver.Registry {
-		for asn, name := range cfg.ASNs {
+	for _, op := range resolver.Operators() {
+		cfg := resolver.Registry[op]
+		asns := sortedASNs(cfg.ASNs)
+		for _, asn := range asns {
+			name := cfg.ASNs[asn]
 			if err := cw.Write([]string{string(op), fmt.Sprint(asn), name, string(cfg.OrbitClass), "verified_constant_plus_discovery_seed", "0.997", "ASN registry is discovered and expected to grow"}); err != nil {
 				return err
 			}
@@ -60,9 +64,14 @@ func WriteOperatorGeoFeeds(w io.Writer) error {
 	if err := cw.Write([]string{"operator", "url", "type", "status", "format", "notes"}); err != nil {
 		return err
 	}
-	for op, cfg := range resolver.Registry {
+	for _, op := range resolver.Operators() {
+		cfg := resolver.Registry[op]
 		if cfg.GeoIPFeed != "" {
 			if err := cw.Write([]string{string(op), cfg.GeoIPFeed, "geoip_feed", "active", "rfc8805", "operator-declared customer subnet GeoIP location"}); err != nil {
+				return err
+			}
+		} else {
+			if err := cw.Write([]string{string(op), "", "geoip_feed", "not_found", "", "BGP-derived operator; no public RFC 8805 geofeed known"}); err != nil {
 				return err
 			}
 		}
@@ -73,6 +82,38 @@ func WriteOperatorGeoFeeds(w io.Writer) error {
 		}
 	}
 	return cw.Error()
+}
+
+func WriteGatewayReference(w io.Writer) error {
+	cw := csv.NewWriter(w)
+	defer cw.Flush()
+	if err := cw.Write([]string{"operator", "country", "source", "semantics", "notes"}); err != nil {
+		return err
+	}
+	for _, op := range resolver.Operators() {
+		cfg := resolver.Registry[op]
+		for _, country := range cfg.GatewayCountries {
+			if err := cw.Write([]string{
+				string(op),
+				country,
+				"operator_gateway_reference",
+				"gateway_country_reference_not_customer_geoip",
+				"Reference location for satellite gateway architecture; do not use as IP GeoIP truth",
+			}); err != nil {
+				return err
+			}
+		}
+	}
+	return cw.Error()
+}
+
+func sortedASNs(asns map[int]string) []int {
+	out := make([]int, 0, len(asns))
+	for asn := range asns {
+		out = append(out, asn)
+	}
+	sort.Ints(out)
+	return out
 }
 
 func WriteStarlinkGeoIPVsBGP(w io.Writer, records []resolver.ResolvedPrefix) error {

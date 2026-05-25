@@ -5,6 +5,9 @@ type Operator string
 const (
 	OperatorStarlink Operator = "starlink"
 	OperatorViasat   Operator = "viasat"
+	OperatorSESO3B   Operator = "ses_o3b"
+	OperatorMarlink  Operator = "marlink"
+	OperatorHughes   Operator = "hughes"
 	OperatorOneWeb   Operator = "oneweb"
 	OperatorKuiper   Operator = "kuiper"
 	OperatorUnknown  Operator = "unknown"
@@ -17,6 +20,7 @@ const (
 	OrbitMEO     OrbitClass = "meo"
 	OrbitGEO     OrbitClass = "geo"
 	OrbitHybrid  OrbitClass = "geo_or_hybrid_satellite"
+	OrbitMixed   OrbitClass = "mixed_satellite"
 	OrbitUnknown OrbitClass = "unknown"
 )
 
