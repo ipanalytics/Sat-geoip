@@ -16,9 +16,13 @@ var cityCountry = map[string]string{
 }
 
 func Resolve(ev PrefixEvidence) ResolvedPrefix {
+	return ResolveWithReference(ev, nil)
+}
+
+func ResolveWithReference(ev PrefixEvidence, ref GeoReference) ResolvedPrefix {
 	op, originASN := resolveOperator(ev)
 	cfg := Registry[op]
-	flags := qualityFlags(ev, op)
+	flags := qualityFlags(ev, op, ref)
 	state := resolveBGPState(ev)
 	popCode, popIATA, popSource := resolvePoP(ev)
 
@@ -149,7 +153,7 @@ func resolvePoP(ev PrefixEvidence) (string, string, string) {
 	return "", "", ""
 }
 
-func qualityFlags(ev PrefixEvidence, op Operator) []string {
+func qualityFlags(ev PrefixEvidence, op Operator, ref GeoReference) []string {
 	flags := make([]string, 0, 8)
 	inFeed := ev.GeoIPFeed != nil
 	announced := ev.BGP != nil && ev.BGP.Announced
@@ -202,8 +206,14 @@ func qualityFlags(ev PrefixEvidence, op Operator) []string {
 		flags = append(flags, FlagCountryMismatchRIR)
 	}
 	if ev.GeoIPFeed != nil && ev.GeoIPFeed.Country != "" && ev.GeoIPFeed.City != "" {
-		if known, ok := cityCountry[strings.ToLower(strings.TrimSpace(ev.GeoIPFeed.City))]; ok && known != ev.GeoIPFeed.Country {
-			flags = append(flags, FlagGeoIPInvalidCountryCityPair)
+		if ref != nil {
+			if known, valid := ref.CityCountry(ev.GeoIPFeed.Country, ev.GeoIPFeed.City); known && !valid {
+				flags = append(flags, FlagGeoIPInvalidCountryCityPair)
+			}
+		} else {
+			if known, ok := cityCountry[strings.ToLower(strings.TrimSpace(ev.GeoIPFeed.City))]; ok && known != ev.GeoIPFeed.Country {
+				flags = append(flags, FlagGeoIPInvalidCountryCityPair)
+			}
 		}
 	}
 

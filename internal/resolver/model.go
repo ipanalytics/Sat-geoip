@@ -110,6 +110,11 @@ type DataConfidence struct {
 	Geo         float64 `json:"geo"`
 }
 
+type GeoReference interface {
+	CityCountry(country, city string) (known bool, valid bool)
+	RegionCountry(country, region string) (known bool, valid bool)
+}
+
 type SourcePriority struct {
 	Operator    string `json:"operator,omitempty"`
 	GeoLocation string `json:"geolocation,omitempty"`

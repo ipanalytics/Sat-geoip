@@ -11,6 +11,7 @@ import (
 	"github.com/ipanalytics/Sat-geoip/internal/export"
 	"github.com/ipanalytics/Sat-geoip/internal/live"
 	"github.com/ipanalytics/Sat-geoip/internal/mmdb"
+	"github.com/ipanalytics/Sat-geoip/internal/reference"
 	"github.com/ipanalytics/Sat-geoip/internal/resolver"
 )
 
@@ -26,8 +27,12 @@ func FromEvidenceFile(evidencePath, outDir string) error {
 		return err
 	}
 	records := make([]resolver.ResolvedPrefix, 0, len(evidence))
+	ref, err := reference.LoadIfAvailable("data/reference")
+	if err != nil {
+		return err
+	}
 	for _, ev := range evidence {
-		records = append(records, resolver.Resolve(ev))
+		records = append(records, resolver.ResolveWithReference(ev, ref))
 	}
 	return Write(outDir, records)
 }
@@ -38,8 +43,12 @@ func FromLive(ctx context.Context, outDir string) error {
 		return err
 	}
 	records := make([]resolver.ResolvedPrefix, 0, len(evidence))
+	ref, err := reference.LoadIfAvailable("data/reference")
+	if err != nil {
+		return err
+	}
 	for _, ev := range evidence {
-		records = append(records, resolver.Resolve(ev))
+		records = append(records, resolver.ResolveWithReference(ev, ref))
 	}
 	return Write(outDir, records)
 }

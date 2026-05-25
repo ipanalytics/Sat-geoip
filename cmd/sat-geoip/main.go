@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/ipanalytics/Sat-geoip/internal/export"
+	"github.com/ipanalytics/Sat-geoip/internal/reference"
 	"github.com/ipanalytics/Sat-geoip/internal/release"
 	"github.com/ipanalytics/Sat-geoip/internal/resolver"
 )
@@ -57,8 +58,12 @@ func main() {
 				fatal(err)
 			}
 			records := make([]resolver.ResolvedPrefix, 0, len(inputs))
+			ref, err := reference.LoadIfAvailable("data/reference")
+			if err != nil {
+				fatal(err)
+			}
 			for _, ev := range inputs {
-				records = append(records, resolver.Resolve(ev))
+				records = append(records, resolver.ResolveWithReference(ev, ref))
 			}
 			stats = release.ComputeStats(records)
 		}
@@ -91,8 +96,12 @@ func main() {
 		fatal(err)
 	}
 	records := make([]resolver.ResolvedPrefix, 0, len(inputs))
+	ref, err := reference.LoadIfAvailable("data/reference")
+	if err != nil {
+		fatal(err)
+	}
 	for _, ev := range inputs {
-		records = append(records, resolver.Resolve(ev))
+		records = append(records, resolver.ResolveWithReference(ev, ref))
 	}
 
 	switch *format {

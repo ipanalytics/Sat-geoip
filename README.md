@@ -207,6 +207,17 @@ Canonical JSONL records follow the resolved-prefix schema:
 
 `data_confidence.attribution` and `data_confidence.geo` are intentionally separate. Attribution answers whether a prefix belongs to the operator set. Geo confidence answers whether the declared location label is internally consistent.
 
+## Reference Validation Data
+
+The pipeline includes local reference datasets under [`data/reference`](./data/reference):
+
+| Source | Use |
+|---|---|
+| GeoNames `countryInfo`, `admin1CodesASCII`, `cities1000` | country, subdivision, and city-country validation |
+| OurAirports `airports.csv` | IATA airport code to country validation |
+
+These files are validation references, not GeoIP sources. They improve quality flags such as `geoip_invalid_country_city_pair` and support PoP/gateway sanity checks without overriding operator-published geofeed semantics.
+
 ## Operational Notes
 
 - Scheduled releases run from GitHub Actions and publish a date-tagged dataset release.
@@ -240,6 +251,7 @@ sat-geoip covers satellite-internet data engineering: operator feeds, BGP state,
 .
 ├── cmd/sat-geoip/              # CLI entry point
 ├── config/                    # operator registry
+├── data/reference/            # validation-only GeoNames and OurAirports datasets
 ├── examples/                  # acceptance evidence fixtures
 ├── internal/collectors/       # feed and BGP collector helpers
 ├── internal/export/           # CSV and JSONL writers
