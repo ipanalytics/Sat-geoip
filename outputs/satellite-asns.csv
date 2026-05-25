@@ -1,6 +1,11 @@
 operator,asn,asn_name,orbit_class,source,confidence,notes
+hughes,6621,Hughes Network Systems,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+hughes,63062,"Hughes Network Systems, LLC",geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+marlink,5377,Marlink AS,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+marlink,55784,Marlink AS APNIC region,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+ses_o3b,60725,O3B-AS,meo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,14593,SPACEX-STARLINK,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,45700,IDNIC-STARLINK-AS-ID,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,7155,VIASAT-SP-BACKBONE,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
-viasat,40306,Viasat Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,31515,Inmarsat Global Limited,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+viasat,40306,Viasat Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow

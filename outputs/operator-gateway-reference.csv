@@ -1,0 +1,11 @@
+operator,country,source,semantics,notes
+ses_o3b,ZA,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,PE,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,BR,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,PT,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,AU,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,GR,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,US,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,CL,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,AE,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
+ses_o3b,SN,operator_gateway_reference,gateway_country_reference_not_customer_geoip,Reference location for satellite gateway architecture; do not use as IP GeoIP truth
