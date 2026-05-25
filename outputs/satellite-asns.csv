@@ -4,6 +4,7 @@ avanti,328306,Avanti Communications South Africa,geo,verified_constant_plus_disc
 eutelsat_skylogic,29286,SKYLOGIC S.P.A.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 hughes,6621,Hughes Network Systems,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 hughes,63062,"Hughes Network Systems, LLC",geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+inmarsat,31515,Inmarsat Global Limited,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 intelsat,22351,INTELSAT GLOBAL SERVICE CORPORATION,geo_or_multi_orbit,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 intelsat,26243,Intelsat,geo_or_multi_orbit,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 marlink,5377,Marlink AS,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
@@ -16,6 +17,6 @@ speedcast,38456,SpeedCast Australia,mixed_satellite,verified_constant_plus_disco
 speedcast,132160,Oceanic Broadband Solutions,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,14593,SPACEX-STARLINK,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,45700,IDNIC-STARLINK-AS-ID,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+thuraya,44703,Thuraya Telecommunications,geo_mss,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,7155,VIASAT-SP-BACKBONE,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
-viasat,31515,Inmarsat Global Limited,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,40306,Viasat Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
