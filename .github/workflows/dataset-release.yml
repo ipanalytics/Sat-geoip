@@ -41,9 +41,9 @@ jobs:
       - name: Prepare release metadata
         id: meta
         run: |
-          tag="dataset-$(date -u +'%Y.%m.%d')"
+          tag="dataset-$(date -u +'%Y.%m.%d-%H%M%S')"
           echo "tag=${tag}" >> "$GITHUB_OUTPUT"
-          echo "name=sat-geoip Dataset $(date -u +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "name=sat-geoip Dataset $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> "$GITHUB_OUTPUT"
 
       - name: Commit generated dataset files
         run: |
@@ -67,10 +67,10 @@ jobs:
             outputs/sat-geoip-prefixes.csv
             outputs/satellite-asns.csv
             outputs/operator-geofeeds.csv
+            outputs/operator-gateway-reference.csv
             outputs/starlink-geoip-vs-bgp.csv
             outputs/starlink-pop-mapping.csv
             outputs/pops-vs-ptr-mismatch.csv
             outputs/stats.json
             outputs/RELEASE_NOTES.md
             outputs/sat-geoip.mmdb
-
