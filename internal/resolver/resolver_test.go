@@ -130,6 +130,46 @@ func TestNewBGPDerivedSatelliteOperators(t *testing.T) {
 			wantService: "satellite_internet",
 			wantOrbit:   string(OrbitGEO),
 		},
+		{
+			name:        "oneweb",
+			asn:         800,
+			wantOp:      string(OperatorOneWeb),
+			wantGroup:   "eutelsat_oneweb",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitLEO),
+		},
+		{
+			name:        "intelsat",
+			asn:         22351,
+			wantOp:      string(OperatorIntelsat),
+			wantGroup:   "intelsat",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitGeoMulti),
+		},
+		{
+			name:        "avanti",
+			asn:         328306,
+			wantOp:      string(OperatorAvanti),
+			wantGroup:   "avanti",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitGEO),
+		},
+		{
+			name:        "speedcast",
+			asn:         38456,
+			wantOp:      string(OperatorSpeedcast),
+			wantGroup:   "speedcast",
+			wantService: "satellite_service_provider",
+			wantOrbit:   string(OrbitMixed),
+		},
+		{
+			name:        "eutelsat_skylogic",
+			asn:         29286,
+			wantOp:      string(OperatorEutelsatSkylogic),
+			wantGroup:   "eutelsat",
+			wantService: "satellite_internet",
+			wantOrbit:   string(OrbitHybrid),
+		},
 	}
 
 	for _, tc := range cases {

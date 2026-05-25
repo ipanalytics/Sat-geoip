@@ -3,25 +3,30 @@ package resolver
 type Operator string
 
 const (
-	OperatorStarlink Operator = "starlink"
-	OperatorViasat   Operator = "viasat"
-	OperatorSESO3B   Operator = "ses_o3b"
-	OperatorMarlink  Operator = "marlink"
-	OperatorHughes   Operator = "hughes"
-	OperatorOneWeb   Operator = "oneweb"
-	OperatorKuiper   Operator = "kuiper"
-	OperatorUnknown  Operator = "unknown"
+	OperatorStarlink         Operator = "starlink"
+	OperatorViasat           Operator = "viasat"
+	OperatorSESO3B           Operator = "ses_o3b"
+	OperatorMarlink          Operator = "marlink"
+	OperatorHughes           Operator = "hughes"
+	OperatorOneWeb           Operator = "oneweb"
+	OperatorIntelsat         Operator = "intelsat"
+	OperatorAvanti           Operator = "avanti"
+	OperatorSpeedcast        Operator = "speedcast"
+	OperatorEutelsatSkylogic Operator = "eutelsat_skylogic"
+	OperatorKuiper           Operator = "kuiper"
+	OperatorUnknown          Operator = "unknown"
 )
 
 type OrbitClass string
 
 const (
-	OrbitLEO     OrbitClass = "leo"
-	OrbitMEO     OrbitClass = "meo"
-	OrbitGEO     OrbitClass = "geo"
-	OrbitHybrid  OrbitClass = "geo_or_hybrid_satellite"
-	OrbitMixed   OrbitClass = "mixed_satellite"
-	OrbitUnknown OrbitClass = "unknown"
+	OrbitLEO      OrbitClass = "leo"
+	OrbitMEO      OrbitClass = "meo"
+	OrbitGEO      OrbitClass = "geo"
+	OrbitHybrid   OrbitClass = "geo_or_hybrid_satellite"
+	OrbitGeoMulti OrbitClass = "geo_or_multi_orbit"
+	OrbitMixed    OrbitClass = "mixed_satellite"
+	OrbitUnknown  OrbitClass = "unknown"
 )
 
 type BGPState string

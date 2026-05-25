@@ -106,6 +106,112 @@ var Registry = map[Operator]OperatorConfig{
 			"Regional Hughes ASNs should be discovered and appended over time.",
 		},
 	},
+	OperatorOneWeb: {
+		OperatorGroup: "eutelsat_oneweb",
+		ServiceType:   "satellite_internet",
+		OrbitClass:    OrbitLEO,
+		ASNs: map[int]string{
+			800: "ONEWEB",
+		},
+		OrgTokens: []string{"oneweb", "eutelsat oneweb", "network access associates", "worldvu"},
+		IRRSets:   []string{"AS-OW"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"peeringdb",
+			"rdap",
+			"rpki",
+			"facility_reference_locations",
+		},
+		Notes: []string{
+			"Core LEO satellite internet operator; keep separate from Eutelsat/Skylogic GEO infrastructure.",
+			"PeeringDB facilities are interconnection/gateway references, not customer GeoIP.",
+			"No public Starlink-style RFC 8805 geofeed known; use BGP-derived prefixes only.",
+		},
+	},
+	OperatorIntelsat: {
+		OperatorGroup: "intelsat",
+		ServiceType:   "satellite_internet",
+		OrbitClass:    OrbitGeoMulti,
+		ASNs: map[int]string{
+			22351: "INTELSAT GLOBAL SERVICE CORPORATION",
+			26243: "Intelsat",
+		},
+		OrgTokens: []string{"intelsat", "intelsat global", "intelsat global service"},
+		IRRSets:   []string{"AS-INTELSATUS", "RS-INTELSAT"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"peeringdb",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"Large GEO / multi-orbit satellite connectivity operator.",
+			"Use as BGP-derived satellite operator; do not infer customer location without geofeed.",
+			"SES acquisition may consolidate Intelsat under the SES group over time.",
+		},
+	},
+	OperatorAvanti: {
+		OperatorGroup: "avanti",
+		ServiceType:   "satellite_internet",
+		OrbitClass:    OrbitGEO,
+		ASNs: map[int]string{
+			39356:  "Avanti Broadband Ltd",
+			328306: "Avanti Communications South Africa",
+		},
+		OrgTokens: []string{"avanti", "avanti communications", "avanti broadband", "iwayafrica"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"GEO satellite broadband / VSAT provider for Africa and EMEA coverage.",
+			"No public operator geofeed known; BGP-derived prefixes only.",
+		},
+	},
+	OperatorSpeedcast: {
+		OperatorGroup: "speedcast",
+		ServiceType:   "satellite_service_provider",
+		OrbitClass:    OrbitMixed,
+		ASNs: map[int]string{
+			4913:   "Speedcast Communications, Inc",
+			5666:   "Speedcast Communications, Inc",
+			38456:  "SpeedCast Australia",
+			132160: "Oceanic Broadband Solutions",
+		},
+		OrgTokens: []string{"speedcast", "speedcast australia", "speedcast managed services", "oceanic broadband"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"peeringdb",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"Satellite and hybrid connectivity provider, not a pure LEO/GEO constellation owner.",
+			"Use as maritime, energy, remote-site and enterprise satellite connectivity layer.",
+			"May include terrestrial/hybrid infrastructure; keep service_type as satellite_service_provider.",
+		},
+	},
+	OperatorEutelsatSkylogic: {
+		OperatorGroup: "eutelsat",
+		ServiceType:   "satellite_internet",
+		OrbitClass:    OrbitHybrid,
+		ASNs: map[int]string{
+			29286: "SKYLOGIC S.P.A.",
+		},
+		OrgTokens: []string{"eutelsat", "skylogic", "skylogic s.p.a"},
+		DataLayers: []string{
+			"bgp_origin_prefixes",
+			"peeringdb",
+			"rdap",
+			"rpki",
+		},
+		Notes: []string{
+			"Separate from Eutelsat OneWeb AS800.",
+			"Use for GEO/hybrid satellite ISP prefixes and legacy Eutelsat/Skylogic infrastructure.",
+			"Do not merge with OneWeb LEO semantics.",
+		},
+	},
 }
 
 func Operators() []Operator {

@@ -107,3 +107,131 @@ operators:
     notes:
       - "No public RFC 8805 geofeed known; BGP-derived operator."
       - "Regional Hughes entities should be discovered and appended over time."
+  oneweb:
+    operator: "Eutelsat OneWeb"
+    operator_group: eutelsat_oneweb
+    service_type: satellite_internet
+    orbit_class: leo
+    asns:
+      - 800
+    rir_org_tokens:
+      - oneweb
+      - eutelsat oneweb
+      - network access associates
+      - worldvu
+    irr_sets:
+      - AS-OW
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+      - facility_reference_locations
+    geofeed:
+      status: not_found
+    pop_feed:
+    notes:
+      - "Core LEO satellite internet operator; must be separated from Eutelsat/Skylogic GEO infrastructure."
+      - "PeeringDB facilities are interconnection/gateway references, not customer GeoIP."
+      - "No public Starlink-style RFC 8805 geofeed known; use BGP-derived prefixes only."
+  intelsat:
+    operator: "Intelsat"
+    operator_group: intelsat
+    service_type: satellite_internet
+    orbit_class: geo_or_multi_orbit
+    asns:
+      - 22351
+      - 26243
+    rir_org_tokens:
+      - intelsat
+      - intelsat global
+      - intelsat global service
+    irr_sets:
+      - AS-INTELSATUS
+      - RS-INTELSAT
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    pop_feed:
+    notes:
+      - "Large GEO / multi-orbit satellite connectivity operator."
+      - "Use as BGP-derived satellite operator; do not infer customer location without geofeed."
+      - "SES acquisition may consolidate Intelsat under the SES group over time."
+  avanti:
+    operator: "Avanti Communications"
+    operator_group: avanti
+    service_type: satellite_internet
+    orbit_class: geo
+    asns:
+      - 39356
+      - 328306
+    rir_org_tokens:
+      - avanti
+      - avanti communications
+      - avanti broadband
+      - iwayafrica
+    data_layers:
+      - bgp_origin_prefixes
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    pop_feed:
+    notes:
+      - "GEO satellite broadband / VSAT provider, especially useful for Africa/EMEA coverage."
+      - "AS328306 is Avanti Communications South Africa; AS39356 is Avanti Broadband Ltd."
+      - "No public operator geofeed known."
+  speedcast:
+    operator: "Speedcast"
+    operator_group: speedcast
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns:
+      - 4913
+      - 5666
+      - 38456
+      - 132160
+    rir_org_tokens:
+      - speedcast
+      - speedcast australia
+      - speedcast managed services
+      - oceanic broadband
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    pop_feed:
+    notes:
+      - "Satellite and hybrid connectivity provider, not a pure LEO/GEO constellation owner."
+      - "Use as maritime, energy, remote-site and enterprise satellite connectivity layer."
+      - "May include terrestrial/hybrid infrastructure; keep service_type as satellite_service_provider."
+  eutelsat_skylogic:
+    operator: "Eutelsat / Skylogic"
+    operator_group: eutelsat
+    service_type: satellite_internet
+    orbit_class: geo_or_hybrid_satellite
+    asns:
+      - 29286
+    rir_org_tokens:
+      - eutelsat
+      - skylogic
+      - skylogic s.p.a
+    data_layers:
+      - bgp_origin_prefixes
+      - peeringdb
+      - rdap
+      - rpki
+    geofeed:
+      status: not_found
+    pop_feed:
+    notes:
+      - "Separate from Eutelsat OneWeb AS800."
+      - "Use for GEO/hybrid satellite ISP prefixes and legacy Eutelsat/Skylogic infrastructure."
+      - "Do not merge with OneWeb LEO semantics."
