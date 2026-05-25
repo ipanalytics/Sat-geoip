@@ -166,6 +166,10 @@ func ReadResolved(path string) (map[string]resolver.ResolvedPrefix, error) {
 }
 
 func WriteChangesJSONL(w io.Writer, changes []Change) error {
+	if len(changes) == 0 {
+		_, err := io.WriteString(w, "\n")
+		return err
+	}
 	enc := json.NewEncoder(w)
 	for _, change := range changes {
 		if err := enc.Encode(change); err != nil {

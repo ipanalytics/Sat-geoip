@@ -1,6 +1,7 @@
 package history
 
 import (
+	"bytes"
 	"testing"
 	"time"
 
@@ -51,6 +52,19 @@ func TestApplyRecordsTracksNewChangedAndWithdrawn(t *testing.T) {
 	}
 	if changed.ChangeType != ChangeChanged || changed.PreviousBGPState != "announced" || changed.PreviousOriginASN == nil || *changed.PreviousOriginASN != asn1 {
 		t.Fatalf("previous fields not set: %#v", changed)
+	}
+}
+
+func TestWriteChangesJSONLEmptyIsNonZeroForReleaseAsset(t *testing.T) {
+	var buf bytes.Buffer
+	if err := WriteChangesJSONL(&buf, nil); err != nil {
+		t.Fatal(err)
+	}
+	if buf.Len() == 0 {
+		t.Fatal("empty change log asset must be non-zero for GitHub Releases")
+	}
+	if got := buf.String(); got != "\n" {
+		t.Fatalf("unexpected empty change log payload %q", got)
 	}
 }
 
