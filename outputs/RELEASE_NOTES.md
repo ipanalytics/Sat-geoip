@@ -40,7 +40,7 @@ Generated artifacts for the current sat-geoip dataset build.
 |---|---:|
 | `bgp_announced` | 7366 |
 | `bgp_not_announced` | 3345 |
-| `geoip_invalid_country_city_pair` | 1 |
+| `geoip_invalid_country_city_pair` | 14 |
 | `geoip_valid` | 4274 |
 | `origin_asn_expected` | 7366 |
 | `pop_missing` | 983 |
