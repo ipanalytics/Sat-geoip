@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./site/banner.svg" alt="sat-geoip banner" width="100%">
 </p>
-https://ipanalytics.github.io/Sat-geoip/
+
 <p align="center">
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-blue"></a>
   <a href="https://github.com/ipanalytics/Sat-geoip/actions/workflows/dataset-release.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/ipanalytics/Sat-geoip/dataset-release.yml?branch=main&label=dataset"></a>
@@ -11,6 +11,8 @@ https://ipanalytics.github.io/Sat-geoip/
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-GeoIP%20%2B%20PoP%20%2B%20BGP-0f766e">
   <img alt="Go" src="https://img.shields.io/badge/go-1.24-00ADD8">
 </p>
+
+https://ipanalytics.github.io/Sat-geoip/
 
 sat-geoip builds a satellite-internet intelligence dataset from operator GeoIP feeds, subnet-to-PoP mappings, live BGP announcements, RIR/RPKI ownership evidence, and historical snapshots. It emits CSV, JSONL, and MaxMind DB artifacts that keep geolocation, PoP assignment, PTR observations, and routing state as separate evidence layers.
 
