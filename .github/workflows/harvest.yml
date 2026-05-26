@@ -1,167 +1,55 @@
-name: harvest
+name: Harvest
 
 on:
-  schedule:
-    - cron: "17 3 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "43 2 * * *"
 
 permissions:
-  contents: write
-  actions: read
+  contents: read
+
+concurrency:
+  group: sat-geoip-harvest
+  cancel-in-progress: false
 
 jobs:
   harvest:
+    name: Build harvest artifacts
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Go
+        uses: actions/setup-go@v5
         with:
-          python-version: "3.12"
+          go-version: "1.24.x"
+          cache: true
 
-      - name: Install
+      - name: Download reference datasets
         run: |
-          python -m pip install --upgrade pip
-          pip install -e .
+          mkdir -p data/reference/geonames data/reference/ourairports
+          curl -fsSL --retry 3 --max-time 60 https://download.geonames.org/export/dump/countryInfo.txt -o data/reference/geonames/countryInfo.txt
+          curl -fsSL --retry 3 --max-time 60 https://download.geonames.org/export/dump/admin1CodesASCII.txt -o data/reference/geonames/admin1CodesASCII.txt
+          curl -fsSL --retry 3 --max-time 120 https://download.geonames.org/export/dump/cities1000.zip -o data/reference/geonames/cities1000.zip
+          unzip -o data/reference/geonames/cities1000.zip -d data/reference/geonames
+          rm -f data/reference/geonames/cities1000.zip
+          curl -fsSL --retry 3 --max-time 120 https://davidmegginson.github.io/ourairports-data/airports.csv -o data/reference/ourairports/airports.csv
 
-      - name: Restore harvester cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            .cache/geofeeds
-            .cache/rir-bulk
-            .cache/direct-geofeeds
-            .cache/rdap
-          key: geofeed-harvester-${{ github.run_id }}
-          restore-keys: |
-            geofeed-harvester-
+      - name: Test
+        run: go test ./...
 
-      - name: Download previous dataset
-        run: |
-          mkdir -p .cache/previous
-          if curl -fL \
-            https://github.com/${{ github.repository }}/releases/latest/download/geofeed.jsonl.gz \
-            -o .cache/previous/geofeed.jsonl.gz; then
-            gzip -dc .cache/previous/geofeed.jsonl.gz > .cache/previous/geofeed.jsonl
-          else
-            echo "No previous release dataset found; diff will start from empty baseline."
-          fi
+      - name: Build live dataset artifacts
+        run: go run ./cmd/sat-geoip -format live-release -out outputs
 
-      - name: Harvest
-        run: |
-          geofeed-harvester \
-            --auto-discover \
-            --out-dir dist \
-            --cache-dir .cache/geofeeds \
-            --bulk-dir .cache/rir-bulk \
-            --direct-geofeed-dir .cache/direct-geofeeds \
-            --normalized-rir-dump .cache/normalized-rir.txt \
-            --previous-jsonl .cache/previous/geofeed.jsonl \
-            --concurrency 32
+      - name: Build dashboard data
+        run: go run ./cmd/sat-geoip -format site-data -out site/data -stats outputs/stats.json -records outputs/sat-geoip-prefixes.jsonl -gateways outputs/operator-gateway-reference.csv -reference data/reference
 
-      - name: Compress dataset
-        run: |
-          cp data/satellite_operators.json dist/satellite-operators.json
-          gzip -9 -c dist/geofeed.csv > dist/geofeed.csv.gz
-          gzip -9 -c dist/geofeed.jsonl > dist/geofeed.jsonl.gz
-          python scripts/finalize_manifest.py
-          sha256sum \
-            dist/geofeed.csv.gz \
-            dist/geofeed.jsonl.gz \
-            dist/geofeed.parquet \
-            dist/failed-geofeeds.csv \
-            dist/diff.json \
-            dist/satellite-operators.json \
-            dist/manifest.json \
-            dist/changelog.md > dist/SHA256SUMS
-
-      - name: Update README stats
-        run: |
-          python scripts/update_readme_stats.py
-
-      - name: Upload dataset artifact
+      - name: Upload harvest artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: geofeed-dataset
+          name: sat-geoip-harvest
           path: |
-            dist/geofeed.csv.gz
-            dist/geofeed.jsonl.gz
-            dist/geofeed.parquet
-            dist/failed-geofeeds.csv
-            dist/diff.json
-            dist/satellite-operators.json
-            dist/manifest.json
-            dist/changelog.md
-            dist/SHA256SUMS
-          retention-days: 30
-
-      - name: Publish latest release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          RELEASE_DATE="$(date -u +%Y-%m-%d)"
-          RELEASE_TAG="dataset-${RELEASE_DATE}"
-          RELEASE_TITLE="GeoFeed Dataset ${RELEASE_DATE}"
-
-          git fetch --tags
-          git tag -f "$RELEASE_TAG" "$GITHUB_SHA"
-          git push origin "$RELEASE_TAG" --force
-
-          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
-            gh release edit "$RELEASE_TAG" \
-              --title "$RELEASE_TITLE" \
-              --notes-file dist/changelog.md \
-              --latest
-          else
-            gh release create "$RELEASE_TAG" \
-              --title "$RELEASE_TITLE" \
-              --notes-file dist/changelog.md \
-              --latest
-          fi
-
-          gh release upload "$RELEASE_TAG" \
-            dist/geofeed.csv.gz \
-            dist/geofeed.jsonl.gz \
-            dist/geofeed.parquet \
-            dist/failed-geofeeds.csv \
-            dist/diff.json \
-            dist/satellite-operators.json \
-            dist/manifest.json \
-            dist/changelog.md \
-            dist/SHA256SUMS \
-            --clobber
-
-      - name: Commit small run metadata
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          mkdir -p /tmp/geofeed-harvester-metadata
-          cp README.md /tmp/geofeed-harvester-metadata/README.md
-          cp dist/changelog.md /tmp/geofeed-harvester-metadata/latest-changelog.md
-          cp dist/manifest.json /tmp/geofeed-harvester-metadata/latest-manifest.json
-          cp dist/SHA256SUMS /tmp/geofeed-harvester-metadata/latest-SHA256SUMS
-
-          git fetch origin main
-          git checkout -B main origin/main
-
-          mkdir -p runs
-          cp /tmp/geofeed-harvester-metadata/README.md README.md
-          cp /tmp/geofeed-harvester-metadata/latest-changelog.md runs/latest-changelog.md
-          cp /tmp/geofeed-harvester-metadata/latest-manifest.json runs/latest-manifest.json
-          cp /tmp/geofeed-harvester-metadata/latest-SHA256SUMS runs/latest-SHA256SUMS
-
-          git add README.md runs/latest-changelog.md runs/latest-manifest.json runs/latest-SHA256SUMS
-          if git diff --cached --quiet; then
-            exit 0
-          fi
-          git commit -m "Update harvested geofeed dataset"
-          for attempt in 1 2 3; do
-            if git push origin main; then
-              exit 0
-            fi
-            git fetch origin main
-            git rebase origin/main
-          done
-          git push origin main
+            outputs
+            site/data/dashboard.json
