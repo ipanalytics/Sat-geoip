@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"os"
 	"sort"
 	"strings"
 	"time"
@@ -26,7 +27,7 @@ func Evidence(ctx context.Context, opts Options) ([]resolver.PrefixEvidence, err
 	}
 	timeout := opts.Timeout
 	if timeout == 0 {
-		timeout = 60 * time.Second
+		timeout = 180 * time.Second
 	}
 	ctx, cancel := context.WithTimeout(ctx, timeout)
 	defer cancel()
@@ -152,12 +153,14 @@ func addBGP(ctx context.Context, client *http.Client, evidence map[string]resolv
 			url := fmt.Sprintf("https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS%d", asn)
 			body, err := fetch(ctx, client, url)
 			if err != nil {
-				return fmt.Errorf("RIPEstat AS%d: %w", asn, err)
+				fmt.Fprintf(os.Stderr, "warning: RIPEstat AS%d skipped: %v\n", asn, err)
+				continue
 			}
 			prefixes, err := collectors.ParseRIPEAnnouncedPrefixes(body)
 			body.Close()
 			if err != nil {
-				return fmt.Errorf("parse RIPEstat AS%d: %w", asn, err)
+				fmt.Fprintf(os.Stderr, "warning: RIPEstat AS%d parse skipped: %v\n", asn, err)
+				continue
 			}
 			for _, prefix := range prefixes {
 				ev := evidence[prefix]
@@ -194,6 +197,28 @@ func mergeBGP(existing *resolver.BGPEvidence, asn int) *resolver.BGPEvidence {
 }
 
 func fetch(ctx context.Context, client *http.Client, url string) (io.ReadCloser, error) {
+	var lastErr error
+	for attempt := 0; attempt < 3; attempt++ {
+		body, err := fetchOnce(ctx, client, url)
+		if err == nil {
+			return body, nil
+		}
+		lastErr = err
+		if !retryable(err) || attempt == 2 {
+			break
+		}
+		timer := time.NewTimer(time.Duration(attempt+1) * time.Second)
+		select {
+		case <-ctx.Done():
+			timer.Stop()
+			return nil, ctx.Err()
+		case <-timer.C:
+		}
+	}
+	return nil, lastErr
+}
+
+func fetchOnce(ctx context.Context, client *http.Client, url string) (io.ReadCloser, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return nil, err
@@ -208,4 +233,18 @@ func fetch(ctx context.Context, client *http.Client, url string) (io.ReadCloser,
 		return nil, fmt.Errorf("%s: HTTP %d", strings.TrimSpace(url), resp.StatusCode)
 	}
 	return resp.Body, nil
+}
+
+func retryable(err error) bool {
+	if err == nil {
+		return false
+	}
+	msg := err.Error()
+	return strings.Contains(msg, "HTTP 429") ||
+		strings.Contains(msg, "HTTP 500") ||
+		strings.Contains(msg, "HTTP 502") ||
+		strings.Contains(msg, "HTTP 503") ||
+		strings.Contains(msg, "HTTP 504") ||
+		strings.Contains(msg, "connection reset") ||
+		strings.Contains(msg, "timeout")
 }
