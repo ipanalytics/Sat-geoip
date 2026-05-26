@@ -1,1 +1,3 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
+143.105.241.0/24,changed,2026-05-26T07:03:03Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,FK,FK,,,Stanley,Stanley
+129.222.2.0/23,withdrawn,2026-05-26T07:03:03Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,

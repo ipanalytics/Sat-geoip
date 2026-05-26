@@ -199,7 +199,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.198.0/23,,,,false,,false,14593,bgp_only
 129.222.198.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
 129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
-129.222.2.0/23,,,,false,,false,14593,bgp_only
 129.222.20.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 129.222.200.0/23,,,,false,,false,14593,bgp_only
 129.222.200.0/24,MX,MX-CMX,Mexico City,true,mmmiflx1,false,,planned_not_announced
@@ -877,7 +876,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.24.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
 143.105.240.0/23,,,,false,,false,14593,bgp_only
 143.105.240.0/24,FK,,Stanley,true,sntochl1,false,,planned_not_announced
-143.105.241.0/24,FK,,Stanley,true,sntochl1,false,,planned_not_announced
+143.105.241.0/24,FK,,Stanley,true,sntochl1,true,14593,announced
 143.105.242.0/23,,,,false,,false,14593,bgp_only
 143.105.242.0/24,US,US-MO,Kansas City,true,knsymox1,false,,planned_not_announced
 143.105.243.0/24,US,US-MO,Kansas City,true,knsymox1,false,,planned_not_announced
