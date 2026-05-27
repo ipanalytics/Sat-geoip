@@ -2683,6 +2683,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 173.250.195.0/24,US,US-CA,Hawthorne,false,,false,,planned_not_announced
 173.250.196.0/24,,,,false,,false,14593,bgp_only
 173.250.197.0/24,,,,false,,false,14593,bgp_only
+173.250.198.0/24,,,,false,,false,14593,bgp_only
 173.250.199.0/24,,,,false,,false,14593,bgp_only
 173.250.200.0/24,,,,false,,false,14593,bgp_only
 173.250.203.0/24,,,,false,,false,14593,bgp_only
@@ -2757,6 +2758,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.16.0/23,,,,false,,false,14593,bgp_only
 179.64.16.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
 179.64.160.0/24,,,,false,,false,14593,bgp_only
+179.64.161.0/24,,,,false,,false,14593,bgp_only
 179.64.17.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
 179.64.18.0/23,,,,false,,false,14593,bgp_only
 179.64.18.0/24,US,US-IN,Indianapolis,true,chcoilx1,false,,planned_not_announced
@@ -3955,12 +3957,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c1:4000::/38,US,US-MO,Kansas City,true,knsymox1,true,14593,announced
 2605:59c1:400::/38,US,US-CA,Los Angeles,true,lsancax1,true,14593,announced
 2605:59c1:4400::/38,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
-2605:59c1:4480::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4500::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4600::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4680::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4700::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4780::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4800::/38,US,US-MN,Minneapolis,true,mplsmnx1,true,14593,announced
 2605:59c1:4c00::/38,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
 2605:59c1:800::/38,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
@@ -4450,7 +4446,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:ba00::/40,UA,UA-30,Kyiv,true,wrswpol1,true,14593,announced
 2a0d:3341:bb00::/40,NO,NO-03,Oslo,true,frntdeu1,true,14593,announced
 2a0d:3341:bc00::/40,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
-2a0d:3341:bc80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:bd00::/40,YE,YE-AD,Aden,true,frntdeu1,true,14593,announced
 2a0d:3341:be00::/40,GI,,Gibraltar,true,mdrdesp1,true,14593,announced
 2a0d:3341:c000::/40,QA,QA-DA,Doha,true,dohaqat1,true,14593,announced
@@ -5075,6 +5070,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.2.0/24,,,,false,,false,14593,bgp_only
 74.245.20.0/24,,,,false,,false,14593,bgp_only
 74.245.200.0/24,,,,false,,false,14593,bgp_only
+74.245.202.0/24,,,,false,,false,14593,bgp_only
 74.245.210.0/24,,,,false,,false,14593,bgp_only
 74.245.211.0/24,,,,false,,false,14593,bgp_only
 74.245.212.0/24,,,,false,,false,14593,bgp_only

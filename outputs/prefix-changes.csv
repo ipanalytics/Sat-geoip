@@ -1,3 +1,14 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-143.105.241.0/24,changed,2026-05-26T07:03:03Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,FK,FK,,,Stanley,Stanley
-129.222.2.0/23,withdrawn,2026-05-26T07:03:03Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+173.250.198.0/24,new,2026-05-27T07:14:04Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.64.161.0/24,new,2026-05-27T07:14:04Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a00:ca0:2049::/48,new,2026-05-27T07:14:04Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+2a00:ca0:2050::/48,new,2026-05-27T07:14:04Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+2a00:ca0:2056::/48,new,2026-05-27T07:14:04Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+74.245.202.0/24,new,2026-05-27T07:14:04Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c1:4480::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4500::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4600::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4680::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4700::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4780::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2a0d:3341:bc80::/41,withdrawn,2026-05-27T07:14:04Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
