@@ -1526,8 +1526,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.192.0/24,MY,MY-14,Kuala Lumpur,true,sngesgp1,false,,planned_not_announced
 150.228.193.0/24,MY,MY-14,Kuala Lumpur,true,sngesgp1,false,,planned_not_announced
 150.228.194.0/23,,,,false,,false,14593,bgp_only
-150.228.194.0/24,NP,NP-3,Kathmandu,true,sngesgp1,false,,planned_not_announced
-150.228.195.0/24,NP,NP-3,Kathmandu,true,sngesgp1,false,,planned_not_announced
+150.228.194.0/24,NP,NP-P3,Kathmandu,true,sngesgp1,false,,planned_not_announced
+150.228.195.0/24,NP,NP-P3,Kathmandu,true,sngesgp1,false,,planned_not_announced
 150.228.196.0/23,,,,false,,false,14593,bgp_only
 150.228.196.0/24,SB,SB-CT,Honiara,true,sydyaus1,false,,planned_not_announced
 150.228.197.0/24,SB,SB-CT,Honiara,true,sydyaus1,false,,planned_not_announced
@@ -3607,7 +3607,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:1800::/38,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
 2406:2d40:1c00::/38,AU,AU-VIC,Melbourne,true,mlbeaus1,true,14593,announced
 2406:2d40:2000::/40,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
-2406:2d40:2100::/40,NP,NP-3,Kathmandu,true,sngesgp1,true,14593,announced
+2406:2d40:2100::/40,NP,NP-P3,Kathmandu,true,sngesgp1,true,14593,announced
 2406:2d40:2200::/40,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
 2406:2d40:2300::/40,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
 2406:2d40:2400::/40,AU,AU-QLD,Brisbane,true,brseaus1,true,14593,announced
@@ -3714,7 +3714,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/41,,,,false,,false,14593,bgp_only
-2605:59c0:1b80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1c00::/40,BJ,BJ-OU,Porto-Novo,true,lgosnga1,true,14593,announced
 2605:59c0:1d00::/40,CI,CI-AB,Abdijan,true,lgosnga1,true,14593,announced
 2605:59c0:1e00::/40,CM,CM-CE,Yaoundé,true,lgosnga1,true,14593,announced
@@ -3751,8 +3750,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3580::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3600::/40,RE,,Saint-Denis,true,nrbiken1,true,14593,announced
 2605:59c0:3700::/40,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
-2605:59c0:3700::/41,,,,false,,false,14593,bgp_only
-2605:59c0:3780::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3800::/40,SD,SD-KH,Khartoum,true,mlnnita1,true,14593,announced
 2605:59c0:3900::/40,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 2605:59c0:3900::/41,,,,false,,false,14593,bgp_only
@@ -3969,6 +3966,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9006::/48,,,,false,,false,14593,bgp_only
 2605:59c7:900a::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/44,,,,false,,false,14593,bgp_only
+2605:59c7:9052::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f001::/48,US,US-AK,Nome,false,,false,,planned_not_announced
@@ -4391,6 +4389,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:7000::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2803:9810:7200::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2803:9810:800::/38,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+2803:9810:800::/41,,,,false,,false,14593,bgp_only
 2803:9810:8400::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8400::/41,,,,false,,false,14593,bgp_only
 2803:9810:8480::/41,,,,false,,false,14593,bgp_only
@@ -4430,7 +4429,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:c300::/40,DO,DO-01,Santo Domingo,true,mmmiflx1,true,14593,announced
 2803:9810:c400::/40,PY,PY-ASU,Asuncion,true,bnssarg1,true,14593,announced
 2a0d:3341:a000::/38,SE,SE-AB,Stockholm,false,,true,14593,announced
-2a0d:3341:a800::/40,FI,FI-18,Stockholm,false,,true,14593,announced
+2a0d:3341:a800::/40,FI,FI-18,Helsinki,false,,true,14593,announced
 2a0d:3341:a900::/40,DK,DK-84,Copenhagen,false,,true,14593,announced
 2a0d:3341:aa00::/40,NO,NO-03,Oslo,false,,true,14593,announced
 2a0d:3341:b040::/42,PS,PS-RBH,Ramallah,true,frntdeu1,true,14593,announced
@@ -5071,6 +5070,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.20.0/24,,,,false,,false,14593,bgp_only
 74.245.200.0/24,,,,false,,false,14593,bgp_only
 74.245.202.0/24,,,,false,,false,14593,bgp_only
+74.245.208.0/24,,,,false,,false,14593,bgp_only
+74.245.209.0/24,,,,false,,false,14593,bgp_only
 74.245.210.0/24,,,,false,,false,14593,bgp_only
 74.245.211.0/24,,,,false,,false,14593,bgp_only
 74.245.212.0/24,,,,false,,false,14593,bgp_only
