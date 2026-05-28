@@ -1,7 +1,7 @@
 # sat-geoip
 
 <p align="center">
-  <img src="./site/banner.svg" alt="sat-geoip banner" width="100%">
+  <img src="./site/banner.png" alt="sat-geoip banner" width="100%">
 </p>
 
 <p align="center">
