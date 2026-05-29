@@ -1587,7 +1587,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.227.0/24,AU,AU-TAS,Hobart,true,mlbeaus1,false,,planned_not_announced
 150.228.228.0/23,,,,false,,false,14593,bgp_only
 150.228.228.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-150.228.229.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+150.228.229.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 150.228.23.0/24,DE,DE-BE,Berlin,true,frntdeu1,false,,planned_not_announced
 150.228.230.0/23,,,,false,,false,14593,bgp_only
 150.228.230.0/24,AU,AU-VIC,Melbourne,true,mlbeaus1,false,,planned_not_announced
@@ -2754,6 +2754,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.132.0/24,,,,false,,false,14593,bgp_only
 179.64.14.0/23,,,,false,,false,14593,bgp_only
 179.64.14.0/24,US,US-KY,Louisville,true,chcoilx1,false,,planned_not_announced
+179.64.147.0/24,,,,false,,false,14593,bgp_only
 179.64.15.0/24,US,US-KY,Louisville,true,chcoilx1,false,,planned_not_announced
 179.64.16.0/23,,,,false,,false,14593,bgp_only
 179.64.16.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
