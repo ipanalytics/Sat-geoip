@@ -55,6 +55,8 @@ prefix,pop_code,pop_iata,source
 129.222.113.0/24,mplsmnx1,msp,starlink_pops_csv
 129.222.114.0/24,mplsmnx1,msp,starlink_pops_csv
 129.222.115.0/24,mplsmnx1,msp,starlink_pops_csv
+129.222.116.0/24,chcoilx1,ord,starlink_pops_csv
+129.222.117.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.118.0/24,atlagax1,atl,starlink_pops_csv
 129.222.119.0/24,atlagax1,atl,starlink_pops_csv
 129.222.12.0/24,chcoilx1,ord,starlink_pops_csv
@@ -147,6 +149,7 @@ prefix,pop_code,pop_iata,source
 129.222.197.0/24,mntlcan1,yul,starlink_pops_csv
 129.222.198.0/24,bgtacol1,bog,starlink_pops_csv
 129.222.199.0/24,bgtacol1,bog,starlink_pops_csv
+129.222.2.0/24,lsancax1,lax,starlink_pops_csv
 129.222.20.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.200.0/24,mmmiflx1,mia,starlink_pops_csv
 129.222.201.0/24,mmmiflx1,mia,starlink_pops_csv
@@ -205,6 +208,7 @@ prefix,pop_code,pop_iata,source
 129.222.27.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.28.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.29.0/24,chcoilx1,ord,starlink_pops_csv
+129.222.3.0/24,lsancax1,lax,starlink_pops_csv
 129.222.30.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.31.0/24,chcoilx1,ord,starlink_pops_csv
 129.222.32.0/24,wrswpol1,waw,starlink_pops_csv
@@ -1657,7 +1661,21 @@ prefix,pop_code,pop_iata,source
 179.64.111.0/24,trnocan1,yyz,starlink_pops_csv
 179.64.112.0/24,trnocan1,yyz,starlink_pops_csv
 179.64.113.0/24,trnocan1,yyz,starlink_pops_csv
+179.64.114.0/24,clgycan1,yyc,starlink_pops_csv
+179.64.115.0/24,clgycan1,yyc,starlink_pops_csv
+179.64.116.0/24,snjecax1,sjc,starlink_pops_csv
+179.64.117.0/24,snjecax1,sjc,starlink_pops_csv
+179.64.118.0/24,knsymox1,mci,starlink_pops_csv
+179.64.119.0/24,knsymox1,mci,starlink_pops_csv
 179.64.12.0/24,atlagax1,atl,starlink_pops_csv
+179.64.120.0/24,sltyutx1,pvu,starlink_pops_csv
+179.64.121.0/24,sltyutx1,pvu,starlink_pops_csv
+179.64.122.0/24,sltyutx1,pvu,starlink_pops_csv
+179.64.123.0/24,sltyutx1,pvu,starlink_pops_csv
+179.64.124.0/24,dllstxx1,dfw,starlink_pops_csv
+179.64.125.0/24,dllstxx1,dfw,starlink_pops_csv
+179.64.126.0/24,ashnvax2,iad,starlink_pops_csv
+179.64.127.0/24,ashnvax2,iad,starlink_pops_csv
 179.64.13.0/24,atlagax1,atl,starlink_pops_csv
 179.64.14.0/24,chcoilx1,ord,starlink_pops_csv
 179.64.15.0/24,chcoilx1,ord,starlink_pops_csv
