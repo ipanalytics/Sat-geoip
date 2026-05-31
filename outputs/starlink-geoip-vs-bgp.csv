@@ -76,6 +76,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.113.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
 129.222.114.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
 129.222.115.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
+129.222.116.0/23,,,,false,,false,14593,bgp_only
 129.222.116.0/24,US,US-IA,Des Moines,true,chcoilx1,false,,planned_not_announced
 129.222.117.0/24,US,US-IA,Des Moines,true,chcoilx1,false,,planned_not_announced
 129.222.118.0/23,,,,false,,false,14593,bgp_only
@@ -201,6 +202,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.198.0/23,,,,false,,false,14593,bgp_only
 129.222.198.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
 129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
+129.222.2.0/23,,,,false,,false,14593,bgp_only
 129.222.2.0/24,US,US-NV,Las Vegas,true,lsancax1,false,,planned_not_announced
 129.222.20.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 129.222.200.0/23,,,,false,,false,14593,bgp_only
@@ -2752,20 +2754,27 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.112.0/23,,,,false,,false,14593,bgp_only
 179.64.112.0/24,US,US-MI,Detroit,true,trnocan1,false,,planned_not_announced
 179.64.113.0/24,US,US-MI,Detroit,true,trnocan1,false,,planned_not_announced
+179.64.114.0/23,,,,false,,false,14593,bgp_only
 179.64.114.0/24,CA,CA-SK,Regina,true,clgycan1,false,,planned_not_announced
 179.64.115.0/24,CA,CA-SK,Regina,true,clgycan1,false,,planned_not_announced
+179.64.116.0/23,,,,false,,false,14593,bgp_only
 179.64.116.0/24,US,US-OR,Portland,true,snjecax1,false,,planned_not_announced
 179.64.117.0/24,US,US-OR,Portland,true,snjecax1,false,,planned_not_announced
+179.64.118.0/23,,,,false,,false,14593,bgp_only
 179.64.118.0/24,US,US-AR,Little Rock,true,knsymox1,false,,planned_not_announced
 179.64.119.0/24,US,US-AR,Little Rock,true,knsymox1,false,,planned_not_announced
 179.64.12.0/23,,,,false,,false,14593,bgp_only
 179.64.12.0/24,US,US-AL,Huntsville,true,atlagax1,false,,planned_not_announced
+179.64.120.0/23,,,,false,,false,14593,bgp_only
 179.64.120.0/24,US,US-MT,Billings,true,sltyutx1,false,,planned_not_announced
 179.64.121.0/24,US,US-MT,Billings,true,sltyutx1,false,,planned_not_announced
+179.64.122.0/23,,,,false,,false,14593,bgp_only
 179.64.122.0/24,US,US-ID,Boise,true,sltyutx1,false,,planned_not_announced
 179.64.123.0/24,US,US-ID,Boise,true,sltyutx1,false,,planned_not_announced
+179.64.124.0/23,,,,false,,false,14593,bgp_only
 179.64.124.0/24,US,US-OK,Oklahoma City,true,dllstxx1,false,,planned_not_announced
 179.64.125.0/24,US,US-OK,Oklahoma City,true,dllstxx1,false,,planned_not_announced
+179.64.126.0/23,,,,false,,false,14593,bgp_only
 179.64.126.0/24,US,US-OH,Columbus,true,ashnvax2,false,,planned_not_announced
 179.64.127.0/24,US,US-OH,Columbus,true,ashnvax2,false,,planned_not_announced
 179.64.13.0/24,US,US-AL,Huntsville,true,atlagax1,false,,planned_not_announced
@@ -3047,6 +3056,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.24.0/23,,,,false,,false,14593,bgp_only
 179.65.24.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.25.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
+179.65.250.0/24,,,,false,,false,45700,bgp_only
+179.65.252.0/24,,,,false,,false,45700,bgp_only
+179.65.253.0/24,,,,false,,false,45700,bgp_only
+179.65.254.0/24,,,,false,,false,45700,bgp_only
+179.65.255.0/24,,,,false,,false,45700,bgp_only
 179.65.26.0/23,,,,false,,false,14593,bgp_only
 179.65.26.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.27.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
@@ -3775,7 +3789,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3a00::/40,SO,SO-BN,Mogadishu,true,nrbiken1,true,14593,announced
 2605:59c0:3b00::/40,US,US-NY,Buffalo,true,trnocan1,true,14593,announced
 2605:59c0:3c00::/40,YT,,Mayotte,true,nrbiken1,true,14593,announced
-2605:59c0:3c00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3c80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3d00::/40,ZW,ZW-HA,Harare,true,nrbiken1,true,14593,announced
 2605:59c0:3e00::/40,VE,VE-A,Caracas,true,bgtacol1,true,14593,announced
@@ -3852,6 +3865,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:503e::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503f::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5041::/48,,,,false,,false,14593,bgp_only
+2605:59c0:5045::/48,,,,false,,false,45700,bgp_only
 2605:59c0:5046::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5049::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5100::/40,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
@@ -5117,6 +5131,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.246.0/24,,,,false,,false,14593,bgp_only
 74.245.247.0/24,,,,false,,false,14593,bgp_only
 74.245.248.0/24,,,,false,,false,14593,bgp_only
+74.245.251.0/24,,,,false,,false,14593,bgp_only
+74.245.252.0/24,,,,false,,false,14593,bgp_only
 74.245.29.0/24,,,,false,,false,14593,bgp_only
 74.245.3.0/24,,,,false,,false,14593,bgp_only
 74.245.30.0/24,,,,false,,false,14593,bgp_only
