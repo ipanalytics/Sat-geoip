@@ -1,4 +1,26 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-153.67.78.0/24,changed,2026-06-01T08:44:33Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-98.97.181.0/24,changed,2026-06-01T08:44:33Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,DJ,DJ,DJ-DJ,DJ-DJ,Djibouti,Djibouti
-2605:59c0:1b80::/41,new,2026-06-01T08:44:33Z,starlink,,bgp_only,,14593,,,,,,,,,
+153.67.32.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,planned_not_announced,planned_not_announced,,,brsabra1,limaper1,BR,BR,BR-DF,BR-SP,Brasilia,Sao Paulo
+153.67.33.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,announced,announced,14593,14593,brsabra1,limaper1,BR,BR,BR-DF,BR-SP,Brasilia,Sao Paulo
+179.65.192.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,jtnaidn2,ID,ID,ID-KR,ID-JK,Batam,Jakarta
+179.65.193.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,jtnaidn2,ID,ID,ID-KR,ID-JK,Batam,Jakarta
+98.97.130.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,announced,announced,14593,14593,brsabra1,limaper1,BR,BR,BR-DF,BR-SP,Brasilia,Sao Paulo
+98.97.131.0/24,changed,2026-06-02T08:05:37Z,starlink,starlink,announced,announced,14593,14593,brsabra1,limaper1,BR,BR,BR-DF,BR-SP,Brasilia,Sao Paulo
+143.105.4.0/24,new,2026-06-02T08:05:37Z,starlink,,planned_not_announced,,,,jhngzaf1,,SD,,SD-KH,,Khartoum,
+143.105.5.0/24,new,2026-06-02T08:05:37Z,starlink,,planned_not_announced,,,,jhngzaf1,,SD,,SD-KH,,Khartoum,
+2401:e320:400::/38,new,2026-06-02T08:05:37Z,starlink,,planned_not_announced,,,,,,ID,,ID-KR,,Batam,
+2401:e320::/38,new,2026-06-02T08:05:37Z,starlink,,planned_not_announced,,,,,,ID,,ID-KR,,Batam,
+2605:59c0:1b00::/41,new,2026-06-02T08:05:37Z,starlink,,bgp_only,,14593,,,,,,,,,
+41.194.140.0/24,new,2026-06-02T08:05:37Z,intelsat,,bgp_only,,22351,,,,,,,,,
+41.194.141.0/24,new,2026-06-02T08:05:37Z,intelsat,,bgp_only,,22351,,,,,,,,,
+129.222.80.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.81.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.82.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.83.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.84.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.85.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.86.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+129.222.87.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,atlagax1,atlagax1,US,US,US-GA,US-GA,Atlanta,Atlanta
+98.97.152.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,ashnvax2,ashnvax2,US,US,US-VA,US-VA,Ashburn,Ashburn
+98.97.153.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,ashnvax2,ashnvax2,US,US,US-VA,US-VA,Ashburn,Ashburn
+98.97.154.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,ashnvax2,ashnvax2,US,US,US-VA,US-VA,Ashburn,Ashburn
+98.97.155.0/24,withdrawn,2026-06-02T08:05:37Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,ashnvax2,ashnvax2,US,US,US-VA,US-VA,Ashburn,Ashburn

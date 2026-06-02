@@ -351,14 +351,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.8.0/21,,,,false,,false,14593,bgp_only
 129.222.8.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 129.222.80.0/21,,,,false,,false,14593,bgp_only
-129.222.80.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.81.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.82.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.83.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.84.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.85.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.86.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
-129.222.87.0/24,US,US-GA,Atlanta,true,atlagax1,false,,planned_not_announced
 129.222.88.0/23,,,,false,,false,14593,bgp_only
 129.222.88.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 129.222.89.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
@@ -927,6 +919,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.38.0/23,,,,false,,false,14593,bgp_only
 143.105.38.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
 143.105.39.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
+143.105.4.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
 143.105.40.0/23,,,,false,,false,14593,bgp_only
 143.105.40.0/24,ZA,ZA-GP,Johannesburg,true,jhngzaf1,false,,planned_not_announced
 143.105.41.0/24,ZA,ZA-GP,Johannesburg,true,jhngzaf1,false,,planned_not_announced
@@ -939,6 +932,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.48.0/23,,,,false,,false,14593,bgp_only
 143.105.48.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
 143.105.49.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
+143.105.5.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
 143.105.50.0/23,,,,false,,false,14593,bgp_only
 143.105.50.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 143.105.51.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
@@ -2416,8 +2410,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.30.0/24,MM,MM-06,Yangon,true,mnlaphl1,false,,planned_not_announced
 153.67.31.0/24,MM,MM-06,Yangon,true,mnlaphl1,false,,planned_not_announced
 153.67.32.0/23,,,,false,,false,14593,bgp_only
-153.67.32.0/24,BR,BR-SP,Sao Paulo,true,limaper1,false,,planned_not_announced
-153.67.33.0/24,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
+153.67.32.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
+153.67.33.0/24,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 153.67.34.0/23,,,,false,,false,14593,bgp_only
 153.67.34.0/24,BF,BF-03,Ouagadougou,true,lgosnga1,true,14593,announced
 153.67.35.0/24,BF,BF-03,Ouagadougou,true,lgosnga1,true,14593,announced
@@ -3004,8 +2998,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.18.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.19.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.192.0/23,,,,false,,false,45700,bgp_only
-179.65.192.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
-179.65.193.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
+179.65.192.0/24,ID,ID-KR,Batam,false,,false,,planned_not_announced
+179.65.193.0/24,ID,ID-KR,Batam,false,,false,,planned_not_announced
 179.65.194.0/23,,,,false,,false,45700,bgp_only
 179.65.194.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 179.65.195.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
@@ -3622,9 +3616,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2401:e320:1000::/48,,,,false,,false,45700,bgp_only
 2401:e320:1001::/48,,,,false,,false,45700,bgp_only
 2401:e320:100::/40,,,,false,,false,45700,bgp_only
+2401:e320:400::/38,ID,ID-KR,Batam,false,,false,,planned_not_announced
 2401:e320:400::/40,,,,false,,false,45700,bgp_only
 2401:e320:500::/40,,,,false,,false,45700,bgp_only
 2401:e320:800::/38,ID,ID-JK,Jakarta,true,jtnaidn2,true,45700,announced
+2401:e320::/38,ID,ID-KR,Batam,false,,false,,planned_not_announced
 2401:e320::/40,,,,false,,false,45700,bgp_only
 2401:e320:c00::/38,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 2401:e320:c00::/41,,,,false,,false,45700,bgp_only
@@ -3746,6 +3742,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
+2605:59c0:1b00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1b80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1c00::/40,BJ,BJ-OU,Porto-Novo,true,lgosnga1,true,14593,announced
 2605:59c0:1d00::/40,CI,CI-AB,Abdijan,true,lgosnga1,true,14593,announced
@@ -5225,8 +5222,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.129.128/25,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 98.97.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 98.97.130.0/23,,,,false,,false,14593,bgp_only
-98.97.130.0/24,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
-98.97.131.0/24,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
+98.97.130.0/24,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
+98.97.131.0/24,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 98.97.132.0/23,,,,false,,false,14593,bgp_only
 98.97.132.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
 98.97.133.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
@@ -5257,10 +5254,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.150.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
 98.97.151.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
 98.97.152.0/22,,,,false,,false,14593,bgp_only
-98.97.152.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
-98.97.153.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
-98.97.154.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
-98.97.155.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 98.97.156.0/23,,,,false,,false,14593,bgp_only
 98.97.156.0/24,BR,BR-SP,Sao Paulo,true,bgtacol1,true,14593,announced
 98.97.157.0/24,BR,BR-SP,Sao Paulo,true,bgtacol1,false,,planned_not_announced
