@@ -124,7 +124,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.145.0/24,MZ,MZ-MPM,Maputo,true,nrbiken1,false,,planned_not_announced
 129.222.146.0/23,,,,false,,false,14593,bgp_only
 129.222.146.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
+129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
 129.222.148.0/23,,,,false,,false,14593,bgp_only
 129.222.148.0/24,RW,RW-01,Kigali,true,nrbiken1,false,,planned_not_announced
 129.222.149.0/24,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
@@ -182,7 +182,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.185.0/24,CA,CA-ON,Toronto,true,chcoilx1,false,,planned_not_announced
 129.222.186.0/23,,,,false,,false,14593,bgp_only
 129.222.186.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-129.222.187.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
+129.222.187.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
 129.222.188.0/23,,,,false,,false,14593,bgp_only
 129.222.188.0/24,UA,UA-30,Kyiv,true,sfiabgr1,false,,planned_not_announced
 129.222.189.0/24,UA,UA-30,Kyiv,true,sfiabgr1,false,,planned_not_announced
@@ -919,6 +919,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.38.0/23,,,,false,,false,14593,bgp_only
 143.105.38.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
 143.105.39.0/24,CA,CA-MB,Winnipeg,true,mplsmnx1,false,,planned_not_announced
+143.105.4.0/23,,,,false,,false,14593,bgp_only
 143.105.4.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
 143.105.40.0/23,,,,false,,false,14593,bgp_only
 143.105.40.0/24,ZA,ZA-GP,Johannesburg,true,jhngzaf1,false,,planned_not_announced
@@ -1549,7 +1550,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.205.0/24,JP,JP-13,Tokyo,true,tkyojpn1,false,,planned_not_announced
 150.228.206.0/23,,,,false,,false,14593,bgp_only
 150.228.206.0/24,TJ,TJ-DU,Dushanbe,true,sfiabgr1,false,,planned_not_announced
-150.228.207.0/24,TJ,TJ-DU,Dushanbe,true,sfiabgr1,true,14593,announced
+150.228.207.0/24,TJ,TJ-DU,Dushanbe,true,sfiabgr1,false,,planned_not_announced
 150.228.208.0/23,,,,false,,false,14593,bgp_only
 150.228.208.0/24,BN,BN-BM,Bandar Seri Begawan,true,mnlaphl1,false,,planned_not_announced
 150.228.209.0/24,BN,BN-BM,Bandar Seri Begawan,true,mnlaphl1,false,,planned_not_announced
@@ -1666,7 +1667,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.47.0/24,SI,SI-061,Ljubljana,true,sfiabgr1,false,,planned_not_announced
 150.228.48.0/23,,,,false,,false,14593,bgp_only
 150.228.48.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,false,,planned_not_announced
-150.228.49.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,true,14593,announced
+150.228.49.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,false,,planned_not_announced
 150.228.5.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 150.228.50.0/23,,,,false,,false,14593,bgp_only
 150.228.50.0/24,MT,MT-60,Valletta,true,mlnnita1,false,,planned_not_announced
@@ -2164,7 +2165,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.114.0/23,,,,false,,false,14593,bgp_only
 153.67.114.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.116.0/23,,,,false,,false,14593,bgp_only
 153.67.116.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
 153.67.117.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
@@ -2482,7 +2483,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.74.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.75.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
 153.67.76.0/23,,,,false,,false,14593,bgp_only
-153.67.76.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
+153.67.76.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
 153.67.77.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.78.0/23,,,,false,,false,14593,bgp_only
 153.67.78.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
@@ -3615,6 +3616,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 217.65.143.0/24,FR,FR-IDF,Paris,true,frntdeu1,false,,planned_not_announced
 2401:e320:1000::/48,,,,false,,false,45700,bgp_only
 2401:e320:1001::/48,,,,false,,false,45700,bgp_only
+2401:e320:1002::/48,,,,false,,false,45700,bgp_only
 2401:e320:100::/40,,,,false,,false,45700,bgp_only
 2401:e320:400::/38,ID,ID-KR,Batam,false,,false,,planned_not_announced
 2401:e320:400::/40,,,,false,,false,45700,bgp_only
@@ -3986,6 +3988,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c1:4000::/38,US,US-MO,Kansas City,true,knsymox1,true,14593,announced
 2605:59c1:400::/38,US,US-CA,Los Angeles,true,lsancax1,true,14593,announced
 2605:59c1:4400::/38,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
+2605:59c1:4480::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4800::/38,US,US-MN,Minneapolis,true,mplsmnx1,true,14593,announced
 2605:59c1:4c00::/38,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
 2605:59c1:800::/38,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
@@ -4502,7 +4505,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
-2a0d:3341:e080::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e400::/40,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
 2a0d:3341:e500::/40,AE,AE-DU,Dubai,true,dohaqat1,true,14593,announced
 2a0d:3341:e600::/40,LU,LU-LU,Luxembourg,true,frntdeu1,true,14593,announced
