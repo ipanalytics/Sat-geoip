@@ -1,7 +1,7 @@
 {
   "total_prefixes": 11264,
-  "announced_prefixes": 7900,
-  "geofeed_only_prefixes": 3364,
+  "announced_prefixes": 7901,
+  "geofeed_only_prefixes": 3363,
   "bgp_only_prefixes": 6979,
   "prefixes_with_pop": 3297,
   "operators": {
@@ -28,17 +28,17 @@
     "mixed_satellite": 135
   },
   "quality_flags": {
-    "bgp_announced": 7900,
-    "bgp_not_announced": 3364,
+    "bgp_announced": 7901,
+    "bgp_not_announced": 3363,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4285,
-    "origin_asn_expected": 7900,
+    "origin_asn_expected": 7901,
     "pop_missing": 988,
     "pop_present": 3297,
     "prefix_only_in_bgp": 6979,
-    "prefix_only_in_geofeed": 3364,
+    "prefix_only_in_geofeed": 3363,
     "ptr_missing": 3297
   },
   "ground_station_claims": 0,
-  "active_user_claims": 7900
+  "active_user_claims": 7901
 }

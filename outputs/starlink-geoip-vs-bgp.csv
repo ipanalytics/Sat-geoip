@@ -182,7 +182,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.185.0/24,CA,CA-ON,Toronto,true,chcoilx1,false,,planned_not_announced
 129.222.186.0/23,,,,false,,false,14593,bgp_only
 129.222.186.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-129.222.187.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
+129.222.187.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 129.222.188.0/23,,,,false,,false,14593,bgp_only
 129.222.188.0/24,UA,UA-30,Kyiv,true,sfiabgr1,false,,planned_not_announced
 129.222.189.0/24,UA,UA-30,Kyiv,true,sfiabgr1,false,,planned_not_announced

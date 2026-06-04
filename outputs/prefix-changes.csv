@@ -1,11 +1,2 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.147.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
-129.222.187.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
-150.228.207.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
-150.228.49.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,GE,GE,GE-TB,GE-TB,Tbilisi,Tbilisi
-153.67.115.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
-153.67.76.0/24,changed,2026-06-03T08:28:43Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-143.105.4.0/23,new,2026-06-03T08:28:43Z,starlink,,bgp_only,,14593,,,,,,,,,
-2401:e320:1002::/48,new,2026-06-03T08:28:43Z,starlink,,bgp_only,,45700,,,,,,,,,
-2605:59c1:4480::/41,new,2026-06-03T08:28:43Z,starlink,,bgp_only,,14593,,,,,,,,,
-2a0d:3341:e080::/41,withdrawn,2026-06-03T08:28:43Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+129.222.187.0/24,changed,2026-06-04T08:00:30Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
