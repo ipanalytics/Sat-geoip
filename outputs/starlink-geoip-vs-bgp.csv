@@ -124,7 +124,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.145.0/24,MZ,MZ-MPM,Maputo,true,nrbiken1,false,,planned_not_announced
 129.222.146.0/23,,,,false,,false,14593,bgp_only
 129.222.146.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
+129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 129.222.148.0/23,,,,false,,false,14593,bgp_only
 129.222.148.0/24,RW,RW-01,Kigali,true,nrbiken1,false,,planned_not_announced
 129.222.149.0/24,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
@@ -3279,7 +3279,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.224.90.0/24,,,,false,,false,14593,bgp_only
 206.224.91.0/24,,,,false,,false,14593,bgp_only
 206.224.92.0/24,,,,false,,false,14593,bgp_only
-206.224.93.0/24,,,,false,,false,14593,bgp_only
 206.224.94.0/24,,,,false,,false,14593,bgp_only
 206.83.100.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 206.83.101.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
@@ -3792,8 +3791,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3c80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3d00::/40,ZW,ZW-HA,Harare,true,nrbiken1,true,14593,announced
 2605:59c0:3e00::/40,VE,VE-A,Caracas,true,bgtacol1,true,14593,announced
-2605:59c0:3e00::/41,,,,false,,false,14593,bgp_only
-2605:59c0:3e80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3f00::/40,CA,CA-QC,Montreal,true,trnocan1,true,14593,announced
 2605:59c0:4000::/40,US,US-AZ,Phoenix,true,tmpeazx1,true,14593,announced
 2605:59c0:400::/40,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced

@@ -1,2 +1,6 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.187.0/24,changed,2026-06-04T08:00:30Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
+129.222.147.0/24,changed,2026-06-05T07:17:48Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
+67.54.142.0/24,new,2026-06-05T07:17:48Z,viasat,,bgp_only,,7155,,,,,,,,,
+206.224.93.0/24,withdrawn,2026-06-05T07:17:48Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c0:3e00::/41,withdrawn,2026-06-05T07:17:48Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c0:3e80::/41,withdrawn,2026-06-05T07:17:48Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
