@@ -2486,10 +2486,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.74.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.75.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
 153.67.76.0/23,,,,false,,false,14593,bgp_only
-153.67.76.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
+153.67.76.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.77.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.78.0/23,,,,false,,false,14593,bgp_only
-153.67.78.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
+153.67.78.0/24,SD,SD-KH,Khartoum,true,nrbiken1,true,14593,announced
 153.67.79.0/24,SD,SD-KH,Khartoum,true,nrbiken1,false,,planned_not_announced
 153.67.8.0/23,,,,false,,false,14593,bgp_only
 153.67.8.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
@@ -4132,10 +4132,18 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:7000::/40,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 2605:59c8:7000::/41,,,,false,,false,14593,bgp_only
 2605:59c8:700::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
+2605:59c8:7080::/41,,,,false,,false,14593,bgp_only
 2605:59c8:7100::/40,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+2605:59c8:7100::/41,,,,false,,false,14593,bgp_only
+2605:59c8:7180::/41,,,,false,,false,14593,bgp_only
 2605:59c8:7300::/40,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+2605:59c8:7300::/41,,,,false,,false,14593,bgp_only
+2605:59c8:7380::/41,,,,false,,false,14593,bgp_only
 2605:59c8:7400::/40,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+2605:59c8:7400::/41,,,,false,,false,14593,bgp_only
+2605:59c8:7480::/41,,,,false,,false,14593,bgp_only
 2605:59c8:7600::/40,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+2605:59c8:7680::/41,,,,false,,false,14593,bgp_only
 2605:59c8:800::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8:8100::/40,TG,TG-M,Lome,true,lgosnga1,true,14593,announced
 2605:59c8:8200::/40,US,US-OR,Portland,false,,true,14593,announced
@@ -4739,7 +4747,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.10.0/24,US,US-WY,Cheyenne,true,dnvrcox1,false,,planned_not_announced
 74.244.100.0/23,,,,false,,false,14593,bgp_only
 74.244.100.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
-74.244.101.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
+74.244.101.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 74.244.102.0/23,,,,false,,false,14593,bgp_only
 74.244.102.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 74.244.103.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
