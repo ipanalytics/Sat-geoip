@@ -1,12 +1,2 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-153.67.76.0/24,changed,2026-06-07T07:13:36Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-153.67.78.0/24,changed,2026-06-07T07:13:36Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-74.244.101.0/24,changed,2026-06-07T07:13:36Z,starlink,starlink,announced,planned_not_announced,14593,,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
-2605:59c8:7080::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7100::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7180::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7300::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7380::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7400::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7480::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:7680::/41,new,2026-06-07T07:13:36Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c0:3c00::/41,new,2026-06-08T08:21:59Z,starlink,,bgp_only,,14593,,,,,,,,,

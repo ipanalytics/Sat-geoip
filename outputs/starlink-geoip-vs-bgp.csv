@@ -3811,6 +3811,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3a00::/40,SO,SO-BN,Mogadishu,true,nrbiken1,true,14593,announced
 2605:59c0:3b00::/40,US,US-NY,Buffalo,true,trnocan1,true,14593,announced
 2605:59c0:3c00::/40,YT,,Mayotte,true,nrbiken1,true,14593,announced
+2605:59c0:3c00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3c80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3d00::/40,ZW,ZW-HA,Harare,true,nrbiken1,true,14593,announced
 2605:59c0:3e00::/40,VE,VE-A,Caracas,true,bgtacol1,true,14593,announced
