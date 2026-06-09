@@ -1795,6 +1795,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.17.0/24,klkaind1,,ptr_missing
 179.65.18.0/24,klkaind1,,ptr_missing
 179.65.19.0/24,klkaind1,,ptr_missing
+179.65.192.0/24,btmmidn1,,ptr_missing
+179.65.193.0/24,btmmidn1,,ptr_missing
 179.65.194.0/24,jtnaidn2,,ptr_missing
 179.65.195.0/24,jtnaidn2,,ptr_missing
 179.65.196.0/24,jtnaidn2,,ptr_missing
@@ -1811,8 +1813,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.205.0/24,srbaidn2,,ptr_missing
 179.65.206.0/24,srbaidn2,,ptr_missing
 179.65.207.0/24,srbaidn2,,ptr_missing
-179.65.208.0/24,jtnaidn2,,ptr_missing
-179.65.209.0/24,jtnaidn2,,ptr_missing
+179.65.208.0/24,btmmidn1,,ptr_missing
+179.65.209.0/24,btmmidn1,,ptr_missing
 179.65.21.0/24,klkaind1,,ptr_missing
 179.65.210.0/24,jtnaidn2,,ptr_missing
 179.65.211.0/24,jtnaidn2,,ptr_missing
@@ -2132,6 +2134,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 217.65.143.0/24,frntdeu1,,ptr_missing
 2401:e320:400::/38,jtnaidn2,,ptr_missing
 2401:e320:800::/38,jtnaidn2,,ptr_missing
+2401:e320::/38,btmmidn1,,ptr_missing
 2401:e320:c00::/38,srbaidn2,,ptr_missing
 2406:2d40:1000::/38,chrhnzl1,,ptr_missing
 2406:2d40:1400::/38,acklnzl1,,ptr_missing

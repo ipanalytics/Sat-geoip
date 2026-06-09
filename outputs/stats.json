@@ -1,12 +1,12 @@
 {
-  "total_prefixes": 11315,
-  "announced_prefixes": 7923,
-  "geofeed_only_prefixes": 3392,
-  "bgp_only_prefixes": 6992,
-  "prefixes_with_pop": 3300,
+  "total_prefixes": 11317,
+  "announced_prefixes": 7926,
+  "geofeed_only_prefixes": 3391,
+  "bgp_only_prefixes": 6994,
+  "prefixes_with_pop": 3303,
   "operators": {
     "avanti": 23,
-    "eutelsat_skylogic": 277,
+    "eutelsat_skylogic": 278,
     "hughes": 675,
     "inmarsat": 55,
     "intelsat": 94,
@@ -14,31 +14,31 @@
     "oneweb": 17,
     "ses_o3b": 22,
     "speedcast": 106,
-    "starlink": 5483,
+    "starlink": 5484,
     "thuraya": 10,
     "viasat": 4524
   },
   "orbit_classes": {
     "geo": 698,
     "geo_mss": 10,
-    "geo_or_hybrid_satellite": 4856,
+    "geo_or_hybrid_satellite": 4857,
     "geo_or_multi_orbit": 94,
-    "leo": 5500,
+    "leo": 5501,
     "meo": 22,
     "mixed_satellite": 135
   },
   "quality_flags": {
-    "bgp_announced": 7923,
-    "bgp_not_announced": 3392,
+    "bgp_announced": 7926,
+    "bgp_not_announced": 3391,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4323,
-    "origin_asn_expected": 7923,
-    "pop_missing": 1023,
-    "pop_present": 3300,
-    "prefix_only_in_bgp": 6992,
-    "prefix_only_in_geofeed": 3392,
-    "ptr_missing": 3300
+    "origin_asn_expected": 7926,
+    "pop_missing": 1020,
+    "pop_present": 3303,
+    "prefix_only_in_bgp": 6994,
+    "prefix_only_in_geofeed": 3391,
+    "ptr_missing": 3303
   },
   "ground_station_claims": 0,
-  "active_user_claims": 7923
+  "active_user_claims": 7926
 }

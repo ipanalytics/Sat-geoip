@@ -1,2 +1,8 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-2605:59c0:3c00::/41,new,2026-06-08T08:21:59Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.192.0/24,changed,2026-06-09T06:57:51Z,starlink,starlink,planned_not_announced,planned_not_announced,,,btmmidn1,,ID,ID,ID-KR,ID-KR,Batam,Batam
+179.65.193.0/24,changed,2026-06-09T06:57:51Z,starlink,starlink,planned_not_announced,planned_not_announced,,,btmmidn1,,ID,ID,ID-KR,ID-KR,Batam,Batam
+179.65.208.0/24,changed,2026-06-09T06:57:51Z,starlink,starlink,planned_not_announced,planned_not_announced,,,btmmidn1,jtnaidn2,ID,ID,ID-KR,ID-JK,Batam,Jakarta
+179.65.209.0/24,changed,2026-06-09T06:57:51Z,starlink,starlink,planned_not_announced,planned_not_announced,,,btmmidn1,jtnaidn2,ID,ID,ID-KR,ID-JK,Batam,Jakarta
+2401:e320::/38,changed,2026-06-09T06:57:51Z,starlink,starlink,announced,planned_not_announced,45700,,btmmidn1,,ID,ID,ID-KR,ID-KR,Batam,Batam
+179.65.240.0/24,new,2026-06-09T06:57:51Z,starlink,,bgp_only,,45700,,,,,,,,,
+95.210.169.0/24,new,2026-06-09T06:57:51Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,

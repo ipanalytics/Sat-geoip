@@ -3003,8 +3003,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.18.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.19.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.192.0/23,,,,false,,false,45700,bgp_only
-179.65.192.0/24,ID,ID-KR,Batam,false,,false,,planned_not_announced
-179.65.193.0/24,ID,ID-KR,Batam,false,,false,,planned_not_announced
+179.65.192.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
+179.65.193.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.194.0/23,,,,false,,false,45700,bgp_only
 179.65.194.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 179.65.195.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
@@ -3031,8 +3031,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.208.0/23,,,,false,,false,45700,bgp_only
-179.65.208.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
-179.65.209.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
+179.65.208.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
+179.65.209.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.21.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.210.0/23,,,,false,,false,45700,bgp_only
 179.65.210.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
@@ -3054,6 +3054,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.23.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.24.0/23,,,,false,,false,14593,bgp_only
 179.65.24.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
+179.65.240.0/24,,,,false,,false,45700,bgp_only
 179.65.25.0/24,IN,IN-WB,Kolkata,true,klkaind1,false,,planned_not_announced
 179.65.250.0/24,,,,false,,false,45700,bgp_only
 179.65.252.0/24,,,,false,,false,45700,bgp_only
@@ -3644,7 +3645,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2401:e320:400::/40,,,,false,,false,45700,bgp_only
 2401:e320:500::/40,,,,false,,false,45700,bgp_only
 2401:e320:800::/38,ID,ID-JK,Jakarta,true,jtnaidn2,true,45700,announced
-2401:e320::/38,ID,ID-KR,Batam,false,,false,,planned_not_announced
+2401:e320::/38,ID,ID-KR,Batam,true,btmmidn1,true,45700,announced
 2401:e320::/40,,,,false,,false,45700,bgp_only
 2401:e320:c00::/38,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 2401:e320:c00::/41,,,,false,,false,45700,bgp_only

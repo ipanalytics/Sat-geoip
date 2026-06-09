@@ -1,13 +1,14 @@
 {
-  "generated_at": 1780906919,
-  "generated_date": "2026-06-08",
-  "previous_records": 11314,
-  "current_records": 11315,
-  "new": 1,
-  "changed": 0,
+  "generated_at": 1780988271,
+  "generated_date": "2026-06-09",
+  "previous_records": 11315,
+  "current_records": 11317,
+  "new": 2,
+  "changed": 5,
   "withdrawn": 0,
-  "unchanged": 11314,
+  "unchanged": 11310,
   "changes_by_type": {
-    "new": 1
+    "changed": 5,
+    "new": 2
   }
 }
