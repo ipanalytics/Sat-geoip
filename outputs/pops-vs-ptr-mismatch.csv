@@ -1797,8 +1797,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.19.0/24,klkaind1,,ptr_missing
 179.65.192.0/24,btmmidn1,,ptr_missing
 179.65.193.0/24,btmmidn1,,ptr_missing
-179.65.194.0/24,jtnaidn2,,ptr_missing
-179.65.195.0/24,jtnaidn2,,ptr_missing
+179.65.194.0/24,btmmidn1,,ptr_missing
+179.65.195.0/24,btmmidn1,,ptr_missing
 179.65.196.0/24,jtnaidn2,,ptr_missing
 179.65.197.0/24,jtnaidn2,,ptr_missing
 179.65.198.0/24,jtnaidn2,,ptr_missing
