@@ -1,9 +1,1 @@
-{"prefix":"149.19.169.0/24","change_type":"changed","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"qrtomex1","previous_pop_code":"qrtomex1","geoip_country":"MX","previous_geoip_country":"MX","geoip_region":"MX-CMX","previous_geoip_region":"MX-CMX","geoip_city":"Mexico City","previous_geoip_city":"Mexico City"}
-{"prefix":"149.19.168.0/24","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:1c00::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:3400::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:3480::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:3700::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:3780::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:c100::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:c180::/41","change_type":"new","changed_at":"2026-06-14T07:56:55Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"148.227.79.0/24","change_type":"changed","changed_at":"2026-06-15T09:34:01Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"frtabra1","previous_pop_code":"frtabra1","geoip_country":"BR","previous_geoip_country":"BR","geoip_region":"BR-CE","previous_geoip_region":"BR-CE","geoip_city":"Fortaleza","previous_geoip_city":"Fortaleza"}

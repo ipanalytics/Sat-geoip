@@ -1,10 +1,2 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-149.19.169.0/24,changed,2026-06-14T07:56:55Z,starlink,starlink,announced,planned_not_announced,14593,,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
-149.19.168.0/24,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:1c00::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:3400::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:3480::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:3700::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:3780::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:c100::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:c180::/41,new,2026-06-14T07:56:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+148.227.79.0/24,changed,2026-06-15T09:34:01Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
