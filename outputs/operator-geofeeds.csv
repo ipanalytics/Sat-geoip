@@ -1,14 +1,60 @@
 operator,url,type,status,format,notes
+anuvu,https://geoip.mtnsat.net/,geoip_feed,active,rfc8805,operator-declared customer subnet GeoIP location
+apstar,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 avanti,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+bentley_walker,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+caprock,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+carnival,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+castor_marine,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+china_satcom,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+cnes,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+esa,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 eutelsat_skylogic,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+gazprom_space_systems,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+gilat_telecom,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+gogo_business_aviation,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+hispasat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 hughes,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 inmarsat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 intelsat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+intelsat_general,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+iridium,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+itc_global,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+kacific,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+ksat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+kt_sat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+kuiper,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+kvh,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+lufthansa_systems,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 marlink,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+morsviazsputnik,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+nasa_jpl,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+navarino,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+nbn_sky_muster,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+nsslglobal,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+omniaccess,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 oneweb,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+panasonic_avionics,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+rignet,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+rocket_lab,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+royal_caribbean,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+rscc,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+rusat_amtel,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+satcom_direct,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 ses_o3b,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+sky_perfect_jsat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+spacex_infrastructure,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 speedcast,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 starlink,https://geoip.starlinkisp.net/feed.csv,geoip_feed,active,rfc8805,operator-declared customer subnet GeoIP location
 starlink,https://geoip.starlinkisp.net/pops.csv,pop_feed,active,custom_csv,operator-declared subnet to PoP assignment
+swarm,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+tampnet,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+telesat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+telespazio,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+thaicom,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+thales_avionics,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 thuraya,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+turksat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
+usap,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known
 viasat,https://raw.githubusercontent.com/Viasat/geofeed/refs/heads/main/geofeed.csv,geoip_feed,active,rfc8805,operator-declared customer subnet GeoIP location
+yahsat,,geoip_feed,not_found,,BGP-derived operator; no public RFC 8805 geofeed known

@@ -1,22 +1,98 @@
 operator,asn,asn_name,orbit_class,source,confidence,notes
+anuvu,32806,MTNSAT Holdings LLC,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+anuvu,400110,Anuvu Operations LLC,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+apstar,4636,APT Satellite / APSTAR,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+apstar,132214,APT Satellite / APSTAR,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 avanti,39356,Avanti Broadband Ltd,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 avanti,328306,Avanti Communications South Africa,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+bentley_walker,39122,Bentley Walker Ltd,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+caprock,14264,CapRock Communications,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+carnival,36151,Carnival Corporation,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+castor_marine,60647,Castor Marine B.V.,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+china_satcom,134762,China Satellite Communications,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+china_satcom,140902,Sino Satellite,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+cnes,27702,Centre National d'Etudes Spatiales,ground_infrastructure,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+esa,28958,European Space Agency,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+esa,29076,ESA ESRIN,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 eutelsat_skylogic,29286,SKYLOGIC S.P.A.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+gazprom_space_systems,35408,Gazprom Space Systems,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+gazprom_space_systems,42846,Gazprom Space Systems,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+gilat_telecom,12491,Gilat Telecom,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+gilat_telecom,56804,Gilat Telecom,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+gogo_business_aviation,33023,Gogo Business Aviation,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+hispasat,28273,Hispamar Satelites S/A,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+hispasat,197991,Hispasat S.A.,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+hispasat,265554,Hispasat Mexico,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 hughes,6621,Hughes Network Systems,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 hughes,63062,"Hughes Network Systems, LLC",geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 inmarsat,31515,Inmarsat Global Limited,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 intelsat,22351,INTELSAT GLOBAL SERVICE CORPORATION,geo_or_multi_orbit,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 intelsat,26243,Intelsat,geo_or_multi_orbit,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+intelsat_general,22557,Intelsat General Corporation,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+iridium,22184,"IRIDIUM SATELLITE, LLC",leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+iridium,206171,Iridium Communications,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+itc_global,53907,ITC Global,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+kacific,135409,Kacific Broadband Satellites Pte Ltd,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+ksat,42055,Kongsberg Satellite Services AS,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+kt_sat,38053,KT Sat,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+kuiper,398031,Amazon Kuiper,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+kvh,10021,"KVH Co.,Ltd",mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+kvh,25687,"KVH INDUSTRIES, INC",mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+lufthansa_systems,31022,Lufthansa Systems,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 marlink,5377,Marlink AS,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 marlink,55784,Marlink AS APNIC region,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+morsviazsputnik,25542,Morsviazsputnik,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+nasa_jpl,10461,NASA Jet Propulsion Laboratory,deep_space,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+navarino,203101,Navarino Single Member S.A.,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+nbn_sky_muster,4764,Aussie Broadband / NBN adjacency,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+nbn_sky_muster,133378,NBN Co,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+nsslglobal,42106,NSSLGlobal,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+omniaccess,44431,OmniAccess S.L.,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 oneweb,800,ONEWEB,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+panasonic_avionics,64294,Panasonic Avionics Corporation,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+panasonic_avionics,394603,Panasonic Avionics Corporation,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rignet,18634,RigNet,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rignet,20468,RigNet,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rignet,394348,RigNet,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rocket_lab,398322,Rocket Lab,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+royal_caribbean,40492,Royal Caribbean Cruises Ltd.,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rscc,8751,Russian Satellite Communications Company,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rusat_amtel,28811,RuSat,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+rusat_amtel,34812,AmTel-Svyaz,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+satcom_direct,30252,Satcom Direct,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+satcom_direct,54095,Satcom Direct,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+satcom_direct,394145,Satcom Direct,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 ses_o3b,60725,O3B-AS,meo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+sky_perfect_jsat,17944,SKY Perfect JSAT,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+spacex_infrastructure,36936,Space Exploration Technologies,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+spacex_infrastructure,46485,SpaceX Services,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 speedcast,4913,"Speedcast Communications, Inc",mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 speedcast,5666,"Speedcast Communications, Inc",mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 speedcast,38456,SpeedCast Australia,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 speedcast,132160,Oceanic Broadband Solutions,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,14593,SPACEX-STARLINK,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 starlink,45700,IDNIC-STARLINK-AS-ID,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+swarm,400263,Swarm Technologies,leo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+tampnet,35310,Tampnet,hybrid_satellite_offshore,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+tampnet,394334,Tampnet,hybrid_satellite_offshore,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telesat,11919,Telesat Network Services Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telesat,16212,Telesat International Ltd,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telesat,19036,Telesat Network Services Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telesat,57888,Telesat,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telesat,268656,Telesat Telecomunicacoes Ltda,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telespazio,8947,Telespazio S.p.A.,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telespazio,16013,Telespazio Argentina,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telespazio,60471,Telespazio France,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+telespazio,196963,Telespazio Germany,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+thaicom,4653,Thaicom,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+thaicom,17462,Thaicom,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+thales_avionics,398918,Thales Avionics,mixed_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 thuraya,44703,Thuraya Telecommunications,geo_mss,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+turksat,47524,Turksat,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+usap,35266,United States Antarctic Program,geo_mss,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,7155,VIASAT-SP-BACKBONE,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
 viasat,40306,Viasat Inc.,geo_or_hybrid_satellite,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+yahsat,198247,Yahsat-AbuDhabi,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+yahsat,198381,Star Satellite Communications Company,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+yahsat,206283,YAHSAT-FRANKFURT,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
+yahsat,208428,YAHSAT-DUBAI,geo,verified_constant_plus_discovery_seed,0.997,ASN registry is discovered and expected to grow
