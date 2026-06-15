@@ -151,7 +151,7 @@ The checked-in `outputs/` directory is generated from live public feeds. The exa
 The current registry covers LEO, MEO, GEO, mobility, maritime, aviation, research, space-agency, and launch-infrastructure networks. The full machine-readable ASN list is emitted in [`outputs/satellite-asns.csv`](./outputs/satellite-asns.csv); the maintained registry is [`config/operators.yaml`](./config/operators.yaml).
 
 | Coverage class | Examples | Evidence layers | GeoFeed |
-|---|---|---|---|---|
+|---|---|---|---|
 | LEO / MEO satellite internet | Starlink, OneWeb, Iridium, Amazon Leo / Kuiper, SES/O3b | GeoIP/PoP where published; BGP, RDAP/RPKI model | Starlink active |
 | GEO / hybrid satellite internet | Viasat, Hughes, Inmarsat, Telesat, Yahsat, Hispasat, Kacific, Thaicom, Turksat, China Satcom, KT Sat | GeoIP where published; BGP, RDAP/RPKI model | Viasat active |
 | Maritime, aviation, and remote service providers | Marlink, Speedcast, KVH, Anuvu, Panasonic Avionics, Satcom Direct, Gogo, NSSLGlobal, OmniAccess, Castor Marine, Navarino, Tampnet | BGP, RDAP/RPKI model | Anuvu/MTNSAT active |
