@@ -242,7 +242,10 @@ function orbitPath(orbit, t) {
 }
 
 function orbitPoint(orbit, t, offset = 0) {
-  const speed = orbit.orbit_class === "leo" ? 11 : orbit.orbit_class === "meo" ? 3.4 : 0.18;
+  if (orbit.orbit_class === "ground_infrastructure") {
+    return [0, ((orbit.phase + offset * 0.08) % 360) - 180];
+  }
+  const speed = orbit.orbit_class === "leo" ? 11 : orbit.orbit_class === "meo" ? 3.4 : orbit.orbit_class === "deep_space" ? 0.04 : 0.18;
   const angle = ((t * speed + orbit.phase + offset) % 360) * Math.PI / 180;
   const inc = orbit.inclination * Math.PI / 180;
   const lat = Math.sin(angle) * Math.sin(inc) * 82;
@@ -297,7 +300,13 @@ function operatorActive(operator) {
 }
 
 function colorFor(operator) {
-  return COLORS[operator] || "#cbd5e1";
+  if (COLORS[operator]) return COLORS[operator];
+  let hash = 0;
+  for (let i = 0; i < operator.length; i += 1) {
+    hash = ((hash << 5) - hash + operator.charCodeAt(i)) | 0;
+  }
+  const hue = Math.abs(hash) % 360;
+  return `hsl(${hue} 72% 58%)`;
 }
 
 function text(id, value) {
