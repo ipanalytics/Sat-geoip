@@ -60,12 +60,35 @@ jobs:
 
       - name: Commit generated dataset files
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # The live build can take long enough for main to move. Rebase onto
+          # the latest branch tip before creating the generated-artifacts commit
+          # so a normal non-forced push remains possible.
+          git add README.md site outputs/*.csv outputs/*.jsonl outputs/*.json outputs/*.md outputs/*.mmdb
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git stash push --include-untracked --message generated-dataset-artifacts -- README.md site outputs
+          git fetch origin main
+          git rebase origin/main
+          git stash pop
+
           git add README.md site outputs/*.csv outputs/*.jsonl outputs/*.json outputs/*.md outputs/*.mmdb
           if ! git diff --cached --quiet; then
             git commit -m "Update sat-geoip dataset artifacts [skip ci]"
-            git push
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              git fetch origin main
+              git rebase origin/main
+            done
+            echo "failed to push generated dataset commit after retries" >&2
+            exit 1
           fi
 
       - name: Publish GitHub Release
