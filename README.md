@@ -1,7 +1,7 @@
 # sat-geoip
 
 <p align="center">
-  <img src="./site/banner.png" alt="sat-geoip banner" width="100%">
+  <img src="./site/banner.svg" alt="sat-geoip banner" width="100%">
 </p>
 
 <p align="center">
@@ -11,8 +11,6 @@
   <img alt="Dataset" src="https://img.shields.io/badge/dataset-GeoIP%20%2B%20PoP%20%2B%20BGP-0f766e">
   <img alt="Go" src="https://img.shields.io/badge/go-1.24-00ADD8">
 </p>
-
-https://ipanalytics.github.io/Sat-geoip/
 
 sat-geoip builds a satellite-internet intelligence dataset from operator GeoIP feeds, subnet-to-PoP mappings, live BGP announcements, RIR/RPKI ownership evidence, and historical snapshots. It emits CSV, JSONL, and MaxMind DB artifacts that keep geolocation, PoP assignment, PTR observations, and routing state as separate evidence layers.
 
@@ -69,10 +67,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 11475 |
-| Announced prefixes | 7939 |
+| Prefixes | 13859 |
+| Announced prefixes | 10323 |
 | GeoFeed-only prefixes | 3536 |
-| BGP-only prefixes | 7014 |
+| BGP-only prefixes | 9398 |
 | Prefixes with PoP assignment | 3303 |
 | Ground station claims | 0 |
 
@@ -80,55 +78,91 @@ The resolver applies fixed precedence rules:
 
 | Name | Count |
 |---|---:|
+| `anuvu` | 59 |
 | `avanti` | 23 |
+| `bentley_walker` | 34 |
+| `caprock` | 3 |
+| `carnival` | 1 |
+| `castor_marine` | 5 |
+| `china_satcom` | 84 |
+| `esa` | 81 |
 | `eutelsat_skylogic` | 278 |
+| `gazprom_space_systems` | 45 |
+| `gilat_telecom` | 233 |
+| `gogo_business_aviation` | 1 |
+| `hispasat` | 40 |
 | `hughes` | 675 |
 | `inmarsat` | 55 |
 | `intelsat` | 94 |
+| `intelsat_general` | 3 |
+| `iridium` | 12 |
+| `itc_global` | 8 |
+| `kacific` | 26 |
+| `kt_sat` | 4 |
+| `kuiper` | 2 |
+| `kvh` | 62 |
 | `marlink` | 29 |
+| `nasa_jpl` | 15 |
+| `navarino` | 12 |
+| `nbn_sky_muster` | 450 |
+| `omniaccess` | 13 |
 | `oneweb` | 17 |
+| `panasonic_avionics` | 13 |
+| `rignet` | 1 |
+| `rocket_lab` | 2 |
+| `royal_caribbean` | 1 |
+| `rscc` | 30 |
+| `satcom_direct` | 4 |
 | `ses_o3b` | 22 |
+| `sky_perfect_jsat` | 6 |
+| `spacex_infrastructure` | 2 |
 | `speedcast` | 106 |
 | `starlink` | 5632 |
+| `swarm` | 1 |
+| `tampnet` | 6 |
+| `telesat` | 44 |
+| `telespazio` | 13 |
+| `thales_avionics` | 1 |
 | `thuraya` | 10 |
+| `turksat` | 948 |
+| `usap` | 19 |
 | `viasat` | 4534 |
+| `yahsat` | 100 |
 
 ### Orbit Classes
 
 | Name | Count |
 |---|---:|
-| `geo` | 698 |
-| `geo_mss` | 10 |
-| `geo_or_hybrid_satellite` | 4867 |
+| `deep_space` | 15 |
+| `geo` | 2723 |
+| `geo_mss` | 29 |
+| `geo_or_hybrid_satellite` | 4914 |
 | `geo_or_multi_orbit` | 94 |
-| `leo` | 5649 |
+| `hybrid_satellite_offshore` | 6 |
+| `leo` | 5668 |
 | `meo` | 22 |
-| `mixed_satellite` | 135 |
+| `mixed_satellite` | 388 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
 
 ## Operator Coverage
 
-| Operator | Orbit | Service class | Evidence layers | GeoFeed |
+The current registry covers LEO, MEO, GEO, mobility, maritime, aviation, research, space-agency, and launch-infrastructure networks. The full machine-readable ASN list is emitted in [`outputs/satellite-asns.csv`](./outputs/satellite-asns.csv); the maintained registry is [`config/operators.yaml`](./config/operators.yaml).
+
+| Coverage class | Examples | Evidence layers | GeoFeed |
 |---|---|---|---|---|
-| Starlink | LEO | `satellite_internet` | GeoIP feed, PoP feed, BGP, RIR/RPKI model | active |
-| Eutelsat OneWeb | LEO | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model, facility reference metadata | not found |
-| Viasat | GEO/hybrid | `satellite_internet` | GeoIP feed, BGP, RIR/RPKI model | active |
-| Inmarsat | GEO/hybrid | `satellite_internet` | BGP, RDAP/RPKI model | not found |
-| Thuraya | GEO MSS | `mss_narrowband` | BGP, RDAP/RPKI model | not found |
-| SES Networks / O3b | MEO | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model, gateway reference metadata | not found |
-| Hughes / HughesNet | GEO | `satellite_internet` | BGP, RDAP/RPKI model | not found |
-| Intelsat | GEO/multi-orbit | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model | not found |
-| Avanti Communications | GEO | `satellite_internet` | BGP, RDAP/RPKI model | not found |
-| Eutelsat / Skylogic | GEO/hybrid | `satellite_internet` | BGP, PeeringDB/RDAP/RPKI model | not found |
-| Marlink | mixed satellite | `satellite_service_provider` | BGP, PeeringDB/RDAP/RPKI model | not found |
-| Speedcast | mixed satellite | `satellite_service_provider` | BGP, PeeringDB/RDAP/RPKI model | not found |
+| LEO / MEO satellite internet | Starlink, OneWeb, Iridium, Amazon Leo / Kuiper, SES/O3b | GeoIP/PoP where published; BGP, RDAP/RPKI model | Starlink active |
+| GEO / hybrid satellite internet | Viasat, Hughes, Inmarsat, Telesat, Yahsat, Hispasat, Kacific, Thaicom, Turksat, China Satcom, KT Sat | GeoIP where published; BGP, RDAP/RPKI model | Viasat active |
+| Maritime, aviation, and remote service providers | Marlink, Speedcast, KVH, Anuvu, Panasonic Avionics, Satcom Direct, Gogo, NSSLGlobal, OmniAccess, Castor Marine, Navarino, Tampnet | BGP, RDAP/RPKI model | Anuvu/MTNSAT active |
+| Regional VSAT and teleport operators | Avanti, Eutelsat/Skylogic, Telespazio, Sky Perfect JSAT, RSCC, Gazprom Space Systems, Gilat Telecom, APSTAR, NBN Sky Muster | BGP, RDAP/RPKI model | not found |
+| Space and research infrastructure | Swarm, SpaceX infrastructure, KSAT, USAP, NASA JPL, ESA, CNES, Rocket Lab | BGP, RDAP/RPKI model | not found |
+| Mobility and cruise-line networks | Carnival, Royal Caribbean, Thales Avionics, Lufthansa Systems, RigNet, CapRock, ITC Global | BGP, RDAP/RPKI model | not found |
 
 ## Features
 
 - Go resolver with typed evidence and canonical resolved-prefix records.
-- Operator registry covering Starlink, OneWeb, Viasat, Inmarsat, Thuraya, SES/O3b, Hughes/HughesNet, Intelsat, Avanti, Eutelsat/Skylogic, Marlink, and Speedcast.
+- Operator registry covering satellite internet operators, MSS providers, mobility integrators, cruise-line networks, research networks, and space infrastructure ASNs.
 - RFC 8805 geofeed parser and Starlink PoP CSV parser.
 - RIPEstat announced-prefix parser for live BGP state.
 - CSV, JSONL, and MaxMind DB outputs.

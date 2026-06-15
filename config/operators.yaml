@@ -272,3 +272,452 @@ operators:
       - "Separate from Eutelsat OneWeb AS800."
       - "Use for GEO/hybrid satellite ISP prefixes and legacy Eutelsat/Skylogic infrastructure."
       - "Do not merge with OneWeb LEO semantics."
+  iridium:
+    operator: "Iridium"
+    operator_group: iridium
+    service_type: satellite_internet
+    orbit_class: leo
+    asns: [22184, 206171]
+    rir_org_tokens: [iridium, iridium satellite, iridium communications]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "LEO MSS / Certus satellite connectivity; BGP-derived prefixes only."
+  kuiper:
+    operator: "Amazon Leo / Kuiper"
+    operator_group: amazon
+    service_type: satellite_internet
+    orbit_class: leo
+    asns: [398031]
+    rir_org_tokens: [kuiper, amazon kuiper, amazon leo]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Early LEO satellite internet seed; do not include broad shared Amazon backbone ASNs as Kuiper-specific evidence."
+  telesat:
+    operator: "Telesat"
+    operator_group: telesat
+    service_type: satellite_internet
+    orbit_class: geo_or_hybrid_satellite
+    asns: [11919, 19036, 16212, 57888, 268656]
+    rir_org_tokens: [telesat]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "GEO/hybrid satellite operator; future LEO Lightspeed resources should be discovered separately."
+  yahsat:
+    operator: "Yahsat / YahClick"
+    operator_group: space42
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [206283, 198381, 198247, 208428]
+    rir_org_tokens: [yahsat, yahclick, star satellite communications, space42]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "GEO satellite internet operator under the Space42/Yahsat group; keep separate from Thuraya MSS."
+  hispasat:
+    operator: "Hispasat"
+    operator_group: hispasat
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [197991, 28273, 265554]
+    rir_org_tokens: [hispasat, hispamar]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "GEO satellite internet operator for Europe and Latin America; BGP-derived prefixes only."
+  kacific:
+    operator: "Kacific Broadband Satellites"
+    operator_group: kacific
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [135409]
+    rir_org_tokens: [kacific]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Asia-Pacific GEO satellite broadband operator; BGP-derived prefixes only."
+  kvh:
+    operator: "KVH Industries"
+    operator_group: kvh
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [10021, 25687]
+    rir_org_tokens: [kvh, kvh industries]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Maritime VSAT and mobility service provider; mixed satellite and terrestrial infrastructure expected."
+  anuvu:
+    operator: "Anuvu / MTNSAT"
+    operator_group: anuvu
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [400110, 32806]
+    rir_org_tokens: [anuvu, mtnsat, global eagle, row 44, emerging markets comms]
+    data_layers: [bgp_origin_prefixes, rdap, rpki, geoip_feed]
+    geoip_feed: https://geoip.mtnsat.net/
+    geofeed: {status: active}
+    notes:
+      - "Aviation and maritime satellite connectivity provider; MTNSAT geofeed is tracked as operator-declared GeoIP when parseable."
+  panasonic_avionics:
+    operator: "Panasonic Avionics"
+    operator_group: panasonic
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [64294, 394603]
+    rir_org_tokens: [panasonic avionics, panasonic]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "In-flight connectivity satellite service provider; BGP-derived prefixes only."
+  satcom_direct:
+    operator: "Satcom Direct"
+    operator_group: satcom_direct
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [30252, 394145, 54095]
+    rir_org_tokens: [satcom direct]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Business aviation, maritime, and enterprise satellite connectivity provider; BGP-derived prefixes only."
+  gogo_business_aviation:
+    operator: "Gogo Business Aviation"
+    operator_group: gogo
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [33023]
+    rir_org_tokens: [gogo, aircell]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Aviation connectivity provider; may include satellite and air-to-ground infrastructure."
+  rignet:
+    operator: "RigNet"
+    operator_group: viasat
+    service_type: satellite_service_provider
+    orbit_class: geo
+    asns: [18634, 20468, 394348]
+    rir_org_tokens: [rignet, rig net]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Remote energy and maritime connectivity provider now associated with Viasat; BGP-derived prefixes only."
+  nsslglobal:
+    operator: "NSSLGlobal"
+    operator_group: nsslglobal
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [42106]
+    rir_org_tokens: [nsslglobal, nssl global]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  sky_perfect_jsat:
+    operator: "Sky Perfect JSAT"
+    operator_group: sky_perfect_jsat
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [17944]
+    rir_org_tokens: [sky perfect, jsat, skyperfect]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  telespazio:
+    operator: "Telespazio"
+    operator_group: telespazio
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [8947, 196963, 60471, 16013]
+    rir_org_tokens: [telespazio]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  thaicom:
+    operator: "Thaicom / IPSTAR"
+    operator_group: thaicom
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [4653, 17462]
+    rir_org_tokens: [thaicom, ipstar]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  rscc:
+    operator: "Russian Satellite Communications Company"
+    operator_group: rscc
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [8751]
+    rir_org_tokens: [rscc, russian satellite communications, space communication]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  gazprom_space_systems:
+    operator: "Gazprom Space Systems"
+    operator_group: gazprom_space_systems
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [35408, 42846]
+    rir_org_tokens: [gazprom space, yamal]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  nbn_sky_muster:
+    operator: "NBN Sky Muster"
+    operator_group: nbn
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [4764, 133378]
+    rir_org_tokens: [nbn co, sky muster, nbn]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "AS4764 may include non-satellite infrastructure and should be refined by evidence over time."
+  turksat:
+    operator: "Turksat"
+    operator_group: turksat
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [47524]
+    rir_org_tokens: [turksat]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  omniaccess:
+    operator: "OmniAccess"
+    operator_group: omniaccess
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [44431]
+    rir_org_tokens: [omniaccess, omni access]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  castor_marine:
+    operator: "Castor Marine"
+    operator_group: castor_marine
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [60647]
+    rir_org_tokens: [castor marine]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  navarino:
+    operator: "Navarino"
+    operator_group: navarino
+    service_type: satellite_service_provider
+    orbit_class: mixed_satellite
+    asns: [203101]
+    rir_org_tokens: [navarino]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  tampnet:
+    operator: "Tampnet"
+    operator_group: tampnet
+    service_type: satellite_service_provider
+    orbit_class: hybrid_satellite_offshore
+    asns: [35310, 394334]
+    rir_org_tokens: [tampnet]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Hybrid offshore connectivity provider; may include satellite, microwave, and subsea infrastructure."
+  gilat_telecom:
+    operator: "Gilat Telecom"
+    operator_group: gilat
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [12491, 56804]
+    rir_org_tokens: [gilat, gilat telecom]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  swarm:
+    operator: "Swarm Technologies"
+    operator_group: spacex
+    service_type: satellite_iot
+    orbit_class: leo
+    asns: [400263]
+    rir_org_tokens: [swarm technologies, swarm]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "LEO satellite IoT network under SpaceX; keep separate from Starlink broadband semantics."
+  spacex_infrastructure:
+    operator: "SpaceX Infrastructure"
+    operator_group: spacex
+    service_type: satellite_infrastructure
+    orbit_class: leo
+    asns: [36936, 46485]
+    rir_org_tokens: [spacex services]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "SpaceX infrastructure ASNs; do not merge with Starlink customer-subnet GeoIP semantics."
+  carnival:
+    operator: "Carnival Corporation"
+    operator_group: carnival
+    service_type: satellite_cruise_line
+    orbit_class: mixed_satellite
+    asns: [36151]
+    rir_org_tokens: [carnival corporation, carnival]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  royal_caribbean:
+    operator: "Royal Caribbean"
+    operator_group: royal_caribbean
+    service_type: satellite_cruise_line
+    orbit_class: mixed_satellite
+    asns: [40492]
+    rir_org_tokens: [royal caribbean]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  usap:
+    operator: "United States Antarctic Program"
+    operator_group: usap
+    service_type: satellite_research
+    orbit_class: geo_mss
+    asns: [35266]
+    rir_org_tokens: [united states antarctic program, usap]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  ksat:
+    operator: "Kongsberg Satellite Services"
+    operator_group: ksat
+    service_type: satellite_research
+    orbit_class: geo_or_hybrid_satellite
+    asns: [42055]
+    rir_org_tokens: [kongsberg satellite, ksat]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  thales_avionics:
+    operator: "Thales Avionics"
+    operator_group: thales
+    service_type: satellite_aero
+    orbit_class: mixed_satellite
+    asns: [398918]
+    rir_org_tokens: [thales avionics, thales inflyt, thales]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  lufthansa_systems:
+    operator: "Lufthansa Systems"
+    operator_group: lufthansa
+    service_type: satellite_aero
+    orbit_class: mixed_satellite
+    asns: [31022]
+    rir_org_tokens: [lufthansa systems, lufthansa]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  caprock:
+    operator: "CapRock Communications"
+    operator_group: speedcast
+    service_type: satellite_service_provider
+    orbit_class: geo
+    asns: [14264]
+    rir_org_tokens: [caprock, caprock communications]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  bentley_walker:
+    operator: "Bentley Walker / Freedomsat"
+    operator_group: bentley_walker
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [39122]
+    rir_org_tokens: [bentley walker, freedomsat]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  itc_global:
+    operator: "ITC Global"
+    operator_group: panasonic
+    service_type: satellite_service_provider
+    orbit_class: geo
+    asns: [53907]
+    rir_org_tokens: [itc global]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  china_satcom:
+    operator: "China Satcom"
+    operator_group: china_satcom
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [134762, 140902]
+    rir_org_tokens: [china satcom, china satellite, sino satellite]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  apstar:
+    operator: "APT Satellite / APSTAR"
+    operator_group: apstar
+    service_type: satellite_service_provider
+    orbit_class: geo
+    asns: [4636, 132214]
+    rir_org_tokens: [apt satellite, apstar]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  morsviazsputnik:
+    operator: "Morsviazsputnik"
+    operator_group: morsviazsputnik
+    service_type: satellite_maritime_strategic
+    orbit_class: mixed_satellite
+    asns: [25542]
+    rir_org_tokens: [morsviazsputnik, morsvyazsputnik]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  rusat_amtel:
+    operator: "RuSat / AmTel-Svyaz"
+    operator_group: rusat_amtel
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [28811, 34812]
+    rir_org_tokens: [rusat, amtel, amtel-svyaz]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  intelsat_general:
+    operator: "Intelsat General"
+    operator_group: intelsat
+    service_type: satellite_military
+    orbit_class: geo_or_hybrid_satellite
+    asns: [22557]
+    rir_org_tokens: [intelsat general]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+    notes:
+      - "Government satellite communications network; modeled as infrastructure attribution only."
+  nasa_jpl:
+    operator: "NASA JPL"
+    operator_group: nasa
+    service_type: space_agency_telemetry
+    orbit_class: deep_space
+    asns: [10461]
+    rir_org_tokens: [nasa, jet propulsion laboratory, jpl]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  rocket_lab:
+    operator: "Rocket Lab"
+    operator_group: rocket_lab
+    service_type: spaceport
+    orbit_class: leo
+    asns: [398322]
+    rir_org_tokens: [rocket lab]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  cnes:
+    operator: "CNES"
+    operator_group: cnes
+    service_type: spaceport
+    orbit_class: ground_infrastructure
+    asns: [27702]
+    rir_org_tokens: [cnes, "centre national d'etudes spatiales"]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  esa:
+    operator: "European Space Agency"
+    operator_group: esa
+    service_type: space_agency_telemetry
+    orbit_class: mixed_satellite
+    asns: [28958, 29076]
+    rir_org_tokens: [european space agency, esa, esrin]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}
+  kt_sat:
+    operator: "KT Sat"
+    operator_group: kt_sat
+    service_type: satellite_internet
+    orbit_class: geo
+    asns: [38053]
+    rir_org_tokens: [kt sat, korea telecom sat]
+    data_layers: [bgp_origin_prefixes, rdap, rpki]
+    geofeed: {status: not_found}

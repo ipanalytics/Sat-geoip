@@ -118,8 +118,8 @@ func GenerateDashboard(opts GenerateOptions) error {
 		PoPs:        buildPoPPoints(records, airports),
 		Gateways:    gateways,
 		Operators:   buildOperators(stats, records),
-		Orbits:      defaultOrbits(),
 	}
+	dashboard.Orbits = buildOrbits(dashboard.Operators)
 	sort.Slice(dashboard.Countries, func(i, j int) bool {
 		return dashboard.Countries[i].Prefixes > dashboard.Countries[j].Prefixes
 	})
@@ -399,14 +399,48 @@ func buildOperators(stats release.Stats, records []resolver.ResolvedPrefix) []Op
 	return out
 }
 
-func defaultOrbits() []OrbitInfo {
-	return []OrbitInfo{
-		{Operator: "starlink", OrbitClass: "leo", Inclination: 53, AltitudeKM: 550, Phase: 0, Color: "#38bdf8"},
-		{Operator: "oneweb", OrbitClass: "leo", Inclination: 87.9, AltitudeKM: 1200, Phase: 115, Color: "#8b5cf6"},
-		{Operator: "ses_o3b", OrbitClass: "meo", Inclination: 0, AltitudeKM: 8063, Phase: 210, Color: "#14b8a6"},
-		{Operator: "viasat", OrbitClass: "geo_or_hybrid_satellite", Inclination: 0, AltitudeKM: 35786, Phase: 300, Color: "#f59e0b"},
-		{Operator: "hughes", OrbitClass: "geo", Inclination: 0, AltitudeKM: 35786, Phase: 30, Color: "#ef4444"},
+func buildOrbits(operators []OperatorInfo) []OrbitInfo {
+	out := make([]OrbitInfo, 0, len(operators))
+	for i, op := range operators {
+		inclination, altitude := orbitApproximation(op.OrbitClass, i)
+		out = append(out, OrbitInfo{
+			Operator:    op.Name,
+			OrbitClass:  op.OrbitClass,
+			Inclination: inclination,
+			AltitudeKM:  altitude,
+			Phase:       math.Mod(float64(i*37), 360),
+			Color:       orbitColor(i),
+		})
 	}
+	return out
+}
+
+func orbitApproximation(orbitClass string, idx int) (float64, float64) {
+	switch orbitClass {
+	case string(resolver.OrbitLEO):
+		if idx%2 == 0 {
+			return 53, 550
+		}
+		return 87.9, 1200
+	case string(resolver.OrbitMEO):
+		return 0, 8063
+	case string(resolver.OrbitGEO), string(resolver.OrbitGEOMSS), string(resolver.OrbitHybrid), string(resolver.OrbitGeoMulti):
+		return 0, 35786
+	case string(resolver.OrbitDeepSpace):
+		return 28.5, 384400
+	case string(resolver.OrbitGroundInfrastructure):
+		return 0, 0
+	default:
+		return 35, 35786
+	}
+}
+
+func orbitColor(idx int) string {
+	colors := []string{
+		"#38bdf8", "#8b5cf6", "#14b8a6", "#f59e0b", "#ef4444", "#22c55e",
+		"#06b6d4", "#eab308", "#c084fc", "#f97316", "#a3e635", "#fb7185",
+	}
+	return colors[idx%len(colors)]
 }
 
 func round(v float64) float64 {
