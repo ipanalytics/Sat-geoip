@@ -1,2 +1,6 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-148.227.79.0/24,changed,2026-06-15T09:34:01Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+2803:9810:3000::/41,withdrawn,2026-06-15T12:05:38Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3c00::/41,withdrawn,2026-06-15T12:05:38Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3c80::/41,withdrawn,2026-06-15T12:05:38Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8600::/41,withdrawn,2026-06-15T12:05:38Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8780::/41,withdrawn,2026-06-15T12:05:38Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
