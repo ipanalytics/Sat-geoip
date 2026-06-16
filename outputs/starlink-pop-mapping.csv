@@ -1799,8 +1799,8 @@ prefix,pop_code,pop_iata,source
 179.65.193.0/24,btmmidn1,bth,starlink_pops_csv
 179.65.194.0/24,btmmidn1,bth,starlink_pops_csv
 179.65.195.0/24,btmmidn1,bth,starlink_pops_csv
-179.65.196.0/24,jtnaidn2,jkt,starlink_pops_csv
-179.65.197.0/24,jtnaidn2,jkt,starlink_pops_csv
+179.65.196.0/24,btmmidn1,bth,starlink_pops_csv
+179.65.197.0/24,btmmidn1,bth,starlink_pops_csv
 179.65.198.0/24,jtnaidn2,jkt,starlink_pops_csv
 179.65.199.0/24,jtnaidn2,jkt,starlink_pops_csv
 179.65.2.0/24,chniind1,maa,starlink_pops_csv

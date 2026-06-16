@@ -2735,7 +2735,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 176.116.124.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 176.116.125.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 179.60.168.0/22,,,,false,,false,14593,bgp_only
-179.60.168.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+179.60.168.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 179.60.169.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.170.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.171.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
@@ -3038,8 +3038,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.194.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.195.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.196.0/23,,,,false,,false,45700,bgp_only
-179.65.196.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
-179.65.197.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
+179.65.196.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
+179.65.197.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.198.0/23,,,,false,,false,45700,bgp_only
 179.65.198.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 179.65.199.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
@@ -4443,6 +4443,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
+2803:9810:1e00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1e80::/41,,,,false,,false,14593,bgp_only
+2803:9810:1f00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1f80::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
 2803:9810:3000::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
@@ -4502,6 +4507,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:5900::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:5a00::/40,CR,CR-SJ,San Jose,true,qrtomex1,true,14593,announced
 2803:9810:5b00::/40,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
+2803:9810:5b00::/41,,,,false,,false,14593,bgp_only
+2803:9810:5b80::/41,,,,false,,false,14593,bgp_only
 2803:9810:5c00::/40,CR,CR-SJ,San Jose,true,gtmygtm1,true,14593,announced
 2803:9810:5d00::/40,PA,PA-8,Panama City,true,gtmygtm1,true,14593,announced
 2803:9810:5e00::/40,MX,MX-CMX,Mexico City,true,gtmygtm1,true,14593,announced
