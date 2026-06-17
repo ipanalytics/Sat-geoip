@@ -351,7 +351,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.79.0/24,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
 129.222.8.0/21,,,,false,,false,14593,bgp_only
 129.222.8.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
-129.222.80.0/21,,,,false,,false,14593,bgp_only
 129.222.80.0/23,,,,false,,false,14593,bgp_only
 129.222.80.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
 129.222.81.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
@@ -4018,7 +4017,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:a00::/40,TD,TD-ND,N'Djamena,true,sfiabgr1,true,14593,announced
 2605:59c0:a400::/38,US,US-TX,Dallas,false,,false,,planned_not_announced
 2605:59c0:a800::/38,US,US-TX,Dallas,false,,false,,planned_not_announced
-2605:59c0:a80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:ac00::/38,US,US-TX,Dallas,false,,false,,planned_not_announced
 2605:59c0:b00::/40,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
 2605:59c0:b00::/41,,,,false,,false,14593,bgp_only
@@ -4498,8 +4496,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:5100::/41,,,,false,,false,14593,bgp_only
 2803:9810:5180::/41,,,,false,,false,14593,bgp_only
 2803:9810:5200::/40,PA,PA-8,Panama City,true,bgtacol1,true,14593,announced
-2803:9810:5200::/41,,,,false,,false,14593,bgp_only
-2803:9810:5280::/41,,,,false,,false,14593,bgp_only
 2803:9810:5500::/40,BR,BR-SP,Sao Paulo,true,bgtacol1,true,14593,announced
 2803:9810:5500::/41,,,,false,,false,14593,bgp_only
 2803:9810:5580::/41,,,,false,,false,14593,bgp_only
@@ -5454,7 +5450,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.150.0/23,,,,false,,false,14593,bgp_only
 98.97.150.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
 98.97.151.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,false,,planned_not_announced
-98.97.152.0/22,,,,false,,false,14593,bgp_only
 98.97.152.0/23,,,,false,,false,14593,bgp_only
 98.97.152.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
 98.97.153.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
