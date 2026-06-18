@@ -699,7 +699,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.127.0/24,VC,VC-04,Kingstown,true,mmmiflx1,false,,planned_not_announced
 143.105.128.0/23,,,,false,,false,14593,bgp_only
 143.105.128.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
-143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
+143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
 143.105.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 143.105.130.0/23,,,,false,,false,14593,bgp_only
 143.105.130.0/24,LC,LC-02,Castries,true,mmmiflx1,false,,planned_not_announced
@@ -2634,7 +2634,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 170.203.193.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 170.203.196.0/23,,,,false,,false,14593,bgp_only
 170.203.196.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-170.203.197.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+170.203.197.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 170.203.198.0/23,,,,false,,false,14593,bgp_only
 170.203.198.0/24,CR,CR-SJ,San Jose,true,gtmygtm1,false,,planned_not_announced
 170.203.199.0/24,CR,CR-SJ,San Jose,true,gtmygtm1,false,,planned_not_announced
@@ -2735,7 +2735,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 176.116.125.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 179.60.168.0/22,,,,false,,false,14593,bgp_only
 179.60.168.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-179.60.169.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+179.60.169.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 179.60.170.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.171.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.172.0/23,,,,false,,false,14593,bgp_only
@@ -2800,6 +2800,9 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.140.0/24,,,,false,,false,14593,bgp_only
 179.64.147.0/24,,,,false,,false,14593,bgp_only
 179.64.15.0/24,US,US-KY,Louisville,true,chcoilx1,false,,planned_not_announced
+179.64.153.0/24,,,,false,,false,14593,bgp_only
+179.64.154.0/24,,,,false,,false,14593,bgp_only
+179.64.156.0/24,,,,false,,false,14593,bgp_only
 179.64.16.0/23,,,,false,,false,14593,bgp_only
 179.64.16.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
 179.64.160.0/24,,,,false,,false,14593,bgp_only
@@ -3310,7 +3313,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.214.224.0/24,,,,false,,false,14593,bgp_only
 206.214.225.0/24,,,,false,,false,14593,bgp_only
 206.214.226.0/24,,,,false,,false,14593,bgp_only
-206.214.227.0/24,,,,false,,false,14593,bgp_only
 206.214.228.0/24,,,,false,,false,14593,bgp_only
 206.214.229.0/24,,,,false,,false,14593,bgp_only
 206.214.231.0/24,,,,false,,false,14593,bgp_only
@@ -4068,10 +4070,13 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9006::/48,,,,false,,false,14593,bgp_only
 2605:59c7:900a::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9013::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/44,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9051::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9052::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9065::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9068::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f001::/48,US,US-AK,Nome,false,,false,,planned_not_announced
@@ -5003,7 +5008,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.220.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
 74.244.221.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
 74.244.222.0/23,,,,false,,false,14593,bgp_only
-74.244.222.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+74.244.222.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 74.244.223.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 74.244.224.0/23,,,,false,,false,14593,bgp_only
 74.244.224.0/24,QA,QA-DA,Doha,false,,false,,planned_not_announced
@@ -5207,6 +5212,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.2.0/24,,,,false,,false,14593,bgp_only
 74.245.20.0/24,,,,false,,false,14593,bgp_only
 74.245.200.0/24,,,,false,,false,14593,bgp_only
+74.245.202.0/24,,,,false,,false,14593,bgp_only
 74.245.206.0/24,,,,false,,false,14593,bgp_only
 74.245.208.0/24,,,,false,,false,14593,bgp_only
 74.245.209.0/24,,,,false,,false,14593,bgp_only
