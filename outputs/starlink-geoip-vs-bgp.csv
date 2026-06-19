@@ -1495,8 +1495,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.16.0/23,,,,false,,false,14593,bgp_only
 150.228.16.0/24,HU,HU-BU,Budapest,true,sfiabgr1,false,,planned_not_announced
 150.228.160.0/23,,,,false,,false,14593,bgp_only
-150.228.160.0/24,VN,VN-SG,Saigon,false,,false,,planned_not_announced
-150.228.161.0/24,VN,VN-SG,Saigon,false,,false,,planned_not_announced
+150.228.160.0/24,VN,VN-SG,Saigon,true,sgnnvnm1,false,,planned_not_announced
+150.228.161.0/24,VN,VN-SG,Saigon,true,sgnnvnm1,false,,planned_not_announced
 150.228.162.0/23,,,,false,,false,14593,bgp_only
 150.228.162.0/24,AU,AU-VIC,Melbourne,true,mlbeaus1,false,,planned_not_announced
 150.228.163.0/24,AU,AU-VIC,Melbourne,true,mlbeaus1,false,,planned_not_announced
@@ -3794,7 +3794,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1700::/40,US,US-FL,Miami,true,mmmiflx1,true,14593,announced
 2605:59c0:1800::/40,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
 2605:59c0:1800::/41,,,,false,,false,14593,bgp_only
-2605:59c0:1880::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
 2605:59c0:1900::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
@@ -5009,7 +5008,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.221.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
 74.244.222.0/23,,,,false,,false,14593,bgp_only
 74.244.222.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-74.244.223.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+74.244.223.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 74.244.224.0/23,,,,false,,false,14593,bgp_only
 74.244.224.0/24,QA,QA-DA,Doha,false,,false,,planned_not_announced
 74.244.225.0/24,QA,QA-DA,Doha,false,,false,,planned_not_announced

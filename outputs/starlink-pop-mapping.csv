@@ -891,6 +891,8 @@ prefix,pop_code,pop_iata,source
 150.228.158.0/24,tkyojpn1,nrt,starlink_pops_csv
 150.228.159.0/24,tkyojpn1,nrt,starlink_pops_csv
 150.228.16.0/24,sfiabgr1,sof,starlink_pops_csv
+150.228.160.0/24,sgnnvnm1,sgn,starlink_pops_csv
+150.228.161.0/24,sgnnvnm1,sgn,starlink_pops_csv
 150.228.162.0/24,mlbeaus1,mel,starlink_pops_csv
 150.228.163.0/24,mlbeaus1,mel,starlink_pops_csv
 150.228.164.0/24,mmbiind1,bom,starlink_pops_csv
