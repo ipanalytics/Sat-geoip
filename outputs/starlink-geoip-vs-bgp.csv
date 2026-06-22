@@ -3794,7 +3794,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1600::/40,ER,ER-MA,Asmara,true,nrbiken1,true,14593,announced
 2605:59c0:1700::/40,US,US-FL,Miami,true,mmmiflx1,true,14593,announced
 2605:59c0:1800::/40,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
-2605:59c0:1800::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
 2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
@@ -4174,6 +4173,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:6300::/40,US,US-GA,Atlanta,true,atlagax1,true,14593,announced
 2605:59c8:6500::/40,VE,VE-A,Caracas,true,frtabra1,true,14593,announced
 2605:59c8:6800::/40,GF,,Cayenne,true,frtabra1,true,14593,announced
+2605:59c8:6800::/41,,,,false,,false,14593,bgp_only
+2605:59c8:6880::/41,,,,false,,false,14593,bgp_only
 2605:59c8:6900::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2605:59c8:6900::/41,,,,false,,false,14593,bgp_only
 2605:59c8:6980::/41,,,,false,,false,14593,bgp_only
@@ -4641,7 +4642,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:fe40::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe50::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe60::/44,,,,false,,false,14593,bgp_only
-2a0d:3341:fe80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:fe80::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fea0::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fed0::/44,,,,false,,false,14593,bgp_only
@@ -4669,6 +4669,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3344:37c0::/42,JO,JO-AM,Amman,true,sfiabgr1,true,14593,announced
 2a0d:3344:3800::/40,AX,,Mariehamn,true,frntdeu1,true,14593,announced
 2a0d:3344:3a00::/40,GR,GR-I,Athens,true,sfiabgr1,true,14593,announced
+2a0d:3344:3a00::/41,,,,false,,false,14593,bgp_only
 2a0d:3344:3b00::/40,SI,SI-061,Ljubljana,true,sfiabgr1,true,14593,announced
 2a0d:3344:3c00::/40,ME,ME-16,Podgorica,true,sfiabgr1,true,14593,announced
 2a0d:3344:3d00::/40,BA,BA-BIH,Sarajevo,true,sfiabgr1,true,14593,announced
