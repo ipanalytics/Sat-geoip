@@ -16,7 +16,7 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 60 |
+| `anuvu` | 61 |
 | `avanti` | 23 |
 | `bentley_walker` | 34 |
 | `caprock` | 3 |
@@ -43,6 +43,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
 | `nbn_sky_muster` | 454 |
+| `nsslglobal` | 1 |
 | `omniaccess` | 13 |
 | `oneweb` | 19 |
 | `panasonic_avionics` | 13 |
@@ -55,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 107 |
-| `starlink` | 5685 |
+| `starlink` | 5683 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -78,9 +79,9 @@ Generated artifacts for the current sat-geoip dataset build.
 | `geo_or_hybrid_satellite` | 4918 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 5723 |
+| `leo` | 5721 |
 | `meo` | 22 |
-| `mixed_satellite` | 388 |
+| `mixed_satellite` | 390 |
 
 
 ## Quality Flags

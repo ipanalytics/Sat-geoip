@@ -1,6 +1,5 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-2605:59c8:6800::/41,new,2026-06-22T09:21:50Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c8:6880::/41,new,2026-06-22T09:21:50Z,starlink,,bgp_only,,14593,,,,,,,,,
-2a0d:3344:3a00::/41,new,2026-06-22T09:21:50Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c0:1800::/41,withdrawn,2026-06-22T09:21:50Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2a0d:3341:fe80::/41,withdrawn,2026-06-22T09:21:50Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+176.52.171.0/24,new,2026-06-23T06:59:19Z,anuvu,,bgp_only,,32806,,,,,,,,,
+185.252.133.0/24,new,2026-06-23T06:59:19Z,nsslglobal,,bgp_only,,42106,,,,,,,,,
+206.224.94.0/24,withdrawn,2026-06-23T06:59:19Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c0:1980::/41,withdrawn,2026-06-23T06:59:19Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,

@@ -1,5 +1,4 @@
-{"prefix":"2605:59c8:6800::/41","change_type":"new","changed_at":"2026-06-22T09:21:50Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2605:59c8:6880::/41","change_type":"new","changed_at":"2026-06-22T09:21:50Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2a0d:3344:3a00::/41","change_type":"new","changed_at":"2026-06-22T09:21:50Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2605:59c0:1800::/41","change_type":"withdrawn","changed_at":"2026-06-22T09:21:50Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
-{"prefix":"2a0d:3341:fe80::/41","change_type":"withdrawn","changed_at":"2026-06-22T09:21:50Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
+{"prefix":"176.52.171.0/24","change_type":"new","changed_at":"2026-06-23T06:59:19Z","operator":"anuvu","bgp_state":"bgp_only","origin_asn":32806}
+{"prefix":"185.252.133.0/24","change_type":"new","changed_at":"2026-06-23T06:59:19Z","operator":"nsslglobal","bgp_state":"bgp_only","origin_asn":42106}
+{"prefix":"206.224.94.0/24","change_type":"withdrawn","changed_at":"2026-06-23T06:59:19Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
+{"prefix":"2605:59c0:1980::/41","change_type":"withdrawn","changed_at":"2026-06-23T06:59:19Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
