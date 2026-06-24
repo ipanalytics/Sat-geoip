@@ -1,5 +1,90 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-176.52.171.0/24,new,2026-06-23T06:59:19Z,anuvu,,bgp_only,,32806,,,,,,,,,
-185.252.133.0/24,new,2026-06-23T06:59:19Z,nsslglobal,,bgp_only,,42106,,,,,,,,,
-206.224.94.0/24,withdrawn,2026-06-23T06:59:19Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2605:59c0:1980::/41,withdrawn,2026-06-23T06:59:19Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+129.222.206.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
+138.84.56.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+138.84.57.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+143.105.141.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+143.105.215.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,CD,CD,CD-KN,CD-KN,Kinshasa,Kinshasa
+143.105.25.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+148.222.129.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,PY,PY,PY-ASU,PY-ASU,Asuncion,Asuncion
+148.222.206.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+148.227.73.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.227.86.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+148.227.87.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+149.19.164.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+149.19.165.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+149.19.166.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+150.228.105.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,IQ,IQ,IQ-BG,IQ-BG,Baghdad,Baghdad
+150.228.207.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
+153.67.107.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+179.64.45.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+200.189.28.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+200.189.29.0/24,changed,2026-06-24T06:56:52Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+179.238.0.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.10.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.12.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.14.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.16.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.18.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.2.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.20.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.22.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.24.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.26.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.28.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.30.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.32.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.34.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.36.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.38.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.4.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.40.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.42.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.44.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.46.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.48.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.50.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.52.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.54.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.56.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.58.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.6.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.60.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.62.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.64.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.68.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.72.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.76.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.8.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.80.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.84.0/22,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.176.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.176.0/24,new,2026-06-24T06:56:52Z,starlink,,planned_not_announced,,,,sgnnvnm1,,MM,,MM-06,,Yangon,
+179.65.177.0/24,new,2026-06-24T06:56:52Z,starlink,,planned_not_announced,,,,sgnnvnm1,,MM,,MM-06,,Yangon,
+179.65.178.0/23,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.178.0/24,new,2026-06-24T06:56:52Z,starlink,,planned_not_announced,,,,sgnnvnm1,,MM,,MM-06,,Yangon,
+179.65.179.0/24,new,2026-06-24T06:56:52Z,starlink,,planned_not_announced,,,,sgnnvnm1,,MM,,MM-06,,Yangon,
+2406:2d40:4c00::/40,new,2026-06-24T06:56:52Z,starlink,,announced,,14593,,sgnnvnm1,,MM,,MM-06,,Yangon,
+2803:9810:4000::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4080::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4200::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4280::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4300::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4380::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4400::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4480::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4600::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4680::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4800::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4880::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4900::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4980::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4a00::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4a80::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4b00::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:4b80::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:6400::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:6480::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a0d:3344:3a80::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a0d:3344:6c00::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a0d:3344:6c80::/41,new,2026-06-24T06:56:52Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:800::/41,withdrawn,2026-06-24T06:56:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,

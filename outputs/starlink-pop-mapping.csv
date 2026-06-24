@@ -1799,6 +1799,10 @@ prefix,pop_code,pop_iata,source
 179.65.164.0/24,acklnzl1,akl,starlink_pops_csv
 179.65.165.0/24,acklnzl1,akl,starlink_pops_csv
 179.65.17.0/24,klkaind1,ccu,starlink_pops_csv
+179.65.176.0/24,sgnnvnm1,sgn,starlink_pops_csv
+179.65.177.0/24,sgnnvnm1,sgn,starlink_pops_csv
+179.65.178.0/24,sgnnvnm1,sgn,starlink_pops_csv
+179.65.179.0/24,sgnnvnm1,sgn,starlink_pops_csv
 179.65.18.0/24,klkaind1,ccu,starlink_pops_csv
 179.65.19.0/24,klkaind1,ccu,starlink_pops_csv
 179.65.192.0/24,btmmidn1,bth,starlink_pops_csv
@@ -2184,6 +2188,7 @@ prefix,pop_code,pop_iata,source
 2406:2d40:4900::/40,mnlaphl1,mnl,starlink_pops_csv
 2406:2d40:4a00::/40,sfiabgr1,sof,starlink_pops_csv
 2406:2d40:4b00::/40,sydyaus1,syd,starlink_pops_csv
+2406:2d40:4c00::/40,sgnnvnm1,sgn,starlink_pops_csv
 2406:2d40:4d00::/40,sydyaus1,syd,starlink_pops_csv
 2406:2d40:5800::/40,almykaz1,ala,starlink_pops_csv
 2406:2d40:5900::/40,almykaz1,ala,starlink_pops_csv

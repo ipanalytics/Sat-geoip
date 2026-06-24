@@ -1799,6 +1799,10 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.164.0/24,acklnzl1,,ptr_missing
 179.65.165.0/24,acklnzl1,,ptr_missing
 179.65.17.0/24,klkaind1,,ptr_missing
+179.65.176.0/24,sgnnvnm1,,ptr_missing
+179.65.177.0/24,sgnnvnm1,,ptr_missing
+179.65.178.0/24,sgnnvnm1,,ptr_missing
+179.65.179.0/24,sgnnvnm1,,ptr_missing
 179.65.18.0/24,klkaind1,,ptr_missing
 179.65.19.0/24,klkaind1,,ptr_missing
 179.65.192.0/24,btmmidn1,,ptr_missing
@@ -2184,6 +2188,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2406:2d40:4900::/40,mnlaphl1,,ptr_missing
 2406:2d40:4a00::/40,sfiabgr1,,ptr_missing
 2406:2d40:4b00::/40,sydyaus1,,ptr_missing
+2406:2d40:4c00::/40,sgnnvnm1,,ptr_missing
 2406:2d40:4d00::/40,sydyaus1,,ptr_missing
 2406:2d40:5800::/40,almykaz1,,ptr_missing
 2406:2d40:5900::/40,almykaz1,,ptr_missing
