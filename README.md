@@ -1,8 +1,6 @@
 # sat-geoip
 
-<p align="center">
-  <img src="./site/banner.svg" alt="sat-geoip banner" width="100%">
-</p>
+
 
 <p align="center">
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-blue"></a>
