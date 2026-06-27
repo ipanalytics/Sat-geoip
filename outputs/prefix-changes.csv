@@ -1,28 +1,5 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-148.222.192.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
-153.67.105.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
-153.67.226.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,bgp_only,planned_not_announced,14593,,,,,US,,US-OH,,Columbus
-153.67.227.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,bgp_only,planned_not_announced,14593,,,,,US,,US-OH,,Columbus
-153.67.228.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,,DE,US,DE-BE,US-OH,Berlin,Columbus
-153.67.229.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,,DE,US,DE-BE,US-OH,Berlin,Columbus
-153.67.230.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,,DE,US,DE-BE,US-OH,Berlin,Columbus
-153.67.231.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,,DE,US,DE-BE,US-OH,Berlin,Columbus
-216.234.208.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
-216.234.209.0/24,changed,2026-06-26T07:03:08Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
-153.67.224.0/23,new,2026-06-26T07:03:08Z,starlink,,bgp_only,,14593,,,,,,,,,
-153.67.226.0/25,new,2026-06-26T07:03:08Z,starlink,,planned_not_announced,,,,,,CH,,CH-ZH,,Zurich,
-153.67.226.128/25,new,2026-06-26T07:03:08Z,starlink,,planned_not_announced,,,,,,CH,,CH-ZH,,Zurich,
-153.67.227.0/25,new,2026-06-26T07:03:08Z,starlink,,planned_not_announced,,,,,,AT,,AT-9,,Vienna,
-153.67.227.128/25,new,2026-06-26T07:03:08Z,starlink,,planned_not_announced,,,,,,AT,,AT-9,,Vienna,
-153.67.228.0/23,new,2026-06-26T07:03:08Z,starlink,,bgp_only,,14593,,,,,,,,,
-153.67.230.0/23,new,2026-06-26T07:03:08Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c0:1900::/41,new,2026-06-26T07:03:08Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c0:1980::/41,new,2026-06-26T07:03:08Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59ca:8070::/48,new,2026-06-26T07:03:08Z,starlink,,announced,,14593,,,,CH,,CH-ZH,,Zurich,
-2605:59ca:8071::/48,new,2026-06-26T07:03:08Z,starlink,,announced,,14593,,,,AT,,AT-9,,Vienna,
-2605:59ca:8074::/46,new,2026-06-26T07:03:08Z,starlink,,announced,,14593,,,,DE,,DE-BE,,Berlin,
-81.199.236.0/23,new,2026-06-26T07:03:08Z,gilat_telecom,,bgp_only,,12491,,,,,,,,,
-81.199.238.0/23,new,2026-06-26T07:03:08Z,gilat_telecom,,bgp_only,,12491,,,,,,,,,
-81.199.248.0/23,new,2026-06-26T07:03:08Z,gilat_telecom,,bgp_only,,12491,,,,,,,,,
-2605:59c7:f016::/48,withdrawn,2026-06-26T07:03:08Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-62.56.166.0/24,withdrawn,2026-06-26T07:03:08Z,gilat_telecom,gilat_telecom,withdrawn_recently,bgp_only,12491,12491,,,,,,,,
+141.109.91.0/24,changed,2026-06-27T06:36:32Z,starlink,starlink,planned_not_announced,announced,,14593,,,US,US,US-WA,US-WA,Redmond,Redmond
+153.67.115.0/24,changed,2026-06-27T06:36:32Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
+2a0d:3341:fe00::/41,new,2026-06-27T06:36:32Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a0d:3341:fe80::/41,new,2026-06-27T06:36:32Z,starlink,,bgp_only,,14593,,,,,,,,,

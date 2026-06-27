@@ -646,7 +646,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 141.109.87.0/24,US,US-FL,Miami,false,,true,14593,announced
 141.109.88.0/24,,,,false,,false,14593,bgp_only
 141.109.89.0/24,,,,false,,false,14593,bgp_only
-141.109.91.0/24,US,US-WA,Redmond,false,,true,14593,announced
+141.109.91.0/24,US,US-WA,Redmond,false,,false,,planned_not_announced
 141.109.92.0/24,,,,false,,false,14593,bgp_only
 143.105.0.0/23,,,,false,,false,14593,bgp_only
 143.105.0.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
@@ -2188,7 +2188,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.114.0/23,,,,false,,false,14593,bgp_only
 153.67.114.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.116.0/23,,,,false,,false,14593,bgp_only
 153.67.116.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
 153.67.117.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
@@ -4811,9 +4811,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:fc00::/40,CV,CV-PR,Praia,true,mdrdesp1,true,14593,announced
 2a0d:3341:fd00::/40,GW,GW-BS,Bissau,true,mdrdesp1,true,14593,announced
 2a0d:3341:fe00::/40,TD,TD-ND,N'Djamena,true,lgosnga1,true,14593,announced
+2a0d:3341:fe00::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:fe40::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe50::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe60::/44,,,,false,,false,14593,bgp_only
+2a0d:3341:fe80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:fe80::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fea0::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fed0::/44,,,,false,,false,14593,bgp_only
