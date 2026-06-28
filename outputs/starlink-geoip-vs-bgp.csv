@@ -3424,7 +3424,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 202.65.229.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 202.65.230.0/23,,,,false,,false,45700,bgp_only
 202.65.230.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
+202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 202.65.232.0/22,,,,false,,false,45700,bgp_only
 202.65.232.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 202.65.233.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -4065,6 +4065,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5045::/48,,,,false,,false,45700,bgp_only
 2605:59c0:5046::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5049::/48,,,,false,,false,14593,bgp_only
+2605:59c0:504b::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5100::/40,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
 2605:59c0:5200::/40,GQ,GQ-C,Bata,true,lgosnga1,true,14593,announced
 2605:59c0:53fe::/48,,,,false,,false,14593,bgp_only
@@ -5432,6 +5433,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.36.0/24,,,,false,,false,14593,bgp_only
 74.245.39.0/24,,,,false,,false,14593,bgp_only
 74.245.4.0/24,,,,false,,false,14593,bgp_only
+74.245.40.0/24,,,,false,,false,14593,bgp_only
+74.245.41.0/24,,,,false,,false,14593,bgp_only
 74.245.42.0/24,,,,false,,false,14593,bgp_only
 74.245.5.0/24,,,,false,,false,14593,bgp_only
 74.245.6.0/24,,,,false,,false,14593,bgp_only
