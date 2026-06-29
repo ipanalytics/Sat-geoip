@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14123 |
-| Announced prefixes | 10517 |
-| GeoFeed-only prefixes | 3606 |
-| BGP-only prefixes | 9554 |
+| Prefixes | 14121 |
+| Announced prefixes | 10514 |
+| GeoFeed-only prefixes | 3607 |
+| BGP-only prefixes | 9552 |
 | Prefixes with PoP assignment | 3534 |
-| Active user claims | 10517 |
+| Active user claims | 10514 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,7 +24,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 81 |
-| `eutelsat_skylogic` | 280 |
+| `eutelsat_skylogic` | 278 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 235 |
 | `gogo_business_aviation` | 1 |
@@ -76,7 +76,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `deep_space` | 15 |
 | `geo` | 2734 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 4929 |
+| `geo_or_hybrid_satellite` | 4927 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
 | `leo` | 5903 |
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10517 |
-| `bgp_not_announced` | 3606 |
+| `bgp_announced` | 10514 |
+| `bgp_not_announced` | 3607 |
 | `geoip_invalid_country_city_pair` | 13 |
 | `geoip_valid` | 4569 |
-| `origin_asn_expected` | 10517 |
+| `origin_asn_expected` | 10514 |
 | `pop_missing` | 1035 |
 | `pop_present` | 3534 |
-| `prefix_only_in_bgp` | 9554 |
-| `prefix_only_in_geofeed` | 3606 |
+| `prefix_only_in_bgp` | 9552 |
+| `prefix_only_in_geofeed` | 3607 |
 | `ptr_missing` | 3534 |
 
 

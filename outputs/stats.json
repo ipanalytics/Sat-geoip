@@ -1,8 +1,8 @@
 {
-  "total_prefixes": 14123,
-  "announced_prefixes": 10517,
-  "geofeed_only_prefixes": 3606,
-  "bgp_only_prefixes": 9554,
+  "total_prefixes": 14121,
+  "announced_prefixes": 10514,
+  "geofeed_only_prefixes": 3607,
+  "bgp_only_prefixes": 9552,
   "prefixes_with_pop": 3534,
   "operators": {
     "anuvu": 61,
@@ -13,7 +13,7 @@
     "castor_marine": 4,
     "china_satcom": 84,
     "esa": 81,
-    "eutelsat_skylogic": 280,
+    "eutelsat_skylogic": 278,
     "gazprom_space_systems": 45,
     "gilat_telecom": 235,
     "gogo_business_aviation": 1,
@@ -61,7 +61,7 @@
     "deep_space": 15,
     "geo": 2734,
     "geo_mss": 29,
-    "geo_or_hybrid_satellite": 4929,
+    "geo_or_hybrid_satellite": 4927,
     "geo_or_multi_orbit": 94,
     "hybrid_satellite_offshore": 6,
     "leo": 5903,
@@ -69,17 +69,17 @@
     "mixed_satellite": 391
   },
   "quality_flags": {
-    "bgp_announced": 10517,
-    "bgp_not_announced": 3606,
+    "bgp_announced": 10514,
+    "bgp_not_announced": 3607,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4569,
-    "origin_asn_expected": 10517,
+    "origin_asn_expected": 10514,
     "pop_missing": 1035,
     "pop_present": 3534,
-    "prefix_only_in_bgp": 9554,
-    "prefix_only_in_geofeed": 3606,
+    "prefix_only_in_bgp": 9552,
+    "prefix_only_in_geofeed": 3607,
     "ptr_missing": 3534
   },
   "ground_station_claims": 0,
-  "active_user_claims": 10517
+  "active_user_claims": 10514
 }
