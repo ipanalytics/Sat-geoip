@@ -171,7 +171,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.178.0/24,EC,EC-P,Quito,true,limaper1,false,,planned_not_announced
 129.222.179.0/24,EC,EC-P,Quito,true,limaper1,true,14593,announced
 129.222.18.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
-129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
+129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,true,14593,announced
 129.222.181.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
 129.222.182.0/24,,,,false,,false,14593,bgp_only
 129.222.182.0/25,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
@@ -3201,7 +3201,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.206.0/23,,,,false,,false,45700,bgp_only
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 179.65.208.0/23,,,,false,,false,45700,bgp_only
 179.65.208.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.209.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
@@ -3424,7 +3424,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 202.65.229.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 202.65.230.0/23,,,,false,,false,45700,bgp_only
 202.65.230.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 202.65.232.0/22,,,,false,,false,45700,bgp_only
 202.65.232.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 202.65.233.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -4215,6 +4215,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9050::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9051::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9052::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9064::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9065::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9068::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9078::/48,,,,false,,false,14593,bgp_only
@@ -4607,6 +4608,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3000::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:3100::/40,BR,BR-SP,Sao Paulo,true,sntochl1,true,14593,announced
 2803:9810:3200::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
+2803:9810:3200::/41,,,,false,,false,14593,bgp_only
+2803:9810:3280::/41,,,,false,,false,14593,bgp_only
 2803:9810:3300::/40,BO,BO-S,Santa Cruz de la Sierra,true,splobra1,true,14593,announced
 2803:9810:3400::/40,EC,EC-P,Quito,true,limaper1,true,14593,announced
 2803:9810:3400::/41,,,,false,,false,14593,bgp_only
@@ -4626,6 +4629,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3b00::/40,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:3c00::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:3d00::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
+2803:9810:3d00::/41,,,,false,,false,14593,bgp_only
 2803:9810:3e00::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:3f00::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2803:9810:3f00::/41,,,,false,,false,14593,bgp_only
@@ -4706,9 +4710,13 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:7280::/41,,,,false,,false,14593,bgp_only
 2803:9810:800::/38,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 2803:9810:8400::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
+2803:9810:8400::/41,,,,false,,false,14593,bgp_only
+2803:9810:8480::/41,,,,false,,false,14593,bgp_only
 2803:9810:8500::/40,CL,CL-RM,Santiago,true,splobra1,true,14593,announced
 2803:9810:8600::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8700::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
+2803:9810:8700::/41,,,,false,,false,14593,bgp_only
+2803:9810:8780::/41,,,,false,,false,14593,bgp_only
 2803:9810::/38,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 2803:9810:a000::/40,HT,HT-OU,Port-au-Prince,true,mmmiflx1,true,14593,announced
 2803:9810:a100::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced

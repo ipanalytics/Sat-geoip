@@ -1,4 +1,13 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.69.0/24,changed,2026-06-29T08:25:15Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-196.200.240.0/21,withdrawn,2026-06-29T08:25:15Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-196.200.248.0/22,withdrawn,2026-06-29T08:25:15Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
+129.222.180.0/24,changed,2026-06-30T07:03:18Z,starlink,starlink,announced,planned_not_announced,14593,,limaper1,limaper1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+179.65.207.0/24,changed,2026-06-30T07:03:18Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
+202.65.231.0/24,changed,2026-06-30T07:03:18Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
+2605:59c7:9064::/48,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3200::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3280::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3d00::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8400::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8480::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8700::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8780::/41,new,2026-06-30T07:03:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+95.210.182.0/24,new,2026-06-30T07:03:18Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
