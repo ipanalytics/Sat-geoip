@@ -201,7 +201,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.197.0/24,CA,CA-ON,Toronto,true,mntlcan1,false,,planned_not_announced
 129.222.198.0/23,,,,false,,false,14593,bgp_only
 129.222.198.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
-129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
+129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,true,14593,announced
 129.222.2.0/23,,,,false,,false,14593,bgp_only
 129.222.2.0/24,US,US-NV,Las Vegas,true,lsancax1,false,,planned_not_announced
 129.222.20.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
@@ -1335,7 +1335,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.75.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 148.227.76.0/23,,,,false,,false,14593,bgp_only
 148.227.76.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
-148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
+148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
@@ -2185,10 +2185,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.111.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
 153.67.112.0/23,,,,false,,false,14593,bgp_only
 153.67.112.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
+153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 153.67.114.0/23,,,,false,,false,14593,bgp_only
 153.67.114.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
+153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 153.67.116.0/23,,,,false,,false,14593,bgp_only
 153.67.116.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
 153.67.117.0/24,MX,MX-CMX,Mexico City,true,lsancax1,false,,planned_not_announced
@@ -2872,7 +2872,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.60.170.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.171.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.172.0/23,,,,false,,false,14593,bgp_only
-179.60.172.0/24,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
+179.60.172.0/24,BR,BR-SP,Sao Paulo,true,limaper1,false,,planned_not_announced
 179.60.173.0/24,BR,BR-SP,Sao Paulo,true,limaper1,false,,planned_not_announced
 179.60.174.0/23,,,,false,,false,14593,bgp_only
 179.60.174.0/24,BO,BO-S,Santa Cruz de la Sierra,true,sntochl1,false,,planned_not_announced
@@ -4598,11 +4598,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
-2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
-2803:9810:1e00::/41,,,,false,,false,14593,bgp_only
-2803:9810:1e80::/41,,,,false,,false,14593,bgp_only
-2803:9810:1f00::/41,,,,false,,false,14593,bgp_only
-2803:9810:1f80::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
 2803:9810:3000::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
@@ -5735,7 +5730,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.18.0/24,US,US-WA,Seattle,true,sttlwax1,false,,planned_not_announced
 98.97.180.0/23,,,,false,,false,14593,bgp_only
 98.97.180.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
-98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
+98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,true,14593,announced
 98.97.182.0/24,,,,false,,false,14593,bgp_only
 98.97.182.0/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
 98.97.182.128/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
