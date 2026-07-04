@@ -2541,7 +2541,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.91.0/24,YT,,Mayotte,true,nrbiken1,true,14593,announced
 153.67.92.0/23,,,,false,,false,14593,bgp_only
 153.67.92.0/24,YT,,Mayotte,true,nrbiken1,false,,planned_not_announced
-153.67.93.0/24,YT,,Mayotte,true,nrbiken1,false,,planned_not_announced
+153.67.93.0/24,YT,,Mayotte,true,nrbiken1,true,14593,announced
 153.67.94.0/23,,,,false,,false,14593,bgp_only
 153.67.94.0/24,RE,,Reunion,true,jhngzaf1,false,,planned_not_announced
 153.67.95.0/24,RE,,Reunion,true,jhngzaf1,false,,planned_not_announced
@@ -3198,7 +3198,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.203.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.204.0/23,,,,false,,false,45700,bgp_only
 179.65.204.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 179.65.206.0/23,,,,false,,false,45700,bgp_only
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
