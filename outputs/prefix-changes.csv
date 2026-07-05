@@ -1,7 +1,4 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-153.67.93.0/24,changed,2026-07-04T06:28:45Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YT,YT,,,Mayotte,Mayotte
-179.65.205.0/24,changed,2026-07-04T06:28:45Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
-157.211.52.0/22,new,2026-07-04T06:28:45Z,nbn_sky_muster,,bgp_only,,4764,,,,,,,,,
-159.100.60.0/22,new,2026-07-04T06:28:45Z,turksat,,bgp_only,,47524,,,,,,,,,
-216.130.44.0/23,new,2026-07-04T06:28:45Z,anuvu,,bgp_only,,32806,,,,,,,,,
-24.133.176.0/22,withdrawn,2026-07-04T06:28:45Z,turksat,turksat,withdrawn_recently,bgp_only,47524,47524,,,,,,,,
+2605:59c0:3e80::/41,new,2026-07-05T06:50:33Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:1c00::/41,new,2026-07-05T06:50:33Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:5680::/41,new,2026-07-05T06:50:33Z,starlink,,bgp_only,,14593,,,,,,,,,
