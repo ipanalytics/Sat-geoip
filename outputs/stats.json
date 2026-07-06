@@ -1,8 +1,8 @@
 {
-  "total_prefixes": 14239,
-  "announced_prefixes": 10644,
+  "total_prefixes": 14235,
+  "announced_prefixes": 10640,
   "geofeed_only_prefixes": 3595,
-  "bgp_only_prefixes": 9670,
+  "bgp_only_prefixes": 9666,
   "prefixes_with_pop": 3534,
   "operators": {
     "anuvu": 63,
@@ -13,7 +13,7 @@
     "castor_marine": 4,
     "china_satcom": 84,
     "esa": 81,
-    "eutelsat_skylogic": 281,
+    "eutelsat_skylogic": 275,
     "gazprom_space_systems": 45,
     "gilat_telecom": 235,
     "gogo_business_aviation": 1,
@@ -31,7 +31,7 @@
     "marlink": 29,
     "nasa_jpl": 15,
     "navarino": 11,
-    "nbn_sky_muster": 458,
+    "nbn_sky_muster": 459,
     "nsslglobal": 1,
     "omniaccess": 13,
     "oneweb": 19,
@@ -45,7 +45,7 @@
     "sky_perfect_jsat": 6,
     "spacex_infrastructure": 2,
     "speedcast": 108,
-    "starlink": 5884,
+    "starlink": 5885,
     "swarm": 1,
     "tampnet": 6,
     "telesat": 44,
@@ -59,27 +59,27 @@
   },
   "orbit_classes": {
     "deep_space": 15,
-    "geo": 2735,
+    "geo": 2736,
     "geo_mss": 29,
-    "geo_or_hybrid_satellite": 5022,
+    "geo_or_hybrid_satellite": 5016,
     "geo_or_multi_orbit": 95,
     "hybrid_satellite_offshore": 6,
-    "leo": 5922,
+    "leo": 5923,
     "meo": 22,
     "mixed_satellite": 393
   },
   "quality_flags": {
-    "bgp_announced": 10644,
+    "bgp_announced": 10640,
     "bgp_not_announced": 3595,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4569,
-    "origin_asn_expected": 10644,
+    "origin_asn_expected": 10640,
     "pop_missing": 1035,
     "pop_present": 3534,
-    "prefix_only_in_bgp": 9670,
+    "prefix_only_in_bgp": 9666,
     "prefix_only_in_geofeed": 3595,
     "ptr_missing": 3534
   },
   "ground_station_claims": 0,
-  "active_user_claims": 10644
+  "active_user_claims": 10640
 }
