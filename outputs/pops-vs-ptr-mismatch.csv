@@ -2487,7 +2487,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:9500::/40,tmpeazx1,,ptr_missing
 2605:59c0:9600::/40,knsymox1,,ptr_missing
 2605:59c0:9700::/40,knsymox1,,ptr_missing
-2605:59c0:9800::/40,knsymox1,,ptr_missing
+2605:59c0:9800::/40,almykaz1,,ptr_missing
 2605:59c0:9900::/40,chcoilx1,,ptr_missing
 2605:59c0:9a00::/40,chcoilx1,,ptr_missing
 2605:59c0:9b00::/40,chcoilx1,,ptr_missing
@@ -3404,6 +3404,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 98.97.15.0/24,chcoilx1,,ptr_missing
 98.97.150.0/24,jhngzaf1,,ptr_missing
 98.97.151.0/24,jhngzaf1,,ptr_missing
+98.97.152.0/24,almykaz1,,ptr_missing
+98.97.153.0/24,almykaz1,,ptr_missing
 98.97.156.0/24,bgtacol1,,ptr_missing
 98.97.157.0/24,bgtacol1,,ptr_missing
 98.97.158.0/24,nrbiken1,,ptr_missing
@@ -3442,8 +3444,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 98.97.19.0/24,sttlwax1,,ptr_missing
 98.97.190.0/25,dllstxx1,,ptr_missing
 98.97.190.128/25,dllstxx1,,ptr_missing
-98.97.191.0/25,almykaz1,,ptr_missing
-98.97.191.128/25,almykaz1,,ptr_missing
 98.97.2.0/24,dnvrcox1,,ptr_missing
 98.97.20.0/24,dllstxx1,,ptr_missing
 98.97.21.0/24,dllstxx1,,ptr_missing

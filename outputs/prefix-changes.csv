@@ -1,9 +1,16 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-157.211.124.0/22,new,2026-07-06T07:55:00Z,nbn_sky_muster,,bgp_only,,4764,,,,,,,,,
-2605:59c0:3e00::/41,new,2026-07-06T07:55:00Z,starlink,,bgp_only,,14593,,,,,,,,,
-80.250.34.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-80.250.35.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-80.250.36.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-80.250.41.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-80.250.42.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-80.250.43.0/24,withdrawn,2026-07-06T07:55:00Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
+209.198.149.0/24,changed,2026-07-07T06:55:49Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,RO,RO,RO-B,RO-B,Bucharest,Bucharest
+2605:59c0:9800::/40,changed,2026-07-07T06:55:49Z,starlink,starlink,announced,announced,14593,14593,almykaz1,knsymox1,US,US,US-TX,US-TX,Amarillo,Amarillo
+98.97.152.0/24,changed,2026-07-07T06:55:49Z,starlink,starlink,planned_not_announced,planned_not_announced,,,almykaz1,,US,US,US-TX,US-TX,Dallas,Dallas
+98.97.153.0/24,changed,2026-07-07T06:55:49Z,starlink,starlink,planned_not_announced,planned_not_announced,,,almykaz1,,US,US,US-TX,US-TX,Dallas,Dallas
+178.219.74.0/24,new,2026-07-07T06:55:49Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+2605:59c0:504c::/48,new,2026-07-07T06:55:49Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:2040::/48,new,2026-07-07T06:55:49Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:907c::/48,new,2026-07-07T06:55:49Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:1d00::/41,new,2026-07-07T06:55:49Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a0d:3344:6600::/41,new,2026-07-07T06:55:49Z,starlink,,bgp_only,,14593,,,,,,,,,
+193.124.158.0/23,withdrawn,2026-07-07T06:55:49Z,esa,esa,withdrawn_recently,bgp_only,29076,29076,,,,,,,,
+195.133.200.0/24,withdrawn,2026-07-07T06:55:49Z,esa,esa,withdrawn_recently,bgp_only,29076,29076,,,,,,,,
+197.148.88.0/22,withdrawn,2026-07-07T06:55:49Z,yahsat,yahsat,withdrawn_recently,bgp_only,198381,198381,,,,,,,,
+98.97.191.0/25,withdrawn,2026-07-07T06:55:49Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,almykaz1,almykaz1,US,US,US-CA,US-CA,Los Angeles,Los Angeles
+98.97.191.128/25,withdrawn,2026-07-07T06:55:49Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,almykaz1,almykaz1,US,US,US-CA,US-CA,Los Angeles,Los Angeles
