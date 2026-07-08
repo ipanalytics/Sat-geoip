@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14236 |
-| Announced prefixes | 10644 |
-| GeoFeed-only prefixes | 3592 |
-| BGP-only prefixes | 9669 |
-| Prefixes with PoP assignment | 3534 |
-| Active user claims | 10644 |
+| Prefixes | 14231 |
+| Announced prefixes | 10640 |
+| GeoFeed-only prefixes | 3591 |
+| BGP-only prefixes | 9666 |
+| Prefixes with PoP assignment | 3531 |
+| Active user claims | 10640 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -38,7 +38,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `kacific` | 26 |
 | `kt_sat` | 4 |
 | `kuiper` | 2 |
-| `kvh` | 62 |
+| `kvh` | 61 |
 | `marlink` | 29 |
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 108 |
-| `starlink` | 5888 |
+| `starlink` | 5887 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -65,7 +65,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `thuraya` | 10 |
 | `turksat` | 950 |
 | `usap` | 19 |
-| `viasat` | 4639 |
+| `viasat` | 4636 |
 | `yahsat` | 99 |
 
 
@@ -76,27 +76,27 @@ Generated artifacts for the current sat-geoip dataset build.
 | `deep_space` | 15 |
 | `geo` | 2735 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5017 |
+| `geo_or_hybrid_satellite` | 5014 |
 | `geo_or_multi_orbit` | 95 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 5926 |
+| `leo` | 5925 |
 | `meo` | 22 |
-| `mixed_satellite` | 391 |
+| `mixed_satellite` | 390 |
 
 
 ## Quality Flags
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10644 |
-| `bgp_not_announced` | 3592 |
+| `bgp_announced` | 10640 |
+| `bgp_not_announced` | 3591 |
 | `geoip_invalid_country_city_pair` | 13 |
-| `geoip_valid` | 4567 |
-| `origin_asn_expected` | 10644 |
-| `pop_missing` | 1033 |
-| `pop_present` | 3534 |
-| `prefix_only_in_bgp` | 9669 |
-| `prefix_only_in_geofeed` | 3592 |
-| `ptr_missing` | 3534 |
+| `geoip_valid` | 4565 |
+| `origin_asn_expected` | 10640 |
+| `pop_missing` | 1034 |
+| `pop_present` | 3531 |
+| `prefix_only_in_bgp` | 9666 |
+| `prefix_only_in_geofeed` | 3591 |
+| `ptr_missing` | 3531 |
 
 
