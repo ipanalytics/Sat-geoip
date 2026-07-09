@@ -1,16 +1,14 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-143.105.174.0/24,changed,2026-07-08T06:06:51Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-150.228.206.0/24,changed,2026-07-08T06:06:51Z,starlink,starlink,planned_not_announced,planned_not_announced,,,almykaz1,sfiabgr1,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
-150.228.207.0/24,changed,2026-07-08T06:06:51Z,starlink,starlink,announced,announced,14593,14593,almykaz1,sfiabgr1,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
-2406:2d40:3f00::/40,changed,2026-07-08T06:06:51Z,starlink,starlink,announced,announced,14593,14593,,almykaz1,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
-2605:59c0:504d::/48,new,2026-07-08T06:06:51Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.201.0/24,new,2026-07-08T06:06:51Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.43.0/24,new,2026-07-08T06:06:51Z,starlink,,bgp_only,,14593,,,,,,,,,
-2400:1000:1000::/48,withdrawn,2026-07-08T06:06:51Z,kvh,kvh,withdrawn_recently,bgp_only,10021,10021,,,,,,,,
-2605:59c8:6800::/41,withdrawn,2026-07-08T06:06:51Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2605:59c8:6880::/41,withdrawn,2026-07-08T06:06:51Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-80.250.44.0/24,withdrawn,2026-07-08T06:06:51Z,viasat,viasat,withdrawn_recently,bgp_only,7155,7155,,,,,,,,
-80.250.45.0/24,withdrawn,2026-07-08T06:06:51Z,viasat,viasat,withdrawn_recently,bgp_only,7155,7155,,,,,,,,
-80.250.46.0/24,withdrawn,2026-07-08T06:06:51Z,viasat,viasat,withdrawn_recently,bgp_only,7155,7155,,,,,,,,
-98.97.54.0/24,withdrawn,2026-07-08T06:06:51Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
-98.97.55.0/24,withdrawn,2026-07-08T06:06:51Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+129.222.192.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,trnocan1,ashnvax2,CA,CA,CA-ON,CA-ON,Toronto,Toronto
+129.222.193.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,trnocan1,ashnvax2,CA,CA,CA-ON,CA-ON,Toronto,Toronto
+150.228.168.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mnlaphl1,drwnaus1,TL,TL,TL-DI,TL-DI,Dili,Dili
+150.228.169.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mnlaphl1,drwnaus1,TL,TL,TL-DI,TL-DI,Dili,Dili
+179.64.47.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+2406:2d40:3f00::/40,changed,2026-07-09T06:54:58Z,starlink,starlink,announced,announced,14593,14593,almykaz1,,TJ,TJ,TJ-DU,TJ-DU,Dushanbe,Dushanbe
+2406:2d40:9d00::/40,changed,2026-07-09T06:54:58Z,starlink,starlink,announced,announced,14593,14593,mnlaphl1,drwnaus1,TL,TL,TL-DI,TL-DI,Dili,Dili
+74.244.124.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,trnocan1,ashnvax2,CA,CA,CA-ON,CA-ON,Toronto,Toronto
+74.244.125.0/24,changed,2026-07-09T06:54:58Z,starlink,starlink,planned_not_announced,planned_not_announced,,,trnocan1,ashnvax2,CA,CA,CA-ON,CA-ON,Toronto,Toronto
+2605:59c7:e109::/48,new,2026-07-09T06:54:58Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59ca:8062::/47,new,2026-07-09T06:54:58Z,starlink,,announced,,14593,,,,US,,US-TX,,Dallas,
+2803:9810:5200::/41,new,2026-07-09T06:54:58Z,starlink,,bgp_only,,14593,,,,,,,,,
+2a02:ba0:10aa::/48,withdrawn,2026-07-09T06:54:58Z,gilat_telecom,gilat_telecom,withdrawn_recently,bgp_only,12491,12491,,,,,,,,
