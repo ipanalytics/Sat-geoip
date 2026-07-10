@@ -899,8 +899,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 150.228.165.0/24,mmbiind1,,ptr_missing
 150.228.166.0/24,mmbiind1,,ptr_missing
 150.228.167.0/24,mmbiind1,,ptr_missing
-150.228.168.0/24,mnlaphl1,,ptr_missing
-150.228.169.0/24,mnlaphl1,,ptr_missing
+150.228.168.0/24,drwnaus1,,ptr_missing
+150.228.169.0/24,drwnaus1,,ptr_missing
 150.228.17.0/24,sfiabgr1,,ptr_missing
 150.228.170.0/24,sngesgp1,,ptr_missing
 150.228.171.0/24,sngesgp1,,ptr_missing
@@ -2330,7 +2330,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2406:2d40:9800::/40,sngesgp1,,ptr_missing
 2406:2d40:9b00::/40,mlbeaus1,,ptr_missing
 2406:2d40:9c00::/40,mnlaphl1,,ptr_missing
-2406:2d40:9d00::/40,mnlaphl1,,ptr_missing
+2406:2d40:9d00::/40,drwnaus1,,ptr_missing
 2406:2d40:9e00::/40,tkyojpn1,,ptr_missing
 2406:2d40:9f00::/40,sydyaus1,,ptr_missing
 2406:2d40::/38,mnlaphl1,,ptr_missing
