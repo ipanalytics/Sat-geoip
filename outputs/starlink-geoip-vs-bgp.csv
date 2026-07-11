@@ -742,7 +742,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.153.0/24,CM,CM-CE,Yaoundé,true,lgosnga1,false,,planned_not_announced
 143.105.154.0/23,,,,false,,false,14593,bgp_only
 143.105.154.0/24,SZ,SZ-HH,Mbabane,true,jhngzaf1,false,,planned_not_announced
-143.105.155.0/24,SZ,SZ-HH,Mbabane,true,jhngzaf1,false,,planned_not_announced
+143.105.155.0/24,SZ,SZ-HH,Mbabane,true,jhngzaf1,true,14593,announced
 143.105.156.0/23,,,,false,,false,14593,bgp_only
 143.105.156.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
 143.105.157.0/24,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
@@ -908,7 +908,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.251.0/24,BL,,Gustavia,true,mmmiflx1,false,,planned_not_announced
 143.105.252.0/23,,,,false,,false,14593,bgp_only
 143.105.252.0/24,BW,BW-GA,Gaborone,true,jhngzaf1,false,,planned_not_announced
-143.105.253.0/24,BW,BW-GA,Gaborone,true,jhngzaf1,false,,planned_not_announced
+143.105.253.0/24,BW,BW-GA,Gaborone,true,jhngzaf1,true,14593,announced
 143.105.254.0/23,,,,false,,false,14593,bgp_only
 143.105.254.0/24,BQ,BQ-BO,Kralendijk,true,bgtacol1,false,,planned_not_announced
 143.105.255.0/24,BQ,BQ-BO,Kralendijk,true,bgtacol1,false,,planned_not_announced
@@ -2940,6 +2940,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.160.0/24,,,,false,,false,14593,bgp_only
 179.64.161.0/24,,,,false,,false,14593,bgp_only
 179.64.17.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
+179.64.172.0/24,,,,false,,false,14593,bgp_only
 179.64.178.0/24,,,,false,,false,14593,bgp_only
 179.64.18.0/23,,,,false,,false,14593,bgp_only
 179.64.18.0/24,US,US-IN,Indianapolis,true,chcoilx1,false,,planned_not_announced
@@ -4092,6 +4093,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:6400::/40,ZA,ZA-GP,Johannesburg,true,jhngzaf1,true,14593,announced
 2605:59c0:6500::/40,HM,,Mawson Peak,true,sydyaus1,true,14593,announced
 2605:59c0:6600::/40,BW,BW-GA,Gaborone,true,jhngzaf1,true,14593,announced
+2605:59c0:6600::/41,,,,false,,false,14593,bgp_only
 2605:59c0:6680::/41,,,,false,,false,14593,bgp_only
 2605:59c0:6700::/40,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
 2605:59c0:6700::/41,,,,false,,false,14593,bgp_only
@@ -4147,6 +4149,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:9000::/40,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
 2605:59c0:900::/40,CD,CD-KN,Kinshasa,true,nrbiken1,true,14593,announced
 2605:59c0:900::/41,,,,false,,false,14593,bgp_only
+2605:59c0:9080::/41,,,,false,,false,14593,bgp_only
 2605:59c0:9100::/40,LY,LY-JI,Tripoli,true,mlnnita1,true,14593,announced
 2605:59c0:9200::/40,US,US-WA,Seattle,true,clgycan1,true,14593,announced
 2605:59c0:9300::/40,US,US-ND,Fargo,true,clgycan1,true,14593,announced
@@ -4193,6 +4196,14 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c1:2c00::/38,US,US-CA,San Jose,true,snjecax1,true,14593,announced
 2605:59c1:3000::/38,US,US-AZ,Phoenix,true,tmpeazx1,true,14593,announced
 2605:59c1:3400::/38,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
+2605:59c1:3400::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3480::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3500::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3580::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3600::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3680::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3700::/41,,,,false,,false,14593,bgp_only
+2605:59c1:3780::/41,,,,false,,false,14593,bgp_only
 2605:59c1:3800::/38,CA,CA-AB,Calgary,true,clgycan1,true,14593,announced
 2605:59c1:3c00::/38,CA,CA-QC,Montreal,true,mntlcan1,true,14593,announced
 2605:59c1:4000::/38,US,US-MO,Kansas City,true,knsymox1,true,14593,announced
@@ -4218,6 +4229,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9006::/48,,,,false,,false,14593,bgp_only
 2605:59c7:900a::/48,,,,false,,false,14593,bgp_only
+2605:59c7:900b::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9013::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/44,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/48,,,,false,,false,14593,bgp_only
@@ -4492,6 +4504,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59ca:8074::/46,DE,DE-BE,Berlin,false,,true,14593,announced
 2605:59ca:8100::/40,RE,,Saint-Denis,true,jhngzaf1,true,14593,announced
 2605:59ca:8200::/40,MG,MG-T,Antananarivo,true,jhngzaf1,true,14593,announced
+2605:59ca:8200::/41,,,,false,,false,14593,bgp_only
+2605:59ca:8280::/41,,,,false,,false,14593,bgp_only
 2605:59ca:8400::/40,YT,,Mayotte,true,jhngzaf1,true,14593,announced
 2605:59ca:8600::/40,MZ,MZ-MPM,Maputo,true,jhngzaf1,true,14593,announced
 2605:59ca:8600::/41,,,,false,,false,14593,bgp_only
@@ -4725,6 +4739,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:7200::/41,,,,false,,false,14593,bgp_only
 2803:9810:7280::/41,,,,false,,false,14593,bgp_only
 2803:9810:800::/38,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+2803:9810:800::/41,,,,false,,false,14593,bgp_only
 2803:9810:8400::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8400::/41,,,,false,,false,14593,bgp_only
 2803:9810:8480::/41,,,,false,,false,14593,bgp_only
@@ -4735,12 +4750,17 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:8700::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8700::/41,,,,false,,false,14593,bgp_only
 2803:9810:8780::/41,,,,false,,false,14593,bgp_only
+2803:9810:880::/41,,,,false,,false,14593,bgp_only
+2803:9810:900::/41,,,,false,,false,14593,bgp_only
+2803:9810:980::/41,,,,false,,false,14593,bgp_only
 2803:9810::/38,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 2803:9810:a000::/40,HT,HT-OU,Port-au-Prince,true,mmmiflx1,true,14593,announced
+2803:9810:a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:a100::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 2803:9810:a200::/40,MX,MX-CMX,Mexico City,true,mmmiflx1,true,14593,announced
 2803:9810:a500::/40,AG,AG-04,Saint John's,true,mmmiflx1,true,14593,announced
 2803:9810:b000::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
+2803:9810:b00::/41,,,,false,,false,14593,bgp_only
 2803:9810:b100::/40,UY,UY-MO,Montevideo,true,bnssarg1,true,14593,announced
 2803:9810:b200::/40,BR,BR-SP,Sao Paulo,true,bnssarg1,true,14593,announced
 2803:9810:b400::/40,BR,BR-SP,Sao Paulo,true,bnssarg1,true,14593,announced
@@ -5424,6 +5444,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.210.0/24,,,,false,,false,14593,bgp_only
 74.245.211.0/24,,,,false,,false,14593,bgp_only
 74.245.212.0/24,,,,false,,false,14593,bgp_only
+74.245.217.0/24,,,,false,,false,14593,bgp_only
 74.245.224.0/24,,,,false,,false,14593,bgp_only
 74.245.225.0/24,,,,false,,false,14593,bgp_only
 74.245.226.0/24,,,,false,,false,14593,bgp_only
