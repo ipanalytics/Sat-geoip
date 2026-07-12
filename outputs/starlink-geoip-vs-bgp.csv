@@ -2584,6 +2584,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 169.150.16.0/24,,,,false,,false,14593,bgp_only
 169.150.17.0/24,,,,false,,false,14593,bgp_only
 169.150.18.0/24,,,,false,,false,14593,bgp_only
+169.150.22.0/23,,,,false,,false,14593,bgp_only
 169.150.26.0/24,,,,false,,false,14593,bgp_only
 169.150.28.0/24,,,,false,,false,14593,bgp_only
 169.150.29.0/24,,,,false,,false,14593,bgp_only
@@ -4622,7 +4623,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
 2803:9810:1d00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1e00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1e80::/41,,,,false,,false,14593,bgp_only
 2803:9810:1f80::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
@@ -4937,6 +4941,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3344:7a00::/40,LV,LV-RIX,Riga,true,wrswpol1,true,14593,announced
 2a0d:3344:7b00::/40,EE,EE-37,Tallinn,true,wrswpol1,true,14593,announced
 2a0d:3344::/40,FR,FR-IDF,Paris,true,lndngbr1,true,14593,announced
+2a0d:3344:fc0::/42,,,,false,,false,14593,bgp_only
 64.226.208.0/24,,,,false,,false,14593,bgp_only
 65.181.0.0/22,,,,false,,false,14593,bgp_only
 65.181.0.0/24,AU,AU-QLD,Brisbane,true,brseaus1,false,,planned_not_announced
@@ -5000,7 +5005,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 66.9.171.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
 66.9.172.0/23,,,,false,,false,14593,bgp_only
 66.9.172.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
-66.9.173.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
+66.9.173.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
 66.9.174.0/23,,,,false,,false,14593,bgp_only
 66.9.174.0/24,BR,BR-SP,Sao Paulo,true,bgtacol1,true,14593,announced
 66.9.175.0/24,BR,BR-SP,Sao Paulo,true,bgtacol1,false,,planned_not_announced
