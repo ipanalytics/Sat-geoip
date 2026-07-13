@@ -4148,6 +4148,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:8e00::/40,BG,BG-22,Sofia,true,sfiabgr1,true,14593,announced
 2605:59c0:8f00::/40,SD,SD-KH,Khartoum,true,mdrdesp1,true,14593,announced
 2605:59c0:9000::/40,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
+2605:59c0:9000::/41,,,,false,,false,14593,bgp_only
 2605:59c0:900::/40,CD,CD-KN,Kinshasa,true,nrbiken1,true,14593,announced
 2605:59c0:900::/41,,,,false,,false,14593,bgp_only
 2605:59c0:9080::/41,,,,false,,false,14593,bgp_only
@@ -5189,7 +5190,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.193.0/24,DO,DO-01,Santo Domingo,true,mmmiflx1,false,,planned_not_announced
 74.244.194.0/23,,,,false,,false,14593,bgp_only
 74.244.194.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
-74.244.195.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
+74.244.195.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
 74.244.196.0/23,,,,false,,false,14593,bgp_only
 74.244.196.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
 74.244.197.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced

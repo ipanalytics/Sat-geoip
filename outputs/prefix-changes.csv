@@ -1,8 +1,3 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-66.9.173.0/24,changed,2026-07-12T06:13:01Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,ZW,ZW,ZW-HA,ZW-HA,Harare,Harare
-169.150.22.0/23,new,2026-07-12T06:13:01Z,starlink,,bgp_only,,14593,,,,,,,,,
-201.33.7.0/24,new,2026-07-12T06:13:01Z,hispasat,,bgp_only,,28273,,,,,,,,,
-2803:9810:1c80::/41,new,2026-07-12T06:13:01Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:1e00::/41,new,2026-07-12T06:13:01Z,starlink,,bgp_only,,14593,,,,,,,,,
-2803:9810:1e80::/41,new,2026-07-12T06:13:01Z,starlink,,bgp_only,,14593,,,,,,,,,
-2a0d:3344:fc0::/42,new,2026-07-12T06:13:01Z,starlink,,bgp_only,,14593,,,,,,,,,
+74.244.195.0/24,changed,2026-07-13T06:29:56Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,ZW,ZW,ZW-HA,ZW-HA,Harare,Harare
+2605:59c0:9000::/41,new,2026-07-13T06:29:56Z,starlink,,bgp_only,,14593,,,,,,,,,

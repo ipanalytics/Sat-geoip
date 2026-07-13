@@ -1,7 +1,2 @@
-{"prefix":"66.9.173.0/24","change_type":"changed","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"jhngzaf1","previous_pop_code":"jhngzaf1","geoip_country":"ZW","previous_geoip_country":"ZW","geoip_region":"ZW-HA","previous_geoip_region":"ZW-HA","geoip_city":"Harare","previous_geoip_city":"Harare"}
-{"prefix":"169.150.22.0/23","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"201.33.7.0/24","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"hispasat","bgp_state":"bgp_only","origin_asn":28273}
-{"prefix":"2803:9810:1c80::/41","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:1e00::/41","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2803:9810:1e80::/41","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2a0d:3344:fc0::/42","change_type":"new","changed_at":"2026-07-12T06:13:01Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"74.244.195.0/24","change_type":"changed","changed_at":"2026-07-13T06:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"jhngzaf1","previous_pop_code":"jhngzaf1","geoip_country":"ZW","previous_geoip_country":"ZW","geoip_region":"ZW-HA","previous_geoip_region":"ZW-HA","geoip_city":"Harare","previous_geoip_city":"Harare"}
+{"prefix":"2605:59c0:9000::/41","change_type":"new","changed_at":"2026-07-13T06:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
