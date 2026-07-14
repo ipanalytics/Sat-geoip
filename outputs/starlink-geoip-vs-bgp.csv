@@ -3458,6 +3458,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.214.228.0/24,,,,false,,false,14593,bgp_only
 206.214.229.0/24,,,,false,,false,14593,bgp_only
 206.214.231.0/24,,,,false,,false,14593,bgp_only
+206.214.232.0/24,,,,false,,false,14593,bgp_only
 206.214.239.0/24,,,,false,,false,14593,bgp_only
 206.224.64.0/20,,,,false,,false,14593,bgp_only
 206.224.64.0/21,,,,false,,false,14593,bgp_only
@@ -4626,6 +4627,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
 2803:9810:1d00::/41,,,,false,,false,14593,bgp_only
+2803:9810:1d80::/41,,,,false,,false,14593,bgp_only
 2803:9810:1e00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1e80::/41,,,,false,,false,14593,bgp_only
 2803:9810:1f80::/41,,,,false,,false,14593,bgp_only
