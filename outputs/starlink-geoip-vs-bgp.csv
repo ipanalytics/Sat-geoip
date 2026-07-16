@@ -3007,7 +3007,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.52.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.53.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.54.0/23,,,,false,,false,14593,bgp_only
-179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
+179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 179.64.55.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.56.0/23,,,,false,,false,14593,bgp_only
 179.64.56.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -3891,6 +3891,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:6a00::/40,AU,AU-VIC,Melbourne,true,mlbeaus1,true,14593,announced
 2406:2d40:6c00::/38,VN,VN-SG,Saigon,true,sgnnvnm1,true,14593,announced
 2406:2d40:7200::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+2406:2d40:7200::/41,,,,false,,false,14593,bgp_only
+2406:2d40:7280::/41,,,,false,,false,14593,bgp_only
 2406:2d40:7600::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:8000::/40,MY,MY-14,Kuala Lumpur,true,sngesgp1,true,14593,announced
 2406:2d40:800::/38,JP,JP-13,Tokyo,true,tkyojpn1,true,14593,announced
@@ -4622,8 +4624,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 27.131.250.0/24,,,,false,,false,45700,bgp_only
 27.131.251.0/24,,,,false,,false,45700,bgp_only
 2803:9810:1000::/38,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
-2803:9810:1100::/41,,,,false,,false,14593,bgp_only
-2803:9810:1380::/41,,,,false,,false,14593,bgp_only
+2803:9810:1180::/41,,,,false,,false,14593,bgp_only
+2803:9810:1300::/41,,,,false,,false,14593,bgp_only
 2803:9810:1400::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
@@ -4780,6 +4782,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:b600::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:b700::/40,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 2803:9810:b800::/40,EC,EC-P,Quito,true,bgtacol1,true,14593,announced
+2803:9810:b800::/41,,,,false,,false,14593,bgp_only
 2803:9810:b900::/40,PE,PE-LMA,Lima,true,bgtacol1,true,14593,announced
 2803:9810:ba00::/40,CR,CR-SJ,San Jose,true,bgtacol1,true,14593,announced
 2803:9810:bb00::/40,TT,TT-POS,Port of Spain,true,bgtacol1,true,14593,announced
