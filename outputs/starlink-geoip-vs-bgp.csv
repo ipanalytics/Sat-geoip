@@ -700,7 +700,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.127.0/24,VC,VC-04,Kingstown,true,mmmiflx1,false,,planned_not_announced
 143.105.128.0/23,,,,false,,false,14593,bgp_only
 143.105.128.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
-143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
+143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
 143.105.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 143.105.130.0/23,,,,false,,false,14593,bgp_only
 143.105.130.0/24,LC,LC-02,Castries,true,mmmiflx1,false,,planned_not_announced
@@ -774,7 +774,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.172.0/22,,,,false,,false,14593,bgp_only
 143.105.172.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 143.105.173.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
-143.105.174.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
+143.105.174.0/24,NG,NG-LA,Lagos,true,lgosnga1,true,14593,announced
 143.105.175.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 143.105.176.0/22,,,,false,,false,14593,bgp_only
 143.105.176.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
@@ -2832,7 +2832,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.6.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.238.60.0/23,,,,false,,false,14593,bgp_only
 179.238.60.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
-179.238.61.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
+179.238.61.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 179.238.62.0/23,,,,false,,false,14593,bgp_only
 179.238.62.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.63.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -4362,6 +4362,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:6300::/40,US,US-GA,Atlanta,true,atlagax1,true,14593,announced
 2605:59c8:6500::/40,VE,VE-A,Caracas,true,frtabra1,true,14593,announced
 2605:59c8:6800::/40,GF,,Cayenne,true,frtabra1,true,14593,announced
+2605:59c8:6800::/41,,,,false,,false,14593,bgp_only
 2605:59c8:6900::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2605:59c8:6900::/41,,,,false,,false,14593,bgp_only
 2605:59c8:6980::/41,,,,false,,false,14593,bgp_only
@@ -5752,7 +5753,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.127.0/24,US,US-CA,Los Angeles,true,lsancax1,false,,planned_not_announced
 98.97.128.0/23,,,,false,,false,14593,bgp_only
 98.97.128.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
-98.97.129.0/24,,,,false,,false,14593,bgp_only
 98.97.129.0/25,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 98.97.129.128/25,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 98.97.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
