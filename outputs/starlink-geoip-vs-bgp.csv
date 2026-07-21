@@ -3772,7 +3772,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 216.234.211.0/24,MZ,MZ-MPM,Maputo,true,jhngzaf1,true,14593,announced
 216.234.212.0/23,,,,false,,false,14593,bgp_only
 216.234.212.0/24,ZM,ZM-09,Lusaka,true,jhngzaf1,false,,planned_not_announced
-216.234.213.0/24,ZM,ZM-09,Lusaka,true,jhngzaf1,false,,planned_not_announced
+216.234.213.0/24,ZM,ZM-09,Lusaka,true,jhngzaf1,true,14593,announced
 216.234.214.0/23,,,,false,,false,14593,bgp_only
 216.234.214.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,false,,planned_not_announced
 216.234.215.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
@@ -3956,7 +3956,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1800::/40,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
 2605:59c0:1880::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
-2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/41,,,,false,,false,14593,bgp_only
@@ -5855,7 +5854,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.190.0/24,,,,false,,false,14593,bgp_only
 98.97.190.0/25,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
 98.97.190.128/25,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
-98.97.191.0/24,,,,false,,false,14593,bgp_only
 98.97.2.0/23,,,,false,,false,14593,bgp_only
 98.97.2.0/24,US,US-CO,Denver,true,dnvrcox1,false,,planned_not_announced
 98.97.20.0/23,,,,false,,false,14593,bgp_only

@@ -1,6 +1,6 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-143.105.129.0/24,changed,2026-07-20T06:25:41Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,GY,GY,GY-DE,GY-DE,Georgetown,Georgetown
-143.105.174.0/24,changed,2026-07-20T06:25:41Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-179.238.61.0/24,changed,2026-07-20T06:25:41Z,starlink,starlink,announced,planned_not_announced,14593,,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
-2605:59c8:6800::/41,new,2026-07-20T06:25:41Z,starlink,,bgp_only,,14593,,,,,,,,,
-98.97.129.0/24,withdrawn,2026-07-20T06:25:41Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+216.234.213.0/24,changed,2026-07-21T06:06:10Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,ZM,ZM,ZM-09,ZM-09,Lusaka,Lusaka
+83.170.162.0/24,new,2026-07-21T06:06:10Z,intelsat,,bgp_only,,22351,,,,,,,,,
+94.54.36.0/22,new,2026-07-21T06:06:10Z,turksat,,bgp_only,,47524,,,,,,,,,
+2605:59c0:1980::/41,withdrawn,2026-07-21T06:06:10Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+98.97.191.0/24,withdrawn,2026-07-21T06:06:10Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
