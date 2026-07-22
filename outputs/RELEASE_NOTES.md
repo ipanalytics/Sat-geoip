@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14307 |
-| Announced prefixes | 10733 |
-| GeoFeed-only prefixes | 3574 |
-| BGP-only prefixes | 9741 |
-| Prefixes with PoP assignment | 3532 |
-| Active user claims | 10733 |
+| Prefixes | 14502 |
+| Announced prefixes | 10774 |
+| GeoFeed-only prefixes | 3728 |
+| BGP-only prefixes | 9772 |
+| Prefixes with PoP assignment | 3632 |
+| Active user claims | 10774 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,7 +24,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 275 |
+| `eutelsat_skylogic` | 274 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 227 |
 | `gogo_business_aviation` | 1 |
@@ -39,7 +39,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `kt_sat` | 4 |
 | `kuiper` | 2 |
 | `kvh` | 61 |
-| `marlink` | 29 |
+| `marlink` | 30 |
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
 | `nbn_sky_muster` | 459 |
@@ -52,11 +52,11 @@ Generated artifacts for the current sat-geoip dataset build.
 | `royal_caribbean` | 1 |
 | `rscc` | 30 |
 | `satcom_direct` | 4 |
-| `ses_o3b` | 22 |
+| `ses_o3b` | 25 |
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 108 |
-| `starlink` | 5974 |
+| `starlink` | 6139 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 45 |
@@ -65,7 +65,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `thuraya` | 10 |
 | `turksat` | 951 |
 | `usap` | 19 |
-| `viasat` | 4635 |
+| `viasat` | 4662 |
 | `yahsat` | 99 |
 
 
@@ -76,27 +76,27 @@ Generated artifacts for the current sat-geoip dataset build.
 | `deep_space` | 15 |
 | `geo` | 2725 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5013 |
+| `geo_or_hybrid_satellite` | 5039 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6011 |
-| `meo` | 22 |
-| `mixed_satellite` | 390 |
+| `leo` | 6176 |
+| `meo` | 25 |
+| `mixed_satellite` | 391 |
 
 
 ## Quality Flags
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10733 |
-| `bgp_not_announced` | 3574 |
+| `bgp_announced` | 10774 |
+| `bgp_not_announced` | 3728 |
 | `geoip_invalid_country_city_pair` | 13 |
-| `geoip_valid` | 4566 |
-| `origin_asn_expected` | 10733 |
-| `pop_missing` | 1034 |
-| `pop_present` | 3532 |
-| `prefix_only_in_bgp` | 9741 |
-| `prefix_only_in_geofeed` | 3574 |
-| `ptr_missing` | 3532 |
+| `geoip_valid` | 4730 |
+| `origin_asn_expected` | 10774 |
+| `pop_missing` | 1098 |
+| `pop_present` | 3632 |
+| `prefix_only_in_bgp` | 9772 |
+| `prefix_only_in_geofeed` | 3728 |
+| `ptr_missing` | 3632 |
 
 

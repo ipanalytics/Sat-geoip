@@ -65,11 +65,11 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 14307 |
-| Announced prefixes | 10733 |
-| GeoFeed-only prefixes | 3574 |
-| BGP-only prefixes | 9741 |
-| Prefixes with PoP assignment | 3532 |
+| Prefixes | 14502 |
+| Announced prefixes | 10774 |
+| GeoFeed-only prefixes | 3728 |
+| BGP-only prefixes | 9772 |
+| Prefixes with PoP assignment | 3632 |
 | Ground station claims | 0 |
 
 ### Operators
@@ -84,7 +84,7 @@ The resolver applies fixed precedence rules:
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 275 |
+| `eutelsat_skylogic` | 274 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 227 |
 | `gogo_business_aviation` | 1 |
@@ -99,7 +99,7 @@ The resolver applies fixed precedence rules:
 | `kt_sat` | 4 |
 | `kuiper` | 2 |
 | `kvh` | 61 |
-| `marlink` | 29 |
+| `marlink` | 30 |
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
 | `nbn_sky_muster` | 459 |
@@ -112,11 +112,11 @@ The resolver applies fixed precedence rules:
 | `royal_caribbean` | 1 |
 | `rscc` | 30 |
 | `satcom_direct` | 4 |
-| `ses_o3b` | 22 |
+| `ses_o3b` | 25 |
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 108 |
-| `starlink` | 5974 |
+| `starlink` | 6139 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 45 |
@@ -125,7 +125,7 @@ The resolver applies fixed precedence rules:
 | `thuraya` | 10 |
 | `turksat` | 951 |
 | `usap` | 19 |
-| `viasat` | 4635 |
+| `viasat` | 4662 |
 | `yahsat` | 99 |
 
 ### Orbit Classes
@@ -135,12 +135,12 @@ The resolver applies fixed precedence rules:
 | `deep_space` | 15 |
 | `geo` | 2725 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5013 |
+| `geo_or_hybrid_satellite` | 5039 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6011 |
-| `meo` | 22 |
-| `mixed_satellite` | 390 |
+| `leo` | 6176 |
+| `meo` | 25 |
+| `mixed_satellite` | 391 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
