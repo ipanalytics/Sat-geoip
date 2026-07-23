@@ -2593,6 +2593,9 @@ prefix,pop_code,pop_iata,source
 2605:59c8:2a00::/40,sltyutx1,pvu,starlink_pops_csv
 2605:59c8:2b00::/40,nwyynyx1,lga,starlink_pops_csv
 2605:59c8:2c00::/40,nwyynyx1,lga,starlink_pops_csv
+2605:59c8:2d00::/40,sltyutx1,pvu,starlink_pops_csv
+2605:59c8:2e00::/40,dllstxx1,dfw,starlink_pops_csv
+2605:59c8:2f00::/40,snjecax1,sjc,starlink_pops_csv
 2605:59c8:3000::/40,lsancax1,lax,starlink_pops_csv
 2605:59c8:300::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8:3100::/40,lsancax1,lax,starlink_pops_csv

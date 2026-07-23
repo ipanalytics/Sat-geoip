@@ -1,15 +1,15 @@
 {
-  "generated_at": 1784700423,
-  "generated_date": "2026-07-22",
-  "previous_records": 14307,
-  "current_records": 14502,
-  "new": 229,
-  "changed": 54,
-  "withdrawn": 34,
-  "unchanged": 14219,
+  "generated_at": 1784787052,
+  "generated_date": "2026-07-23",
+  "previous_records": 14502,
+  "current_records": 14503,
+  "new": 3,
+  "changed": 6,
+  "withdrawn": 2,
+  "unchanged": 14494,
   "changes_by_type": {
-    "changed": 54,
-    "new": 229,
-    "withdrawn": 34
+    "changed": 6,
+    "new": 3,
+    "withdrawn": 2
   }
 }
