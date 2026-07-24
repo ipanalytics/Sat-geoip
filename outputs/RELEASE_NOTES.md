@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14503 |
-| Announced prefixes | 10769 |
-| GeoFeed-only prefixes | 3734 |
-| BGP-only prefixes | 9770 |
+| Prefixes | 14508 |
+| Announced prefixes | 10775 |
+| GeoFeed-only prefixes | 3733 |
+| BGP-only prefixes | 9775 |
 | Prefixes with PoP assignment | 3635 |
-| Active user claims | 10769 |
+| Active user claims | 10775 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,7 +24,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 274 |
+| `eutelsat_skylogic` | 276 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 227 |
 | `gogo_business_aviation` | 1 |
@@ -46,7 +46,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `nsslglobal` | 1 |
 | `omniaccess` | 13 |
 | `oneweb` | 19 |
-| `panasonic_avionics` | 13 |
+| `panasonic_avionics` | 14 |
 | `rignet` | 1 |
 | `rocket_lab` | 2 |
 | `royal_caribbean` | 1 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 108 |
-| `starlink` | 6140 |
+| `starlink` | 6142 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 45 |
@@ -76,27 +76,27 @@ Generated artifacts for the current sat-geoip dataset build.
 | `deep_space` | 15 |
 | `geo` | 2725 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5039 |
+| `geo_or_hybrid_satellite` | 5041 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6177 |
+| `leo` | 6179 |
 | `meo` | 25 |
-| `mixed_satellite` | 391 |
+| `mixed_satellite` | 392 |
 
 
 ## Quality Flags
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10769 |
-| `bgp_not_announced` | 3734 |
+| `bgp_announced` | 10775 |
+| `bgp_not_announced` | 3733 |
 | `geoip_invalid_country_city_pair` | 13 |
 | `geoip_valid` | 4733 |
-| `origin_asn_expected` | 10769 |
+| `origin_asn_expected` | 10775 |
 | `pop_missing` | 1098 |
 | `pop_present` | 3635 |
-| `prefix_only_in_bgp` | 9770 |
-| `prefix_only_in_geofeed` | 3734 |
+| `prefix_only_in_bgp` | 9775 |
+| `prefix_only_in_geofeed` | 3733 |
 | `ptr_missing` | 3635 |
 
 

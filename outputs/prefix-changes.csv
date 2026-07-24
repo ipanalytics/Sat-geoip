@@ -1,12 +1,11 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-138.84.42.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-138.84.43.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-148.222.209.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-179.60.168.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-179.60.169.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-74.244.223.0/24,changed,2026-07-23T06:10:52Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-2605:59c8:2d00::/40,new,2026-07-23T06:10:52Z,starlink,,announced,,14593,,sltyutx1,,US,,US-MT,,Billings,
-2605:59c8:2e00::/40,new,2026-07-23T06:10:52Z,starlink,,announced,,14593,,dllstxx1,,US,,US-LA,,New Orleans,
-2605:59c8:2f00::/40,new,2026-07-23T06:10:52Z,starlink,,announced,,14593,,snjecax1,,US,,US-OR,,Portland,
-2401:e320:100::/40,withdrawn,2026-07-23T06:10:52Z,starlink,starlink,withdrawn_recently,bgp_only,45700,45700,,,,,,,,
-2401:e320::/40,withdrawn,2026-07-23T06:10:52Z,starlink,starlink,withdrawn_recently,bgp_only,45700,45700,,,,,,,,
+129.224.223.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,planned_not_announced,announced,,14593,,,US,US,US-FL,US-FL,Cape Canaveral,Cape Canaveral
+138.84.42.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+153.67.80.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
+153.67.81.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
+179.64.47.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,planned_not_announced,announced,,14593,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+205.220.134.0/24,new,2026-07-24T06:04:10Z,panasonic_avionics,,bgp_only,,64294,,,,,,,,,
+2605:59ca:8900::/41,new,2026-07-24T06:04:10Z,starlink,,bgp_only,,14593,,,,,,,,,
+74.245.160.0/24,new,2026-07-24T06:04:10Z,starlink,,bgp_only,,14593,,,,,,,,,
+84.254.145.0/24,new,2026-07-24T06:04:10Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+84.254.146.0/24,new,2026-07-24T06:04:10Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,

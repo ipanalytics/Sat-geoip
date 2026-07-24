@@ -418,7 +418,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.224.220.0/24,US,US-WA,Seattle,false,,true,14593,announced
 129.224.221.0/24,US,US-FL,Miami,false,,false,,planned_not_announced
 129.224.222.0/24,,,,false,,false,14593,bgp_only
-129.224.223.0/24,US,US-FL,Cape Canaveral,false,,true,14593,announced
+129.224.223.0/24,US,US-FL,Cape Canaveral,false,,false,,planned_not_announced
 135.129.10.0/24,,,,false,,false,14593,bgp_only
 135.129.11.0/24,,,,false,,false,14593,bgp_only
 135.129.112.0/23,,,,false,,false,14593,bgp_only
@@ -547,7 +547,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 138.84.40.128/25,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 138.84.41.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 138.84.42.0/23,,,,false,,false,14593,bgp_only
-138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 138.84.43.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 138.84.44.0/23,,,,false,,false,14593,bgp_only
 138.84.44.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -2530,8 +2530,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.8.0/23,,,,false,,false,14593,bgp_only
 153.67.8.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 153.67.80.0/23,,,,false,,false,14593,bgp_only
-153.67.80.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
-153.67.81.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
+153.67.80.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
+153.67.81.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
 153.67.82.0/23,,,,false,,false,14593,bgp_only
 153.67.82.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
 153.67.83.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
@@ -3021,7 +3021,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.45.0/24,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
 179.64.46.0/23,,,,false,,false,14593,bgp_only
 179.64.46.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
-179.64.47.0/24,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
+179.64.47.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
 179.64.48.0/23,,,,false,,false,14593,bgp_only
 179.64.48.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 179.64.49.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
@@ -4569,6 +4569,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59ca:8700::/40,SZ,SZ-HH,Mbabane,true,jhngzaf1,true,14593,announced
 2605:59ca:8800::/40,LS,LS-A,Maseru,true,jhngzaf1,true,14593,announced
 2605:59ca:8900::/40,MW,MW-LI,Lilongwe,true,jhngzaf1,true,14593,announced
+2605:59ca:8900::/41,,,,false,,false,14593,bgp_only
 2605:59ca:8a00::/40,US,US-WA,Seattle,false,,true,14593,announced
 2605:59ca:8b00::/40,MQ,,Fort-de-France,true,mmmiflx1,true,14593,announced
 2605:59ca:8c00::/40,MF,,Marigot,true,mmmiflx1,true,14593,announced
@@ -5475,6 +5476,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.15.0/24,,,,false,,false,14593,bgp_only
 74.245.156.0/22,,,,false,,false,14593,bgp_only
 74.245.16.0/24,,,,false,,false,14593,bgp_only
+74.245.160.0/24,,,,false,,false,14593,bgp_only
 74.245.161.0/24,,,,false,,false,14593,bgp_only
 74.245.162.0/24,,,,false,,false,14593,bgp_only
 74.245.163.0/24,ES,ES-MD,Madrid,false,,true,14593,announced
