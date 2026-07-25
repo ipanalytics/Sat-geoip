@@ -1,11 +1,17 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.224.223.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,planned_not_announced,announced,,14593,,,US,US,US-FL,US-FL,Cape Canaveral,Cape Canaveral
-138.84.42.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-153.67.80.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-153.67.81.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-179.64.47.0/24,changed,2026-07-24T06:04:10Z,starlink,starlink,planned_not_announced,announced,,14593,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
-205.220.134.0/24,new,2026-07-24T06:04:10Z,panasonic_avionics,,bgp_only,,64294,,,,,,,,,
-2605:59ca:8900::/41,new,2026-07-24T06:04:10Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.160.0/24,new,2026-07-24T06:04:10Z,starlink,,bgp_only,,14593,,,,,,,,,
-84.254.145.0/24,new,2026-07-24T06:04:10Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
-84.254.146.0/24,new,2026-07-24T06:04:10Z,eutelsat_skylogic,,bgp_only,,29286,,,,,,,,,
+129.224.205.0/24,changed,2026-07-25T05:52:17Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,SL,SL,SL-W,SL-W,Freetown,Freetown
+150.228.107.0/24,changed,2026-07-25T05:52:17Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,SY,SY,SY-DI,SY-DI,Damascus,Damascus
+153.67.34.0/24,changed,2026-07-25T05:52:17Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,BF,BF,BF-03,BF-03,Ouagadougou,Ouagadougou
+153.67.35.0/24,changed,2026-07-25T05:52:17Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,BF,BF,BF-03,BF-03,Ouagadougou,Ouagadougou
+153.67.59.0/24,changed,2026-07-25T05:52:17Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,CF,CF,CF-BGF,CF-BGF,Bangui,Bangui
+45.222.102.0/24,new,2026-07-25T05:52:17Z,yahsat,,bgp_only,,206283,,,,,,,,,
+74.244.126.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+74.244.127.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+74.244.16.0/22,new,2026-07-25T05:52:17Z,starlink,,bgp_only,,14593,,,,,,,,,
+74.244.16.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+74.244.17.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+74.244.18.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+74.244.19.0/24,new,2026-07-25T05:52:17Z,starlink,,planned_not_announced,,,,wrswpol1,,UA,,UA-30,,Kyiv,
+94.54.40.0/23,new,2026-07-25T05:52:17Z,turksat,,bgp_only,,47524,,,,,,,,,
+94.54.42.0/24,new,2026-07-25T05:52:17Z,turksat,,bgp_only,,47524,,,,,,,,,
+94.54.43.0/24,new,2026-07-25T05:52:17Z,turksat,,bgp_only,,47524,,,,,,,,,

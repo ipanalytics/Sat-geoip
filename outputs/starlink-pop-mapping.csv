@@ -3086,6 +3086,8 @@ prefix,pop_code,pop_iata,source
 74.244.123.0/24,mmmiflx1,mia,starlink_pops_csv
 74.244.124.0/24,trnocan1,yyz,starlink_pops_csv
 74.244.125.0/24,trnocan1,yyz,starlink_pops_csv
+74.244.126.0/24,wrswpol1,waw,starlink_pops_csv
+74.244.127.0/24,wrswpol1,waw,starlink_pops_csv
 74.244.128.0/24,jhngzaf1,jnb,starlink_pops_csv
 74.244.129.0/24,jhngzaf1,jnb,starlink_pops_csv
 74.244.13.0/24,lgosnga1,los,starlink_pops_csv
@@ -3121,6 +3123,7 @@ prefix,pop_code,pop_iata,source
 74.244.157.0/24,lsancax1,lax,starlink_pops_csv
 74.244.158.0/24,clgycan1,yyc,starlink_pops_csv
 74.244.159.0/24,clgycan1,yyc,starlink_pops_csv
+74.244.16.0/24,wrswpol1,waw,starlink_pops_csv
 74.244.160.0/24,clgycan1,yyc,starlink_pops_csv
 74.244.161.0/24,clgycan1,yyc,starlink_pops_csv
 74.244.162.0/24,mmmiflx1,mia,starlink_pops_csv
@@ -3131,6 +3134,7 @@ prefix,pop_code,pop_iata,source
 74.244.167.0/24,qrtomex1,qro,starlink_pops_csv
 74.244.168.0/24,limaper1,lim,starlink_pops_csv
 74.244.169.0/24,limaper1,lim,starlink_pops_csv
+74.244.17.0/24,wrswpol1,waw,starlink_pops_csv
 74.244.170.0/24,ashnvax2,iad,starlink_pops_csv
 74.244.171.0/24,ashnvax2,iad,starlink_pops_csv
 74.244.172.0/24,ashnvax2,iad,starlink_pops_csv
@@ -3141,6 +3145,7 @@ prefix,pop_code,pop_iata,source
 74.244.177.0/24,tmpeazx1,phx,starlink_pops_csv
 74.244.178.0/24,lgosnga1,los,starlink_pops_csv
 74.244.179.0/24,lgosnga1,los,starlink_pops_csv
+74.244.18.0/24,wrswpol1,waw,starlink_pops_csv
 74.244.180.0/24,dllstxx1,dfw,starlink_pops_csv
 74.244.181.0/24,dllstxx1,dfw,starlink_pops_csv
 74.244.182.0/24,mplsmnx1,msp,starlink_pops_csv
@@ -3151,6 +3156,7 @@ prefix,pop_code,pop_iata,source
 74.244.187.0/24,mmmiflx1,mia,starlink_pops_csv
 74.244.188.0/24,mdrdesp1,mad,starlink_pops_csv
 74.244.189.0/24,mdrdesp1,mad,starlink_pops_csv
+74.244.19.0/24,wrswpol1,waw,starlink_pops_csv
 74.244.190.0/24,mmmiflx1,mia,starlink_pops_csv
 74.244.191.0/24,mmmiflx1,mia,starlink_pops_csv
 74.244.192.0/24,mmmiflx1,mia,starlink_pops_csv
