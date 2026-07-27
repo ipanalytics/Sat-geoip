@@ -1,10 +1,17 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.199.0/24,changed,2026-07-26T06:14:37Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,TT,TT,TT-POS,TT-POS,Port of Spain,Port of Spain
-129.224.220.0/24,changed,2026-07-26T06:14:37Z,starlink,starlink,planned_not_announced,announced,,14593,,,US,US,US-WA,US-WA,Seattle,Seattle
-153.67.113.0/24,changed,2026-07-26T06:14:37Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
-179.238.17.0/24,changed,2026-07-26T06:14:37Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-2605:59c7:f004::/48,changed,2026-07-26T06:14:37Z,starlink,starlink,planned_not_announced,announced,,14593,,,US,US,US-WA,US-WA,Seattle,Seattle
-74.244.89.0/24,changed,2026-07-26T06:14:37Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,BF,BF,BF-03,BF-03,Ouagadougou,Ouagadougou
-2803:9810:880::/41,withdrawn,2026-07-26T06:14:37Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2803:9810:980::/41,withdrawn,2026-07-26T06:14:37Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-74.244.88.0/24,withdrawn,2026-07-26T06:14:37Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+98.97.181.0/24,changed,2026-07-27T06:41:52Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,DJ,DJ,DJ-DJ,DJ-DJ,Djibouti,Djibouti
+201.33.7.0/24,withdrawn,2026-07-27T06:41:52Z,hispasat,hispasat,withdrawn_recently,bgp_only,28273,28273,,,,,,,,
+2605:59c0:b00::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:1c00::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:1e00::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3000::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3200::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3280::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3480::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3d80::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8400::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8480::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8600::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8680::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8700::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8780::/41,withdrawn,2026-07-27T06:41:52Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
