@@ -37,7 +37,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 116.91.223.0/24,mlbeaus1,,ptr_missing
 129.222.0.0/24,mmmiflx1,,ptr_missing
 129.222.1.0/24,mmmiflx1,,ptr_missing
-129.222.10.0/24,chcoilx1,,ptr_missing
 129.222.100.0/24,sltyutx1,,ptr_missing
 129.222.101.0/24,sltyutx1,,ptr_missing
 129.222.102.0/24,sltyutx1,,ptr_missing
@@ -48,7 +47,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.107.0/24,clgycan1,,ptr_missing
 129.222.108.0/24,jhngzaf1,,ptr_missing
 129.222.109.0/24,jhngzaf1,,ptr_missing
-129.222.11.0/24,chcoilx1,,ptr_missing
 129.222.110.0/24,qrtomex1,,ptr_missing
 129.222.111.0/24,qrtomex1,,ptr_missing
 129.222.112.0/24,mplsmnx1,,ptr_missing
@@ -59,7 +57,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.117.0/24,chcoilx1,,ptr_missing
 129.222.118.0/24,atlagax1,,ptr_missing
 129.222.119.0/24,atlagax1,,ptr_missing
-129.222.12.0/24,chcoilx1,,ptr_missing
 129.222.120.0/24,dllstxx1,,ptr_missing
 129.222.121.0/24,dllstxx1,,ptr_missing
 129.222.122.0/24,dllstxx1,,ptr_missing
@@ -70,7 +67,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.127.0/24,dllstxx1,,ptr_missing
 129.222.128.0/24,tmpeazx1,,ptr_missing
 129.222.129.0/24,tmpeazx1,,ptr_missing
-129.222.13.0/24,chcoilx1,,ptr_missing
 129.222.130.0/24,sltyutx1,,ptr_missing
 129.222.131.0/24,sltyutx1,,ptr_missing
 129.222.132.0/24,snjecax1,,ptr_missing
@@ -81,7 +77,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.137.0/24,clgycan1,,ptr_missing
 129.222.138.0/24,clgycan1,,ptr_missing
 129.222.139.0/24,clgycan1,,ptr_missing
-129.222.14.0/24,chcoilx1,,ptr_missing
 129.222.140.0/24,clgycan1,,ptr_missing
 129.222.141.0/24,clgycan1,,ptr_missing
 129.222.142.0/24,nwyynyx1,,ptr_missing
@@ -92,7 +87,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.147.0/24,nrbiken1,,ptr_missing
 129.222.148.0/24,nrbiken1,,ptr_missing
 129.222.149.0/24,nrbiken1,,ptr_missing
-129.222.15.0/24,chcoilx1,,ptr_missing
 129.222.150.0/24,nwyynyx1,,ptr_missing
 129.222.151.0/24,nwyynyx1,,ptr_missing
 129.222.152.0/24,mplsmnx1,,ptr_missing
@@ -103,7 +97,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.157.0/24,mplsmnx1,,ptr_missing
 129.222.158.0/24,mplsmnx1,,ptr_missing
 129.222.159.0/24,mplsmnx1,,ptr_missing
-129.222.16.0/24,chcoilx1,,ptr_missing
 129.222.160.0/24,gtmygtm1,,ptr_missing
 129.222.161.0/24,gtmygtm1,,ptr_missing
 129.222.162.0/24,ashnvax2,,ptr_missing
@@ -114,7 +107,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.167.0/24,nwyynyx1,,ptr_missing
 129.222.168.0/24,sntochl1,,ptr_missing
 129.222.169.0/24,sntochl1,,ptr_missing
-129.222.17.0/24,chcoilx1,,ptr_missing
 129.222.170.0/24,sntochl1,,ptr_missing
 129.222.171.0/24,sntochl1,,ptr_missing
 129.222.172.0/24,sntochl1,,ptr_missing
@@ -125,7 +117,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.177.0/24,limaper1,,ptr_missing
 129.222.178.0/24,limaper1,,ptr_missing
 129.222.179.0/24,limaper1,,ptr_missing
-129.222.18.0/24,chcoilx1,,ptr_missing
 129.222.180.0/24,limaper1,,ptr_missing
 129.222.181.0/24,limaper1,,ptr_missing
 129.222.182.0/25,limaper1,,ptr_missing
@@ -137,7 +128,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.187.0/24,nrbiken1,,ptr_missing
 129.222.188.0/24,sfiabgr1,,ptr_missing
 129.222.189.0/24,sfiabgr1,,ptr_missing
-129.222.19.0/24,chcoilx1,,ptr_missing
 129.222.190.0/24,sfiabgr1,,ptr_missing
 129.222.191.0/24,sfiabgr1,,ptr_missing
 129.222.192.0/24,trnocan1,,ptr_missing
@@ -149,7 +139,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.198.0/24,bgtacol1,,ptr_missing
 129.222.199.0/24,bgtacol1,,ptr_missing
 129.222.2.0/24,lsancax1,,ptr_missing
-129.222.20.0/24,chcoilx1,,ptr_missing
 129.222.200.0/24,mmmiflx1,,ptr_missing
 129.222.201.0/24,mmmiflx1,,ptr_missing
 129.222.202.0/24,bgtacol1,,ptr_missing
@@ -160,21 +149,18 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.207.0/24,lgosnga1,,ptr_missing
 129.222.208.0/24,nwyynyx1,,ptr_missing
 129.222.209.0/24,nwyynyx1,,ptr_missing
-129.222.21.0/24,chcoilx1,,ptr_missing
 129.222.210.0/24,nwyynyx1,,ptr_missing
 129.222.211.0/24,nwyynyx1,,ptr_missing
 129.222.212.0/24,nrbiken1,,ptr_missing
 129.222.213.0/24,nrbiken1,,ptr_missing
 129.222.214.0/24,sntochl1,,ptr_missing
 129.222.215.0/24,sntochl1,,ptr_missing
-129.222.22.0/24,chcoilx1,,ptr_missing
 129.222.224.0/24,nwyynyx1,,ptr_missing
 129.222.225.0/24,nwyynyx1,,ptr_missing
 129.222.226.0/24,nwyynyx1,,ptr_missing
 129.222.227.0/24,nwyynyx1,,ptr_missing
 129.222.228.0/24,nwyynyx1,,ptr_missing
 129.222.229.0/24,nwyynyx1,,ptr_missing
-129.222.23.0/24,chcoilx1,,ptr_missing
 129.222.230.0/24,nwyynyx1,,ptr_missing
 129.222.231.0/24,nwyynyx1,,ptr_missing
 129.222.232.0/24,nwyynyx1,,ptr_missing
@@ -263,10 +249,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.77.0/24,dllstxx1,,ptr_missing
 129.222.78.0/24,dllstxx1,,ptr_missing
 129.222.79.0/24,dllstxx1,,ptr_missing
-129.222.8.0/24,chcoilx1,,ptr_missing
 129.222.88.0/24,mmmiflx1,,ptr_missing
 129.222.89.0/24,mmmiflx1,,ptr_missing
-129.222.9.0/24,chcoilx1,,ptr_missing
 129.222.90.0/24,qrtomex1,,ptr_missing
 129.222.91.0/24,qrtomex1,,ptr_missing
 129.222.94.0/24,mntlcan1,,ptr_missing
@@ -586,8 +570,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 143.105.55.0/24,mntlcan1,,ptr_missing
 143.105.56.0/24,mplsmnx1,,ptr_missing
 143.105.57.0/24,mplsmnx1,,ptr_missing
-143.105.58.0/24,tmpeazx1,,ptr_missing
-143.105.59.0/24,tmpeazx1,,ptr_missing
 143.105.6.0/24,mntlcan1,,ptr_missing
 143.105.60.0/24,dllstxx1,,ptr_missing
 143.105.61.0/24,dllstxx1,,ptr_missing
@@ -665,10 +647,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 145.224.124.128/25,mdrdesp1,,ptr_missing
 145.224.125.0/25,nrbiken1,,ptr_missing
 145.224.125.128/25,nrbiken1,,ptr_missing
-145.224.126.0/25,nrbiken1,,ptr_missing
-145.224.126.128/25,nrbiken1,,ptr_missing
-145.224.127.0/25,nrbiken1,,ptr_missing
-145.224.127.128/25,nrbiken1,,ptr_missing
+145.224.126.0/24,nrbiken1,,ptr_missing
+145.224.127.0/24,nrbiken1,,ptr_missing
 145.224.64.0/24,lndngbr1,,ptr_missing
 145.224.65.0/24,lndngbr1,,ptr_missing
 145.224.66.0/24,lndngbr1,,ptr_missing
@@ -709,10 +689,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 145.224.95.0/24,mlnnita1,,ptr_missing
 145.224.96.0/24,mdrdesp1,,ptr_missing
 145.224.97.0/24,mdrdesp1,,ptr_missing
-145.224.98.0/25,frntdeu1,,ptr_missing
-145.224.98.128/25,frntdeu1,,ptr_missing
-145.224.99.0/25,frntdeu1,,ptr_missing
-145.224.99.128/25,frntdeu1,,ptr_missing
+145.224.98.0/24,frntdeu1,,ptr_missing
+145.224.99.0/24,frntdeu1,,ptr_missing
 148.222.128.0/24,splobra1,,ptr_missing
 148.222.129.0/24,splobra1,,ptr_missing
 148.222.130.0/25,sntochl1,,ptr_missing
@@ -2148,10 +2126,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 209.198.147.0/24,msctomn1,,ptr_missing
 209.198.148.0/24,sfiabgr1,,ptr_missing
 209.198.149.0/24,sfiabgr1,,ptr_missing
-209.198.150.0/25,nrbiken1,,ptr_missing
-209.198.150.128/25,nrbiken1,,ptr_missing
-209.198.151.0/25,nrbiken1,,ptr_missing
-209.198.151.128/25,nrbiken1,,ptr_missing
+209.198.150.0/24,nrbiken1,,ptr_missing
+209.198.151.0/24,nrbiken1,,ptr_missing
 209.198.152.0/24,frntdeu1,,ptr_missing
 209.198.153.0/24,frntdeu1,,ptr_missing
 209.198.154.0/24,frntdeu1,,ptr_missing
@@ -2523,7 +2499,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:9200::/40,clgycan1,,ptr_missing
 2605:59c0:9300::/40,clgycan1,,ptr_missing
 2605:59c0:9400::/40,mplsmnx1,,ptr_missing
-2605:59c0:9500::/40,tmpeazx1,,ptr_missing
 2605:59c0:9600::/40,knsymox1,,ptr_missing
 2605:59c0:9700::/40,knsymox1,,ptr_missing
 2605:59c0:9800::/40,almykaz1,,ptr_missing

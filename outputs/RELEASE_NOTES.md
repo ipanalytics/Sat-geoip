@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14501 |
-| Announced prefixes | 10752 |
-| GeoFeed-only prefixes | 3749 |
-| BGP-only prefixes | 9762 |
-| Prefixes with PoP assignment | 3641 |
-| Active user claims | 10752 |
+| Prefixes | 14462 |
+| Announced prefixes | 10743 |
+| GeoFeed-only prefixes | 3719 |
+| BGP-only prefixes | 9747 |
+| Prefixes with PoP assignment | 3616 |
+| Active user claims | 10743 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,7 +24,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 276 |
+| `eutelsat_skylogic` | 274 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 227 |
 | `gogo_business_aviation` | 1 |
@@ -42,7 +42,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `marlink` | 30 |
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
-| `nbn_sky_muster` | 459 |
+| `nbn_sky_muster` | 458 |
 | `nsslglobal` | 1 |
 | `omniaccess` | 13 |
 | `oneweb` | 19 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 108 |
-| `starlink` | 6132 |
+| `starlink` | 6095 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 45 |
@@ -65,7 +65,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `thuraya` | 10 |
 | `turksat` | 954 |
 | `usap` | 19 |
-| `viasat` | 4662 |
+| `viasat` | 4663 |
 | `yahsat` | 100 |
 
 
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2728 |
+| `geo` | 2727 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5041 |
+| `geo_or_hybrid_satellite` | 5040 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6169 |
+| `leo` | 6132 |
 | `meo` | 25 |
 | `mixed_satellite` | 392 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10752 |
-| `bgp_not_announced` | 3749 |
+| `bgp_announced` | 10743 |
+| `bgp_not_announced` | 3719 |
 | `geoip_invalid_country_city_pair` | 13 |
-| `geoip_valid` | 4739 |
-| `origin_asn_expected` | 10752 |
-| `pop_missing` | 1098 |
-| `pop_present` | 3641 |
-| `prefix_only_in_bgp` | 9762 |
-| `prefix_only_in_geofeed` | 3749 |
-| `ptr_missing` | 3641 |
+| `geoip_valid` | 4715 |
+| `origin_asn_expected` | 10743 |
+| `pop_missing` | 1099 |
+| `pop_present` | 3616 |
+| `prefix_only_in_bgp` | 9747 |
+| `prefix_only_in_geofeed` | 3719 |
+| `ptr_missing` | 3616 |
 
 
