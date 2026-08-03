@@ -2755,7 +2755,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.13.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.238.14.0/23,,,,false,,false,14593,bgp_only
 179.238.14.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 179.238.16.0/23,,,,false,,false,14593,bgp_only
 179.238.16.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced

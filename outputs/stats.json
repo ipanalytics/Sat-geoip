@@ -1,8 +1,8 @@
 {
-  "total_prefixes": 14612,
-  "announced_prefixes": 10854,
-  "geofeed_only_prefixes": 3758,
-  "bgp_only_prefixes": 9841,
+  "total_prefixes": 14613,
+  "announced_prefixes": 10856,
+  "geofeed_only_prefixes": 3757,
+  "bgp_only_prefixes": 9842,
   "prefixes_with_pop": 3699,
   "operators": {
     "anuvu": 63,
@@ -15,7 +15,7 @@
     "esa": 79,
     "eutelsat_skylogic": 274,
     "gazprom_space_systems": 45,
-    "gilat_telecom": 229,
+    "gilat_telecom": 230,
     "gogo_business_aviation": 1,
     "hispasat": 40,
     "hughes": 672,
@@ -59,7 +59,7 @@
   },
   "orbit_classes": {
     "deep_space": 15,
-    "geo": 2731,
+    "geo": 2732,
     "geo_mss": 29,
     "geo_or_hybrid_satellite": 5040,
     "geo_or_multi_orbit": 96,
@@ -69,17 +69,17 @@
     "mixed_satellite": 392
   },
   "quality_flags": {
-    "bgp_announced": 10854,
-    "bgp_not_announced": 3758,
+    "bgp_announced": 10856,
+    "bgp_not_announced": 3757,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4771,
-    "origin_asn_expected": 10854,
+    "origin_asn_expected": 10856,
     "pop_missing": 1072,
     "pop_present": 3699,
-    "prefix_only_in_bgp": 9841,
-    "prefix_only_in_geofeed": 3758,
+    "prefix_only_in_bgp": 9842,
+    "prefix_only_in_geofeed": 3757,
     "ptr_missing": 3699
   },
   "ground_station_claims": 0,
-  "active_user_claims": 10854
+  "active_user_claims": 10856
 }
