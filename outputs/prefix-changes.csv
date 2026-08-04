@@ -1,3 +1,18 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-179.238.15.0/24,changed,2026-08-03T06:34:00Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-2a02:ba0:10aa::/48,new,2026-08-03T06:34:00Z,gilat_telecom,,bgp_only,,12491,,,,,,,,,
+143.105.152.0/24,changed,2026-08-04T06:04:14Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,CM,CM,CM-CE,CM-CE,Yaoundé,Yaoundé
+143.105.75.0/24,changed,2026-08-04T06:04:14Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,NE,NE,NE-8,NE-8,Niamey,Niamey
+179.238.23.0/24,changed,2026-08-04T06:04:14Z,starlink,starlink,announced,planned_not_announced,14593,,splobra1,splobra1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+179.64.71.0/24,changed,2026-08-04T06:04:14Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,GH,GH,GH-AA,GH-AA,Accra,Accra
+98.97.190.0/24,changed,2026-08-04T06:04:14Z,starlink,starlink,announced,bgp_only,14593,14593,jhngzaf1,,SD,,SD-KH,,Khartoum,
+2605:59ca:8090::/47,new,2026-08-04T06:04:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.161.154.0/23,new,2026-08-04T06:04:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.252.0/22,new,2026-08-04T06:04:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+98.97.190.0/23,new,2026-08-04T06:04:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+98.97.191.0/24,new,2026-08-04T06:04:14Z,starlink,,planned_not_announced,,,,jhngzaf1,,SD,,SD-KH,,Khartoum,
+2605:59c8:6800::/41,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3080::/41,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3c00::/41,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3c80::/41,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3d00::/41,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+98.97.190.0/25,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,dllstxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+98.97.190.128/25,withdrawn,2026-08-04T06:04:14Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,dllstxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
