@@ -3288,7 +3288,15 @@ prefix,pop_code,pop_iata,source
 9.170.22.0/24,knsymox1,mci,starlink_pops_csv
 9.170.23.0/24,knsymox1,mci,starlink_pops_csv
 9.170.24.0/24,ashnvax2,iad,starlink_pops_csv
+9.170.248.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.249.0/24,wrswpol1,waw,starlink_pops_csv
 9.170.25.0/24,ashnvax2,iad,starlink_pops_csv
+9.170.250.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.251.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.252.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.253.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.254.0/24,wrswpol1,waw,starlink_pops_csv
+9.170.255.0/24,wrswpol1,waw,starlink_pops_csv
 9.170.26.0/24,dllstxx1,dfw,starlink_pops_csv
 9.170.27.0/24,dllstxx1,dfw,starlink_pops_csv
 9.170.28.0/24,tmpeazx1,phx,starlink_pops_csv

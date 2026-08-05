@@ -446,7 +446,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 135.129.122.0/24,US,US-LA,New Orleans,true,dllstxx1,false,,planned_not_announced
 135.129.123.0/24,US,US-LA,New Orleans,true,dllstxx1,false,,planned_not_announced
 135.129.124.0/23,,,,false,,false,14593,bgp_only
-135.129.124.0/24,NG,NG-LA,Lagos,true,lgosnga1,true,14593,announced
+135.129.124.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 135.129.125.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 135.129.126.0/23,,,,false,,false,14593,bgp_only
 135.129.126.0/24,US,US-MT,Billings,true,sltyutx1,false,,planned_not_announced
@@ -762,7 +762,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.16.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 143.105.160.0/23,,,,false,,false,14593,bgp_only
 143.105.160.0/24,TD,TD-ND,N'Djamena,true,lgosnga1,false,,planned_not_announced
-143.105.161.0/24,TD,TD-ND,N'Djamena,true,lgosnga1,true,14593,announced
+143.105.161.0/24,TD,TD-ND,N'Djamena,true,lgosnga1,false,,planned_not_announced
 143.105.162.0/23,,,,false,,false,14593,bgp_only
 143.105.162.0/24,TD,TD-ND,N'Djamena,true,sfiabgr1,false,,planned_not_announced
 143.105.163.0/24,TD,TD-ND,N'Djamena,true,sfiabgr1,true,14593,announced
@@ -3238,7 +3238,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.203.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.204.0/23,,,,false,,false,45700,bgp_only
 179.65.204.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
+179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.206.0/23,,,,false,,false,45700,bgp_only
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -4899,7 +4899,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:fe40::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe50::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fe60::/44,,,,false,,false,14593,bgp_only
-2a0d:3341:fe80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:fe80::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fea0::/44,,,,false,,false,14593,bgp_only
 2a0d:3341:fed0::/44,,,,false,,false,14593,bgp_only
@@ -4951,7 +4950,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3344:6500::/40,MT,MT-60,Valletta,true,mlnnita1,true,14593,announced
 2a0d:3344:6600::/40,HR,HR-21,Zagreb,true,sfiabgr1,true,14593,announced
 2a0d:3344:6600::/41,,,,false,,false,14593,bgp_only
-2a0d:3344:6680::/41,,,,false,,false,14593,bgp_only
 2a0d:3344:6700::/40,MD,MD-CU,Chisinau,true,sfiabgr1,true,14593,announced
 2a0d:3344:6800::/40,AL,AL-11,Tirana,true,sfiabgr1,true,14593,announced
 2a0d:3344:6900::/40,GE,GE-TB,Tbilisi,true,sfiabgr1,true,14593,announced
@@ -5169,7 +5167,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.158.0/24,CA,CA-AB,Calgary,true,clgycan1,false,,planned_not_announced
 74.244.159.0/24,CA,CA-AB,Calgary,true,clgycan1,false,,planned_not_announced
 74.244.16.0/22,,,,false,,false,14593,bgp_only
-74.244.16.0/23,,,,false,,false,14593,bgp_only
 74.244.16.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 74.244.160.0/23,,,,false,,false,14593,bgp_only
 74.244.160.0/24,CA,CA-AB,Calgary,true,clgycan1,false,,planned_not_announced
@@ -5202,7 +5199,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.178.0/23,,,,false,,false,14593,bgp_only
 74.244.178.0/24,LR,LR-MO,Monrovia,true,lgosnga1,false,,planned_not_announced
 74.244.179.0/24,LR,LR-MO,Monrovia,true,lgosnga1,false,,planned_not_announced
-74.244.18.0/23,,,,false,,false,14593,bgp_only
 74.244.18.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 74.244.180.0/23,,,,false,,false,14593,bgp_only
 74.244.180.0/24,MX,MX-CMX,Mexico City,true,dllstxx1,false,,planned_not_announced
@@ -5532,6 +5528,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.42.0/24,,,,false,,false,14593,bgp_only
 74.245.43.0/24,,,,false,,false,14593,bgp_only
 74.245.44.0/24,,,,false,,false,14593,bgp_only
+74.245.45.0/24,,,,false,,false,14593,bgp_only
 74.245.5.0/24,,,,false,,false,14593,bgp_only
 74.245.6.0/24,,,,false,,false,14593,bgp_only
 74.245.7.0/24,,,,false,,false,14593,bgp_only
@@ -5647,8 +5644,17 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.170.23.0/24,US,US-IA,Des Moines,true,knsymox1,false,,planned_not_announced
 9.170.24.0/23,,,,false,,false,14593,bgp_only
 9.170.24.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
+9.170.248.0/22,,,,false,,false,14593,bgp_only
+9.170.248.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.170.249.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 9.170.25.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
+9.170.250.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.170.251.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 9.170.252.0/22,,,,false,,false,14593,bgp_only
+9.170.252.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.170.253.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.170.254.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.170.255.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 9.170.26.0/23,,,,false,,false,14593,bgp_only
 9.170.26.0/24,US,US-AR,Little Rock,true,dllstxx1,false,,planned_not_announced
 9.170.27.0/24,US,US-AR,Little Rock,true,dllstxx1,false,,planned_not_announced

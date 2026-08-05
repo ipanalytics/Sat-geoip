@@ -65,11 +65,11 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 14611 |
-| Announced prefixes | 10853 |
-| GeoFeed-only prefixes | 3758 |
-| BGP-only prefixes | 9840 |
-| Prefixes with PoP assignment | 3699 |
+| Prefixes | 14615 |
+| Announced prefixes | 10846 |
+| GeoFeed-only prefixes | 3769 |
+| BGP-only prefixes | 9836 |
+| Prefixes with PoP assignment | 3707 |
 | Ground station claims | 0 |
 
 ### Operators
@@ -84,9 +84,9 @@ The resolver applies fixed precedence rules:
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 274 |
+| `eutelsat_skylogic` | 275 |
 | `gazprom_space_systems` | 45 |
-| `gilat_telecom` | 230 |
+| `gilat_telecom` | 229 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 40 |
 | `hughes` | 672 |
@@ -112,11 +112,11 @@ The resolver applies fixed precedence rules:
 | `royal_caribbean` | 1 |
 | `rscc` | 30 |
 | `satcom_direct` | 4 |
-| `ses_o3b` | 25 |
+| `ses_o3b` | 24 |
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
-| `speedcast` | 108 |
-| `starlink` | 6239 |
+| `speedcast` | 107 |
+| `starlink` | 6245 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -133,14 +133,14 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2732 |
+| `geo` | 2731 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5040 |
+| `geo_or_hybrid_satellite` | 5041 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6276 |
-| `meo` | 25 |
-| `mixed_satellite` | 392 |
+| `leo` | 6282 |
+| `meo` | 24 |
+| `mixed_satellite` | 391 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
