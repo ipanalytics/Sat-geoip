@@ -1,9 +1,9 @@
 {
-  "total_prefixes": 14615,
-  "announced_prefixes": 10846,
-  "geofeed_only_prefixes": 3769,
-  "bgp_only_prefixes": 9836,
-  "prefixes_with_pop": 3707,
+  "total_prefixes": 14608,
+  "announced_prefixes": 10844,
+  "geofeed_only_prefixes": 3764,
+  "bgp_only_prefixes": 9829,
+  "prefixes_with_pop": 3710,
   "operators": {
     "anuvu": 63,
     "avanti": 23,
@@ -41,11 +41,11 @@
     "royal_caribbean": 1,
     "rscc": 30,
     "satcom_direct": 4,
-    "ses_o3b": 24,
+    "ses_o3b": 21,
     "sky_perfect_jsat": 6,
     "spacex_infrastructure": 2,
     "speedcast": 107,
-    "starlink": 6245,
+    "starlink": 6241,
     "swarm": 1,
     "tampnet": 6,
     "telesat": 44,
@@ -64,22 +64,22 @@
     "geo_or_hybrid_satellite": 5041,
     "geo_or_multi_orbit": 96,
     "hybrid_satellite_offshore": 6,
-    "leo": 6282,
-    "meo": 24,
+    "leo": 6278,
+    "meo": 21,
     "mixed_satellite": 391
   },
   "quality_flags": {
-    "bgp_announced": 10846,
-    "bgp_not_announced": 3769,
+    "bgp_announced": 10844,
+    "bgp_not_announced": 3764,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4779,
-    "origin_asn_expected": 10846,
-    "pop_missing": 1072,
-    "pop_present": 3707,
-    "prefix_only_in_bgp": 9836,
-    "prefix_only_in_geofeed": 3769,
-    "ptr_missing": 3707
+    "origin_asn_expected": 10844,
+    "pop_missing": 1069,
+    "pop_present": 3710,
+    "prefix_only_in_bgp": 9829,
+    "prefix_only_in_geofeed": 3764,
+    "ptr_missing": 3710
   },
   "ground_station_claims": 0,
-  "active_user_claims": 10846
+  "active_user_claims": 10844
 }
