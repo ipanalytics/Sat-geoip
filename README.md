@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 14608 |
-| Announced prefixes | 10844 |
-| GeoFeed-only prefixes | 3764 |
-| BGP-only prefixes | 9829 |
+| Prefixes | 14627 |
+| Announced prefixes | 10869 |
+| GeoFeed-only prefixes | 3758 |
+| BGP-only prefixes | 9848 |
 | Prefixes with PoP assignment | 3710 |
 | Ground station claims | 0 |
 
@@ -76,7 +76,7 @@ The resolver applies fixed precedence rules:
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 63 |
+| `anuvu` | 66 |
 | `avanti` | 23 |
 | `bentley_walker` | 33 |
 | `caprock` | 3 |
@@ -116,14 +116,14 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 107 |
-| `starlink` | 6241 |
+| `starlink` | 6253 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 955 |
+| `turksat` | 959 |
 | `usap` | 19 |
 | `viasat` | 4664 |
 | `yahsat` | 100 |
@@ -133,14 +133,14 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2731 |
+| `geo` | 2735 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5041 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6278 |
+| `leo` | 6290 |
 | `meo` | 21 |
-| `mixed_satellite` | 391 |
+| `mixed_satellite` | 394 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
