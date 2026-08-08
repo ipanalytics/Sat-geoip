@@ -1883,6 +1883,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.10.0/24,chniind1,,ptr_missing
 179.65.11.0/24,chniind1,,ptr_missing
 179.65.12.0/24,chniind1,,ptr_missing
+179.65.122.0/24,sgnnvnm1,,ptr_missing
+179.65.123.0/24,sgnnvnm1,,ptr_missing
 179.65.124.0/24,sfiabgr1,,ptr_missing
 179.65.125.0/24,sfiabgr1,,ptr_missing
 179.65.126.0/24,prthaus1,,ptr_missing
@@ -1929,6 +1931,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.163.0/24,brseaus1,,ptr_missing
 179.65.164.0/24,acklnzl1,,ptr_missing
 179.65.165.0/24,acklnzl1,,ptr_missing
+179.65.166.0/24,sgnnvnm1,,ptr_missing
+179.65.167.0/24,sgnnvnm1,,ptr_missing
 179.65.17.0/24,klkaind1,,ptr_missing
 179.65.176.0/24,sgnnvnm1,,ptr_missing
 179.65.177.0/24,sgnnvnm1,,ptr_missing

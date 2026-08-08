@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14627 |
-| Announced prefixes | 10869 |
-| GeoFeed-only prefixes | 3758 |
-| BGP-only prefixes | 9848 |
-| Prefixes with PoP assignment | 3710 |
-| Active user claims | 10869 |
+| Prefixes | 14638 |
+| Announced prefixes | 10873 |
+| GeoFeed-only prefixes | 3765 |
+| BGP-only prefixes | 9850 |
+| Prefixes with PoP assignment | 3714 |
+| Active user claims | 10873 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -56,14 +56,14 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 2 |
 | `speedcast` | 107 |
-| `starlink` | 6253 |
+| `starlink` | 6263 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 959 |
+| `turksat` | 960 |
 | `usap` | 19 |
 | `viasat` | 4664 |
 | `yahsat` | 100 |
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2735 |
+| `geo` | 2736 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5041 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6290 |
+| `leo` | 6300 |
 | `meo` | 21 |
 | `mixed_satellite` | 394 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10869 |
-| `bgp_not_announced` | 3758 |
+| `bgp_announced` | 10873 |
+| `bgp_not_announced` | 3765 |
 | `geoip_invalid_country_city_pair` | 13 |
-| `geoip_valid` | 4779 |
-| `origin_asn_expected` | 10869 |
-| `pop_missing` | 1069 |
-| `pop_present` | 3710 |
-| `prefix_only_in_bgp` | 9848 |
-| `prefix_only_in_geofeed` | 3758 |
-| `ptr_missing` | 3710 |
+| `geoip_valid` | 4788 |
+| `origin_asn_expected` | 10873 |
+| `pop_missing` | 1074 |
+| `pop_present` | 3714 |
+| `prefix_only_in_bgp` | 9850 |
+| `prefix_only_in_geofeed` | 3765 |
+| `ptr_missing` | 3714 |
 
 
