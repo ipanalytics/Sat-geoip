@@ -1,20 +1,5 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.199.0/24,changed,2026-08-08T04:21:32Z,starlink,starlink,announced,planned_not_announced,14593,,bgtacol1,bgtacol1,TT,TT,TT-POS,TT-POS,Port of Spain,Port of Spain
-153.67.113.0/24,changed,2026-08-08T04:21:32Z,starlink,starlink,announced,planned_not_announced,14593,,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
-179.65.166.0/24,changed,2026-08-08T04:21:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sgnnvnm1,,VN,VN,VN-SG,VN-SG,Saigon,Saigon
-179.65.167.0/24,changed,2026-08-08T04:21:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sgnnvnm1,,VN,VN,VN-SG,VN-SG,Saigon,Saigon
-179.64.141.0/24,new,2026-08-08T04:21:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-179.65.116.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.117.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.118.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.119.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.120.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.121.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-179.65.122.0/23,new,2026-08-08T04:21:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-179.65.122.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,sgnnvnm1,,VN,,VN-SG,,Saigon,
-179.65.123.0/24,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,sgnnvnm1,,VN,,VN-SG,,Saigon,
-2406:2d40:d000::/38,new,2026-08-08T04:21:32Z,starlink,,planned_not_announced,,,,,,MY,,MY-14,,Kuala Lumpur,
-2605:59c7:907a::/48,new,2026-08-08T04:21:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-94.54.136.0/22,new,2026-08-08T04:21:32Z,turksat,,bgp_only,,47524,,,,,,,,,
-2605:59ca:8900::/41,withdrawn,2026-08-08T04:21:32Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-98.97.152.0/23,withdrawn,2026-08-08T04:21:32Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+138.84.42.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+143.105.99.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
+153.67.81.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
+179.238.17.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza

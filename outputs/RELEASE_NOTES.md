@@ -5,11 +5,11 @@ Generated artifacts for the current sat-geoip dataset build.
 | Metric | Count |
 |---|---:|
 | Prefixes | 14638 |
-| Announced prefixes | 10873 |
-| GeoFeed-only prefixes | 3765 |
+| Announced prefixes | 10869 |
+| GeoFeed-only prefixes | 3769 |
 | BGP-only prefixes | 9850 |
 | Prefixes with PoP assignment | 3714 |
-| Active user claims | 10873 |
+| Active user claims | 10869 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10873 |
-| `bgp_not_announced` | 3765 |
+| `bgp_announced` | 10869 |
+| `bgp_not_announced` | 3769 |
 | `geoip_invalid_country_city_pair` | 13 |
 | `geoip_valid` | 4788 |
-| `origin_asn_expected` | 10873 |
+| `origin_asn_expected` | 10869 |
 | `pop_missing` | 1074 |
 | `pop_present` | 3714 |
 | `prefix_only_in_bgp` | 9850 |
-| `prefix_only_in_geofeed` | 3765 |
+| `prefix_only_in_geofeed` | 3769 |
 | `ptr_missing` | 3714 |
 
 

@@ -551,7 +551,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 138.84.40.128/25,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 138.84.41.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 138.84.42.0/23,,,,false,,false,14593,bgp_only
-138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 138.84.43.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 138.84.44.0/23,,,,false,,false,14593,bgp_only
 138.84.44.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -1040,7 +1040,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.97.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 143.105.98.0/23,,,,false,,false,14593,bgp_only
 143.105.98.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-143.105.99.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+143.105.99.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 143.131.0.0/24,,,,false,,false,14593,bgp_only
 143.131.1.0/24,,,,false,,false,14593,bgp_only
 143.131.10.0/24,,,,false,,false,14593,bgp_only
@@ -2521,7 +2521,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.8.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 153.67.80.0/23,,,,false,,false,14593,bgp_only
 153.67.80.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
-153.67.81.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
+153.67.81.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
 153.67.82.0/23,,,,false,,false,14593,bgp_only
 153.67.82.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
 153.67.83.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
@@ -2758,7 +2758,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 179.238.16.0/23,,,,false,,false,14593,bgp_only
 179.238.16.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.18.0/23,,,,false,,false,14593,bgp_only
 179.238.18.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.19.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
