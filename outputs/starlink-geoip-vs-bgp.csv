@@ -2348,8 +2348,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.206.0/25,US,US-GA,Atlanta,false,,false,,planned_not_announced
 153.67.206.128/25,US,US-GA,Atlanta,false,,false,,planned_not_announced
 153.67.207.0/24,,,,false,,false,14593,bgp_only
-153.67.207.0/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
-153.67.207.128/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
+153.67.207.0/25,US,US-OR,Portland,false,,false,,planned_not_announced
+153.67.207.128/25,US,US-OR,Portland,false,,false,,planned_not_announced
 153.67.208.0/23,,,,false,,false,14593,bgp_only
 153.67.208.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 153.67.209.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
@@ -4431,7 +4431,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:7680::/41,,,,false,,false,14593,bgp_only
 2605:59c8:800::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8:8100::/40,TG,TG-M,Lome,true,lgosnga1,true,14593,announced
-2605:59c8:8200::/40,US,US-OR,Portland,true,prtdorx3,true,14593,announced
+2605:59c8:8200::/40,US,US-OR,Portland,false,,true,14593,announced
 2605:59c8:8300::/40,US,US-GA,Atlanta,false,,true,14593,announced
 2605:59c8:900::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced

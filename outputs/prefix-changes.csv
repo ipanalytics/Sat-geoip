@@ -1,5 +1,4 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-138.84.42.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-143.105.99.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,CO,CO,CO-DC,CO-DC,Bogota,Bogota
-153.67.81.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-179.238.17.0/24,changed,2026-08-09T04:36:21Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+153.67.207.0/25,changed,2026-08-10T04:53:31Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
+153.67.207.128/25,changed,2026-08-10T04:53:31Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
+2605:59c8:8200::/40,changed,2026-08-10T04:53:31Z,starlink,starlink,announced,announced,14593,14593,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland

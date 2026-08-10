@@ -3,7 +3,7 @@
   "announced_prefixes": 10869,
   "geofeed_only_prefixes": 3769,
   "bgp_only_prefixes": 9850,
-  "prefixes_with_pop": 3714,
+  "prefixes_with_pop": 3711,
   "operators": {
     "anuvu": 66,
     "avanti": 23,
@@ -74,11 +74,11 @@
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4788,
     "origin_asn_expected": 10869,
-    "pop_missing": 1074,
-    "pop_present": 3714,
+    "pop_missing": 1077,
+    "pop_present": 3711,
     "prefix_only_in_bgp": 9850,
     "prefix_only_in_geofeed": 3769,
-    "ptr_missing": 3714
+    "ptr_missing": 3711
   },
   "ground_station_claims": 0,
   "active_user_claims": 10869

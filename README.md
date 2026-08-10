@@ -69,7 +69,7 @@ The resolver applies fixed precedence rules:
 | Announced prefixes | 10869 |
 | GeoFeed-only prefixes | 3769 |
 | BGP-only prefixes | 9850 |
-| Prefixes with PoP assignment | 3714 |
+| Prefixes with PoP assignment | 3711 |
 | Ground station claims | 0 |
 
 ### Operators

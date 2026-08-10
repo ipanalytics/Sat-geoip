@@ -1455,8 +1455,6 @@ prefix,pop_code,pop_iata,source
 153.67.203.0/24,snjecax1,sjc,starlink_pops_csv
 153.67.204.0/24,dllstxx1,dfw,starlink_pops_csv
 153.67.205.0/24,dllstxx1,dfw,starlink_pops_csv
-153.67.207.0/25,prtdorx3,pdx2,starlink_pops_csv
-153.67.207.128/25,prtdorx3,pdx2,starlink_pops_csv
 153.67.208.0/24,wrswpol1,waw,starlink_pops_csv
 153.67.209.0/24,wrswpol1,waw,starlink_pops_csv
 153.67.21.0/24,bgtacol1,bog,starlink_pops_csv
@@ -2640,7 +2638,6 @@ prefix,pop_code,pop_iata,source
 2605:59c8:7600::/40,qrtomex1,qro,starlink_pops_csv
 2605:59c8:800::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8:8100::/40,lgosnga1,los,starlink_pops_csv
-2605:59c8:8200::/40,prtdorx3,pdx2,starlink_pops_csv
 2605:59c8:900::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8:a00::/40,sttlwax1,sea,starlink_pops_csv
