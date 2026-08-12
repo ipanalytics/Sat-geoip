@@ -264,6 +264,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.78.0/24,dllstxx1,,ptr_missing
 129.222.79.0/24,dllstxx1,,ptr_missing
 129.222.8.0/24,wrswpol1,,ptr_missing
+129.222.80.0/24,stcmswe1,,ptr_missing
+129.222.81.0/24,stcmswe1,,ptr_missing
 129.222.88.0/24,mmmiflx1,,ptr_missing
 129.222.89.0/24,mmmiflx1,,ptr_missing
 129.222.9.0/24,wrswpol1,,ptr_missing
@@ -2517,6 +2519,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:9e00::/40,chcoilx1,,ptr_missing
 2605:59c0:9f00::/40,mplsmnx1,,ptr_missing
 2605:59c0::/40,ashnvax2,,ptr_missing
+2605:59c0:a000::/38,stcmswe1,,ptr_missing
 2605:59c0:a00::/40,sfiabgr1,,ptr_missing
 2605:59c0:b00::/40,mdrdesp1,,ptr_missing
 2605:59c0:c00::/40,chcoilx1,,ptr_missing
