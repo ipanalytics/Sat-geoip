@@ -353,8 +353,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.8.0/22,,,,false,,false,14593,bgp_only
 129.222.8.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 129.222.80.0/23,,,,false,,false,14593,bgp_only
-129.222.80.0/24,US,US-TX,Dallas,true,stcmswe1,false,,planned_not_announced
-129.222.81.0/24,US,US-TX,Dallas,true,stcmswe1,false,,planned_not_announced
+129.222.80.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
+129.222.81.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
 129.222.82.0/23,,,,false,,false,14593,bgp_only
 129.222.82.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
 129.222.83.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
@@ -1038,7 +1038,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.97.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 143.105.98.0/23,,,,false,,false,14593,bgp_only
 143.105.98.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-143.105.99.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
+143.105.99.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 143.131.0.0/24,,,,false,,false,14593,bgp_only
 143.131.1.0/24,,,,false,,false,14593,bgp_only
 143.131.10.0/24,,,,false,,false,14593,bgp_only
@@ -1282,7 +1282,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.105.0/24,UY,UY-MO,Montevideo,true,bnssarg1,false,,planned_not_announced
 148.227.106.0/23,,,,false,,false,14593,bgp_only
 148.227.106.0/24,EC,EC-P,Quito,true,bgtacol1,false,,planned_not_announced
-148.227.107.0/24,EC,EC-P,Quito,true,bgtacol1,true,14593,announced
+148.227.107.0/24,EC,EC-P,Quito,true,bgtacol1,false,,planned_not_announced
 148.227.108.0/23,,,,false,,false,14593,bgp_only
 148.227.108.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.109.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
@@ -1332,7 +1332,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.75.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 148.227.76.0/23,,,,false,,false,14593,bgp_only
 148.227.76.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
-148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
+148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
@@ -3042,7 +3042,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.52.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.53.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.54.0/23,,,,false,,false,14593,bgp_only
-179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
+179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 179.64.55.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.56.0/23,,,,false,,false,14593,bgp_only
 179.64.56.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -3666,8 +3666,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 212.105.132.0/24,JO,JO-AM,Amman,true,sfiabgr1,false,,planned_not_announced
 212.105.133.0/24,JO,JO-AM,Amman,true,sfiabgr1,false,,planned_not_announced
 212.105.134.0/23,,,,false,,false,14593,bgp_only
-212.105.134.0/24,DK,DK-84,Copenhagen,false,,false,,planned_not_announced
-212.105.135.0/24,DK,DK-84,Copenhagen,false,,false,,planned_not_announced
+212.105.134.0/24,DK,DK-84,Copenhagen,true,stcmswe1,false,,planned_not_announced
+212.105.135.0/24,DK,DK-84,Copenhagen,true,stcmswe1,false,,planned_not_announced
 212.105.136.0/23,,,,false,,false,14593,bgp_only
 212.105.136.0/24,RO,RO-B,Bucharest,true,wrswpol1,false,,planned_not_announced
 212.105.137.0/24,RO,RO-B,Bucharest,true,wrswpol1,false,,planned_not_announced
@@ -3683,8 +3683,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 212.105.142.0/24,QA,QA-DA,Doha,true,dohaqat1,false,,planned_not_announced
 212.105.143.0/24,QA,QA-DA,Doha,true,dohaqat1,false,,planned_not_announced
 212.105.144.0/23,,,,false,,false,14593,bgp_only
-212.105.144.0/24,SE,SE-AB,Stockholm,false,,false,,planned_not_announced
-212.105.145.0/24,SE,SE-AB,Stockholm,false,,false,,planned_not_announced
+212.105.144.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
+212.105.145.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
 212.105.146.0/23,,,,false,,false,14593,bgp_only
 212.105.146.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 212.105.147.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -3761,8 +3761,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 216.128.4.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 216.128.5.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 216.128.6.0/23,,,,false,,false,14593,bgp_only
-216.128.6.0/24,FI,FI-18,Helsinki,false,,false,,planned_not_announced
-216.128.7.0/24,FI,FI-18,Helsinki,false,,false,,planned_not_announced
+216.128.6.0/24,FI,FI-18,Helsinki,true,stcmswe1,false,,planned_not_announced
+216.128.7.0/24,FI,FI-18,Helsinki,true,stcmswe1,false,,planned_not_announced
 216.128.8.0/23,,,,false,,false,14593,bgp_only
 216.128.8.0/24,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
 216.128.9.0/24,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
@@ -3889,13 +3889,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2401:e320:f80::/41,,,,false,,false,45700,bgp_only
 2406:2d40:1000::/38,NZ,NZ-CAN,Christchurch,true,chrhnzl1,true,14593,announced
 2406:2d40:1400::/38,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
-2406:2d40:1400::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1480::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1500::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1580::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1600::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1680::/41,,,,false,,false,14593,bgp_only
-2406:2d40:1780::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1800::/38,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
 2406:2d40:1c00::/38,AU,AU-VIC,Melbourne,true,mlbeaus1,true,14593,announced
 2406:2d40:2000::/40,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
@@ -4245,7 +4238,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:9e00::/40,US,US-MI,Detroit,true,chcoilx1,true,14593,announced
 2605:59c0:9f00::/40,US,US-WI,Madison,true,mplsmnx1,true,14593,announced
 2605:59c0::/40,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
-2605:59c0:a000::/38,US,US-TX,Dallas,true,stcmswe1,true,14593,announced
+2605:59c0:a000::/38,US,US-TX,Dallas,false,,true,14593,announced
 2605:59c0:a00::/40,TD,TD-ND,N'Djamena,true,sfiabgr1,true,14593,announced
 2605:59c0:a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:a400::/38,US,US-TX,Dallas,false,,true,14593,announced
@@ -4618,6 +4611,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59ca:8700::/40,SZ,SZ-HH,Mbabane,true,jhngzaf1,true,14593,announced
 2605:59ca:8800::/40,LS,LS-A,Maseru,true,jhngzaf1,true,14593,announced
 2605:59ca:8900::/40,MW,MW-LI,Lilongwe,true,jhngzaf1,true,14593,announced
+2605:59ca:8900::/41,,,,false,,false,14593,bgp_only
 2605:59ca:8a00::/40,US,US-WA,Seattle,false,,true,14593,announced
 2605:59ca:8b00::/40,MQ,,Fort-de-France,true,mmmiflx1,true,14593,announced
 2605:59ca:8c00::/40,MF,,Marigot,true,mmmiflx1,true,14593,announced
@@ -4872,10 +4866,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:c200::/40,CL,CL-RM,Santiago,true,limaper1,true,14593,announced
 2803:9810:c300::/40,DO,DO-01,Santo Domingo,true,mmmiflx1,true,14593,announced
 2803:9810:c400::/40,PY,PY-ASU,Asuncion,true,bnssarg1,true,14593,announced
-2a0d:3341:a000::/38,SE,SE-AB,Stockholm,false,,true,14593,announced
-2a0d:3341:a800::/40,FI,FI-18,Helsinki,false,,true,14593,announced
-2a0d:3341:a900::/40,DK,DK-84,Copenhagen,false,,true,14593,announced
-2a0d:3341:aa00::/40,NO,NO-03,Oslo,false,,true,14593,announced
+2a0d:3341:a000::/38,SE,SE-AB,Stockholm,true,stcmswe1,true,14593,announced
+2a0d:3341:a800::/40,FI,FI-18,Helsinki,true,stcmswe1,true,14593,announced
+2a0d:3341:a900::/40,DK,DK-84,Copenhagen,true,stcmswe1,true,14593,announced
+2a0d:3341:aa00::/40,NO,NO-03,Oslo,true,stcmswe1,true,14593,announced
 2a0d:3341:ab00::/40,FO,,Tórshavn,true,lndngbr1,true,14593,announced
 2a0d:3341:ac00::/40,IM,,Douglas,true,lndngbr1,true,14593,announced
 2a0d:3341:ad00::/40,JE,,St Helier,true,lndngbr1,true,14593,announced
@@ -5514,7 +5508,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.160.0/24,,,,false,,false,14593,bgp_only
 74.245.161.0/24,,,,false,,false,14593,bgp_only
 74.245.163.0/24,ES,ES-MD,Madrid,false,,true,14593,announced
-74.245.164.0/24,,,,false,,false,14593,bgp_only
 74.245.17.0/24,,,,false,,false,14593,bgp_only
 74.245.19.0/24,,,,false,,false,14593,bgp_only
 74.245.192.0/24,,,,false,,false,14593,bgp_only
@@ -5856,8 +5849,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.112.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 9.246.113.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 9.246.114.0/23,,,,false,,false,14593,bgp_only
-9.246.114.0/24,DK,DK-84,Copenhagen,true,frntdeu1,false,,planned_not_announced
-9.246.115.0/24,DK,DK-84,Copenhagen,true,frntdeu1,false,,planned_not_announced
+9.246.114.0/24,DK,DK-84,Copenhagen,true,stcmswe1,false,,planned_not_announced
+9.246.115.0/24,DK,DK-84,Copenhagen,true,stcmswe1,false,,planned_not_announced
 9.246.116.0/23,,,,false,,false,14593,bgp_only
 9.246.116.0/24,PL,PL-14,Warsaw,true,wrswpol1,false,,planned_not_announced
 9.246.117.0/24,PL,PL-14,Warsaw,true,wrswpol1,false,,planned_not_announced
@@ -5979,14 +5972,14 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.52.0/24,AT,AT-9,Vienna,true,frntdeu1,false,,planned_not_announced
 9.246.53.0/24,AT,AT-9,Vienna,true,frntdeu1,false,,planned_not_announced
 9.246.54.0/23,,,,false,,false,14593,bgp_only
-9.246.54.0/24,NO,NO-03,Oslo,true,frntdeu1,false,,planned_not_announced
-9.246.55.0/24,NO,NO-03,Oslo,true,frntdeu1,false,,planned_not_announced
+9.246.54.0/24,NO,NO-03,Oslo,true,stcmswe1,false,,planned_not_announced
+9.246.55.0/24,NO,NO-03,Oslo,true,stcmswe1,false,,planned_not_announced
 9.246.56.0/23,,,,false,,false,14593,bgp_only
-9.246.56.0/24,SE,SE-AB,Stockholm,true,frntdeu1,false,,planned_not_announced
-9.246.57.0/24,SE,SE-AB,Stockholm,true,frntdeu1,false,,planned_not_announced
+9.246.56.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
+9.246.57.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
 9.246.58.0/23,,,,false,,false,14593,bgp_only
-9.246.58.0/24,SE,SE-AB,Stockholm,true,frntdeu1,false,,planned_not_announced
-9.246.59.0/24,SE,SE-AB,Stockholm,true,frntdeu1,false,,planned_not_announced
+9.246.58.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
+9.246.59.0/24,SE,SE-AB,Stockholm,true,stcmswe1,false,,planned_not_announced
 9.246.6.0/23,,,,false,,false,14593,bgp_only
 9.246.6.0/24,FR,FR-IDF,Paris,true,mlnnita1,false,,planned_not_announced
 9.246.60.0/23,,,,false,,false,14593,bgp_only
