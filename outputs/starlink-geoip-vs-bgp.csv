@@ -353,8 +353,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.8.0/22,,,,false,,false,14593,bgp_only
 129.222.8.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 129.222.80.0/23,,,,false,,false,14593,bgp_only
-129.222.80.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
-129.222.81.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
+129.222.80.0/24,US,US-TX,Dallas,true,kllrmys1,false,,planned_not_announced
+129.222.81.0/24,US,US-TX,Dallas,true,kllrmys1,false,,planned_not_announced
 129.222.82.0/23,,,,false,,false,14593,bgp_only
 129.222.82.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
 129.222.83.0/24,US,US-TX,Dallas,false,,false,,planned_not_announced
@@ -1280,7 +1280,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.105.0/24,UY,UY-MO,Montevideo,true,bnssarg1,false,,planned_not_announced
 148.227.106.0/23,,,,false,,false,14593,bgp_only
 148.227.106.0/24,EC,EC-P,Quito,true,bgtacol1,false,,planned_not_announced
-148.227.107.0/24,EC,EC-P,Quito,true,bgtacol1,false,,planned_not_announced
+148.227.107.0/24,EC,EC-P,Quito,true,bgtacol1,true,14593,announced
 148.227.108.0/23,,,,false,,false,14593,bgp_only
 148.227.108.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.109.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
@@ -3940,7 +3940,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:6c00::/38,VN,VN-SG,Saigon,true,sgnnvnm1,true,14593,announced
 2406:2d40:7200::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:7600::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
-2406:2d40:8000::/40,MY,MY-14,Kuala Lumpur,true,sngesgp1,true,14593,announced
+2406:2d40:8000::/40,MY,MY-14,Kuala Lumpur,true,kllrmys1,true,14593,announced
 2406:2d40:800::/38,JP,JP-13,Tokyo,true,tkyojpn1,true,14593,announced
 2406:2d40:8400::/38,AU,AU-QLD,Brisbane,true,brseaus1,true,14593,announced
 2406:2d40:8800::/38,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
@@ -4231,7 +4231,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:9e00::/40,US,US-MI,Detroit,true,chcoilx1,true,14593,announced
 2605:59c0:9f00::/40,US,US-WI,Madison,true,mplsmnx1,true,14593,announced
 2605:59c0::/40,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
-2605:59c0:a000::/38,US,US-TX,Dallas,false,,true,14593,announced
+2605:59c0:a000::/38,US,US-TX,Dallas,true,kllrmys1,true,14593,announced
 2605:59c0:a00::/40,TD,TD-ND,N'Djamena,true,sfiabgr1,true,14593,announced
 2605:59c0:a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:a400::/38,US,US-TX,Dallas,false,,true,14593,announced

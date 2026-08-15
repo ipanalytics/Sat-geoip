@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 14687 |
-| Announced prefixes | 10869 |
-| GeoFeed-only prefixes | 3818 |
-| BGP-only prefixes | 9844 |
-| Prefixes with PoP assignment | 3721 |
-| Active user claims | 10869 |
+| Prefixes | 14690 |
+| Announced prefixes | 10873 |
+| GeoFeed-only prefixes | 3817 |
+| BGP-only prefixes | 9847 |
+| Prefixes with PoP assignment | 3724 |
+| Active user claims | 10873 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,7 +24,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 79 |
-| `eutelsat_skylogic` | 274 |
+| `eutelsat_skylogic` | 273 |
 | `gazprom_space_systems` | 45 |
 | `gilat_telecom` | 229 |
 | `gogo_business_aviation` | 1 |
@@ -63,9 +63,9 @@ Generated artifacts for the current sat-geoip dataset build.
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 965 |
+| `turksat` | 964 |
 | `usap` | 19 |
-| `viasat` | 4666 |
+| `viasat` | 4671 |
 | `yahsat` | 100 |
 
 
@@ -74,9 +74,9 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2742 |
+| `geo` | 2741 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5042 |
+| `geo_or_hybrid_satellite` | 5046 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
 | `leo` | 6342 |
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 10869 |
-| `bgp_not_announced` | 3818 |
+| `bgp_announced` | 10873 |
+| `bgp_not_announced` | 3817 |
 | `geoip_invalid_country_city_pair` | 13 |
 | `geoip_valid` | 4843 |
-| `origin_asn_expected` | 10869 |
-| `pop_missing` | 1122 |
-| `pop_present` | 3721 |
-| `prefix_only_in_bgp` | 9844 |
-| `prefix_only_in_geofeed` | 3818 |
-| `ptr_missing` | 3721 |
+| `origin_asn_expected` | 10873 |
+| `pop_missing` | 1119 |
+| `pop_present` | 3724 |
+| `prefix_only_in_bgp` | 9847 |
+| `prefix_only_in_geofeed` | 3817 |
+| `ptr_missing` | 3724 |
 
 
