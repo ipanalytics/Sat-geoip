@@ -1,13 +1,1 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.80.0/24,changed,2026-08-15T03:53:49Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,,US,US,US-TX,US-TX,Dallas,Dallas
-129.222.81.0/24,changed,2026-08-15T03:53:49Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,,US,US,US-TX,US-TX,Dallas,Dallas
-148.227.107.0/24,changed,2026-08-15T03:53:49Z,starlink,starlink,announced,planned_not_announced,14593,,bgtacol1,bgtacol1,EC,EC,EC-P,EC-P,Quito,Quito
-2406:2d40:8000::/40,changed,2026-08-15T03:53:49Z,starlink,starlink,announced,announced,14593,14593,kllrmys1,sngesgp1,MY,MY,MY-14,MY-14,Kuala Lumpur,Kuala Lumpur
-2605:59c0:a000::/38,changed,2026-08-15T03:53:49Z,starlink,starlink,announced,announced,14593,14593,kllrmys1,,US,US,US-TX,US-TX,Dallas,Dallas
-184.63.0.0/24,new,2026-08-15T03:53:49Z,viasat,,bgp_only,,7155,,,,,,,,,
-184.63.160.0/24,new,2026-08-15T03:53:49Z,viasat,,bgp_only,,7155,,,,,,,,,
-184.63.64.0/24,new,2026-08-15T03:53:49Z,viasat,,bgp_only,,7155,,,,,,,,,
-184.63.65.0/24,new,2026-08-15T03:53:49Z,viasat,,bgp_only,,7155,,,,,,,,,
-184.63.96.0/24,new,2026-08-15T03:53:49Z,viasat,,bgp_only,,7155,,,,,,,,,
-102.222.47.0/24,withdrawn,2026-08-15T03:53:49Z,eutelsat_skylogic,eutelsat_skylogic,withdrawn_recently,bgp_only,29286,29286,,,,,,,,
-94.54.196.0/22,withdrawn,2026-08-15T03:53:49Z,turksat,turksat,withdrawn_recently,bgp_only,47524,47524,,,,,,,,
