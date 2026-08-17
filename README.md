@@ -66,8 +66,8 @@ The resolver applies fixed precedence rules:
 | Dataset metric | Count |
 |---|---:|
 | Prefixes | 14690 |
-| Announced prefixes | 10873 |
-| GeoFeed-only prefixes | 3817 |
+| Announced prefixes | 10874 |
+| GeoFeed-only prefixes | 3816 |
 | BGP-only prefixes | 9847 |
 | Prefixes with PoP assignment | 3724 |
 | Ground station claims | 0 |

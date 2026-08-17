@@ -1,1 +1,4 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
+129.222.180.0/24,changed,2026-08-17T04:01:56Z,starlink,starlink,announced,planned_not_announced,14593,,limaper1,limaper1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+129.224.205.0/24,changed,2026-08-17T04:01:56Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,SL,SL,SL-W,SL-W,Freetown,Freetown
+150.228.105.0/24,changed,2026-08-17T04:01:56Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,IQ,IQ,IQ-BG,IQ-BG,Baghdad,Baghdad

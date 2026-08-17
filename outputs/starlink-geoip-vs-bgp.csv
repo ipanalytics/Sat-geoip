@@ -171,7 +171,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.178.0/24,EC,EC-P,Quito,true,limaper1,false,,planned_not_announced
 129.222.179.0/24,EC,EC-P,Quito,true,limaper1,true,14593,announced
 129.222.18.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
-129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
+129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,true,14593,announced
 129.222.181.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
 129.222.182.0/24,,,,false,,false,14593,bgp_only
 129.222.182.0/25,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
@@ -397,7 +397,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.224.203.0/24,MM,MM-06,Yangon,true,sngesgp1,false,,planned_not_announced
 129.224.204.0/23,,,,false,,false,14593,bgp_only
 129.224.204.0/24,SL,SL-W,Freetown,true,lgosnga1,false,,planned_not_announced
-129.224.205.0/24,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
+129.224.205.0/24,SL,SL-W,Freetown,true,lgosnga1,false,,planned_not_announced
 129.224.206.0/23,,,,false,,false,14593,bgp_only
 129.224.206.0/24,SY,SY-DI,Damascus,true,frntdeu1,false,,planned_not_announced
 129.224.207.0/24,SY,SY-DI,Damascus,true,frntdeu1,false,,planned_not_announced
@@ -1401,7 +1401,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.103.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 150.228.104.0/23,,,,false,,false,14593,bgp_only
 150.228.104.0/24,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
-150.228.105.0/24,IQ,IQ-BG,Baghdad,true,sfiabgr1,false,,planned_not_announced
+150.228.105.0/24,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
 150.228.106.0/23,,,,false,,false,14593,bgp_only
 150.228.106.0/24,SY,SY-DI,Damascus,true,sfiabgr1,false,,planned_not_announced
 150.228.107.0/24,SY,SY-DI,Damascus,true,sfiabgr1,false,,planned_not_announced
