@@ -4724,6 +4724,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
+2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
 2803:9810:3000::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
@@ -4878,7 +4879,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:a900::/40,DK,DK-84,Copenhagen,true,stcmswe1,true,14593,announced
 2a0d:3341:aa00::/40,NO,NO-03,Oslo,true,stcmswe1,true,14593,announced
 2a0d:3341:ab00::/40,FO,,Tórshavn,true,lndngbr1,true,14593,announced
-2a0d:3341:ac00::/40,IM,,Douglas,true,lndngbr1,true,14593,announced
+2a0d:3341:ac00::/40,GB,GB-LND,London,true,lndngbr1,true,14593,announced
 2a0d:3341:ad00::/40,JE,,St Helier,true,lndngbr1,true,14593,announced
 2a0d:3341:ae00::/40,MC,MC-MC,Monaco,true,mlnnita1,true,14593,announced
 2a0d:3341:af00::/40,SM,SM-09,Serravalle,true,mlnnita1,true,14593,announced
@@ -5569,6 +5570,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.253.0/24,,,,false,,false,14593,bgp_only
 74.245.254.0/24,,,,false,,false,14593,bgp_only
 74.245.255.0/24,,,,false,,false,14593,bgp_only
+74.245.27.0/24,,,,false,,false,14593,bgp_only
 74.245.29.0/24,,,,false,,false,14593,bgp_only
 74.245.3.0/24,,,,false,,false,14593,bgp_only
 74.245.30.0/24,,,,false,,false,14593,bgp_only
@@ -6041,8 +6043,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.84.0/24,SM,SM-09,Serravalle,true,mlnnita1,false,,planned_not_announced
 9.246.85.0/24,SM,SM-09,Serravalle,true,mlnnita1,false,,planned_not_announced
 9.246.86.0/23,,,,false,,false,14593,bgp_only
-9.246.86.0/24,IM,,Douglas,true,lndngbr1,false,,planned_not_announced
-9.246.87.0/24,IM,,Douglas,true,lndngbr1,false,,planned_not_announced
+9.246.86.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
+9.246.87.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 9.246.88.0/23,,,,false,,false,14593,bgp_only
 9.246.88.0/24,MC,MC-MC,Monaco,true,mlnnita1,false,,planned_not_announced
 9.246.89.0/24,MC,MC-MC,Monaco,true,mlnnita1,false,,planned_not_announced
