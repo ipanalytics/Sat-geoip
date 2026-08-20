@@ -1,7 +1,7 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-2a0d:3341:ac00::/40,changed,2026-08-19T03:58:14Z,starlink,starlink,announced,announced,14593,14593,lndngbr1,lndngbr1,GB,IM,GB-LND,,London,Douglas
-9.246.86.0/24,changed,2026-08-19T03:58:14Z,starlink,starlink,planned_not_announced,planned_not_announced,,,lndngbr1,lndngbr1,GB,IM,GB-LND,,London,Douglas
-9.246.87.0/24,changed,2026-08-19T03:58:14Z,starlink,starlink,planned_not_announced,planned_not_announced,,,lndngbr1,lndngbr1,GB,IM,GB-LND,,London,Douglas
-2803:9810:1c80::/41,new,2026-08-19T03:58:14Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.27.0/24,new,2026-08-19T03:58:14Z,starlink,,bgp_only,,14593,,,,,,,,,
-81.199.11.0/24,new,2026-08-19T03:58:14Z,gilat_telecom,,bgp_only,,12491,,,,,,,,,
+143.105.145.0/24,changed,2026-08-20T03:58:11Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,LR,LR,LR-MO,LR-MO,Monrovia,Monrovia
+143.105.75.0/24,changed,2026-08-20T03:58:11Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NE,NE,NE-8,NE-8,Niamey,Niamey
+153.67.98.0/24,changed,2026-08-20T03:58:11Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,SS,SS,SS-EC,SS-EC,Juba,Juba
+74.244.119.0/24,changed,2026-08-20T03:58:11Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,GH,GH,GH-AA,GH-AA,Accra,Accra
+179.64.130.0/24,new,2026-08-20T03:58:11Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:9021::/48,new,2026-08-20T03:58:11Z,starlink,,bgp_only,,14593,,,,,,,,,

@@ -732,7 +732,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.143.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
 143.105.144.0/23,,,,false,,false,14593,bgp_only
 143.105.144.0/24,LR,LR-MO,Monrovia,true,lgosnga1,false,,planned_not_announced
-143.105.145.0/24,LR,LR-MO,Monrovia,true,lgosnga1,false,,planned_not_announced
+143.105.145.0/24,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
 143.105.146.0/23,,,,false,,false,14593,bgp_only
 143.105.146.0/24,,,,false,,false,14593,bgp_only
 143.105.146.0/25,VE,VE-A,Caracas,true,bgtacol1,false,,planned_not_announced
@@ -1000,7 +1000,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.73.0/24,US,US-IL,Chicago,false,,false,,planned_not_announced
 143.105.74.0/23,,,,false,,false,14593,bgp_only
 143.105.74.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
-143.105.75.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
+143.105.75.0/24,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
 143.105.76.0/22,,,,false,,false,14593,bgp_only
 143.105.76.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 143.105.77.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
@@ -2545,7 +2545,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.96.0/24,JM,JM-01,Kingston,true,mmmiflx1,false,,planned_not_announced
 153.67.97.0/24,JM,JM-01,Kingston,true,mmmiflx1,false,,planned_not_announced
 153.67.98.0/23,,,,false,,false,14593,bgp_only
-153.67.98.0/24,SS,SS-EC,Juba,true,nrbiken1,true,14593,announced
+153.67.98.0/24,SS,SS-EC,Juba,true,nrbiken1,false,,planned_not_announced
 153.67.99.0/24,SS,SS-EC,Juba,true,nrbiken1,false,,planned_not_announced
 161.248.12.0/24,,,,false,,false,45700,bgp_only
 161.248.13.0/24,,,,false,,false,45700,bgp_only
@@ -2965,6 +2965,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.126.0/24,US,US-OH,Columbus,true,ashnvax2,false,,planned_not_announced
 179.64.127.0/24,US,US-OH,Columbus,true,ashnvax2,false,,planned_not_announced
 179.64.13.0/24,US,US-AL,Huntsville,true,atlagax1,false,,planned_not_announced
+179.64.130.0/24,,,,false,,false,14593,bgp_only
 179.64.132.0/24,,,,false,,false,14593,bgp_only
 179.64.14.0/23,,,,false,,false,14593,bgp_only
 179.64.14.0/24,US,US-KY,Louisville,true,chcoilx1,false,,planned_not_announced
@@ -4315,6 +4316,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:900a::/48,,,,false,,false,14593,bgp_only
 2605:59c7:900b::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9013::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9021::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/44,,,,false,,false,14593,bgp_only
 2605:59c7:9050::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9051::/48,,,,false,,false,14593,bgp_only
@@ -5154,7 +5156,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.117.0/24,US,US-MO,Kansas City,true,knsymox1,false,,planned_not_announced
 74.244.118.0/23,,,,false,,false,14593,bgp_only
 74.244.118.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
-74.244.119.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
+74.244.119.0/24,GH,GH-AA,Accra,true,lgosnga1,true,14593,announced
 74.244.12.0/23,,,,false,,false,14593,bgp_only
 74.244.12.0/24,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
 74.244.120.0/23,,,,false,,false,14593,bgp_only
