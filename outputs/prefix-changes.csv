@@ -1,23 +1,8 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.147.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
-129.222.57.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,GR,GR,GR-I,GR-I,Athens,Athens
-150.228.49.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,GE,GE,GE-TB,GE-TB,Tbilisi,Tbilisi
-153.67.207.0/25,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,prtdorx3,,US,US,US-OR,US-OR,Portland,Portland
-153.67.207.128/25,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,prtdorx3,,US,US,US-OR,US-OR,Portland,Portland
-179.238.55.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,announced,,14593,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
-209.198.150.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-2605:59c8:8200::/40,changed,2026-08-22T03:55:47Z,starlink,starlink,announced,announced,14593,14593,prtdorx3,,US,US,US-OR,US-OR,Portland,Portland
-2605:59c8:8400::/38,changed,2026-08-22T03:55:47Z,starlink,starlink,announced,announced,14593,14593,,nrbiken1,UG,UG,UG-102,UG-102,Kampala,Kampala
-2a0d:3341:ac00::/40,changed,2026-08-22T03:55:47Z,starlink,starlink,announced,announced,14593,14593,lndngbr1,lndngbr1,IM,GB,,GB-LND,Douglas,London
-9.170.86.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,nrbiken1,UG,UG,UG-102,UG-102,Kampala,Kampala
-9.170.87.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,nrbiken1,UG,UG,UG-102,UG-102,Kampala,Kampala
-9.246.86.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,lndngbr1,lndngbr1,IM,GB,,GB-LND,Douglas,London
-9.246.87.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,lndngbr1,lndngbr1,IM,GB,,GB-LND,Douglas,London
-98.97.190.0/24,changed,2026-08-22T03:55:47Z,starlink,starlink,announced,planned_not_announced,14593,,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
-208.114.121.0/24,new,2026-08-22T03:55:47Z,anuvu,,bgp_only,,32806,,,,,,,,,
-2605:59c0:8c00::/41,withdrawn,2026-08-22T03:55:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2605:59c0:8c80::/41,withdrawn,2026-08-22T03:55:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2803:9810:b00::/41,withdrawn,2026-08-22T03:55:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2a0d:3344:6b00::/41,withdrawn,2026-08-22T03:55:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2a0d:3344:6b80::/41,withdrawn,2026-08-22T03:55:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-94.54.172.0/22,withdrawn,2026-08-22T03:55:47Z,turksat,turksat,withdrawn_recently,bgp_only,47524,47524,,,,,,,,
+135.129.124.0/24,changed,2026-08-23T04:00:07Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
+179.238.15.0/24,changed,2026-08-23T04:00:07Z,starlink,starlink,announced,planned_not_announced,14593,,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+179.238.55.0/24,changed,2026-08-23T04:00:07Z,starlink,starlink,announced,planned_not_announced,14593,,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
+179.238.57.0/24,changed,2026-08-23T04:00:07Z,starlink,starlink,announced,planned_not_announced,14593,,qrtomex1,qrtomex1,MX,MX,MX-CMX,MX-CMX,Mexico City,Mexico City
+74.244.222.0/24,changed,2026-08-23T04:00:07Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
+179.64.191.0/24,new,2026-08-23T04:00:07Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:b80::/41,withdrawn,2026-08-23T04:00:07Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
