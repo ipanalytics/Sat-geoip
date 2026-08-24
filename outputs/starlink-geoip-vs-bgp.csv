@@ -1190,6 +1190,9 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 145.224.84.0/23,,,,false,,false,14593,bgp_only
 145.224.84.0/24,PT,PT-11,Lisbon,true,mdrdesp1,false,,planned_not_announced
 145.224.85.0/24,PT,PT-11,Lisbon,true,mdrdesp1,false,,planned_not_announced
+145.224.86.0/23,,,,false,,false,14593,bgp_only
+145.224.86.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+145.224.87.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 145.224.88.0/22,,,,false,,false,14593,bgp_only
 145.224.88.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 145.224.89.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -4843,15 +4846,12 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:8600::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8700::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:880::/41,,,,false,,false,14593,bgp_only
-2803:9810:900::/41,,,,false,,false,14593,bgp_only
 2803:9810:980::/41,,,,false,,false,14593,bgp_only
 2803:9810::/38,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 2803:9810:a000::/40,HT,HT-OU,Port-au-Prince,true,mmmiflx1,true,14593,announced
-2803:9810:a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:a100::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 2803:9810:a200::/40,MX,MX-CMX,Mexico City,true,mmmiflx1,true,14593,announced
 2803:9810:a500::/40,AG,AG-04,Saint John's,true,mmmiflx1,true,14593,announced
-2803:9810:a80::/41,,,,false,,false,14593,bgp_only
 2803:9810:b000::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:b100::/40,UY,UY-MO,Montevideo,true,bnssarg1,true,14593,announced
 2803:9810:b200::/40,BR,BR-SP,Sao Paulo,true,bnssarg1,true,14593,announced
@@ -4898,7 +4898,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:bb00::/40,NO,NO-03,Oslo,true,frntdeu1,true,14593,announced
 2a0d:3341:bc00::/40,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 2a0d:3341:bc00::/41,,,,false,,false,14593,bgp_only
-2a0d:3341:bc80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:bd00::/40,YE,YE-AD,Aden,true,frntdeu1,true,14593,announced
 2a0d:3341:be00::/40,GI,,Gibraltar,true,mdrdesp1,true,14593,announced
 2a0d:3341:bf00::/40,GL,GL-KU,Nuuk,false,,true,14593,announced
@@ -5926,6 +5925,9 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.150.0/23,,,,false,,false,14593,bgp_only
 9.246.150.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 9.246.151.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
+9.246.152.0/23,,,,false,,false,14593,bgp_only
+9.246.152.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
+9.246.153.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 9.246.16.0/23,,,,false,,false,14593,bgp_only
 9.246.16.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
 9.246.17.0/24,ES,ES-MD,Madrid,true,mdrdesp1,false,,planned_not_announced
