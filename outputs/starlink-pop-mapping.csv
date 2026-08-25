@@ -264,6 +264,8 @@ prefix,pop_code,pop_iata,source
 129.222.78.0/24,dllstxx1,dfw,starlink_pops_csv
 129.222.79.0/24,dllstxx1,dfw,starlink_pops_csv
 129.222.8.0/24,wrswpol1,waw,starlink_pops_csv
+129.222.80.0/24,dhkabgd1,dac,starlink_pops_csv
+129.222.81.0/24,dhkabgd1,dac,starlink_pops_csv
 129.222.88.0/24,mmmiflx1,mia,starlink_pops_csv
 129.222.89.0/24,mmmiflx1,mia,starlink_pops_csv
 129.222.9.0/24,wrswpol1,waw,starlink_pops_csv
@@ -826,6 +828,8 @@ prefix,pop_code,pop_iata,source
 149.19.173.0/24,splobra1,gru,starlink_pops_csv
 149.19.174.0/24,brsabra1,bsb,starlink_pops_csv
 149.19.175.0/24,brsabra1,bsb,starlink_pops_csv
+150.228.0.0/24,stcmswe1,arn,starlink_pops_csv
+150.228.1.0/24,stcmswe1,arn,starlink_pops_csv
 150.228.10.0/24,frntdeu1,fra,starlink_pops_csv
 150.228.100.0/24,mdrdesp1,mad,starlink_pops_csv
 150.228.101.0/24,mdrdesp1,mad,starlink_pops_csv
@@ -1561,6 +1565,8 @@ prefix,pop_code,pop_iata,source
 153.67.97.0/24,mmmiflx1,mia,starlink_pops_csv
 153.67.98.0/24,nrbiken1,nbo,starlink_pops_csv
 153.67.99.0/24,nrbiken1,nbo,starlink_pops_csv
+162.43.192.0/24,stcmswe1,arn,starlink_pops_csv
+162.43.193.0/24,stcmswe1,arn,starlink_pops_csv
 162.43.194.0/24,lndngbr1,lhr,starlink_pops_csv
 162.43.195.0/24,lndngbr1,lhr,starlink_pops_csv
 168.140.240.0/24,drwnaus1,drw,starlink_pops_csv
@@ -2549,10 +2555,9 @@ prefix,pop_code,pop_iata,source
 2605:59c0:9100::/40,mlnnita1,mxp,starlink_pops_csv
 2605:59c0:9200::/40,clgycan1,yyc,starlink_pops_csv
 2605:59c0:9300::/40,clgycan1,yyc,starlink_pops_csv
-2605:59c0:9400::/40,mplsmnx1,msp,starlink_pops_csv
+2605:59c0:9400::/40,dhkabgd1,dac,starlink_pops_csv
 2605:59c0:9600::/40,knsymox1,mci,starlink_pops_csv
 2605:59c0:9700::/40,knsymox1,mci,starlink_pops_csv
-2605:59c0:9800::/40,almykaz1,ala,starlink_pops_csv
 2605:59c0:9900::/40,chcoilx1,ord,starlink_pops_csv
 2605:59c0:9a00::/40,chcoilx1,ord,starlink_pops_csv
 2605:59c0:9b00::/40,chcoilx1,ord,starlink_pops_csv
@@ -2687,6 +2692,7 @@ prefix,pop_code,pop_iata,source
 2605:59c8:800::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8:8100::/40,lgosnga1,los,starlink_pops_csv
 2605:59c8:8200::/40,prtdorx3,pdx2,starlink_pops_csv
+2605:59c8:8400::/38,kmpauga1,ebb,starlink_pops_csv
 2605:59c8:900::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8::/40,sttlwax1,sea,starlink_pops_csv
 2605:59c8:a00::/40,sttlwax1,sea,starlink_pops_csv
@@ -3425,6 +3431,8 @@ prefix,pop_code,pop_iata,source
 9.170.83.0/24,clgycan1,yyc,starlink_pops_csv
 9.170.84.0/24,clgycan1,yyc,starlink_pops_csv
 9.170.85.0/24,clgycan1,yyc,starlink_pops_csv
+9.170.86.0/24,kmpauga1,ebb,starlink_pops_csv
+9.170.87.0/24,kmpauga1,ebb,starlink_pops_csv
 9.170.88.0/24,nrbiken1,nbo,starlink_pops_csv
 9.170.89.0/24,nrbiken1,nbo,starlink_pops_csv
 9.170.9.0/24,snjecax1,sjc,starlink_pops_csv
@@ -3655,8 +3663,6 @@ prefix,pop_code,pop_iata,source
 98.97.15.0/24,chcoilx1,ord,starlink_pops_csv
 98.97.150.0/24,jhngzaf1,jnb,starlink_pops_csv
 98.97.151.0/24,jhngzaf1,jnb,starlink_pops_csv
-98.97.152.0/24,almykaz1,ala,starlink_pops_csv
-98.97.153.0/24,almykaz1,ala,starlink_pops_csv
 98.97.154.0/24,sttlwax1,sea,starlink_pops_csv
 98.97.155.0/24,sttlwax1,sea,starlink_pops_csv
 98.97.156.0/24,bgtacol1,bog,starlink_pops_csv
