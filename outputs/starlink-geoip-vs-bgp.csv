@@ -2244,8 +2244,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.144.0/24,GQ,GQ-C,Bata,true,lgosnga1,false,,planned_not_announced
 153.67.145.0/24,GQ,GQ-C,Bata,true,lgosnga1,false,,planned_not_announced
 153.67.146.0/23,,,,false,,false,14593,bgp_only
-153.67.146.0/24,UG,UG-102,Kampala,true,nrbiken1,false,,planned_not_announced
-153.67.147.0/24,UG,UG-102,Kampala,true,nrbiken1,false,,planned_not_announced
+153.67.146.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
+153.67.147.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
 153.67.148.0/23,,,,false,,false,14593,bgp_only
 153.67.148.0/24,NA,NA-KH,Windhoek,true,jhngzaf1,false,,planned_not_announced
 153.67.149.0/24,NA,NA-KH,Windhoek,true,jhngzaf1,false,,planned_not_announced
@@ -2979,6 +2979,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.153.0/24,,,,false,,false,14593,bgp_only
 179.64.154.0/24,,,,false,,false,14593,bgp_only
 179.64.156.0/24,,,,false,,false,14593,bgp_only
+179.64.157.0/24,,,,false,,false,14593,bgp_only
 179.64.16.0/23,,,,false,,false,14593,bgp_only
 179.64.16.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
 179.64.160.0/24,,,,false,,false,14593,bgp_only
@@ -2986,6 +2987,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.167.0/24,,,,false,,false,14593,bgp_only
 179.64.17.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
 179.64.172.0/24,,,,false,,false,14593,bgp_only
+179.64.173.0/24,,,,false,,false,14593,bgp_only
 179.64.176.0/24,,,,false,,false,14593,bgp_only
 179.64.178.0/24,,,,false,,false,14593,bgp_only
 179.64.18.0/23,,,,false,,false,14593,bgp_only
@@ -4152,10 +4154,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:504b::/48,,,,false,,false,14593,bgp_only
 2605:59c0:504c::/48,,,,false,,false,14593,bgp_only
 2605:59c0:504d::/48,,,,false,,false,14593,bgp_only
+2605:59c0:504e::/48,,,,false,,false,14593,bgp_only
 2605:59c0:504f::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5050::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5051::/48,,,,false,,false,14593,bgp_only
-2605:59c0:5100::/40,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
+2605:59c0:5100::/40,UG,UG-102,Kampala,true,kmpauga1,true,14593,announced
 2605:59c0:5200::/40,GQ,GQ-C,Bata,true,lgosnga1,true,14593,announced
 2605:59c0:53fe::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5400::/40,CA,CA-AB,Calgary,true,clgycan1,true,14593,announced
@@ -4323,14 +4326,17 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9051::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9052::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9062::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9063::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9064::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9065::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9068::/48,,,,false,,false,14593,bgp_only
+2605:59c7:906a::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9078::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9079::/48,,,,false,,false,14593,bgp_only
 2605:59c7:907a::/48,,,,false,,false,14593,bgp_only
 2605:59c7:907c::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9088::/48,,,,false,,false,14593,bgp_only
+2605:59c7:908b::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e109::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/48,,,,false,,false,14593,bgp_only
@@ -4470,7 +4476,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:8100::/40,TG,TG-M,Lome,true,lgosnga1,true,14593,announced
 2605:59c8:8200::/40,US,US-OR,Portland,true,prtdorx3,true,14593,announced
 2605:59c8:8300::/40,US,US-GA,Atlanta,false,,true,14593,announced
-2605:59c8:8400::/38,UG,UG-102,Kampala,true,kmpauga1,true,14593,announced
+2605:59c8:8400::/38,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
 2605:59c8:900::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8:a00::/40,CA,CA-AB,Calgary,true,sttlwax1,true,14593,announced
@@ -4728,6 +4734,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
+2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c80::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
@@ -4739,6 +4746,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3500::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 2803:9810:3600::/40,BO,BO-S,Santa Cruz de la Sierra,true,sntochl1,true,14593,announced
 2803:9810:3700::/40,BO,BO-S,Santa Cruz de la Sierra,true,limaper1,true,14593,announced
+2803:9810:3700::/41,,,,false,,false,14593,bgp_only
+2803:9810:3780::/41,,,,false,,false,14593,bgp_only
 2803:9810:3800::/40,AR,AR-C,Buenos Aires,true,splobra1,true,14593,announced
 2803:9810:3800::/41,,,,false,,false,14593,bgp_only
 2803:9810:3880::/41,,,,false,,false,14593,bgp_only

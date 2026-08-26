@@ -1394,8 +1394,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 153.67.143.0/24,gtmygtm1,,ptr_missing
 153.67.144.0/24,lgosnga1,,ptr_missing
 153.67.145.0/24,lgosnga1,,ptr_missing
-153.67.146.0/24,nrbiken1,,ptr_missing
-153.67.147.0/24,nrbiken1,,ptr_missing
+153.67.146.0/24,kmpauga1,,ptr_missing
+153.67.147.0/24,kmpauga1,,ptr_missing
 153.67.148.0/24,jhngzaf1,,ptr_missing
 153.67.149.0/24,jhngzaf1,,ptr_missing
 153.67.15.0/24,bnssarg1,,ptr_missing
@@ -2489,7 +2489,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:4b00::/40,gtmygtm1,,ptr_missing
 2605:59c0:4c00::/38,sfiabgr1,,ptr_missing
 2605:59c0:500::/40,ashnvax2,,ptr_missing
-2605:59c0:5100::/40,nrbiken1,,ptr_missing
+2605:59c0:5100::/40,kmpauga1,,ptr_missing
 2605:59c0:5200::/40,lgosnga1,,ptr_missing
 2605:59c0:5400::/40,clgycan1,,ptr_missing
 2605:59c0:5500::/40,clgycan1,,ptr_missing
@@ -2692,7 +2692,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c8:800::/40,sttlwax1,,ptr_missing
 2605:59c8:8100::/40,lgosnga1,,ptr_missing
 2605:59c8:8200::/40,prtdorx3,,ptr_missing
-2605:59c8:8400::/38,kmpauga1,,ptr_missing
+2605:59c8:8400::/38,nrbiken1,,ptr_missing
 2605:59c8:900::/40,sttlwax1,,ptr_missing
 2605:59c8::/40,sttlwax1,,ptr_missing
 2605:59c8:a00::/40,sttlwax1,,ptr_missing
