@@ -1333,7 +1333,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.75.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 148.227.76.0/23,,,,false,,false,14593,bgp_only
 148.227.76.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
-148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
+148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
@@ -2994,6 +2994,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.18.0/24,US,US-IN,Indianapolis,true,chcoilx1,false,,planned_not_announced
 179.64.180.0/24,,,,false,,false,14593,bgp_only
 179.64.182.0/24,,,,false,,false,14593,bgp_only
+179.64.185.0/24,,,,false,,false,14593,bgp_only
 179.64.186.0/24,,,,false,,false,14593,bgp_only
 179.64.188.0/24,,,,false,,false,14593,bgp_only
 179.64.19.0/24,US,US-IN,Indianapolis,true,chcoilx1,false,,planned_not_announced
@@ -3056,7 +3057,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.64.52.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.53.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.54.0/23,,,,false,,false,14593,bgp_only
-179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+179.64.54.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.55.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.64.56.0/23,,,,false,,false,14593,bgp_only
 179.64.56.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -3919,10 +3920,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:2900::/40,IN,IN-MH,Mumbai,true,mmbiind1,true,14593,announced
 2406:2d40:2a00::/40,IN,IN-MH,Mumbai,true,mmbiind1,true,14593,announced
 2406:2d40:2b00::/40,IN,IN-MH,Mumbai,true,mmbiind1,true,14593,announced
-2406:2d40:2c00::/40,BD,BD-E,Dhaka,true,dhkabgd1,true,14593,announced
+2406:2d40:2c00::/40,BD,BD-E,Dhaka,false,,true,14593,announced
 2406:2d40:2d00::/40,PW,PW-212,Ngerulmud,true,mnlaphl1,true,14593,announced
 2406:2d40:2e00::/40,WF,WF-UV,Mata-Utu,true,sydyaus1,true,14593,announced
-2406:2d40:2f00::/40,BD,BD-E,Dhaka,true,dhkabgd1,true,14593,announced
+2406:2d40:2f00::/40,BD,BD-E,Dhaka,false,,true,14593,announced
 2406:2d40:3000::/40,JP,JP-13,Tokyo,true,tkyojpn1,true,14593,announced
 2406:2d40:3100::/40,KR,KR-11,Seoul,true,tkyojpn1,true,14593,announced
 2406:2d40:3200::/40,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
@@ -4239,7 +4240,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:9100::/40,LY,LY-JI,Tripoli,true,mlnnita1,true,14593,announced
 2605:59c0:9200::/40,US,US-WA,Seattle,true,clgycan1,true,14593,announced
 2605:59c0:9300::/40,US,US-ND,Fargo,true,clgycan1,true,14593,announced
-2605:59c0:9400::/40,US,US-TX,Dallas,true,dhkabgd1,true,14593,announced
+2605:59c0:9400::/40,,,,false,,false,14593,bgp_only
 2605:59c0:9600::/40,US,US-MN,Minneapolis,true,knsymox1,true,14593,announced
 2605:59c0:9700::/40,US,US-SD,Sioux Falls,true,knsymox1,true,14593,announced
 2605:59c0:9800::/40,,,,false,,false,14593,bgp_only
@@ -4331,12 +4332,14 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:9065::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9068::/48,,,,false,,false,14593,bgp_only
 2605:59c7:906a::/48,,,,false,,false,14593,bgp_only
+2605:59c7:9076::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9078::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9079::/48,,,,false,,false,14593,bgp_only
 2605:59c7:907a::/48,,,,false,,false,14593,bgp_only
 2605:59c7:907c::/48,,,,false,,false,14593,bgp_only
 2605:59c7:9088::/48,,,,false,,false,14593,bgp_only
 2605:59c7:908b::/48,,,,false,,false,14593,bgp_only
+2605:59c7:e000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e109::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/48,,,,false,,false,14593,bgp_only

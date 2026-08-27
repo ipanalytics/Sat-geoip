@@ -2341,10 +2341,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2406:2d40:2900::/40,mmbiind1,,ptr_missing
 2406:2d40:2a00::/40,mmbiind1,,ptr_missing
 2406:2d40:2b00::/40,mmbiind1,,ptr_missing
-2406:2d40:2c00::/40,dhkabgd1,,ptr_missing
 2406:2d40:2d00::/40,mnlaphl1,,ptr_missing
 2406:2d40:2e00::/40,sydyaus1,,ptr_missing
-2406:2d40:2f00::/40,dhkabgd1,,ptr_missing
 2406:2d40:3000::/40,tkyojpn1,,ptr_missing
 2406:2d40:3100::/40,tkyojpn1,,ptr_missing
 2406:2d40:3200::/40,sydyaus1,,ptr_missing
@@ -2555,7 +2553,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:9100::/40,mlnnita1,,ptr_missing
 2605:59c0:9200::/40,clgycan1,,ptr_missing
 2605:59c0:9300::/40,clgycan1,,ptr_missing
-2605:59c0:9400::/40,dhkabgd1,,ptr_missing
 2605:59c0:9600::/40,knsymox1,,ptr_missing
 2605:59c0:9700::/40,knsymox1,,ptr_missing
 2605:59c0:9900::/40,chcoilx1,,ptr_missing
