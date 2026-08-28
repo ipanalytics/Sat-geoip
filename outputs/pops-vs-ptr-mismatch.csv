@@ -172,11 +172,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.225.0/24,nwyynyx1,,ptr_missing
 129.222.226.0/24,nwyynyx1,,ptr_missing
 129.222.227.0/24,nwyynyx1,,ptr_missing
-129.222.228.0/24,nwyynyx1,,ptr_missing
-129.222.229.0/24,nwyynyx1,,ptr_missing
 129.222.23.0/24,wrswpol1,,ptr_missing
-129.222.230.0/24,nwyynyx1,,ptr_missing
-129.222.231.0/24,nwyynyx1,,ptr_missing
 129.222.232.0/24,nwyynyx1,,ptr_missing
 129.222.233.0/24,nwyynyx1,,ptr_missing
 129.222.234.0/24,nwyynyx1,,ptr_missing
@@ -1970,8 +1966,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.166.0/24,sgnnvnm1,,ptr_missing
 179.65.167.0/24,sgnnvnm1,,ptr_missing
 179.65.17.0/24,klkaind1,,ptr_missing
-179.65.176.0/24,sgnnvnm1,,ptr_missing
-179.65.177.0/24,sgnnvnm1,,ptr_missing
+179.65.176.0/24,kllrmys1,,ptr_missing
+179.65.177.0/24,kllrmys1,,ptr_missing
 179.65.178.0/24,sgnnvnm1,,ptr_missing
 179.65.179.0/24,sgnnvnm1,,ptr_missing
 179.65.18.0/24,klkaind1,,ptr_missing
@@ -2366,7 +2362,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2406:2d40:4900::/40,mnlaphl1,,ptr_missing
 2406:2d40:4a00::/40,sfiabgr1,,ptr_missing
 2406:2d40:4b00::/40,sydyaus1,,ptr_missing
-2406:2d40:4c00::/40,sgnnvnm1,,ptr_missing
+2406:2d40:4c00::/40,kllrmys1,,ptr_missing
 2406:2d40:4d00::/40,sydyaus1,,ptr_missing
 2406:2d40:5800::/40,almykaz1,,ptr_missing
 2406:2d40:5900::/40,almykaz1,,ptr_missing
@@ -2925,6 +2921,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2a0d:3341:bc00::/40,nrbiken1,,ptr_missing
 2a0d:3341:bd00::/40,frntdeu1,,ptr_missing
 2a0d:3341:be00::/40,mdrdesp1,,ptr_missing
+2a0d:3341:bf00::/40,mntlcan1,,ptr_missing
 2a0d:3341:c000::/40,dohaqat1,,ptr_missing
 2a0d:3341:c100::/42,dohaqat1,,ptr_missing
 2a0d:3341:c200::/42,dohaqat1,,ptr_missing
@@ -3327,8 +3324,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 74.244.97.0/24,qrtomex1,,ptr_missing
 74.244.98.0/24,qrtomex1,,ptr_missing
 74.244.99.0/24,qrtomex1,,ptr_missing
-87.251.25.0/25,nrbiken1,,ptr_missing
-87.251.25.128/25,nrbiken1,,ptr_missing
 87.251.26.0/24,wrswpol1,,ptr_missing
 87.251.27.0/24,wrswpol1,,ptr_missing
 87.251.28.0/24,wrswpol1,,ptr_missing
@@ -3576,6 +3571,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 9.246.78.0/24,lndngbr1,,ptr_missing
 9.246.79.0/24,lndngbr1,,ptr_missing
 9.246.8.0/24,mlnnita1,,ptr_missing
+9.246.80.0/24,mntlcan1,,ptr_missing
+9.246.81.0/24,mntlcan1,,ptr_missing
 9.246.82.0/24,lndngbr1,,ptr_missing
 9.246.83.0/24,lndngbr1,,ptr_missing
 9.246.84.0/24,mlnnita1,,ptr_missing
