@@ -1489,8 +1489,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 153.67.31.0/24,mnlaphl1,,ptr_missing
 153.67.32.0/24,brsabra1,,ptr_missing
 153.67.33.0/24,brsabra1,,ptr_missing
-153.67.34.0/24,lgosnga1,,ptr_missing
-153.67.35.0/24,lgosnga1,,ptr_missing
+153.67.34.0/24,mdrdesp1,,ptr_missing
+153.67.35.0/24,mdrdesp1,,ptr_missing
 153.67.36.0/24,gtmygtm1,,ptr_missing
 153.67.37.0/24,gtmygtm1,,ptr_missing
 153.67.38.0/24,trnocan1,,ptr_missing

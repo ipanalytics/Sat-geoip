@@ -1,40 +1,52 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.224.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York City,New York
-129.222.225.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York City,New York
-129.222.226.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York City,New York
-129.222.227.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York City,New York
-143.105.18.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,announced,,14593,bgtacol1,bgtacol1,VE,VE,VE-A,VE-A,Caracas,Caracas
-179.65.176.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,sgnnvnm1,MM,MM,MM-06,MM-06,Yangon,Yangon
-179.65.177.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,sgnnvnm1,MM,MM,MM-06,MM-06,Yangon,Yangon
-2406:2d40:4c00::/40,changed,2026-08-28T15:21:35Z,starlink,starlink,announced,announced,14593,14593,kllrmys1,sgnnvnm1,MM,MM,MM-06,MM-06,Yangon,Yangon
-2a0d:3341:bf00::/40,changed,2026-08-28T15:21:35Z,starlink,starlink,announced,announced,14593,14593,mntlcan1,,GL,GL,GL-KU,GL-KU,Nuuk,Nuuk
-9.246.80.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mntlcan1,,GL,GL,GL-KU,GL-KU,Nuuk,Nuuk
-9.246.81.0/24,changed,2026-08-28T15:21:35Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mntlcan1,,GL,GL,GL-KU,GL-KU,Nuuk,Nuuk
-129.222.224.0/23,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-129.222.226.0/23,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-169.150.27.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-179.64.183.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-190.52.118.0/24,new,2026-08-28T15:21:35Z,viasat,,bgp_only,,7155,,,,,,,,,
-190.52.120.0/24,new,2026-08-28T15:21:35Z,viasat,,bgp_only,,7155,,,,,,,,,
-190.52.122.0/24,new,2026-08-28T15:21:35Z,viasat,,bgp_only,,7155,,,,,,,,,
-202.80.173.0/24,new,2026-08-28T15:21:35Z,speedcast,,bgp_only,,4913,,,,,,,,,
-2605:59c0:5044::/48,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c0:5054::/48,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c7:9085::/48,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-2a00:1d58:f019::/48,new,2026-08-28T15:21:35Z,turksat,,bgp_only,,47524,,,,,,,,,
-74.245.25.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.26.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.51.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-9.161.70.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-9.161.73.0/24,new,2026-08-28T15:21:35Z,starlink,,bgp_only,,14593,,,,,,,,,
-129.222.228.0/24,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York,New York
-129.222.229.0/24,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York,New York
-129.222.230.0/24,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York,New York
-129.222.231.0/24,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nwyynyx1,nwyynyx1,US,US,US-NY,US-NY,New York,New York
-2803:9810:980::/41,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-70.41.24.0/24,withdrawn,2026-08-28T15:21:35Z,viasat,viasat,withdrawn_recently,bgp_only,7155,7155,,,,,,,,
-81.199.52.0/23,withdrawn,2026-08-28T15:21:35Z,gilat_telecom,gilat_telecom,withdrawn_recently,bgp_only,12491,12491,,,,,,,,
-81.199.52.0/24,withdrawn,2026-08-28T15:21:35Z,gilat_telecom,gilat_telecom,withdrawn_recently,bgp_only,12491,12491,,,,,,,,
-81.199.53.0/24,withdrawn,2026-08-28T15:21:35Z,gilat_telecom,gilat_telecom,withdrawn_recently,bgp_only,12491,12491,,,,,,,,
-87.251.25.0/25,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-87.251.25.128/25,withdrawn,2026-08-28T15:21:35Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
+153.67.34.0/24,changed,2026-08-29T10:02:55Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,lgosnga1,BF,BF,BF-03,BF-03,Ouagadougou,Ouagadougou
+153.67.35.0/24,changed,2026-08-29T10:02:55Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,lgosnga1,BF,BF,BF-03,BF-03,Ouagadougou,Ouagadougou
+129.222.228.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+129.222.230.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+176.240.36.0/22,new,2026-08-29T10:02:55Z,turksat,,bgp_only,,47524,,,,,,,,,
+179.238.112.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.114.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.116.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.118.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.120.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.122.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.124.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.126.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.128.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.48.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.50.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+24.133.116.0/22,new,2026-08-29T10:02:55Z,turksat,,bgp_only,,47524,,,,,,,,,
+24.133.176.0/22,new,2026-08-29T10:02:55Z,turksat,,bgp_only,,47524,,,,,,,,,
+46.197.120.0/22,new,2026-08-29T10:02:55Z,turksat,,bgp_only,,47524,,,,,,,,,
+9.161.11.0/24,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.100.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.102.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.104.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.106.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.108.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.110.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.112.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.114.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.116.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.118.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.120.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.122.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.124.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.126.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.128.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.130.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.132.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.134.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.136.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.138.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.154.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.156.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.158.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.160.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.162.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.164.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.166.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.168.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.170.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,
+94.54.140.0/22,new,2026-08-29T10:02:55Z,turksat,,bgp_only,,47524,,,,,,,,,
+98.97.152.0/23,new,2026-08-29T10:02:55Z,starlink,,bgp_only,,14593,,,,,,,,,

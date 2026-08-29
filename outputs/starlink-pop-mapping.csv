@@ -1489,8 +1489,8 @@ prefix,pop_code,pop_iata,source
 153.67.31.0/24,mnlaphl1,mnl,starlink_pops_csv
 153.67.32.0/24,brsabra1,bsb,starlink_pops_csv
 153.67.33.0/24,brsabra1,bsb,starlink_pops_csv
-153.67.34.0/24,lgosnga1,los,starlink_pops_csv
-153.67.35.0/24,lgosnga1,los,starlink_pops_csv
+153.67.34.0/24,mdrdesp1,mad,starlink_pops_csv
+153.67.35.0/24,mdrdesp1,mad,starlink_pops_csv
 153.67.36.0/24,gtmygtm1,gua,starlink_pops_csv
 153.67.37.0/24,gtmygtm1,gua,starlink_pops_csv
 153.67.38.0/24,trnocan1,yyz,starlink_pops_csv
