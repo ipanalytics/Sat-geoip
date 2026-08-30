@@ -4955,8 +4955,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e080::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e400::/40,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
-2a0d:3341:e400::/41,,,,false,,false,14593,bgp_only
-2a0d:3341:e480::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e500::/40,AE,AE-DU,Dubai,true,dohaqat1,true,14593,announced
 2a0d:3341:e600::/40,LU,LU-LU,Luxembourg,true,frntdeu1,true,14593,announced
 2a0d:3341:e700::/40,FI,FI-18,Helsinki,true,frntdeu1,true,14593,announced
