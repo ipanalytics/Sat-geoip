@@ -1,2 +1,1 @@
-{"prefix":"2a0d:3341:e400::/41","change_type":"withdrawn","changed_at":"2026-08-30T09:13:26Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
-{"prefix":"2a0d:3341:e480::/41","change_type":"withdrawn","changed_at":"2026-08-30T09:13:26Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
+

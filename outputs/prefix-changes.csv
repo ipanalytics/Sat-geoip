@@ -1,3 +1,1 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-2a0d:3341:e400::/41,withdrawn,2026-08-30T09:13:26Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2a0d:3341:e480::/41,withdrawn,2026-08-30T09:13:26Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
