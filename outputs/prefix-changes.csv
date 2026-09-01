@@ -1,1 +1,12 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
+143.105.18.0/24,changed,2026-09-01T08:38:12Z,starlink,starlink,announced,planned_not_announced,14593,,bgtacol1,bgtacol1,VE,VE,VE-A,VE-A,Caracas,Caracas
+153.67.93.0/24,changed,2026-09-01T08:38:12Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,YT,YT,,,Mayotte,Mayotte
+179.65.168.0/23,new,2026-09-01T08:38:12Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.170.0/23,new,2026-09-01T08:38:12Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.140.0/23,new,2026-09-01T08:38:12Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.172.0/23,new,2026-09-01T08:38:12Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c0:1880::/41,withdrawn,2026-09-01T08:38:12Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4580::/41,withdrawn,2026-09-01T08:38:12Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4600::/41,withdrawn,2026-09-01T08:38:12Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2605:59c1:4780::/41,withdrawn,2026-09-01T08:38:12Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:5b00::/41,withdrawn,2026-09-01T08:38:12Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
