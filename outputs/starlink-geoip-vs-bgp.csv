@@ -124,7 +124,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.145.0/24,MZ,MZ-MPM,Maputo,true,nrbiken1,false,,planned_not_announced
 129.222.146.0/23,,,,false,,false,14593,bgp_only
 129.222.146.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
+129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 129.222.148.0/23,,,,false,,false,14593,bgp_only
 129.222.148.0/24,RW,RW-01,Kigali,true,nrbiken1,false,,planned_not_announced
 129.222.149.0/24,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
@@ -201,7 +201,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.197.0/24,CA,CA-ON,Toronto,true,mntlcan1,false,,planned_not_announced
 129.222.198.0/23,,,,false,,false,14593,bgp_only
 129.222.198.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
-129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,true,14593,announced
+129.222.199.0/24,TT,TT-POS,Port of Spain,true,bgtacol1,false,,planned_not_announced
 129.222.2.0/23,,,,false,,false,14593,bgp_only
 129.222.2.0/24,US,US-NV,Las Vegas,true,lsancax1,false,,planned_not_announced
 129.222.20.0/22,,,,false,,false,14593,bgp_only
@@ -2189,7 +2189,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.111.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
 153.67.112.0/23,,,,false,,false,14593,bgp_only
 153.67.112.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
-153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+153.67.113.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.114.0/23,,,,false,,false,14593,bgp_only
 153.67.114.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 153.67.115.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
@@ -4088,7 +4088,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3c80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3d00::/40,ZW,ZW-HA,Harare,true,nrbiken1,true,14593,announced
 2605:59c0:3e00::/40,VE,VE-A,Caracas,true,bgtacol1,true,14593,announced
-2605:59c0:3e00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3e80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3f00::/40,CA,CA-QC,Montreal,true,trnocan1,true,14593,announced
 2605:59c0:4000::/40,US,US-AZ,Phoenix,true,tmpeazx1,true,14593,announced
@@ -4185,6 +4184,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5800::/40,US,US-MT,Billings,true,clgycan1,true,14593,announced
 2605:59c0:5900::/40,NA,NA-KH,Windhoek,true,jhngzaf1,true,14593,announced
 2605:59c0:5a00::/40,CF,CF-BGF,Bangui,true,nrbiken1,true,14593,announced
+2605:59c0:5a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5b00::/40,CF,CF-BGF,Bangui,true,lgosnga1,true,14593,announced
 2605:59c0:5c00::/38,SN,SN-DK,Dakar,true,dkrrsen1,true,14593,announced
 2605:59c0:6000::/40,GT,GT-01,Guatemala City,true,gtmygtm1,true,14593,announced
@@ -4319,6 +4319,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c1:4480::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4500::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4680::/41,,,,false,,false,14593,bgp_only
+2605:59c1:4700::/41,,,,false,,false,14593,bgp_only
+2605:59c1:4780::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4800::/38,US,US-MN,Minneapolis,true,mplsmnx1,true,14593,announced
 2605:59c1:4c00::/38,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
 2605:59c1:800::/38,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
@@ -4645,7 +4647,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59ca:8700::/40,SZ,SZ-HH,Mbabane,true,jhngzaf1,true,14593,announced
 2605:59ca:8800::/40,LS,LS-A,Maseru,true,jhngzaf1,true,14593,announced
 2605:59ca:8900::/40,MW,MW-LI,Lilongwe,true,jhngzaf1,true,14593,announced
-2605:59ca:8900::/41,,,,false,,false,14593,bgp_only
 2605:59ca:8a00::/40,US,US-WA,Seattle,false,,true,14593,announced
 2605:59ca:8b00::/40,MQ,,Fort-de-France,true,mmmiflx1,true,14593,announced
 2605:59ca:8c00::/40,MF,,Marigot,true,mmmiflx1,true,14593,announced
@@ -4863,7 +4864,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:7400::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:8000::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:800::/38,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
-2803:9810:800::/41,,,,false,,false,14593,bgp_only
 2803:9810:8400::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8500::/40,CL,CL-RM,Santiago,true,splobra1,true,14593,announced
 2803:9810:8600::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
@@ -4882,8 +4882,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:b600::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:b700::/40,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 2803:9810:b800::/40,EC,EC-P,Quito,true,bgtacol1,true,14593,announced
-2803:9810:b800::/41,,,,false,,false,14593,bgp_only
-2803:9810:b880::/41,,,,false,,false,14593,bgp_only
 2803:9810:b900::/40,PE,PE-LMA,Lima,true,bgtacol1,true,14593,announced
 2803:9810:ba00::/40,CR,CR-SJ,San Jose,true,bgtacol1,true,14593,announced
 2803:9810:bb00::/40,TT,TT-POS,Port of Spain,true,bgtacol1,true,14593,announced
@@ -4920,6 +4918,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:bb00::/40,NO,NO-03,Oslo,true,frntdeu1,true,14593,announced
 2a0d:3341:bc00::/40,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 2a0d:3341:bc00::/41,,,,false,,false,14593,bgp_only
+2a0d:3341:bc80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:bd00::/40,YE,YE-AD,Aden,true,frntdeu1,true,14593,announced
 2a0d:3341:be00::/40,GI,,Gibraltar,true,mdrdesp1,true,14593,announced
 2a0d:3341:bf00::/40,GL,GL-KU,Nuuk,true,mntlcan1,true,14593,announced
@@ -4975,6 +4974,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:fc00::/40,CV,CV-PR,Praia,true,mdrdesp1,true,14593,announced
 2a0d:3341:fd00::/40,GW,GW-BS,Bissau,true,mdrdesp1,true,14593,announced
 2a0d:3341:fe00::/40,TD,TD-ND,N'Djamena,true,lgosnga1,true,14593,announced
+2a0d:3341:fe00::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:fe80::/41,,,,false,,false,14593,bgp_only
 2a0d:3344:1000::/40,FR,FR-IDF,Paris,true,frntdeu1,true,14593,announced
 2a0d:3344:100::/40,GB,GB-LND,London,true,lndngbr1,true,14593,announced
