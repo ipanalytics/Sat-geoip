@@ -615,7 +615,7 @@ prefix,pop_code,pop_iata,source
 143.105.77.0/24,sntochl1,scl,starlink_pops_csv
 143.105.78.0/24,sntochl1,scl,starlink_pops_csv
 143.105.79.0/24,sntochl1,scl,starlink_pops_csv
-143.105.8.0/24,sttlwax1,sea,starlink_pops_csv
+143.105.8.0/24,clgycan1,yyc,starlink_pops_csv
 143.105.80.0/24,wrswpol1,waw,starlink_pops_csv
 143.105.81.0/24,wrswpol1,waw,starlink_pops_csv
 143.105.82.0/24,frtabra1,for,starlink_pops_csv
@@ -626,7 +626,7 @@ prefix,pop_code,pop_iata,source
 143.105.87.0/24,bnssarg1,eze,starlink_pops_csv
 143.105.88.0/24,dnvrcox1,den,starlink_pops_csv
 143.105.89.0/24,dnvrcox1,den,starlink_pops_csv
-143.105.9.0/24,sttlwax1,sea,starlink_pops_csv
+143.105.9.0/24,clgycan1,yyc,starlink_pops_csv
 143.105.90.0/24,lsancax1,lax,starlink_pops_csv
 143.105.91.0/24,lsancax1,lax,starlink_pops_csv
 143.105.92.0/24,clgycan1,yyc,starlink_pops_csv
@@ -1647,8 +1647,8 @@ prefix,pop_code,pop_iata,source
 170.203.213.0/24,ashnvax2,iad,starlink_pops_csv
 170.203.214.0/24,ashnvax2,iad,starlink_pops_csv
 170.203.215.0/24,ashnvax2,iad,starlink_pops_csv
-170.203.216.0/24,sttlwax1,sea,starlink_pops_csv
-170.203.217.0/24,sttlwax1,sea,starlink_pops_csv
+170.203.216.0/24,clgycan1,yyc,starlink_pops_csv
+170.203.217.0/24,clgycan1,yyc,starlink_pops_csv
 170.203.218.0/24,clgycan1,yyc,starlink_pops_csv
 170.203.219.0/24,clgycan1,yyc,starlink_pops_csv
 170.203.220.0/24,clgycan1,yyc,starlink_pops_csv
@@ -1694,6 +1694,8 @@ prefix,pop_code,pop_iata,source
 179.238.128.0/24,sntochl1,scl,starlink_pops_csv
 179.238.129.0/24,sntochl1,scl,starlink_pops_csv
 179.238.13.0/24,bgtacol1,bog,starlink_pops_csv
+179.238.130.0/24,gtmygtm1,gua,starlink_pops_csv
+179.238.131.0/24,gtmygtm1,gua,starlink_pops_csv
 179.238.14.0/24,frtabra1,for,starlink_pops_csv
 179.238.15.0/24,frtabra1,for,starlink_pops_csv
 179.238.16.0/24,frtabra1,for,starlink_pops_csv
@@ -1775,11 +1777,11 @@ prefix,pop_code,pop_iata,source
 179.238.85.0/24,qrtomex1,qro,starlink_pops_csv
 179.238.86.0/24,qrtomex1,qro,starlink_pops_csv
 179.238.87.0/24,qrtomex1,qro,starlink_pops_csv
-179.238.88.0/24,frtabra1,for,starlink_pops_csv
-179.238.89.0/24,frtabra1,for,starlink_pops_csv
+179.238.88.0/24,brsabra1,bsb,starlink_pops_csv
+179.238.89.0/24,brsabra1,bsb,starlink_pops_csv
 179.238.9.0/24,bgtacol1,bog,starlink_pops_csv
-179.238.90.0/24,frtabra1,for,starlink_pops_csv
-179.238.91.0/24,frtabra1,for,starlink_pops_csv
+179.238.90.0/24,brsabra1,bsb,starlink_pops_csv
+179.238.91.0/24,brsabra1,bsb,starlink_pops_csv
 179.238.92.0/24,frtabra1,for,starlink_pops_csv
 179.238.93.0/24,frtabra1,for,starlink_pops_csv
 179.238.94.0/24,sntochl1,scl,starlink_pops_csv
@@ -1996,6 +1998,10 @@ prefix,pop_code,pop_iata,source
 179.65.17.0/24,klkaind1,ccu,starlink_pops_csv
 179.65.170.0/24,limaper1,lim,starlink_pops_csv
 179.65.171.0/24,limaper1,lim,starlink_pops_csv
+179.65.172.0/24,dllstxx1,dfw,starlink_pops_csv
+179.65.173.0/24,dllstxx1,dfw,starlink_pops_csv
+179.65.174.0/24,dllstxx1,dfw,starlink_pops_csv
+179.65.175.0/24,dllstxx1,dfw,starlink_pops_csv
 179.65.176.0/24,kllrmys1,kul,starlink_pops_csv
 179.65.177.0/24,kllrmys1,kul,starlink_pops_csv
 179.65.178.0/24,sgnnvnm1,sgn,starlink_pops_csv
@@ -2051,6 +2057,8 @@ prefix,pop_code,pop_iata,source
 179.65.222.0/24,btmmidn1,bth,starlink_pops_csv
 179.65.223.0/24,btmmidn1,bth,starlink_pops_csv
 179.65.23.0/24,klkaind1,ccu,starlink_pops_csv
+179.65.232.0/24,srbaidn2,sub,starlink_pops_csv
+179.65.233.0/24,srbaidn2,sub,starlink_pops_csv
 179.65.24.0/24,klkaind1,ccu,starlink_pops_csv
 179.65.25.0/24,klkaind1,ccu,starlink_pops_csv
 179.65.26.0/24,klkaind1,ccu,starlink_pops_csv
@@ -2593,9 +2601,7 @@ prefix,pop_code,pop_iata,source
 2605:59c0:9e00::/40,chcoilx1,ord,starlink_pops_csv
 2605:59c0:9f00::/40,mplsmnx1,msp,starlink_pops_csv
 2605:59c0::/40,ashnvax2,iad,starlink_pops_csv
-2605:59c0:a000::/38,sntochl1,scl,starlink_pops_csv
 2605:59c0:a00::/40,sfiabgr1,sof,starlink_pops_csv
-2605:59c0:a400::/38,limaper1,lim,starlink_pops_csv
 2605:59c0:b00::/40,mdrdesp1,mad,starlink_pops_csv
 2605:59c0:c00::/40,chcoilx1,ord,starlink_pops_csv
 2605:59c0:d00::/40,ashnvax2,iad,starlink_pops_csv

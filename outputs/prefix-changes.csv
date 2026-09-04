@@ -1,125 +1,63 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.180.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,announced,,14593,limaper1,limaper1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
-129.222.82.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.222.83.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.222.84.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.222.85.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.222.86.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.222.87.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-129.224.205.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,SL,SL,SL-W,SL-W,Freetown,Freetown
-148.227.79.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,BR,BR,BR-CE,BR-CE,Fortaleza,Fortaleza
-150.228.192.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,sngesgp1,MY,MY,MY-14,MY-14,Kuala Lumpur,Kuala Lumpur
-150.228.193.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,kllrmys1,sngesgp1,MY,MY,MY-14,MY-14,Kuala Lumpur,Kuala Lumpur
-179.65.168.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,limaper1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-179.65.169.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,limaper1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-179.65.170.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,limaper1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-179.65.171.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,planned_not_announced,,,limaper1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-2605:59c0:9400::/40,changed,2026-09-03T08:02:32Z,starlink,starlink,announced,bgp_only,14593,14593,mdrdesp1,,MA,,MA-04,,Rabat,
-2605:59c0:a000::/38,changed,2026-09-03T08:02:32Z,starlink,starlink,announced,announced,14593,14593,sntochl1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-2605:59c0:a400::/38,changed,2026-09-03T08:02:32Z,starlink,starlink,announced,announced,14593,14593,limaper1,,AR,US,AR-C,US-TX,Buenos Aires,Dallas
-98.97.161.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,ET,ET,ET-AA,ET-AA,Addis Ababa,Addis Ababa
-98.97.76.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-98.97.77.0/24,changed,2026-09-03T08:02:32Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-129.222.228.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mntlcan1,,US,,US-ME,,Portland,
-129.222.229.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mntlcan1,,US,,US-ME,,Portland,
-129.222.230.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,clgycan1,,CA,,CA-AB,,Calgary,
-129.222.231.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,clgycan1,,CA,,CA-AB,,Calgary,
-165.220.234.128/26,new,2026-09-03T08:02:32Z,viasat,,planned_not_announced,,,,,,GB,,,,London,
-165.220.234.192/27,new,2026-09-03T08:02:32Z,viasat,,planned_not_announced,,,,,,PL,,,,Warszawa,
-165.220.235.152/29,new,2026-09-03T08:02:32Z,viasat,,planned_not_announced,,,,,,IT,,,,Torino,
-179.238.112.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,splobra1,,BR,,BR-SP,,Sao Paulo,
-179.238.113.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,splobra1,,BR,,BR-SP,,Sao Paulo,
-179.238.114.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,splobra1,,BR,,BR-SP,,Sao Paulo,
-179.238.115.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,splobra1,,BR,,BR-SP,,Sao Paulo,
-179.238.116.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frtabra1,,BR,,BR-CE,,Fortaleza,
-179.238.117.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frtabra1,,BR,,BR-CE,,Fortaleza,
-179.238.118.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frtabra1,,BR,,BR-CE,,Fortaleza,
-179.238.119.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frtabra1,,BR,,BR-CE,,Fortaleza,
-179.238.120.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,gtmygtm1,,MX,,MX-CMX,,Mexico City,
-179.238.121.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,gtmygtm1,,MX,,MX-CMX,,Mexico City,
-179.238.122.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,brsabra1,,BR,,BR-DF,,Brasilia,
-179.238.123.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,brsabra1,,BR,,BR-DF,,Brasilia,
-179.238.124.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,brsabra1,,BR,,BR-DF,,Brasilia,
-179.238.125.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,brsabra1,,BR,,BR-DF,,Brasilia,
-179.238.126.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sntochl1,,CL,,CL-RM,,Santiago,
-179.238.127.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sntochl1,,CL,,CL-RM,,Santiago,
-179.238.128.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sntochl1,,CL,,CL-RM,,Santiago,
-179.238.129.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sntochl1,,CL,,CL-RM,,Santiago,
-179.65.48.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mnlaphl1,,PH,,PH-00,,Manila,
-179.65.49.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mnlaphl1,,PH,,PH-00,,Manila,
-179.65.50.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mnlaphl1,,PH,,PH-00,,Manila,
-179.65.51.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mnlaphl1,,PH,,PH-00,,Manila,
-212.105.142.0/23,new,2026-09-03T08:02:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c1:4600::/41,new,2026-09-03T08:02:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-46.45.136.0/24,new,2026-09-03T08:02:32Z,gazprom_space_systems,,bgp_only,,42846,,,,,,,,,
-46.45.137.0/24,new,2026-09-03T08:02:32Z,gazprom_space_systems,,bgp_only,,42846,,,,,,,,,
-46.45.138.0/24,new,2026-09-03T08:02:32Z,gazprom_space_systems,,bgp_only,,42846,,,,,,,,,
-46.45.139.0/24,new,2026-09-03T08:02:32Z,gazprom_space_systems,,bgp_only,,42846,,,,,,,,,
-9.170.100.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,snjecax1,,US,,US-CA,,San Jose,
-9.170.101.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,snjecax1,,US,,US-CA,,San Jose,
-9.170.102.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,snjecax1,,US,,US-CA,,San Jose,
-9.170.103.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,snjecax1,,US,,US-CA,,San Jose,
-9.170.104.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,atlagax1,,US,,US-KY,,Louisville,
-9.170.105.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,atlagax1,,US,,US-KY,,Louisville,
-9.170.106.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.107.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.108.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.109.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.110.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.111.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.112.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.113.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-TX,,Dallas,
-9.170.114.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,tmpeazx1,,US,,US-AZ,,Phoenix,
-9.170.115.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,tmpeazx1,,US,,US-AZ,,Phoenix,
-9.170.116.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,tmpeazx1,,US,,US-AZ,,Phoenix,
-9.170.117.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,tmpeazx1,,US,,US-AZ,,Phoenix,
-9.170.118.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sttlwax1,,US,,US-OR,,Portland,
-9.170.119.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sttlwax1,,US,,US-OR,,Portland,
-9.170.120.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-LA,,New Orleans,
-9.170.121.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dllstxx1,,US,,US-LA,,New Orleans,
-9.170.122.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,atlagax1,,US,,US-AL,,Huntsville,
-9.170.123.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,atlagax1,,US,,US-AL,,Huntsville,
-9.170.124.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,nrbiken1,,CD,,CD-KN,,Kinshasa,
-9.170.125.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,nrbiken1,,CD,,CD-KN,,Kinshasa,
-9.170.126.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,nwyynyx1,,US,,US-MI,,Detroit,
-9.170.127.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,nwyynyx1,,US,,US-MI,,Detroit,
-9.170.128.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mplsmnx1,,US,,US-WI,,Madison,
-9.170.129.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mplsmnx1,,US,,US-WI,,Madison,
-9.170.130.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sltyutx1,,US,,US-ID,,Boise,
-9.170.131.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sltyutx1,,US,,US-ID,,Boise,
-9.170.132.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lgosnga1,,NG,,NG-LA,,Lagos,
-9.170.133.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lgosnga1,,NG,,NG-LA,,Lagos,
-9.170.134.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lgosnga1,,NG,,NG-LA,,Lagos,
-9.170.135.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lgosnga1,,NG,,NG-LA,,Lagos,
-9.170.136.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mplsmnx1,,CA,,CA-MB,,Winnipeg,
-9.170.137.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mplsmnx1,,CA,,CA-MB,,Winnipeg,
-9.170.138.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dnvrcox1,,US,,US-CO,,Denver,
-9.170.139.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,dnvrcox1,,US,,US-CO,,Denver,
-9.170.140.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,MA,,MA-04,,Rabat,
-9.170.141.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,MA,,MA-04,,Rabat,
-9.246.154.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,BG,,BG-22,,Sofia,
-9.246.155.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,BG,,BG-22,,Sofia,
-9.246.156.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,BG,,BG-22,,Sofia,
-9.246.157.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,BG,,BG-22,,Sofia,
-9.246.158.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.159.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.160.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.161.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.162.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.163.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,mdrdesp1,,ES,,ES-MD,,Madrid,
-9.246.164.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,CY,,CY-01,,Nicosia,
-9.246.165.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,sfiabgr1,,CY,,CY-01,,Nicosia,
-9.246.166.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,DE,,DE-BE,,Berlin,
-9.246.167.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,DE,,DE-BE,,Berlin,
-9.246.168.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,DE,,DE-BE,,Berlin,
-9.246.169.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,DE,,DE-BE,,Berlin,
-9.246.170.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lndngbr1,,GB,,GB-LND,,London,
-9.246.171.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,lndngbr1,,GB,,GB-LND,,London,
-9.246.172.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,QA,,QA-DA,,Doha,
-9.246.173.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,frntdeu1,,QA,,QA-DA,,Doha,
-9.246.50.0/23,new,2026-09-03T08:02:32Z,starlink,,bgp_only,,14593,,,,,,,,,
-98.97.152.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,clgycan1,,CA,,CA-AB,,Calgary,
-98.97.153.0/24,new,2026-09-03T08:02:32Z,starlink,,planned_not_announced,,,,clgycan1,,CA,,CA-AB,,Calgary,
-129.222.80.0/24,withdrawn,2026-09-03T08:02:32Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,dhkabgd1,dhkabgd1,US,US,US-TX,US-TX,Dallas,Dallas
-129.222.81.0/24,withdrawn,2026-09-03T08:02:32Z,starlink,starlink,withdrawn_recently,planned_not_announced,,,dhkabgd1,dhkabgd1,US,US,US-TX,US-TX,Dallas,Dallas
-2803:9810:1c80::/41,withdrawn,2026-09-03T08:02:32Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+138.84.33.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+138.84.34.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+138.84.35.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+138.84.62.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+143.105.113.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
+143.105.135.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+143.105.8.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,clgycan1,sttlwax1,CA,CA,CA-AB,CA-AB,Calgary,Calgary
+143.105.9.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,clgycan1,sttlwax1,CA,CA,CA-AB,CA-AB,Calgary,Calgary
+143.105.97.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.205.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+148.227.67.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+148.227.97.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,CL,CL,CL-RM,CL-RM,Santiago,Santiago
+153.67.187.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+153.67.9.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+170.203.216.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,clgycan1,sttlwax1,CA,CA,CA-AB,CA-AB,Calgary,Calgary
+170.203.217.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,clgycan1,sttlwax1,CA,CA,CA-AB,CA-AB,Calgary,Calgary
+179.238.88.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,brsabra1,frtabra1,BR,BR,BR-DF,BR-DF,Brasilia,Brasilia
+179.238.89.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,brsabra1,frtabra1,BR,BR,BR-DF,BR-DF,Brasilia,Brasilia
+179.238.90.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,brsabra1,frtabra1,BR,BR,BR-DF,BR-DF,Brasilia,Brasilia
+179.238.91.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,brsabra1,frtabra1,BR,BR,BR-DF,BR-DF,Brasilia,Brasilia
+179.60.175.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,planned_not_announced,14593,,sntochl1,sntochl1,BO,BO,BO-S,BO-S,Santa Cruz de la Sierra,Santa Cruz de la Sierra
+179.65.172.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+179.65.173.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+179.65.174.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+179.65.175.0/24,changed,2026-09-04T07:58:30Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+2605:59c0:a000::/38,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,announced,14593,14593,,sntochl1,US,AR,US-TX,AR-C,Dallas,Buenos Aires
+2605:59c0:a400::/38,changed,2026-09-04T07:58:30Z,starlink,starlink,announced,announced,14593,14593,,limaper1,US,AR,US-TX,AR-C,Dallas,Buenos Aires
+148.222.130.0/24,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.130.0/23,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.130.0/24,new,2026-09-04T07:58:30Z,starlink,,planned_not_announced,,,,gtmygtm1,,MX,,MX-CMX,,Mexico City,
+179.238.131.0/24,new,2026-09-04T07:58:30Z,starlink,,planned_not_announced,,,,gtmygtm1,,MX,,MX-CMX,,Mexico City,
+179.64.179.0/24,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.172.0/23,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.174.0/23,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.232.0/23,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,45700,,,,,,,,,
+179.65.232.0/24,new,2026-09-04T07:58:30Z,starlink,,planned_not_announced,,,,srbaidn2,,ID,,ID-JI,,Surabaya,
+179.65.233.0/24,new,2026-09-04T07:58:30Z,starlink,,planned_not_announced,,,,srbaidn2,,ID,,ID-JI,,Surabaya,
+209.140.64.0/18,new,2026-09-04T07:58:30Z,anuvu,,bgp_only,,400110,,,,,,,,,
+24.133.0.0/23,new,2026-09-04T07:58:30Z,turksat,,bgp_only,,47524,,,,,,,,,
+24.133.2.0/24,new,2026-09-04T07:58:30Z,turksat,,bgp_only,,47524,,,,,,,,,
+2605:59c0:5a80::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c1:4580::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:9014::/48,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:1080::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:1280::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3000::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3080::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3200::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3280::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3c00::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3d00::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:3d80::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8400::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8480::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8600::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:8700::/41,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+74.245.162.0/24,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+98.97.129.0/24,new,2026-09-04T07:58:30Z,starlink,,bgp_only,,14593,,,,,,,,,
+2406:2d40:1400::/41,withdrawn,2026-09-04T07:58:30Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2406:2d40:1480::/41,withdrawn,2026-09-04T07:58:30Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2406:2d40:7600::/41,withdrawn,2026-09-04T07:58:30Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2406:2d40:7680::/41,withdrawn,2026-09-04T07:58:30Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
