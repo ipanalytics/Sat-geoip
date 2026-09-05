@@ -126,7 +126,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.146.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
 129.222.147.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 129.222.148.0/23,,,,false,,false,14593,bgp_only
-129.222.148.0/24,RW,RW-01,Kigali,true,nrbiken1,false,,planned_not_announced
+129.222.148.0/24,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
 129.222.149.0/24,RW,RW-01,Kigali,true,nrbiken1,true,14593,announced
 129.222.15.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 129.222.150.0/23,,,,false,,false,14593,bgp_only
@@ -225,7 +225,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.211.0/24,CA,CA-QC,Montreal,true,nwyynyx1,false,,planned_not_announced
 129.222.212.0/23,,,,false,,false,14593,bgp_only
 129.222.212.0/24,ZM,ZM-09,Lusaka,true,nrbiken1,false,,planned_not_announced
-129.222.213.0/24,ZM,ZM-09,Lusaka,true,nrbiken1,false,,planned_not_announced
+129.222.213.0/24,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 129.222.214.0/23,,,,false,,false,14593,bgp_only
 129.222.214.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 129.222.215.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
@@ -1163,7 +1163,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 145.224.125.0/25,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 145.224.125.128/25,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 145.224.126.0/23,,,,false,,false,14593,bgp_only
-145.224.126.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
+145.224.126.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 145.224.127.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 145.224.64.0/21,,,,false,,false,14593,bgp_only
 145.224.64.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -1339,7 +1339,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 148.227.80.0/23,,,,false,,false,14593,bgp_only
 148.227.80.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 148.227.81.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
@@ -3711,7 +3711,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 209.198.148.0/24,RO,RO-B,Bucharest,true,sfiabgr1,false,,planned_not_announced
 209.198.149.0/24,RO,RO-B,Bucharest,true,sfiabgr1,true,14593,announced
 209.198.150.0/23,,,,false,,false,14593,bgp_only
-209.198.150.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
+209.198.150.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 209.198.151.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 209.198.152.0/23,,,,false,,false,14593,bgp_only
 209.198.152.0/24,DE,DE-BE,Berlin,true,frntdeu1,false,,planned_not_announced
@@ -4913,8 +4913,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:8500::/40,CL,CL-RM,Santiago,true,splobra1,true,14593,announced
 2803:9810:8600::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8600::/41,,,,false,,false,14593,bgp_only
+2803:9810:8680::/41,,,,false,,false,14593,bgp_only
 2803:9810:8700::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:8700::/41,,,,false,,false,14593,bgp_only
+2803:9810:8780::/41,,,,false,,false,14593,bgp_only
 2803:9810:880::/41,,,,false,,false,14593,bgp_only
 2803:9810::/38,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 2803:9810:a000::/40,HT,HT-OU,Port-au-Prince,true,mmmiflx1,true,14593,announced
@@ -6131,7 +6133,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.37.0/24,NL,NL-NH,Amsterdam,true,frntdeu1,false,,planned_not_announced
 9.246.38.0/23,,,,false,,false,14593,bgp_only
 9.246.38.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
-9.246.39.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
+9.246.39.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 9.246.4.0/23,,,,false,,false,14593,bgp_only
 9.246.4.0/24,FR,FR-IDF,Paris,true,frntdeu1,false,,planned_not_announced
 9.246.40.0/23,,,,false,,false,14593,bgp_only
@@ -6362,7 +6364,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.18.0/24,US,US-WA,Seattle,true,sttlwax1,false,,planned_not_announced
 98.97.180.0/23,,,,false,,false,14593,bgp_only
 98.97.180.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
-98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
+98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,true,14593,announced
 98.97.182.0/24,,,,false,,false,14593,bgp_only
 98.97.182.0/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
 98.97.182.128/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
