@@ -319,7 +319,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.55.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 129.222.56.0/23,,,,false,,false,14593,bgp_only
 129.222.56.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
-129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
+129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,true,14593,announced
 129.222.58.0/23,,,,false,,false,14593,bgp_only
 129.222.58.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
 129.222.59.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
@@ -2807,7 +2807,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.131.0/24,MX,MX-CMX,Mexico City,true,gtmygtm1,false,,planned_not_announced
 179.238.14.0/23,,,,false,,false,14593,bgp_only
 179.238.14.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.16.0/23,,,,false,,false,14593,bgp_only
 179.238.16.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
@@ -3332,7 +3332,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.203.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.204.0/23,,,,false,,false,45700,bgp_only
 179.65.204.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
+179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.206.0/23,,,,false,,false,45700,bgp_only
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -4065,6 +4065,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1600::/40,ER,ER-MA,Asmara,true,nrbiken1,true,14593,announced
 2605:59c0:1700::/40,US,US-FL,Miami,true,mmmiflx1,true,14593,announced
 2605:59c0:1800::/40,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
+2605:59c0:1800::/41,,,,false,,false,14593,bgp_only
+2605:59c0:1880::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
@@ -4306,7 +4308,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:a400::/38,US,US-TX,Dallas,false,,true,14593,announced
 2605:59c0:a800::/38,US,US-TX,Dallas,false,,true,14593,announced
-2605:59c0:a80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:ac00::/38,US,US-TX,Dallas,false,,true,14593,announced
 2605:59c0:b00::/40,NE,NE-8,Niamey,true,mdrdesp1,true,14593,announced
 2605:59c0:c00::/40,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
@@ -4787,6 +4788,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1280::/41,,,,false,,false,14593,bgp_only
 2803:9810:1400::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
+2803:9810:1800::/41,,,,false,,false,14593,bgp_only
 2803:9810:1a00::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
@@ -4816,6 +4818,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3b00::/40,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:3c00::/40,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 2803:9810:3c00::/41,,,,false,,false,14593,bgp_only
+2803:9810:3c80::/41,,,,false,,false,14593,bgp_only
 2803:9810:3d00::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:3d00::/41,,,,false,,false,14593,bgp_only
 2803:9810:3d80::/41,,,,false,,false,14593,bgp_only
@@ -4997,8 +5000,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
-2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
-2a0d:3341:e080::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e400::/40,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
 2a0d:3341:e500::/40,AE,AE-DU,Dubai,true,dohaqat1,true,14593,announced
 2a0d:3341:e600::/40,LU,LU-LU,Luxembourg,true,frntdeu1,true,14593,announced
@@ -6469,7 +6470,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.74.0/24,LY,LY-JI,Tripoli,true,mlnnita1,false,,planned_not_announced
 98.97.75.0/24,LY,LY-JI,Tripoli,true,mlnnita1,false,,planned_not_announced
 98.97.76.0/23,,,,false,,false,14593,bgp_only
-98.97.76.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
+98.97.76.0/24,NG,NG-LA,Lagos,true,lgosnga1,true,14593,announced
 98.97.77.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 98.97.78.0/23,,,,false,,false,14593,bgp_only
 98.97.78.0/25,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
