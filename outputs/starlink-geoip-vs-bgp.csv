@@ -839,7 +839,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.207.0/24,US,US-ME,Portland,true,mntlcan1,false,,planned_not_announced
 143.105.208.0/23,,,,false,,false,14593,bgp_only
 143.105.208.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
-143.105.209.0/24,GH,GH-AA,Accra,true,lgosnga1,true,14593,announced
+143.105.209.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
 143.105.21.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 143.105.210.0/23,,,,false,,false,14593,bgp_only
 143.105.210.0/24,BJ,BJ-OU,Porto-Novo,true,lgosnga1,false,,planned_not_announced
@@ -2245,7 +2245,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.143.0/24,BZ,BZ-SC,Belmopan,true,gtmygtm1,false,,planned_not_announced
 153.67.144.0/23,,,,false,,false,14593,bgp_only
 153.67.144.0/24,GQ,GQ-C,Bata,true,lgosnga1,false,,planned_not_announced
-153.67.145.0/24,GQ,GQ-C,Bata,true,lgosnga1,false,,planned_not_announced
+153.67.145.0/24,GQ,GQ-C,Bata,true,lgosnga1,true,14593,announced
 153.67.146.0/23,,,,false,,false,14593,bgp_only
 153.67.146.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
 153.67.147.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
@@ -2258,7 +2258,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.151.0/24,MU,MU-PL,Port Louis,true,jhngzaf1,false,,planned_not_announced
 153.67.152.0/23,,,,false,,false,14593,bgp_only
 153.67.152.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
-153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
+153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,true,14593,announced
 153.67.154.0/23,,,,false,,false,14593,bgp_only
 153.67.154.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
 153.67.155.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
@@ -2486,7 +2486,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.57.0/24,CF,CF-BGF,Bangui,true,nrbiken1,true,14593,announced
 153.67.58.0/23,,,,false,,false,14593,bgp_only
 153.67.58.0/24,CF,CF-BGF,Bangui,true,lgosnga1,false,,planned_not_announced
-153.67.59.0/24,CF,CF-BGF,Bangui,true,lgosnga1,false,,planned_not_announced
+153.67.59.0/24,CF,CF-BGF,Bangui,true,lgosnga1,true,14593,announced
 153.67.6.0/23,,,,false,,false,14593,bgp_only
 153.67.6.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 153.67.60.0/23,,,,false,,false,14593,bgp_only
@@ -2873,7 +2873,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.53.0/24,PA,PA-8,Panama City,true,bgtacol1,false,,planned_not_announced
 179.238.54.0/23,,,,false,,false,14593,bgp_only
 179.238.54.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
-179.238.55.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+179.238.55.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.56.0/23,,,,false,,false,14593,bgp_only
 179.238.56.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.57.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
@@ -4068,6 +4068,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1800::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1880::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
+2605:59c0:1900::/41,,,,false,,false,14593,bgp_only
+2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/41,,,,false,,false,14593,bgp_only
@@ -5549,7 +5551,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.88.0/23,,,,false,,false,14593,bgp_only
 74.244.88.0/25,BF,BF-03,Ouagadougou,true,lgosnga1,false,,planned_not_announced
 74.244.88.128/25,BF,BF-03,Ouagadougou,true,lgosnga1,false,,planned_not_announced
-74.244.89.0/24,BF,BF-03,Ouagadougou,true,lgosnga1,false,,planned_not_announced
+74.244.89.0/24,BF,BF-03,Ouagadougou,true,lgosnga1,true,14593,announced
 74.244.9.0/24,US,US-CO,Denver,true,sltyutx1,false,,planned_not_announced
 74.244.90.0/23,,,,false,,false,14593,bgp_only
 74.244.90.0/24,US,US-AK,Anchorage,true,sttlwax1,false,,planned_not_announced
