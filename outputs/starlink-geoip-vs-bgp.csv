@@ -230,7 +230,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.214.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 129.222.215.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 129.222.22.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
-129.222.224.0/21,,,,false,,false,14593,bgp_only
 129.222.224.0/23,,,,false,,false,14593,bgp_only
 129.222.224.0/24,US,US-NY,New York City,true,nwyynyx1,false,,planned_not_announced
 129.222.225.0/24,US,US-NY,New York City,true,nwyynyx1,false,,planned_not_announced
@@ -3882,6 +3881,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 216.234.196.0/23,,,,false,,false,14593,bgp_only
 216.234.196.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 216.234.197.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
+216.234.200.0/24,,,,false,,false,14593,bgp_only
 216.234.202.0/23,,,,false,,false,14593,bgp_only
 216.234.202.0/24,US,US-WY,Cheyenne,true,sltyutx1,false,,planned_not_announced
 216.234.203.0/24,US,US-WY,Cheyenne,true,sltyutx1,false,,planned_not_announced
@@ -4408,7 +4408,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:908b::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e004::/48,,,,false,,false,14593,bgp_only
+2605:59c7:e105::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e106::/48,,,,false,,false,14593,bgp_only
+2605:59c7:e107::/48,,,,false,,false,14593,bgp_only
+2605:59c7:e108::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e109::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/48,,,,false,,false,14593,bgp_only
@@ -4416,7 +4419,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:f002::/48,US,US-AK,Dutch Harbor,false,,true,14593,announced
 2605:59c7:f003::/48,CA,CA-NU,Iqaluit,false,,true,14593,announced
 2605:59c7:f004::/48,US,US-WA,Seattle,false,,false,,planned_not_announced
-2605:59c7:f005::/48,US,US-FL,Cape Canaveral,false,,false,,planned_not_announced
+2605:59c7:f005::/48,US,US-FL,Cape Canaveral,false,,true,14593,announced
 2605:59c7:f006::/48,CA,CA-BC,Brucejack,false,,true,14593,announced
 2605:59c7:f007::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f009::/48,US,US-TX,Starbase,false,,false,,planned_not_announced
@@ -5017,9 +5020,14 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:dc00::/40,JO,JO-AM,Amman,true,sfiabgr1,false,,planned_not_announced
 2a0d:3341:dd00::/40,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
+2a0d:3341:de00::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
+2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
+2a0d:3341:e080::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e400::/40,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
+2a0d:3341:e400::/41,,,,false,,false,14593,bgp_only
+2a0d:3341:e480::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e500::/40,AE,AE-DU,Dubai,true,dohaqat1,true,14593,announced
 2a0d:3341:e600::/40,LU,LU-LU,Luxembourg,true,frntdeu1,true,14593,announced
 2a0d:3341:e700::/40,FI,FI-18,Helsinki,true,frntdeu1,true,14593,announced
@@ -5604,6 +5612,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.161.0/24,,,,false,,false,14593,bgp_only
 74.245.162.0/24,,,,false,,false,14593,bgp_only
 74.245.163.0/24,ES,ES-MD,Madrid,false,,true,14593,announced
+74.245.164.0/24,,,,false,,false,14593,bgp_only
 74.245.17.0/24,,,,false,,false,14593,bgp_only
 74.245.19.0/24,,,,false,,false,14593,bgp_only
 74.245.192.0/24,,,,false,,false,14593,bgp_only
@@ -5688,7 +5697,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.7.0/24,,,,false,,false,14593,bgp_only
 74.245.8.0/24,,,,false,,false,14593,bgp_only
 74.245.9.0/24,,,,false,,false,14593,bgp_only
-87.251.25.0/24,,,,false,,false,14593,bgp_only
 87.251.26.0/23,,,,false,,false,14593,bgp_only
 87.251.26.0/24,MD,MD-CU,Chisinau,true,wrswpol1,false,,planned_not_announced
 87.251.27.0/24,MD,MD-CU,Chisinau,true,wrswpol1,false,,planned_not_announced
