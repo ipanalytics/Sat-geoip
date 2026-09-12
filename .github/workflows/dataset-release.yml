@@ -54,7 +54,7 @@ jobs:
       - name: Prepare release metadata
         id: meta
         run: |
-          tag="dataset-$(date -u +'%Y.%m.%d-%H%M%S')"
+          tag="dataset-current"   # rolling: одна страница релиза, апдейт на месте
           echo "tag=${tag}" >> "$GITHUB_OUTPUT"
           echo "name=sat-geoip Dataset $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> "$GITHUB_OUTPUT"
 
