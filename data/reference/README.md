@@ -1,5 +1,7 @@
 # Reference Datasets
 
+_Русская версия: [README.ru.md](README.ru.md)_
+
 These datasets are used for validation only. They do not replace operator
 geofeeds and are not used to infer customer, dish, or gateway locations.
 
@@ -22,4 +24,3 @@ Sources:
 - GeoNames license/about: https://www.geonames.org/about.html
 - OurAirports data: https://ourairports.com/data/
 - OurAirports CSV mirror: https://davidmegginson.github.io/ourairports-data/
-

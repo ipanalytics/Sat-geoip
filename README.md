@@ -1,6 +1,6 @@
 # sat-geoip
 
-
+_Русская версия: [README.ru.md](README.ru.md)_
 
 <p align="center">
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-blue"></a>

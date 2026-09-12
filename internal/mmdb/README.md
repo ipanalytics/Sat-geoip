@@ -1,5 +1,7 @@
 # MMDB Writer
 
+_Русская версия: [README.ru.md](README.ru.md)_
+
 The `.mmdb` exporter is implemented in Go with MaxMind's official
 `github.com/maxmind/mmdbwriter` package. It is isolated from the resolver so
 resolution logic stays independent from the database output format.
