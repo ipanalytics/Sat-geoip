@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15302 |
-| Announced prefixes | 11409 |
-| GeoFeed-only prefixes | 3893 |
-| BGP-only prefixes | 10360 |
-| Prefixes with PoP assignment | 3905 |
-| Active user claims | 11409 |
+| Prefixes | 15283 |
+| Announced prefixes | 11397 |
+| GeoFeed-only prefixes | 3886 |
+| BGP-only prefixes | 10341 |
+| Prefixes with PoP assignment | 3906 |
+| Active user claims | 11397 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -24,12 +24,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | `castor_marine` | 4 |
 | `china_satcom` | 84 |
 | `esa` | 81 |
-| `eutelsat_skylogic` | 272 |
+| `eutelsat_skylogic` | 271 |
 | `gazprom_space_systems` | 49 |
 | `gilat_telecom` | 225 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 40 |
-| `hughes` | 677 |
+| `hughes` | 672 |
 | `inmarsat` | 55 |
 | `intelsat` | 96 |
 | `intelsat_general` | 3 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 108 |
-| `starlink` | 6539 |
+| `starlink` | 6547 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -65,7 +65,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `thuraya` | 10 |
 | `turksat` | 973 |
 | `usap` | 19 |
-| `viasat` | 5037 |
+| `viasat` | 5016 |
 | `yahsat` | 95 |
 
 
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2749 |
+| `geo` | 2744 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5411 |
+| `geo_or_hybrid_satellite` | 5389 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6575 |
+| `leo` | 6583 |
 | `meo` | 21 |
 | `mixed_satellite` | 400 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11409 |
-| `bgp_not_announced` | 3893 |
+| `bgp_announced` | 11397 |
+| `bgp_not_announced` | 3886 |
 | `geoip_invalid_country_city_pair` | 13 |
 | `geoip_valid` | 4942 |
-| `origin_asn_expected` | 11409 |
-| `pop_missing` | 1037 |
-| `pop_present` | 3905 |
-| `prefix_only_in_bgp` | 10360 |
-| `prefix_only_in_geofeed` | 3893 |
-| `ptr_missing` | 3905 |
+| `origin_asn_expected` | 11397 |
+| `pop_missing` | 1036 |
+| `pop_present` | 3906 |
+| `prefix_only_in_bgp` | 10341 |
+| `prefix_only_in_geofeed` | 3886 |
+| `ptr_missing` | 3906 |
 
 
