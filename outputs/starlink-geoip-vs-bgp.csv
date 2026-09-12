@@ -4027,6 +4027,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:7200::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:7280::/41,,,,false,,false,14593,bgp_only
 2406:2d40:7600::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+2406:2d40:7600::/41,,,,false,,false,14593,bgp_only
+2406:2d40:7680::/41,,,,false,,false,14593,bgp_only
 2406:2d40:8000::/40,MY,MY-14,Kuala Lumpur,true,kllrmys1,true,14593,announced
 2406:2d40:800::/38,JP,JP-13,Tokyo,true,tkyojpn1,true,14593,announced
 2406:2d40:8400::/38,AU,AU-QLD,Brisbane,true,brseaus1,true,14593,announced
