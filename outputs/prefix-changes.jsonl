@@ -1,2 +1,1 @@
-{"prefix":"2406:2d40:7600::/41","change_type":"new","changed_at":"2026-09-12T13:10:14Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
-{"prefix":"2406:2d40:7680::/41","change_type":"new","changed_at":"2026-09-12T13:10:14Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"2803:9810:5b00::/41","change_type":"new","changed_at":"2026-09-13T08:17:54Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}

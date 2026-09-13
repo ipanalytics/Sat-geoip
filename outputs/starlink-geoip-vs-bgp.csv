@@ -4914,6 +4914,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:5900::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:5a00::/40,CR,CR-SJ,San Jose,true,qrtomex1,true,14593,announced
 2803:9810:5b00::/40,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
+2803:9810:5b00::/41,,,,false,,false,14593,bgp_only
 2803:9810:5b80::/41,,,,false,,false,14593,bgp_only
 2803:9810:5c00::/40,CR,CR-SJ,San Jose,true,gtmygtm1,true,14593,announced
 2803:9810:5d00::/40,PA,PA-8,Panama City,true,gtmygtm1,true,14593,announced
