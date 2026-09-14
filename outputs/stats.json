@@ -1,8 +1,8 @@
 {
-  "total_prefixes": 15286,
-  "announced_prefixes": 11400,
-  "geofeed_only_prefixes": 3886,
-  "bgp_only_prefixes": 10344,
+  "total_prefixes": 15289,
+  "announced_prefixes": 11405,
+  "geofeed_only_prefixes": 3884,
+  "bgp_only_prefixes": 10347,
   "prefixes_with_pop": 3906,
   "operators": {
     "anuvu": 69,
@@ -45,7 +45,7 @@
     "sky_perfect_jsat": 6,
     "spacex_infrastructure": 1,
     "speedcast": 108,
-    "starlink": 6550,
+    "starlink": 6553,
     "swarm": 1,
     "tampnet": 6,
     "telesat": 44,
@@ -64,22 +64,22 @@
     "geo_or_hybrid_satellite": 5389,
     "geo_or_multi_orbit": 96,
     "hybrid_satellite_offshore": 6,
-    "leo": 6586,
+    "leo": 6589,
     "meo": 21,
     "mixed_satellite": 400
   },
   "quality_flags": {
-    "bgp_announced": 11400,
-    "bgp_not_announced": 3886,
+    "bgp_announced": 11405,
+    "bgp_not_announced": 3884,
     "geoip_invalid_country_city_pair": 13,
     "geoip_valid": 4942,
-    "origin_asn_expected": 11400,
+    "origin_asn_expected": 11405,
     "pop_missing": 1036,
     "pop_present": 3906,
-    "prefix_only_in_bgp": 10344,
-    "prefix_only_in_geofeed": 3886,
+    "prefix_only_in_bgp": 10347,
+    "prefix_only_in_geofeed": 3884,
     "ptr_missing": 3906
   },
   "ground_station_claims": 0,
-  "active_user_claims": 11400
+  "active_user_claims": 11405
 }
