@@ -264,12 +264,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 129.222.78.0/24,dllstxx1,,ptr_missing
 129.222.79.0/24,dllstxx1,,ptr_missing
 129.222.8.0/24,wrswpol1,,ptr_missing
-129.222.82.0/24,sntochl1,,ptr_missing
-129.222.83.0/24,sntochl1,,ptr_missing
-129.222.84.0/24,sntochl1,,ptr_missing
-129.222.85.0/24,sntochl1,,ptr_missing
-129.222.86.0/24,sntochl1,,ptr_missing
-129.222.87.0/24,sntochl1,,ptr_missing
 129.222.88.0/24,mmmiflx1,,ptr_missing
 129.222.89.0/24,mmmiflx1,,ptr_missing
 129.222.9.0/24,wrswpol1,,ptr_missing
@@ -1993,11 +1987,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.165.0/24,acklnzl1,,ptr_missing
 179.65.166.0/24,sgnnvnm1,,ptr_missing
 179.65.167.0/24,sgnnvnm1,,ptr_missing
-179.65.168.0/24,limaper1,,ptr_missing
-179.65.169.0/24,limaper1,,ptr_missing
 179.65.17.0/24,klkaind1,,ptr_missing
-179.65.170.0/24,limaper1,,ptr_missing
-179.65.171.0/24,limaper1,,ptr_missing
 179.65.172.0/24,dllstxx1,,ptr_missing
 179.65.173.0/24,dllstxx1,,ptr_missing
 179.65.174.0/24,dllstxx1,,ptr_missing
@@ -2094,6 +2084,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.53.0/24,sngesgp1,,ptr_missing
 179.65.54.0/24,sngesgp1,,ptr_missing
 179.65.55.0/24,sngesgp1,,ptr_missing
+179.65.56.0/24,dhkabgd1,,ptr_missing
+179.65.57.0/24,dhkabgd1,,ptr_missing
 179.65.6.0/24,chniind1,,ptr_missing
 179.65.7.0/24,chniind1,,ptr_missing
 179.65.8.0/24,chniind1,,ptr_missing
@@ -2391,6 +2383,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2406:2d40:3300::/40,tkyojpn1,,ptr_missing
 2406:2d40:3400::/40,sydyaus1,,ptr_missing
 2406:2d40:3500::/40,acklnzl1,,ptr_missing
+2406:2d40:3600::/40,dhkabgd1,,ptr_missing
 2406:2d40:3800::/40,sydyaus1,,ptr_missing
 2406:2d40:3900::/40,brseaus1,,ptr_missing
 2406:2d40:3b00::/40,mnlaphl1,,ptr_missing
