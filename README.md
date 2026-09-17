@@ -65,23 +65,23 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15319 |
-| Announced prefixes | 11419 |
-| GeoFeed-only prefixes | 3900 |
-| BGP-only prefixes | 10353 |
-| Prefixes with PoP assignment | 3895 |
+| Prefixes | 15333 |
+| Announced prefixes | 11432 |
+| GeoFeed-only prefixes | 3901 |
+| BGP-only prefixes | 10367 |
+| Prefixes with PoP assignment | 3897 |
 | Ground station claims | 0 |
 
 ### Operators
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 69 |
+| `anuvu` | 70 |
 | `avanti` | 23 |
 | `bentley_walker` | 33 |
 | `caprock` | 3 |
 | `carnival` | 1 |
-| `castor_marine` | 4 |
+| `castor_marine` | 5 |
 | `china_satcom` | 84 |
 | `esa` | 81 |
 | `eutelsat_skylogic` | 271 |
@@ -116,14 +116,14 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 108 |
-| `starlink` | 6574 |
+| `starlink` | 6585 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 974 |
+| `turksat` | 975 |
 | `usap` | 19 |
 | `viasat` | 5025 |
 | `yahsat` | 94 |
@@ -133,14 +133,14 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2744 |
+| `geo` | 2745 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5398 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6610 |
+| `leo` | 6621 |
 | `meo` | 21 |
-| `mixed_satellite` | 400 |
+| `mixed_satellite` | 402 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
