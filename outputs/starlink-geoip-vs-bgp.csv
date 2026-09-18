@@ -700,7 +700,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.127.0/24,VC,VC-04,Kingstown,true,mmmiflx1,false,,planned_not_announced
 143.105.128.0/23,,,,false,,false,14593,bgp_only
 143.105.128.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
-143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
+143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
 143.105.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 143.105.130.0/23,,,,false,,false,14593,bgp_only
 143.105.130.0/24,LC,LC-02,Castries,true,mmmiflx1,false,,planned_not_announced
@@ -2934,7 +2934,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.93.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 179.238.94.0/23,,,,false,,false,14593,bgp_only
 179.238.94.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
-179.238.95.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
+179.238.95.0/24,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
 179.238.96.0/23,,,,false,,false,14593,bgp_only
 179.238.96.0/24,UY,UY-MO,Montevideo,true,prtebra1,false,,planned_not_announced
 179.238.97.0/24,UY,UY-MO,Montevideo,true,prtebra1,false,,planned_not_announced
@@ -4436,7 +4436,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:f009::/48,US,US-TX,Starbase,false,,false,,planned_not_announced
 2605:59c7:f00a::/48,CA,CA-QC,Kuujjuaq,false,,false,,planned_not_announced
 2605:59c7:f010::/48,,,,false,,false,14593,bgp_only
-2605:59c7:f018::/48,US,US-CA,Vandenburg,false,,false,,planned_not_announced
+2605:59c7:f018::/48,US,US-CA,Vandenburg,false,,true,14593,announced
 2605:59c7:f080::/48,US,US-FL,Miami,false,,true,14593,announced
 2605:59c7:f081::/48,US,US-FL,Miami,false,,false,,planned_not_announced
 2605:59c7:f082::/48,US,US-FL,Miami,false,,true,14593,announced
@@ -5783,7 +5783,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.161.68.0/24,,,,false,,false,14593,bgp_only
 9.161.7.0/24,,,,false,,false,14593,bgp_only
 9.161.70.0/24,,,,false,,false,14593,bgp_only
-9.161.73.0/24,,,,false,,false,14593,bgp_only
 9.161.8.0/24,,,,false,,false,14593,bgp_only
 9.161.9.0/24,,,,false,,false,14593,bgp_only
 9.170.0.0/23,,,,false,,false,14593,bgp_only
