@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T08:14:50Z",
+  "generated_at": "2026-09-19T08:02:41Z",
   "stats": {
-    "total_prefixes": 15332,
-    "announced_prefixes": 11434,
-    "geofeed_only_prefixes": 3898,
-    "bgp_only_prefixes": 10366,
+    "total_prefixes": 15271,
+    "announced_prefixes": 11371,
+    "geofeed_only_prefixes": 3900,
+    "bgp_only_prefixes": 10305,
     "prefixes_with_pop": 3897,
     "operators": {
       "anuvu": 70,
@@ -15,7 +15,7 @@
       "castor_marine": 5,
       "china_satcom": 84,
       "esa": 82,
-      "eutelsat_skylogic": 271,
+      "eutelsat_skylogic": 272,
       "gazprom_space_systems": 49,
       "gilat_telecom": 225,
       "gogo_business_aviation": 1,
@@ -33,7 +33,7 @@
       "marlink": 30,
       "nasa_jpl": 15,
       "navarino": 11,
-      "nbn_sky_muster": 459,
+      "nbn_sky_muster": 403,
       "nsslglobal": 1,
       "omniaccess": 13,
       "oneweb": 19,
@@ -47,43 +47,43 @@
       "sky_perfect_jsat": 6,
       "spacex_infrastructure": 1,
       "speedcast": 108,
-      "starlink": 6584,
+      "starlink": 6580,
       "swarm": 1,
       "tampnet": 6,
       "telesat": 44,
       "telespazio": 13,
       "thales_avionics": 1,
       "thuraya": 10,
-      "turksat": 974,
+      "turksat": 972,
       "usap": 19,
       "viasat": 5025,
       "yahsat": 94
     },
     "orbit_classes": {
       "deep_space": 15,
-      "geo": 2744,
+      "geo": 2686,
       "geo_mss": 29,
-      "geo_or_hybrid_satellite": 5398,
+      "geo_or_hybrid_satellite": 5399,
       "geo_or_multi_orbit": 96,
       "hybrid_satellite_offshore": 6,
-      "leo": 6620,
+      "leo": 6616,
       "meo": 21,
       "mixed_satellite": 403
     },
     "quality_flags": {
-      "bgp_announced": 11434,
-      "bgp_not_announced": 3898,
+      "bgp_announced": 11371,
+      "bgp_not_announced": 3900,
       "geoip_invalid_country_city_pair": 13,
       "geoip_valid": 4966,
-      "origin_asn_expected": 11434,
+      "origin_asn_expected": 11371,
       "pop_missing": 1069,
       "pop_present": 3897,
-      "prefix_only_in_bgp": 10366,
-      "prefix_only_in_geofeed": 3898,
+      "prefix_only_in_bgp": 10305,
+      "prefix_only_in_geofeed": 3900,
       "ptr_missing": 3897
     },
     "ground_station_claims": 0,
-    "active_user_claims": 11434
+    "active_user_claims": 11371
   },
   "countries": [
     {
@@ -120,17 +120,6 @@
       }
     },
     {
-      "country": "FR",
-      "lat": 46.9883,
-      "lon": 2.4935,
-      "prefixes": 161,
-      "announced": 46,
-      "operators": {
-        "starlink": 73,
-        "viasat": 88
-      }
-    },
-    {
       "country": "AU",
       "lat": -32.2804,
       "lon": 144.1281,
@@ -139,6 +128,17 @@
       "operators": {
         "starlink": 147,
         "viasat": 14
+      }
+    },
+    {
+      "country": "FR",
+      "lat": 46.9883,
+      "lon": 2.4935,
+      "prefixes": 161,
+      "announced": 46,
+      "operators": {
+        "starlink": 73,
+        "viasat": 88
       }
     },
     {
@@ -217,6 +217,16 @@
       }
     },
     {
+      "country": "ID",
+      "lat": -3.7995,
+      "lon": 112.5918,
+      "prefixes": 81,
+      "announced": 9,
+      "operators": {
+        "starlink": 81
+      }
+    },
+    {
       "country": "DE",
       "lat": 50.6473,
       "lon": 10.1765,
@@ -225,16 +235,6 @@
       "operators": {
         "starlink": 54,
         "viasat": 27
-      }
-    },
-    {
-      "country": "ID",
-      "lat": -3.7995,
-      "lon": 112.5918,
-      "prefixes": 81,
-      "announced": 10,
-      "operators": {
-        "starlink": 81
       }
     },
     {
@@ -335,6 +335,16 @@
       }
     },
     {
+      "country": "SD",
+      "lat": 14.3771,
+      "lon": 31.4513,
+      "prefixes": 32,
+      "announced": 21,
+      "operators": {
+        "starlink": 32
+      }
+    },
+    {
       "country": "JP",
       "lat": 35.9207,
       "lon": 137.1387,
@@ -346,21 +356,11 @@
       }
     },
     {
-      "country": "SD",
-      "lat": 14.3771,
-      "lon": 31.4513,
-      "prefixes": 32,
-      "announced": 21,
-      "operators": {
-        "starlink": 32
-      }
-    },
-    {
       "country": "NG",
       "lat": 8.7385,
       "lon": 7.3675,
       "prefixes": 31,
-      "announced": 8,
+      "announced": 9,
       "operators": {
         "starlink": 31
       }
@@ -407,6 +407,16 @@
       }
     },
     {
+      "country": "QA",
+      "lat": 25.3873,
+      "lon": 51.4263,
+      "prefixes": 23,
+      "announced": 7,
+      "operators": {
+        "starlink": 23
+      }
+    },
+    {
       "country": "AE",
       "lat": 25.0952,
       "lon": 55.3725,
@@ -415,16 +425,6 @@
       "operators": {
         "starlink": 14,
         "viasat": 9
-      }
-    },
-    {
-      "country": "QA",
-      "lat": 25.3873,
-      "lon": 51.4263,
-      "prefixes": 23,
-      "announced": 7,
-      "operators": {
-        "starlink": 23
       }
     },
     {
@@ -494,8 +494,8 @@
     },
     {
       "country": "MM",
-      "lat": 18.1166,
-      "lon": 96.2203,
+      "lat": 18.1345,
+      "lon": 96.2246,
       "prefixes": 18,
       "announced": 6,
       "operators": {
@@ -535,16 +535,6 @@
       }
     },
     {
-      "country": "NE",
-      "lat": 14.4479,
-      "lon": 6.3146,
-      "prefixes": 16,
-      "announced": 7,
-      "operators": {
-        "starlink": 16
-      }
-    },
-    {
       "country": "PY",
       "lat": -25.2571,
       "lon": -56.6764,
@@ -555,14 +545,35 @@
       }
     },
     {
-      "country": "SK",
-      "lat": 48.6236,
-      "lon": 18.6954,
-      "prefixes": 15,
-      "announced": 4,
+      "country": "NE",
+      "lat": 14.4479,
+      "lon": 6.3146,
+      "prefixes": 16,
+      "announced": 7,
       "operators": {
-        "starlink": 11,
-        "viasat": 4
+        "starlink": 16
+      }
+    },
+    {
+      "country": "NL",
+      "lat": 52.071,
+      "lon": 5.4634,
+      "prefixes": 15,
+      "announced": 1,
+      "operators": {
+        "starlink": 9,
+        "viasat": 6
+      }
+    },
+    {
+      "country": "ET",
+      "lat": 9.1494,
+      "lon": 38.9047,
+      "prefixes": 15,
+      "announced": 3,
+      "operators": {
+        "starlink": 6,
+        "viasat": 9
       }
     },
     {
@@ -587,25 +598,14 @@
       }
     },
     {
-      "country": "ET",
-      "lat": 9.1494,
-      "lon": 38.9047,
+      "country": "SK",
+      "lat": 48.6236,
+      "lon": 18.6954,
       "prefixes": 15,
-      "announced": 3,
+      "announced": 4,
       "operators": {
-        "starlink": 6,
-        "viasat": 9
-      }
-    },
-    {
-      "country": "NL",
-      "lat": 52.071,
-      "lon": 5.4634,
-      "prefixes": 15,
-      "announced": 1,
-      "operators": {
-        "starlink": 9,
-        "viasat": 6
+        "starlink": 11,
+        "viasat": 4
       }
     },
     {
@@ -617,6 +617,16 @@
       "operators": {
         "starlink": 6,
         "viasat": 8
+      }
+    },
+    {
+      "country": "UY",
+      "lat": -33.5574,
+      "lon": -56.1756,
+      "prefixes": 13,
+      "announced": 3,
+      "operators": {
+        "starlink": 13
       }
     },
     {
@@ -641,21 +651,32 @@
       }
     },
     {
-      "country": "UY",
-      "lat": -33.5574,
-      "lon": -56.1756,
-      "prefixes": 13,
-      "announced": 3,
+      "country": "MG",
+      "lat": -19.2511,
+      "lon": 47.3288,
+      "prefixes": 12,
+      "announced": 4,
       "operators": {
-        "starlink": 13
+        "starlink": 12
       }
     },
     {
-      "country": "AL",
-      "lat": 41.0955,
-      "lon": 20.0065,
+      "country": "GT",
+      "lat": 14.9193,
+      "lon": -90.8506,
       "prefixes": 12,
-      "announced": 3,
+      "announced": 2,
+      "operators": {
+        "starlink": 10,
+        "viasat": 2
+      }
+    },
+    {
+      "country": "PG",
+      "lat": -6.3592,
+      "lon": 146.9682,
+      "prefixes": 12,
+      "announced": 1,
       "operators": {
         "starlink": 10,
         "viasat": 2
@@ -672,11 +693,11 @@
       }
     },
     {
-      "country": "GT",
-      "lat": 14.9193,
-      "lon": -90.8506,
+      "country": "AL",
+      "lat": 41.0955,
+      "lon": 20.0065,
       "prefixes": 12,
-      "announced": 2,
+      "announced": 3,
       "operators": {
         "starlink": 10,
         "viasat": 2
@@ -704,63 +725,11 @@
       }
     },
     {
-      "country": "PG",
-      "lat": -6.3592,
-      "lon": 146.9682,
-      "prefixes": 12,
-      "announced": 1,
-      "operators": {
-        "starlink": 10,
-        "viasat": 2
-      }
-    },
-    {
-      "country": "MG",
-      "lat": -19.2511,
-      "lon": 47.3288,
-      "prefixes": 12,
-      "announced": 4,
-      "operators": {
-        "starlink": 12
-      }
-    },
-    {
-      "country": "SS",
-      "lat": 6.9982,
-      "lon": 29.5427,
-      "prefixes": 11,
-      "announced": 4,
-      "operators": {
-        "starlink": 11
-      }
-    },
-    {
-      "country": "AT",
-      "lat": 47.6204,
-      "lon": 14.3822,
+      "country": "SI",
+      "lat": 46.2218,
+      "lon": 14.9753,
       "prefixes": 11,
       "announced": 3,
-      "operators": {
-        "starlink": 10,
-        "viasat": 1
-      }
-    },
-    {
-      "country": "SY",
-      "lat": 34.9138,
-      "lon": 37.0677,
-      "prefixes": 11,
-      "announced": 3,
-      "operators": {
-        "starlink": 11
-      }
-    },
-    {
-      "country": "PA",
-      "lat": 8.4633,
-      "lon": -80.6983,
-      "prefixes": 11,
-      "announced": 4,
       "operators": {
         "starlink": 11
       }
@@ -786,9 +755,9 @@
       }
     },
     {
-      "country": "SI",
-      "lat": 46.2218,
-      "lon": 14.9753,
+      "country": "SY",
+      "lat": 34.9138,
+      "lon": 37.0677,
       "prefixes": 11,
       "announced": 3,
       "operators": {
@@ -796,23 +765,34 @@
       }
     },
     {
-      "country": "TD",
-      "lat": 12.0259,
-      "lon": 17.5535,
-      "prefixes": 10,
-      "announced": 5,
+      "country": "PA",
+      "lat": 8.4633,
+      "lon": -80.6983,
+      "prefixes": 11,
+      "announced": 4,
       "operators": {
-        "starlink": 10
+        "starlink": 11
       }
     },
     {
-      "country": "CD",
-      "lat": -3.3802,
-      "lon": 23.5225,
-      "prefixes": 10,
+      "country": "AT",
+      "lat": 47.6204,
+      "lon": 14.3822,
+      "prefixes": 11,
       "announced": 3,
       "operators": {
-        "starlink": 10
+        "starlink": 10,
+        "viasat": 1
+      }
+    },
+    {
+      "country": "SS",
+      "lat": 6.9982,
+      "lon": 29.5427,
+      "prefixes": 11,
+      "announced": 4,
+      "operators": {
+        "starlink": 11
       }
     },
     {
@@ -821,6 +801,26 @@
       "lon": 45.3949,
       "prefixes": 10,
       "announced": 3,
+      "operators": {
+        "starlink": 10
+      }
+    },
+    {
+      "country": "CR",
+      "lat": 9.9588,
+      "lon": -84.2347,
+      "prefixes": 10,
+      "announced": 4,
+      "operators": {
+        "starlink": 10
+      }
+    },
+    {
+      "country": "TJ",
+      "lat": 38.7584,
+      "lon": 69.4484,
+      "prefixes": 10,
+      "announced": 6,
       "operators": {
         "starlink": 10
       }
@@ -837,46 +837,6 @@
       }
     },
     {
-      "country": "CR",
-      "lat": 9.9588,
-      "lon": -84.2347,
-      "prefixes": 10,
-      "announced": 4,
-      "operators": {
-        "starlink": 10
-      }
-    },
-    {
-      "country": "ZM",
-      "lat": -13.5504,
-      "lon": 28.1224,
-      "prefixes": 10,
-      "announced": 5,
-      "operators": {
-        "starlink": 10
-      }
-    },
-    {
-      "country": "TJ",
-      "lat": 38.7584,
-      "lon": 69.4484,
-      "prefixes": 10,
-      "announced": 6,
-      "operators": {
-        "starlink": 10
-      }
-    },
-    {
-      "country": "MN",
-      "lat": 47.4797,
-      "lon": 102.5492,
-      "prefixes": 10,
-      "announced": 2,
-      "operators": {
-        "starlink": 10
-      }
-    },
-    {
       "country": "FI",
       "lat": 61.7118,
       "lon": 24.7705,
@@ -885,6 +845,16 @@
       "operators": {
         "starlink": 6,
         "viasat": 4
+      }
+    },
+    {
+      "country": "TD",
+      "lat": 12.0259,
+      "lon": 17.5535,
+      "prefixes": 10,
+      "announced": 5,
+      "operators": {
+        "starlink": 10
       }
     },
     {
@@ -899,6 +869,16 @@
       }
     },
     {
+      "country": "ZM",
+      "lat": -13.5504,
+      "lon": 28.1224,
+      "prefixes": 10,
+      "announced": 4,
+      "operators": {
+        "starlink": 10
+      }
+    },
+    {
       "country": "SN",
       "lat": 14.5769,
       "lon": -15.5147,
@@ -909,14 +889,23 @@
       }
     },
     {
-      "country": "HN",
-      "lat": 14.7947,
-      "lon": -87.5163,
-      "prefixes": 9,
-      "announced": 1,
+      "country": "CD",
+      "lat": -3.3802,
+      "lon": 23.5225,
+      "prefixes": 10,
+      "announced": 3,
       "operators": {
-        "starlink": 7,
-        "viasat": 2
+        "starlink": 10
+      }
+    },
+    {
+      "country": "MN",
+      "lat": 47.4797,
+      "lon": 102.5492,
+      "prefixes": 10,
+      "announced": 2,
+      "operators": {
+        "starlink": 10
       }
     },
     {
@@ -950,6 +939,17 @@
       }
     },
     {
+      "country": "HN",
+      "lat": 14.7947,
+      "lon": -87.5163,
+      "prefixes": 9,
+      "announced": 1,
+      "operators": {
+        "starlink": 7,
+        "viasat": 2
+      }
+    },
+    {
       "country": "LV",
       "lat": 56.9088,
       "lon": 24.503,
@@ -960,32 +960,11 @@
       }
     },
     {
-      "country": "KR",
-      "lat": 36.0957,
-      "lon": 127.4374,
+      "country": "IQ",
+      "lat": 34.3085,
+      "lon": 44.544,
       "prefixes": 8,
-      "announced": 2,
-      "operators": {
-        "starlink": 6,
-        "viasat": 2
-      }
-    },
-    {
-      "country": "LR",
-      "lat": 6.4732,
-      "lon": -9.2619,
-      "prefixes": 8,
-      "announced": 3,
-      "operators": {
-        "starlink": 8
-      }
-    },
-    {
-      "country": "DK",
-      "lat": 55.8461,
-      "lon": 10.6696,
-      "prefixes": 8,
-      "announced": 2,
+      "announced": 5,
       "operators": {
         "starlink": 8
       }
@@ -1001,9 +980,50 @@
       }
     },
     {
+      "country": "DJ",
+      "lat": 11.6361,
+      "lon": 42.7762,
+      "prefixes": 8,
+      "announced": 3,
+      "operators": {
+        "starlink": 8
+      }
+    },
+    {
+      "country": "JO",
+      "lat": 31.8702,
+      "lon": 35.8884,
+      "prefixes": 8,
+      "announced": 2,
+      "operators": {
+        "starlink": 7,
+        "viasat": 1
+      }
+    },
+    {
       "country": "MW",
       "lat": -13.9977,
       "lon": 34.519,
+      "prefixes": 8,
+      "announced": 3,
+      "operators": {
+        "starlink": 8
+      }
+    },
+    {
+      "country": "DK",
+      "lat": 55.8422,
+      "lon": 10.6707,
+      "prefixes": 8,
+      "announced": 2,
+      "operators": {
+        "starlink": 8
+      }
+    },
+    {
+      "country": "LR",
+      "lat": 6.4732,
+      "lon": -9.2619,
       "prefixes": 8,
       "announced": 3,
       "operators": {
@@ -1021,34 +1041,24 @@
       }
     },
     {
-      "country": "JO",
-      "lat": 31.8702,
-      "lon": 35.8884,
+      "country": "ML",
+      "lat": 14.0249,
+      "lon": -5.4455,
       "prefixes": 8,
       "announced": 2,
       "operators": {
-        "starlink": 7,
-        "viasat": 1
-      }
-    },
-    {
-      "country": "DJ",
-      "lat": 11.6361,
-      "lon": 42.7762,
-      "prefixes": 8,
-      "announced": 3,
-      "operators": {
         "starlink": 8
       }
     },
     {
-      "country": "IQ",
-      "lat": 34.3085,
-      "lon": 44.544,
+      "country": "KR",
+      "lat": 36.0957,
+      "lon": 127.4374,
       "prefixes": 8,
-      "announced": 5,
+      "announced": 2,
       "operators": {
-        "starlink": 8
+        "starlink": 6,
+        "viasat": 2
       }
     },
     {
@@ -1063,21 +1073,22 @@
       }
     },
     {
-      "country": "ML",
-      "lat": 14.0249,
-      "lon": -5.4455,
-      "prefixes": 8,
-      "announced": 2,
+      "country": "IL",
+      "lat": 32.2756,
+      "lon": 35.061,
+      "prefixes": 7,
+      "announced": 1,
       "operators": {
-        "starlink": 8
+        "starlink": 5,
+        "viasat": 2
       }
     },
     {
-      "country": "BJ",
-      "lat": 8.095,
-      "lon": 2.2268,
+      "country": "AM",
+      "lat": 40.3124,
+      "lon": 44.5749,
       "prefixes": 7,
-      "announced": 2,
+      "announced": 1,
       "operators": {
         "starlink": 7
       }
@@ -1103,19 +1114,9 @@
       }
     },
     {
-      "country": "AM",
-      "lat": 40.3124,
-      "lon": 44.5749,
-      "prefixes": 7,
-      "announced": 1,
-      "operators": {
-        "starlink": 7
-      }
-    },
-    {
-      "country": "VU",
-      "lat": -16.3279,
-      "lon": 167.83,
+      "country": "TO",
+      "lat": -20.6404,
+      "lon": -174.9445,
       "prefixes": 7,
       "announced": 1,
       "operators": {
@@ -1133,6 +1134,26 @@
       }
     },
     {
+      "country": "BJ",
+      "lat": 8.095,
+      "lon": 2.2268,
+      "prefixes": 7,
+      "announced": 2,
+      "operators": {
+        "starlink": 7
+      }
+    },
+    {
+      "country": "MK",
+      "lat": 41.6836,
+      "lon": 21.558,
+      "prefixes": 7,
+      "announced": 1,
+      "operators": {
+        "starlink": 7
+      }
+    },
+    {
       "country": "BS",
       "lat": 24.7584,
       "lon": -76.5173,
@@ -1143,9 +1164,9 @@
       }
     },
     {
-      "country": "WS",
-      "lat": -13.815,
-      "lon": -171.9272,
+      "country": "LT",
+      "lat": 55.1657,
+      "lon": 23.8434,
       "prefixes": 7,
       "announced": 1,
       "operators": {
@@ -1153,9 +1174,19 @@
       }
     },
     {
-      "country": "TO",
-      "lat": -20.6404,
-      "lon": -174.9445,
+      "country": "VU",
+      "lat": -16.3279,
+      "lon": 167.83,
+      "prefixes": 7,
+      "announced": 1,
+      "operators": {
+        "starlink": 7
+      }
+    },
+    {
+      "country": "WS",
+      "lat": -13.815,
+      "lon": -171.9272,
       "prefixes": 7,
       "announced": 1,
       "operators": {
@@ -1183,67 +1214,6 @@
       }
     },
     {
-      "country": "IL",
-      "lat": 32.2756,
-      "lon": 35.061,
-      "prefixes": 7,
-      "announced": 1,
-      "operators": {
-        "starlink": 5,
-        "viasat": 2
-      }
-    },
-    {
-      "country": "MK",
-      "lat": 41.6836,
-      "lon": 21.558,
-      "prefixes": 7,
-      "announced": 1,
-      "operators": {
-        "starlink": 7
-      }
-    },
-    {
-      "country": "LT",
-      "lat": 55.1657,
-      "lon": 23.8434,
-      "prefixes": 7,
-      "announced": 1,
-      "operators": {
-        "starlink": 7
-      }
-    },
-    {
-      "country": "BT",
-      "lat": 27.2919,
-      "lon": 90.2716,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "BH",
-      "lat": 26.1717,
-      "lon": 50.5544,
-      "prefixes": 6,
-      "announced": 1,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "GW",
-      "lat": 11.9539,
-      "lon": -15.3486,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
       "country": "CF",
       "lat": 5.6751,
       "lon": 18.9896,
@@ -1254,49 +1224,9 @@
       }
     },
     {
-      "country": "CV",
-      "lat": 15.7039,
-      "lon": -23.905,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "MR",
-      "lat": 17.3489,
-      "lon": -12.5605,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "GM",
-      "lat": 13.424,
-      "lon": -15.7039,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "GN",
-      "lat": 10.6135,
-      "lon": -11.2792,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "PF",
-      "lat": -17.2974,
-      "lon": -148.4835,
+      "country": "CG",
+      "lat": -1.979,
+      "lon": 14.637,
       "prefixes": 6,
       "announced": 2,
       "operators": {
@@ -1314,89 +1244,9 @@
       }
     },
     {
-      "country": "UG",
-      "lat": 0.8231,
-      "lon": 32.0672,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "DO",
-      "lat": 18.9276,
-      "lon": -70.5513,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
       "country": "YT",
       "lat": -12.8085,
       "lon": 45.155,
-      "prefixes": 6,
-      "announced": 3,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "AO",
-      "lat": -10.8986,
-      "lon": 15.9694,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "NP",
-      "lat": 27.855,
-      "lon": 84.2897,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "CG",
-      "lat": -1.979,
-      "lon": 14.637,
-      "prefixes": 6,
-      "announced": 2,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "TZ",
-      "lat": -5.8105,
-      "lon": 35.503,
-      "prefixes": 6,
-      "announced": 3,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "SL",
-      "lat": 8.3559,
-      "lon": -11.7988,
-      "prefixes": 6,
-      "announced": 3,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "country": "CI",
-      "lat": 7.2244,
-      "lon": -5.64,
       "prefixes": 6,
       "announced": 3,
       "operators": {
@@ -1414,11 +1264,161 @@
       }
     },
     {
-      "country": "FJ",
-      "lat": -17.3735,
-      "lon": 155.8553,
-      "prefixes": 5,
+      "country": "NP",
+      "lat": 27.855,
+      "lon": 84.2897,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "PF",
+      "lat": -17.2974,
+      "lon": -148.4835,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "MR",
+      "lat": 17.3489,
+      "lon": -12.5605,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "GW",
+      "lat": 11.9539,
+      "lon": -15.3486,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "BT",
+      "lat": 27.2919,
+      "lon": 90.2716,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "TZ",
+      "lat": -5.8105,
+      "lon": 35.503,
+      "prefixes": 6,
+      "announced": 3,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "DO",
+      "lat": 18.9276,
+      "lon": -70.5513,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "GN",
+      "lat": 10.6135,
+      "lon": -11.2792,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "BH",
+      "lat": 26.1717,
+      "lon": 50.5544,
+      "prefixes": 6,
       "announced": 1,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "GM",
+      "lat": 13.424,
+      "lon": -15.7039,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "CV",
+      "lat": 15.7039,
+      "lon": -23.905,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "AO",
+      "lat": -10.8986,
+      "lon": 15.9694,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "CI",
+      "lat": 7.2244,
+      "lon": -5.64,
+      "prefixes": 6,
+      "announced": 3,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "SL",
+      "lat": 8.3559,
+      "lon": -11.7988,
+      "prefixes": 6,
+      "announced": 3,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "UG",
+      "lat": 0.8231,
+      "lon": 32.0672,
+      "prefixes": 6,
+      "announced": 2,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
+      "country": "SZ",
+      "lat": -26.5048,
+      "lon": 31.4313,
+      "prefixes": 5,
+      "announced": 2,
       "operators": {
         "starlink": 5
       }
@@ -1434,41 +1434,31 @@
       }
     },
     {
+      "country": "RW",
+      "lat": -2.0531,
+      "lon": 29.6295,
+      "prefixes": 5,
+      "announced": 2,
+      "operators": {
+        "starlink": 5
+      }
+    },
+    {
+      "country": "FJ",
+      "lat": -17.3735,
+      "lon": 155.8553,
+      "prefixes": 5,
+      "announced": 1,
+      "operators": {
+        "starlink": 5
+      }
+    },
+    {
       "country": "BD",
       "lat": 23.6874,
       "lon": 90.2553,
       "prefixes": 5,
       "announced": 3,
-      "operators": {
-        "starlink": 5
-      }
-    },
-    {
-      "country": "RW",
-      "lat": -2.0531,
-      "lon": 29.6295,
-      "prefixes": 5,
-      "announced": 3,
-      "operators": {
-        "starlink": 5
-      }
-    },
-    {
-      "country": "GF",
-      "lat": 4.9061,
-      "lon": -52.9338,
-      "prefixes": 5,
-      "announced": 2,
-      "operators": {
-        "starlink": 5
-      }
-    },
-    {
-      "country": "SZ",
-      "lat": -26.5048,
-      "lon": 31.4313,
-      "prefixes": 5,
-      "announced": 2,
       "operators": {
         "starlink": 5
       }
@@ -1485,6 +1475,16 @@
       }
     },
     {
+      "country": "GF",
+      "lat": 4.9061,
+      "lon": -52.9338,
+      "prefixes": 5,
+      "announced": 2,
+      "operators": {
+        "starlink": 5
+      }
+    },
+    {
       "country": "PW",
       "lat": 7.145,
       "lon": 134.2585,
@@ -1492,16 +1492,6 @@
       "announced": 1,
       "operators": {
         "starlink": 5
-      }
-    },
-    {
-      "country": "PS",
-      "lat": 31.9702,
-      "lon": 35.1243,
-      "prefixes": 4,
-      "announced": 1,
-      "operators": {
-        "starlink": 4
       }
     },
     {
@@ -1525,19 +1515,9 @@
       }
     },
     {
-      "country": "GU",
-      "lat": 13.4444,
-      "lon": 144.7643,
-      "prefixes": 4,
-      "announced": 1,
-      "operators": {
-        "starlink": 4
-      }
-    },
-    {
-      "country": "BN",
-      "lat": 4.8513,
-      "lon": 114.8091,
+      "country": "FM",
+      "lat": 6.9571,
+      "lon": 151.7573,
       "prefixes": 4,
       "announced": 1,
       "operators": {
@@ -1555,11 +1535,31 @@
       }
     },
     {
+      "country": "GU",
+      "lat": 13.4444,
+      "lon": 144.7643,
+      "prefixes": 4,
+      "announced": 1,
+      "operators": {
+        "starlink": 4
+      }
+    },
+    {
       "country": "MT",
       "lat": 35.9168,
       "lon": 14.4314,
       "prefixes": 4,
       "announced": 2,
+      "operators": {
+        "starlink": 4
+      }
+    },
+    {
+      "country": "PS",
+      "lat": 31.9702,
+      "lon": 35.1243,
+      "prefixes": 4,
+      "announced": 1,
       "operators": {
         "starlink": 4
       }
@@ -1573,16 +1573,6 @@
       "operators": {
         "starlink": 3,
         "viasat": 1
-      }
-    },
-    {
-      "country": "FM",
-      "lat": 6.9571,
-      "lon": 151.7573,
-      "prefixes": 4,
-      "announced": 1,
-      "operators": {
-        "starlink": 4
       }
     },
     {
@@ -1607,379 +1597,19 @@
       }
     },
     {
-      "country": "NC",
-      "lat": -21.7726,
-      "lon": 166.0496,
-      "prefixes": 3,
+      "country": "BN",
+      "lat": 4.8513,
+      "lon": 114.8091,
+      "prefixes": 4,
       "announced": 1,
       "operators": {
-        "starlink": 3
+        "starlink": 4
       }
     },
     {
-      "country": "BB",
-      "lat": 13.1788,
-      "lon": -59.5728,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TV",
-      "lat": -7.6932,
-      "lon": 178.2864,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "ME",
-      "lat": 42.5604,
-      "lon": 19.2194,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "MH",
-      "lat": 8.2493,
-      "lon": 168.9882,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "LC",
-      "lat": 13.9192,
-      "lon": -60.9638,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "GP",
-      "lat": 16.182,
-      "lon": -61.5611,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TN",
-      "lat": 35.6435,
-      "lon": 10.0209,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "RS",
-      "lat": 44.7419,
-      "lon": 20.4052,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "AG",
-      "lat": 17.1372,
-      "lon": -61.7978,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "FO",
-      "lat": 61.9902,
-      "lon": -6.8192,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "AS",
-      "lat": -14.1099,
-      "lon": -170.5475,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "NI",
-      "lat": 12.5959,
-      "lon": -85.8855,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "CW",
-      "lat": 12.1706,
-      "lon": -68.9665,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SJ",
-      "lat": 74.5727,
-      "lon": 3.4641,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SH",
-      "lat": -19.2146,
-      "lon": -9.5404,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "PN",
-      "lat": -25.066,
-      "lon": -130.1015,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TG",
-      "lat": 8.2302,
-      "lon": 0.9747,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TK",
-      "lat": -9.0426,
-      "lon": -171.8702,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "BQ",
-      "lat": 14.1985,
-      "lon": -66.3565,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "AD",
-      "lat": 42.5293,
-      "lon": 1.5549,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SB",
-      "lat": -9.1702,
-      "lon": 159.7894,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "LA",
-      "lat": 18.3181,
-      "lon": 103.8367,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "EE",
-      "lat": 58.9284,
-      "lon": 25.4022,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "KY",
-      "lat": 19.3641,
-      "lon": -81.1339,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "BI",
-      "lat": -3.3608,
-      "lon": 29.7778,
-      "prefixes": 3,
-      "announced": 2,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "DM",
-      "lat": 15.4129,
-      "lon": -61.3559,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "MQ",
-      "lat": 14.6436,
-      "lon": -60.9937,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TL",
-      "lat": -8.7956,
-      "lon": 125.7281,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "KN",
-      "lat": 17.29,
-      "lon": -62.7258,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "PM",
-      "lat": 46.9383,
-      "lon": -56.2793,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "ST",
-      "lat": 0.3465,
-      "lon": 6.7166,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SV",
-      "lat": 13.69,
-      "lon": -88.9266,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "LB",
-      "lat": 33.7765,
-      "lon": 35.7071,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "FK",
-      "lat": -51.6938,
-      "lon": -57.857,
-      "prefixes": 3,
-      "announced": 2,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "KM",
-      "lat": -11.9509,
-      "lon": 43.8576,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "IO",
-      "lat": -7.2623,
-      "lon": 72.3768,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TC",
-      "lat": 21.7592,
-      "lon": -72.0596,
+      "country": "NR",
+      "lat": -0.5262,
+      "lon": 166.9327,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -1997,9 +1627,9 @@
       }
     },
     {
-      "country": "GL",
-      "lat": 65.8558,
-      "lon": -49.7195,
+      "country": "BM",
+      "lat": 32.3096,
+      "lon": -64.7722,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2007,9 +1637,9 @@
       }
     },
     {
-      "country": "MS",
-      "lat": 16.7567,
-      "lon": -62.2136,
+      "country": "TK",
+      "lat": -9.0426,
+      "lon": -171.8702,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2017,9 +1647,9 @@
       }
     },
     {
-      "country": "SX",
-      "lat": 18.0373,
-      "lon": -63.0547,
+      "country": "SV",
+      "lat": 13.69,
+      "lon": -88.9266,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2027,59 +1657,9 @@
       }
     },
     {
-      "country": "VC",
-      "lat": 13.1932,
-      "lon": -61.2047,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SC",
-      "lat": -4.6059,
-      "lon": 55.5149,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "MU",
-      "lat": -20.0902,
-      "lon": 57.7054,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "BL",
-      "lat": 17.8962,
-      "lon": -62.8498,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "GI",
-      "lat": 36.1333,
-      "lon": -5.3521,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "GD",
-      "lat": 12.1784,
-      "lon": -61.6601,
+      "country": "GG",
+      "lat": 49.4797,
+      "lon": -2.5495,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2097,9 +1677,9 @@
       }
     },
     {
-      "country": "JE",
-      "lat": 49.212,
-      "lon": -2.0984,
+      "country": "IM",
+      "lat": 54.2153,
+      "lon": -4.5448,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2107,9 +1687,59 @@
       }
     },
     {
-      "country": "ZA",
-      "lat": -28.5937,
-      "lon": 27.2416,
+      "country": "KY",
+      "lat": 19.3641,
+      "lon": -81.1339,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "SM",
+      "lat": 43.9375,
+      "lon": 12.4594,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "MU",
+      "lat": -20.0902,
+      "lon": 57.7054,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "ME",
+      "lat": 42.5604,
+      "lon": 19.2194,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "MQ",
+      "lat": 14.6436,
+      "lon": -60.9937,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "GI",
+      "lat": 36.1333,
+      "lon": -5.3521,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2120,6 +1750,96 @@
       "country": "SR",
       "lat": 5.7345,
       "lon": -55.2729,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "IO",
+      "lat": -7.2623,
+      "lon": 72.3768,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "TV",
+      "lat": -7.6932,
+      "lon": 178.2864,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "AS",
+      "lat": -14.1099,
+      "lon": -170.5475,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "KM",
+      "lat": -11.9509,
+      "lon": 43.8576,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "TN",
+      "lat": 35.6435,
+      "lon": 10.0209,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "EE",
+      "lat": 58.9284,
+      "lon": 25.4022,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "ER",
+      "lat": 14.984,
+      "lon": 38.8709,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "VG",
+      "lat": 18.4375,
+      "lon": -64.5278,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "AD",
+      "lat": 42.5293,
+      "lon": 1.5549,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2147,9 +1867,9 @@
       }
     },
     {
-      "country": "LS",
-      "lat": -29.5587,
-      "lon": 27.9488,
+      "country": "BB",
+      "lat": 13.1788,
+      "lon": -59.5728,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2157,9 +1877,9 @@
       }
     },
     {
-      "country": "IM",
-      "lat": 54.2153,
-      "lon": -4.5448,
+      "country": "SX",
+      "lat": 18.0373,
+      "lon": -63.0547,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2167,149 +1887,9 @@
       }
     },
     {
-      "country": "KH",
-      "lat": 12.1823,
-      "lon": 104.7097,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "AI",
-      "lat": 18.2104,
-      "lon": -63.0572,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "GG",
-      "lat": 49.4797,
-      "lon": -2.5495,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "BZ",
-      "lat": 17.4897,
-      "lon": -88.5848,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "BA",
-      "lat": 44.3613,
-      "lon": 17.8306,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "VG",
-      "lat": 18.4375,
-      "lon": -64.5278,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "MF",
-      "lat": 18.0707,
-      "lon": -63.0655,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "CK",
-      "lat": -21.216,
-      "lon": -159.7544,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "GS",
-      "lat": -54.2811,
-      "lon": -36.5092,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "SM",
-      "lat": 43.9375,
-      "lon": 12.4594,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "UZ",
-      "lat": 40.6017,
-      "lon": 67.2159,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "WF",
-      "lat": -13.962,
-      "lon": -177.4813,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "AW",
-      "lat": 12.5248,
-      "lon": -69.996,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "MC",
-      "lat": 43.7378,
-      "lon": 7.4235,
-      "prefixes": 3,
-      "announced": 1,
-      "operators": {
-        "starlink": 3
-      }
-    },
-    {
-      "country": "TT",
-      "lat": 10.474,
-      "lon": -61.3973,
+      "country": "PM",
+      "lat": 46.9383,
+      "lon": -56.2793,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2327,6 +1907,16 @@
       }
     },
     {
+      "country": "TT",
+      "lat": 10.474,
+      "lon": -61.3973,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
       "country": "NA",
       "lat": -21.5424,
       "lon": 17.0912,
@@ -2337,9 +1927,9 @@
       }
     },
     {
-      "country": "NR",
-      "lat": -0.5262,
-      "lon": 166.9327,
+      "country": "RS",
+      "lat": 44.7419,
+      "lon": 20.4052,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2347,9 +1937,139 @@
       }
     },
     {
-      "country": "ER",
-      "lat": 14.984,
-      "lon": 38.8709,
+      "country": "SB",
+      "lat": -9.1702,
+      "lon": 159.7894,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "UZ",
+      "lat": 40.6017,
+      "lon": 67.2159,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "BA",
+      "lat": 44.3613,
+      "lon": 17.8306,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "NC",
+      "lat": -21.7726,
+      "lon": 166.0496,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "TG",
+      "lat": 8.2302,
+      "lon": 0.9747,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "LS",
+      "lat": -29.5587,
+      "lon": 27.9488,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "BL",
+      "lat": 17.8962,
+      "lon": -62.8498,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "LB",
+      "lat": 33.7765,
+      "lon": 35.7071,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "TL",
+      "lat": -8.7956,
+      "lon": 125.7281,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "GP",
+      "lat": 16.182,
+      "lon": -61.5611,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "GL",
+      "lat": 65.8558,
+      "lon": -49.7195,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "LC",
+      "lat": 13.9192,
+      "lon": -60.9638,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "SC",
+      "lat": -4.6059,
+      "lon": 55.5149,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "KN",
+      "lat": 17.29,
+      "lon": -62.7258,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2367,9 +2087,289 @@
       }
     },
     {
-      "country": "BM",
-      "lat": 32.3096,
-      "lon": -64.7722,
+      "country": "MC",
+      "lat": 43.7378,
+      "lon": 7.4235,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "SH",
+      "lat": -19.2146,
+      "lon": -9.5404,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "FK",
+      "lat": -51.6938,
+      "lon": -57.857,
+      "prefixes": 3,
+      "announced": 2,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "GD",
+      "lat": 12.1784,
+      "lon": -61.6601,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "LA",
+      "lat": 18.3181,
+      "lon": 103.8367,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "DM",
+      "lat": 15.4129,
+      "lon": -61.3559,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "NI",
+      "lat": 12.5959,
+      "lon": -85.8855,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "AW",
+      "lat": 12.5248,
+      "lon": -69.996,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "AI",
+      "lat": 18.2104,
+      "lon": -63.0572,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "MH",
+      "lat": 8.2493,
+      "lon": 168.9882,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "FO",
+      "lat": 61.9902,
+      "lon": -6.8192,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "KH",
+      "lat": 12.1823,
+      "lon": 104.7097,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "TC",
+      "lat": 21.7592,
+      "lon": -72.0596,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "BQ",
+      "lat": 14.1985,
+      "lon": -66.3565,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "MF",
+      "lat": 18.0707,
+      "lon": -63.0655,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "AG",
+      "lat": 17.1372,
+      "lon": -61.7978,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "WF",
+      "lat": -13.962,
+      "lon": -177.4813,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "PN",
+      "lat": -25.066,
+      "lon": -130.1015,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "VC",
+      "lat": 13.1932,
+      "lon": -61.2047,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "BZ",
+      "lat": 17.4897,
+      "lon": -88.5848,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "MS",
+      "lat": 16.7567,
+      "lon": -62.2136,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "ZA",
+      "lat": -28.5937,
+      "lon": 27.2416,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "ST",
+      "lat": 0.3465,
+      "lon": 6.7166,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "CW",
+      "lat": 12.1706,
+      "lon": -68.9665,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "SJ",
+      "lat": 74.5727,
+      "lon": 3.4641,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "JE",
+      "lat": 49.212,
+      "lon": -2.0984,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "CK",
+      "lat": -21.216,
+      "lon": -159.7544,
+      "prefixes": 3,
+      "announced": 1,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "BI",
+      "lat": -3.3608,
+      "lon": 29.7778,
+      "prefixes": 3,
+      "announced": 2,
+      "operators": {
+        "starlink": 3
+      }
+    },
+    {
+      "country": "GS",
+      "lat": -54.2811,
+      "lon": -36.5092,
       "prefixes": 3,
       "announced": 1,
       "operators": {
@@ -2631,22 +2631,22 @@
       }
     },
     {
-      "code": "lsancax1",
-      "iata": "LAX",
-      "lat": 33.9425,
-      "lon": -118.408,
-      "country": "US",
+      "code": "mnlaphl1",
+      "iata": "MNL",
+      "lat": 14.5086,
+      "lon": 121.02,
+      "country": "PH",
       "prefixes": 71,
       "operators": {
         "starlink": 71
       }
     },
     {
-      "code": "mnlaphl1",
-      "iata": "MNL",
-      "lat": 14.5086,
-      "lon": 121.02,
-      "country": "PH",
+      "code": "lsancax1",
+      "iata": "LAX",
+      "lat": 33.9425,
+      "lon": -118.408,
+      "country": "US",
       "prefixes": 71,
       "operators": {
         "starlink": 71
@@ -2708,22 +2708,22 @@
       }
     },
     {
-      "code": "sltyutx1",
-      "iata": "PVU",
-      "lat": 40.2189,
-      "lon": -111.7224,
-      "country": "US",
+      "code": "mntlcan1",
+      "iata": "YUL",
+      "lat": 45.4678,
+      "lon": -73.7423,
+      "country": "CA",
       "prefixes": 59,
       "operators": {
         "starlink": 59
       }
     },
     {
-      "code": "mntlcan1",
-      "iata": "YUL",
-      "lat": 45.4678,
-      "lon": -73.7423,
-      "country": "CA",
+      "code": "sltyutx1",
+      "iata": "PVU",
+      "lat": 40.2189,
+      "lon": -111.7224,
+      "country": "US",
       "prefixes": 59,
       "operators": {
         "starlink": 59
@@ -2741,22 +2741,22 @@
       }
     },
     {
-      "code": "gtmygtm1",
-      "iata": "GUA",
-      "lat": 14.5829,
-      "lon": -90.5275,
-      "country": "GT",
+      "code": "dnvrcox1",
+      "iata": "DEN",
+      "lat": 39.86,
+      "lon": -104.6738,
+      "country": "US",
       "prefixes": 51,
       "operators": {
         "starlink": 51
       }
     },
     {
-      "code": "dnvrcox1",
-      "iata": "DEN",
-      "lat": 39.86,
-      "lon": -104.6738,
-      "country": "US",
+      "code": "gtmygtm1",
+      "iata": "GUA",
+      "lat": 14.5829,
+      "lon": -90.5275,
+      "country": "GT",
       "prefixes": 51,
       "operators": {
         "starlink": 51
@@ -2785,22 +2785,22 @@
       }
     },
     {
-      "code": "dkrrsen1",
-      "iata": "DSS",
-      "lat": 14.6709,
-      "lon": -17.0728,
-      "country": "SN",
+      "code": "sngesgp1",
+      "iata": "SIN",
+      "lat": 1.3502,
+      "lon": 103.994,
+      "country": "SG",
       "prefixes": 42,
       "operators": {
         "starlink": 42
       }
     },
     {
-      "code": "sngesgp1",
-      "iata": "SIN",
-      "lat": 1.3502,
-      "lon": 103.994,
-      "country": "SG",
+      "code": "dkrrsen1",
+      "iata": "DSS",
+      "lat": 14.6709,
+      "lon": -17.0728,
+      "country": "SN",
       "prefixes": 42,
       "operators": {
         "starlink": 42
@@ -2950,6 +2950,17 @@
       }
     },
     {
+      "code": "chniind1",
+      "iata": "MAA",
+      "lat": 12.99,
+      "lon": 80.1693,
+      "country": "IN",
+      "prefixes": 17,
+      "operators": {
+        "starlink": 17
+      }
+    },
+    {
       "code": "dlhiind1",
       "iata": "DEL",
       "lat": 28.5556,
@@ -2965,17 +2976,6 @@
       "iata": "CCU",
       "lat": 22.654,
       "lon": 88.4477,
-      "country": "IN",
-      "prefixes": 17,
-      "operators": {
-        "starlink": 17
-      }
-    },
-    {
-      "code": "chniind1",
-      "iata": "MAA",
-      "lat": 12.99,
-      "lon": 80.1693,
       "country": "IN",
       "prefixes": 17,
       "operators": {
@@ -3027,6 +3027,17 @@
       }
     },
     {
+      "code": "chrhnzl1",
+      "iata": "CHC",
+      "lat": -43.489,
+      "lon": 172.5321,
+      "country": "NZ",
+      "prefixes": 6,
+      "operators": {
+        "starlink": 6
+      }
+    },
+    {
       "code": "msctomn1",
       "iata": "MCT",
       "lat": 23.6002,
@@ -3043,17 +3054,6 @@
       "lat": 23.8433,
       "lon": 90.3978,
       "country": "BD",
-      "prefixes": 6,
-      "operators": {
-        "starlink": 6
-      }
-    },
-    {
-      "code": "chrhnzl1",
-      "iata": "CHC",
-      "lat": -43.489,
-      "lon": 172.5321,
-      "country": "NZ",
       "prefixes": 6,
       "operators": {
         "starlink": 6
@@ -3156,7 +3156,7 @@
   "operators": [
     {
       "name": "starlink",
-      "count": 6584,
+      "count": 6580,
       "orbit_class": "leo"
     },
     {
@@ -3166,7 +3166,7 @@
     },
     {
       "name": "turksat",
-      "count": 974,
+      "count": 972,
       "orbit_class": "geo"
     },
     {
@@ -3176,12 +3176,12 @@
     },
     {
       "name": "nbn_sky_muster",
-      "count": 459,
+      "count": 403,
       "orbit_class": "geo"
     },
     {
       "name": "eutelsat_skylogic",
-      "count": 271,
+      "count": 272,
       "orbit_class": "geo_or_hybrid_satellite"
     },
     {
@@ -3250,14 +3250,14 @@
       "orbit_class": "geo"
     },
     {
-      "name": "marlink",
-      "count": 30,
-      "orbit_class": "mixed_satellite"
-    },
-    {
       "name": "rscc",
       "count": 30,
       "orbit_class": "geo"
+    },
+    {
+      "name": "marlink",
+      "count": 30,
+      "orbit_class": "mixed_satellite"
     },
     {
       "name": "kacific",
@@ -3295,14 +3295,14 @@
       "orbit_class": "mixed_satellite"
     },
     {
-      "name": "telespazio",
-      "count": 13,
-      "orbit_class": "geo"
-    },
-    {
       "name": "omniaccess",
       "count": 13,
       "orbit_class": "mixed_satellite"
+    },
+    {
+      "name": "telespazio",
+      "count": 13,
+      "orbit_class": "geo"
     },
     {
       "name": "navarino",
@@ -3325,14 +3325,14 @@
       "orbit_class": "geo"
     },
     {
-      "name": "sky_perfect_jsat",
-      "count": 6,
-      "orbit_class": "geo"
-    },
-    {
       "name": "tampnet",
       "count": 6,
       "orbit_class": "hybrid_satellite_offshore"
+    },
+    {
+      "name": "sky_perfect_jsat",
+      "count": 6,
+      "orbit_class": "geo"
     },
     {
       "name": "castor_marine",
@@ -3340,14 +3340,14 @@
       "orbit_class": "mixed_satellite"
     },
     {
-      "name": "kt_sat",
-      "count": 4,
-      "orbit_class": "geo"
-    },
-    {
       "name": "satcom_direct",
       "count": 4,
       "orbit_class": "mixed_satellite"
+    },
+    {
+      "name": "kt_sat",
+      "count": 4,
+      "orbit_class": "geo"
     },
     {
       "name": "intelsat_general",
@@ -3375,12 +3375,7 @@
       "orbit_class": "leo"
     },
     {
-      "name": "thales_avionics",
-      "count": 1,
-      "orbit_class": "mixed_satellite"
-    },
-    {
-      "name": "nsslglobal",
+      "name": "gogo_business_aviation",
       "count": 1,
       "orbit_class": "mixed_satellite"
     },
@@ -3390,12 +3385,17 @@
       "orbit_class": "leo"
     },
     {
+      "name": "nsslglobal",
+      "count": 1,
+      "orbit_class": "mixed_satellite"
+    },
+    {
       "name": "rignet",
       "count": 1,
       "orbit_class": "geo"
     },
     {
-      "name": "royal_caribbean",
+      "name": "thales_avionics",
       "count": 1,
       "orbit_class": "mixed_satellite"
     },
@@ -3405,7 +3405,7 @@
       "orbit_class": "mixed_satellite"
     },
     {
-      "name": "gogo_business_aviation",
+      "name": "royal_caribbean",
       "count": 1,
       "orbit_class": "mixed_satellite"
     }
@@ -3564,17 +3564,17 @@
       "color": "#06b6d4"
     },
     {
-      "operator": "marlink",
-      "orbit_class": "mixed_satellite",
-      "inclination": 35,
+      "operator": "rscc",
+      "orbit_class": "geo",
+      "inclination": 0,
       "altitude_km": 35786,
       "phase": 343,
       "color": "#eab308"
     },
     {
-      "operator": "rscc",
-      "orbit_class": "geo",
-      "inclination": 0,
+      "operator": "marlink",
+      "orbit_class": "mixed_satellite",
+      "inclination": 35,
       "altitude_km": 35786,
       "phase": 20,
       "color": "#c084fc"
@@ -3636,17 +3636,17 @@
       "color": "#f59e0b"
     },
     {
-      "operator": "telespazio",
-      "orbit_class": "geo",
-      "inclination": 0,
+      "operator": "omniaccess",
+      "orbit_class": "mixed_satellite",
+      "inclination": 35,
       "altitude_km": 35786,
       "phase": 316,
       "color": "#ef4444"
     },
     {
-      "operator": "omniaccess",
-      "orbit_class": "mixed_satellite",
-      "inclination": 35,
+      "operator": "telespazio",
+      "orbit_class": "geo",
+      "inclination": 0,
       "altitude_km": 35786,
       "phase": 353,
       "color": "#22c55e"
@@ -3684,17 +3684,17 @@
       "color": "#f97316"
     },
     {
-      "operator": "sky_perfect_jsat",
-      "orbit_class": "geo",
-      "inclination": 0,
+      "operator": "tampnet",
+      "orbit_class": "hybrid_satellite_offshore",
+      "inclination": 35,
       "altitude_km": 35786,
       "phase": 178,
       "color": "#a3e635"
     },
     {
-      "operator": "tampnet",
-      "orbit_class": "hybrid_satellite_offshore",
-      "inclination": 35,
+      "operator": "sky_perfect_jsat",
+      "orbit_class": "geo",
+      "inclination": 0,
       "altitude_km": 35786,
       "phase": 215,
       "color": "#fb7185"
@@ -3708,17 +3708,17 @@
       "color": "#38bdf8"
     },
     {
-      "operator": "kt_sat",
-      "orbit_class": "geo",
-      "inclination": 0,
+      "operator": "satcom_direct",
+      "orbit_class": "mixed_satellite",
+      "inclination": 35,
       "altitude_km": 35786,
       "phase": 289,
       "color": "#8b5cf6"
     },
     {
-      "operator": "satcom_direct",
-      "orbit_class": "mixed_satellite",
-      "inclination": 35,
+      "operator": "kt_sat",
+      "orbit_class": "geo",
+      "inclination": 0,
       "altitude_km": 35786,
       "phase": 326,
       "color": "#14b8a6"
@@ -3764,7 +3764,7 @@
       "color": "#eab308"
     },
     {
-      "operator": "thales_avionics",
+      "operator": "gogo_business_aviation",
       "orbit_class": "mixed_satellite",
       "inclination": 35,
       "altitude_km": 35786,
@@ -3772,18 +3772,18 @@
       "color": "#c084fc"
     },
     {
-      "operator": "nsslglobal",
-      "orbit_class": "mixed_satellite",
-      "inclination": 35,
-      "altitude_km": 35786,
+      "operator": "spacex_infrastructure",
+      "orbit_class": "leo",
+      "inclination": 87.9,
+      "altitude_km": 1200,
       "phase": 225,
       "color": "#f97316"
     },
     {
-      "operator": "spacex_infrastructure",
-      "orbit_class": "leo",
-      "inclination": 53,
-      "altitude_km": 550,
+      "operator": "nsslglobal",
+      "orbit_class": "mixed_satellite",
+      "inclination": 35,
+      "altitude_km": 35786,
       "phase": 262,
       "color": "#a3e635"
     },
@@ -3796,7 +3796,7 @@
       "color": "#fb7185"
     },
     {
-      "operator": "royal_caribbean",
+      "operator": "thales_avionics",
       "orbit_class": "mixed_satellite",
       "inclination": 35,
       "altitude_km": 35786,
@@ -3812,7 +3812,7 @@
       "color": "#8b5cf6"
     },
     {
-      "operator": "gogo_business_aviation",
+      "operator": "royal_caribbean",
       "orbit_class": "mixed_satellite",
       "inclination": 35,
       "altitude_km": 35786,
