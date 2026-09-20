@@ -1154,7 +1154,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 145.224.125.0/25,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 145.224.125.128/25,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
 145.224.126.0/23,,,,false,,false,14593,bgp_only
-145.224.126.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
+145.224.126.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 145.224.127.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 145.224.64.0/21,,,,false,,false,14593,bgp_only
 145.224.64.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -3686,7 +3686,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.83.96.0/21,,,,false,,false,14593,bgp_only
 206.83.96.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 206.83.97.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-206.83.98.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+206.83.98.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 206.83.99.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 209.198.128.0/23,,,,false,,false,14593,bgp_only
 209.198.128.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -3963,7 +3963,9 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:1400::/38,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:1400::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1480::/41,,,,false,,false,14593,bgp_only
+2406:2d40:1500::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1580::/41,,,,false,,false,14593,bgp_only
+2406:2d40:1600::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1800::/38,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
 2406:2d40:1c00::/38,AU,AU-VIC,Melbourne,true,mlbeaus1,true,14593,announced
 2406:2d40:2000::/40,AU,AU-WA,Perth,true,prthaus1,true,14593,announced
@@ -4024,6 +4026,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:6a00::/40,AU,AU-VIC,Melbourne,true,mlbeaus1,true,14593,announced
 2406:2d40:6c00::/38,VN,VN-SG,Saigon,true,sgnnvnm1,true,14593,announced
 2406:2d40:7200::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+2406:2d40:7200::/41,,,,false,,false,14593,bgp_only
 2406:2d40:7280::/41,,,,false,,false,14593,bgp_only
 2406:2d40:7600::/40,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:7600::/41,,,,false,,false,14593,bgp_only
@@ -6211,7 +6214,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.37.0/24,NL,NL-NH,Amsterdam,true,frntdeu1,false,,planned_not_announced
 9.246.38.0/23,,,,false,,false,14593,bgp_only
 9.246.38.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
-9.246.39.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
+9.246.39.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 9.246.4.0/23,,,,false,,false,14593,bgp_only
 9.246.4.0/24,FR,FR-IDF,Paris,true,frntdeu1,false,,planned_not_announced
 9.246.40.0/23,,,,false,,false,14593,bgp_only
@@ -6268,7 +6271,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.246.71.0/24,YE,YE-AD,Aden,true,frntdeu1,false,,planned_not_announced
 9.246.72.0/23,,,,false,,false,14593,bgp_only
 9.246.72.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
-9.246.73.0/24,YE,YE-AD,Aden,true,nrbiken1,false,,planned_not_announced
+9.246.73.0/24,YE,YE-AD,Aden,true,nrbiken1,true,14593,announced
 9.246.74.0/23,,,,false,,false,14593,bgp_only
 9.246.74.0/24,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
 9.246.75.0/24,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
@@ -6421,11 +6424,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.167.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 98.97.168.0/23,,,,false,,false,14593,bgp_only
 98.97.168.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
-98.97.169.0/24,KE,KE-30,Nairobi,true,nrbiken1,false,,planned_not_announced
+98.97.169.0/24,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 98.97.17.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 98.97.170.0/23,,,,false,,false,14593,bgp_only
 98.97.170.0/24,CD,CD-KN,Kinshasa,true,nrbiken1,false,,planned_not_announced
-98.97.171.0/24,CD,CD-KN,Kinshasa,true,nrbiken1,false,,planned_not_announced
+98.97.171.0/24,CD,CD-KN,Kinshasa,true,nrbiken1,true,14593,announced
 98.97.172.0/23,,,,false,,false,14593,bgp_only
 98.97.172.0/24,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
 98.97.173.0/24,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
