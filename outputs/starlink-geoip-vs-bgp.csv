@@ -318,7 +318,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.55.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 129.222.56.0/23,,,,false,,false,14593,bgp_only
 129.222.56.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
-129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,true,14593,announced
+129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
 129.222.58.0/23,,,,false,,false,14593,bgp_only
 129.222.58.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
 129.222.59.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
@@ -2249,7 +2249,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.151.0/24,MU,MU-PL,Port Louis,true,jhngzaf1,false,,planned_not_announced
 153.67.152.0/23,,,,false,,false,14593,bgp_only
 153.67.152.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
-153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,true,14593,announced
+153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
 153.67.154.0/23,,,,false,,false,14593,bgp_only
 153.67.154.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
 153.67.155.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
@@ -4240,6 +4240,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5a80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5b00::/40,CF,CF-BGF,Bangui,true,lgosnga1,true,14593,announced
+2605:59c0:5b80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5c00::/38,SN,SN-DK,Dakar,true,dkrrsen1,true,14593,announced
 2605:59c0:6000::/40,GT,GT-01,Guatemala City,true,gtmygtm1,true,14593,announced
 2605:59c0:600::/40,JM,JM-01,Kingston,true,mmmiflx1,true,14593,announced

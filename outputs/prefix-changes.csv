@@ -1,11 +1,4 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-145.224.126.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-206.83.98.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-9.246.39.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-9.246.73.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-98.97.169.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,KE,KE,KE-30,KE-30,Nairobi,Nairobi
-98.97.171.0/24,changed,2026-09-20T08:34:40Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,CD,CD,CD-KN,CD-KN,Kinshasa,Kinshasa
-2406:2d40:1500::/41,new,2026-09-20T08:34:40Z,starlink,,bgp_only,,14593,,,,,,,,,
-2406:2d40:1600::/41,new,2026-09-20T08:34:40Z,starlink,,bgp_only,,14593,,,,,,,,,
-2406:2d40:7200::/41,new,2026-09-20T08:34:40Z,starlink,,bgp_only,,14593,,,,,,,,,
-198.45.244.0/22,withdrawn,2026-09-20T08:34:40Z,viasat,viasat,withdrawn_recently,bgp_only,7155,7155,,,,,,,,
+129.222.57.0/24,changed,2026-09-21T08:55:36Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,GR,GR,GR-I,GR-I,Athens,Athens
+153.67.153.0/24,changed,2026-09-21T08:55:36Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,GA,GA,GA-1,GA-1,Libreville,Libreville
+2605:59c0:5b80::/41,new,2026-09-21T08:55:36Z,starlink,,bgp_only,,14593,,,,,,,,,
