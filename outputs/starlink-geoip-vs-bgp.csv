@@ -738,7 +738,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.150.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 143.105.151.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 143.105.152.0/23,,,,false,,false,14593,bgp_only
-143.105.152.0/24,CM,CM-CE,Yaoundé,true,lgosnga1,true,14593,announced
+143.105.152.0/24,CM,CM-CE,Yaoundé,true,lgosnga1,false,,planned_not_announced
 143.105.153.0/24,CM,CM-CE,Yaoundé,true,lgosnga1,false,,planned_not_announced
 143.105.154.0/23,,,,false,,false,14593,bgp_only
 143.105.154.0/24,SZ,SZ-HH,Mbabane,true,jhngzaf1,false,,planned_not_announced
@@ -2249,7 +2249,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.151.0/24,MU,MU-PL,Port Louis,true,jhngzaf1,false,,planned_not_announced
 153.67.152.0/23,,,,false,,false,14593,bgp_only
 153.67.152.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
-153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,false,,planned_not_announced
+153.67.153.0/24,GA,GA-1,Libreville,true,lgosnga1,true,14593,announced
 153.67.154.0/23,,,,false,,false,14593,bgp_only
 153.67.154.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
 153.67.155.0/24,KM,KM-G,Moroni,true,nrbiken1,false,,planned_not_announced
@@ -4929,6 +4929,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:6500::/40,NI,NI-MN,Managua,true,gtmygtm1,true,14593,announced
 2803:9810:6800::/40,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 2803:9810:6800::/41,,,,false,,false,14593,bgp_only
+2803:9810:6880::/41,,,,false,,false,14593,bgp_only
 2803:9810:6c00::/38,BR,BR-RS,Porto Alegre,true,prtebra1,true,14593,announced
 2803:9810:7000::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
 2803:9810:7000::/41,,,,false,,false,14593,bgp_only

@@ -1,4 +1,9 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.57.0/24,changed,2026-09-21T08:55:36Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,GR,GR,GR-I,GR-I,Athens,Athens
-153.67.153.0/24,changed,2026-09-21T08:55:36Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,GA,GA,GA-1,GA-1,Libreville,Libreville
-2605:59c0:5b80::/41,new,2026-09-21T08:55:36Z,starlink,,bgp_only,,14593,,,,,,,,,
+143.105.152.0/24,changed,2026-09-22T08:32:03Z,starlink,starlink,planned_not_announced,announced,,14593,lgosnga1,lgosnga1,CM,CM,CM-CE,CM-CE,Yaoundé,Yaoundé
+153.67.153.0/24,changed,2026-09-22T08:32:03Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,GA,GA,GA-1,GA-1,Libreville,Libreville
+156.226.7.0/24,new,2026-09-22T08:32:03Z,castor_marine,,bgp_only,,60647,,,,,,,,,
+2803:9810:6880::/41,new,2026-09-22T08:32:03Z,starlink,,bgp_only,,14593,,,,,,,,,
+94.54.64.0/22,new,2026-09-22T08:32:03Z,turksat,,bgp_only,,47524,,,,,,,,,
+94.54.68.0/22,new,2026-09-22T08:32:03Z,turksat,,bgp_only,,47524,,,,,,,,,
+94.54.72.0/22,new,2026-09-22T08:32:03Z,turksat,,bgp_only,,47524,,,,,,,,,
+94.54.80.0/22,new,2026-09-22T08:32:03Z,turksat,,bgp_only,,47524,,,,,,,,,
