@@ -318,7 +318,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.55.0/24,US,US-FL,Miami,true,mmmiflx1,false,,planned_not_announced
 129.222.56.0/23,,,,false,,false,14593,bgp_only
 129.222.56.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
-129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,false,,planned_not_announced
+129.222.57.0/24,GR,GR-I,Athens,true,sfiabgr1,true,14593,announced
 129.222.58.0/23,,,,false,,false,14593,bgp_only
 129.222.58.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
 129.222.59.0/24,GT,GT-01,Guatemala City,true,gtmygtm1,false,,planned_not_announced
@@ -1401,7 +1401,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.105.0/24,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
 150.228.106.0/23,,,,false,,false,14593,bgp_only
 150.228.106.0/24,SY,SY-DI,Damascus,true,sfiabgr1,false,,planned_not_announced
-150.228.107.0/24,SY,SY-DI,Damascus,true,sfiabgr1,false,,planned_not_announced
+150.228.107.0/24,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 150.228.108.0/23,,,,false,,false,14593,bgp_only
 150.228.108.0/24,LY,LY-JI,Tripoli,true,sfiabgr1,false,,planned_not_announced
 150.228.109.0/24,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
@@ -4303,6 +4303,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:8a00::/40,US,US-PA,Philadelphia,true,trnocan1,true,14593,announced
 2605:59c0:8b00::/40,US,US-SD,Sioux Falls,true,knsymox1,true,14593,announced
 2605:59c0:8c00::/40,TJ,TJ-DU,Dushanbe,true,sfiabgr1,true,14593,announced
+2605:59c0:8c00::/41,,,,false,,false,14593,bgp_only
+2605:59c0:8c80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:8d00::/40,PR,,San Juan,true,mmmiflx1,true,14593,announced
 2605:59c0:8e00::/40,AZ,AZ-BA,Baku,true,sfiabgr1,true,14593,announced
 2605:59c0:8f00::/40,SD,SD-KH,Khartoum,true,mdrdesp1,true,14593,announced
@@ -4451,6 +4453,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:f0c0::/48,US,US-FL,Miami,false,,true,14593,announced
 2605:59c7:f0c1::/48,PG,PG-NIK,Londolovit,false,,false,,planned_not_announced
 2605:59c7:f802::/48,ES,ES-MD,Madrid,false,,false,,planned_not_announced
+2605:59c7:f808::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f80f::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f811::/48,,,,false,,false,14593,bgp_only
 2605:59c8:1000::/40,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
@@ -5629,6 +5632,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.163.0/24,ES,ES-MD,Madrid,false,,true,14593,announced
 74.245.164.0/24,,,,false,,false,14593,bgp_only
 74.245.17.0/24,,,,false,,false,14593,bgp_only
+74.245.174.0/24,,,,false,,false,14593,bgp_only
 74.245.19.0/24,,,,false,,false,14593,bgp_only
 74.245.192.0/24,,,,false,,false,14593,bgp_only
 74.245.193.0/24,,,,false,,false,14593,bgp_only
