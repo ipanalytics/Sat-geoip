@@ -189,7 +189,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.19.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 129.222.190.0/23,,,,false,,false,14593,bgp_only
 129.222.190.0/24,CY,CY-01,Nicosia,true,sfiabgr1,false,,planned_not_announced
-129.222.191.0/24,CY,CY-01,Nicosia,true,sfiabgr1,true,14593,announced
+129.222.191.0/24,CY,CY-01,Nicosia,true,sfiabgr1,false,,planned_not_announced
 129.222.192.0/23,,,,false,,false,14593,bgp_only
 129.222.192.0/24,CA,CA-ON,Toronto,true,trnocan1,false,,planned_not_announced
 129.222.193.0/24,CA,CA-ON,Toronto,true,trnocan1,false,,planned_not_announced
@@ -4835,7 +4835,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1800::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
-2803:9810:1c00::/41,,,,false,,false,14593,bgp_only
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
 2803:9810:3000::/40,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
@@ -5038,7 +5037,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:dc00::/40,JO,JO-AM,Amman,true,sfiabgr1,false,,planned_not_announced
 2a0d:3341:dd00::/40,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
-2a0d:3341:de00::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
@@ -6458,7 +6456,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.18.0/24,US,US-WA,Seattle,true,sttlwax1,false,,planned_not_announced
 98.97.180.0/23,,,,false,,false,14593,bgp_only
 98.97.180.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
-98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,true,14593,announced
+98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
 98.97.182.0/24,,,,false,,false,14593,bgp_only
 98.97.182.0/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
 98.97.182.128/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced

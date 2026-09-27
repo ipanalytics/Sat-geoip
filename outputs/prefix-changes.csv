@@ -1,11 +1,5 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.222.57.0/24,changed,2026-09-26T08:35:00Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,GR,GR,GR-I,GR-I,Athens,Athens
-150.228.107.0/24,changed,2026-09-26T08:35:00Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,SY,SY,SY-DI,SY-DI,Damascus,Damascus
-185.30.146.0/23,new,2026-09-26T08:35:00Z,telespazio,,bgp_only,,60471,,,,,,,,,
-2605:59c0:8c00::/41,new,2026-09-26T08:35:00Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c0:8c80::/41,new,2026-09-26T08:35:00Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c7:f808::/48,new,2026-09-26T08:35:00Z,starlink,,bgp_only,,14593,,,,,,,,,
-74.245.174.0/24,new,2026-09-26T08:35:00Z,starlink,,bgp_only,,14593,,,,,,,,,
-194.8.48.0/24,withdrawn,2026-09-26T08:35:00Z,bentley_walker,bentley_walker,withdrawn_recently,bgp_only,39122,39122,,,,,,,,
-194.8.59.0/24,withdrawn,2026-09-26T08:35:00Z,bentley_walker,bentley_walker,withdrawn_recently,bgp_only,39122,39122,,,,,,,,
-194.9.174.0/24,withdrawn,2026-09-26T08:35:00Z,bentley_walker,bentley_walker,withdrawn_recently,bgp_only,39122,39122,,,,,,,,
+129.222.191.0/24,changed,2026-09-27T09:14:56Z,starlink,starlink,planned_not_announced,announced,,14593,sfiabgr1,sfiabgr1,CY,CY,CY-01,CY-01,Nicosia,Nicosia
+98.97.181.0/24,changed,2026-09-27T09:14:56Z,starlink,starlink,planned_not_announced,announced,,14593,nrbiken1,nrbiken1,DJ,DJ,DJ-DJ,DJ-DJ,Djibouti,Djibouti
+2803:9810:1c00::/41,withdrawn,2026-09-27T09:14:56Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2a0d:3341:de00::/41,withdrawn,2026-09-27T09:14:56Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
