@@ -1,43 +1,61 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-99.196.216.128/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,GB,,,,London,
-99.196.216.144/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.216.16/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,MY,,,,Kuala Lumpur,
-99.196.216.160/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.216.176/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,AE,,,,Dubai,
-99.196.216.192/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,JP,,,,Tokyo,
-99.196.216.224/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,LK,,,,Colombo,
-99.196.216.240/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.216.32/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,TW,,,,Taipei City,
-99.196.216.48/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,TW,,,,Taipei City,
-99.196.216.64/26,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,AU,,,,Southbank,
-99.196.217.0/28,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,PG,,,,Port Moresby National Capital District,
-99.196.217.104/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,PL,,,,Warszawa,
-99.196.217.112/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,IL,,,,Tel Aviv,
-99.196.217.120/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,IT,,,,Torino,
-99.196.217.128/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,NL,,,,Amsterdam,
-99.196.217.136/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,MA,,,,Marrakech,
-99.196.217.144/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,FI,,,,Helsinki,
-99.196.217.152/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,KZ,,,,Astana,
-99.196.217.16/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,KR,,,,Seoul,
-99.196.217.160/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,GB,,,,London,
-99.196.217.168/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,FR,,,,Paris,
-99.196.217.224/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,AZ,,,,Baki,
-99.196.217.24/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.217.32/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,HK,,,,Hong Kong,
-99.196.217.40/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.217.48/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.217.56/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,AU,,,,Southbank,
-99.196.217.64/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,SA,,,,Riyadh,
-99.196.217.72/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,MX,,,,Miguel Hidalgo - Ciudad de Mexico,
-99.196.217.80/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,CL,,,,Santiago,
-99.196.217.88/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,CA,,,,St. John's,
-99.196.217.96/29,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,JO,,,,Amman,
-99.196.222.0/26,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,US,,,,Carlsbad,
-99.196.222.128/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,DE,,,,Frankfurt am Main,
-99.196.222.160/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,GB,,,,London,
-99.196.222.192/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,BR,,,,Brasilia,
-99.196.222.64/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,MX,,,,Miguel Hidalgo - Ciudad de Mexico,
-99.196.222.96/27,new,2026-09-28T09:45:50Z,viasat,,planned_not_announced,,,,,,ES,,,,Madrid,
-2406:2d40:7600::/41,withdrawn,2026-09-28T09:45:50Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2803:9810:3800::/41,withdrawn,2026-09-28T09:45:50Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-2803:9810:3880::/41,withdrawn,2026-09-28T09:45:50Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+150.228.74.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dohaqat1,sfiabgr1,LB,LB,LB-BA,LB-BA,Beirut,Beirut
+150.228.75.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dohaqat1,sfiabgr1,LB,LB,LB-BA,LB-BA,Beirut,Beirut
+2605:59c0:a000::/38,changed,2026-09-29T09:48:47Z,starlink,starlink,announced,announced,14593,14593,dohaqat1,,LB,US,LB-BA,US-TX,Beirut,Dallas
+2605:59c7:f802::/48,changed,2026-09-29T09:48:47Z,starlink,starlink,announced,planned_not_announced,14593,,,,ES,ES,ES-MD,ES-MD,Madrid,Madrid
+2a0d:3344:2d00::/40,changed,2026-09-29T09:48:47Z,starlink,starlink,announced,announced,14593,14593,dohaqat1,sfiabgr1,LB,LB,LB-BA,LB-BA,Beirut,Beirut
+74.244.206.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+74.244.207.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+74.244.48.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+74.244.49.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.108.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.109.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.110.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.111.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,dllstxx1,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.230.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,mclntxx1,GN,US,GN-C,US-TX,Conakry,Dallas
+9.170.231.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,mclntxx1,GN,US,GN-C,US-TX,Conakry,Dallas
+9.170.232.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.233.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mclntxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.234.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.235.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dllstxx1,,US,US,US-TX,US-TX,Dallas,Dallas
+9.170.236.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dohaqat1,,LB,US,LB-BA,US-TX,Beirut,Dallas
+9.170.237.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,dohaqat1,,LB,US,LB-BA,US-TX,Beirut,Dallas
+9.246.142.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,frntdeu1,lndngbr1,FR,FR,FR-IDF,FR-IDF,Paris,Paris
+9.246.143.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,frntdeu1,lndngbr1,FR,FR,FR-IDF,FR-IDF,Paris,Paris
+9.246.144.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,lndngbr1,FR,FR,FR-IDF,FR-IDF,Paris,Paris
+9.246.145.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,planned_not_announced,,,mdrdesp1,lndngbr1,FR,FR,FR-IDF,FR-IDF,Paris,Paris
+98.97.190.0/24,changed,2026-09-29T09:48:47Z,starlink,starlink,planned_not_announced,announced,,14593,jhngzaf1,jhngzaf1,SD,SD,SD-KH,SD-KH,Khartoum,Khartoum
+179.238.136.0/23,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.238.136.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,limaper1,,BO,,BO-S,,Santa Cruz de la Sierra,
+179.238.137.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,limaper1,,BO,,BO-S,,Santa Cruz de la Sierra,
+179.65.58.0/23,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+179.65.58.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,almykaz1,,KZ,,KZ-75,,Almaty,
+179.65.59.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,almykaz1,,KZ,,KZ-75,,Almaty,
+2605:59c7:f015::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,45700,,,,,,,,,
+2605:59c7:f017::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,45700,,,,,,,,,
+2605:59c7:f0c2::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:f800::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:f801::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:f80c::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+2605:59c7:f80e::/48,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.161.14.0/24,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.161.15.0/24,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.152.0/23,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.152.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,chcoilx1,,US,,US-MI,,Detroit,
+9.170.153.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,chcoilx1,,US,,US-MI,,Detroit,
+9.170.154.0/23,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.170.154.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,lgosnga1,,GH,,GH-AA,,Accra,
+9.170.155.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,lgosnga1,,GH,,GH-AA,,Accra,
+9.246.174.0/23,new,2026-09-29T09:48:47Z,starlink,,bgp_only,,14593,,,,,,,,,
+9.246.174.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,mlnnita1,,HR,,HR-21,,Zagreb,
+9.246.175.0/24,new,2026-09-29T09:48:47Z,starlink,,planned_not_announced,,,,mlnnita1,,HR,,HR-21,,Zagreb,
+129.222.82.0/23,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+129.222.84.0/23,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+129.222.86.0/23,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+179.65.168.0/23,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+179.65.170.0/23,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+180.181.252.0/23,withdrawn,2026-09-29T09:48:47Z,nbn_sky_muster,nbn_sky_muster,withdrawn_recently,bgp_only,4764,4764,,,,,,,,
+2401:e320:c80::/41,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,45700,45700,,,,,,,,
+2401:e320:d00::/41,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,45700,45700,,,,,,,,
+2401:e320:d80::/41,withdrawn,2026-09-29T09:48:47Z,starlink,starlink,withdrawn_recently,bgp_only,45700,45700,,,,,,,,
+2a00:4a00:2000::/36,withdrawn,2026-09-29T09:48:47Z,avanti,avanti,withdrawn_recently,bgp_only,39356,39356,,,,,,,,
