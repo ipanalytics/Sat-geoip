@@ -1688,8 +1688,8 @@ prefix,pop_code,pop_iata,source
 179.238.128.0/24,sntochl1,scl,starlink_pops_csv
 179.238.129.0/24,sntochl1,scl,starlink_pops_csv
 179.238.13.0/24,bgtacol1,bog,starlink_pops_csv
-179.238.130.0/24,gtmygtm1,gua,starlink_pops_csv
-179.238.131.0/24,gtmygtm1,gua,starlink_pops_csv
+179.238.130.0/24,mclntxx1,mfe,starlink_pops_csv
+179.238.131.0/24,mclntxx1,mfe,starlink_pops_csv
 179.238.132.0/24,limaper1,lim,starlink_pops_csv
 179.238.133.0/24,limaper1,lim,starlink_pops_csv
 179.238.134.0/24,limaper1,lim,starlink_pops_csv
@@ -3627,6 +3627,8 @@ prefix,pop_code,pop_iata,source
 9.246.173.0/24,dohaqat1,doh,starlink_pops_csv
 9.246.174.0/24,mlnnita1,mxp,starlink_pops_csv
 9.246.175.0/24,mlnnita1,mxp,starlink_pops_csv
+9.246.176.0/24,sfiabgr1,sof,starlink_pops_csv
+9.246.177.0/24,sfiabgr1,sof,starlink_pops_csv
 9.246.18.0/24,mdrdesp1,mad,starlink_pops_csv
 9.246.19.0/24,mdrdesp1,mad,starlink_pops_csv
 9.246.2.0/24,lndngbr1,lhr,starlink_pops_csv
