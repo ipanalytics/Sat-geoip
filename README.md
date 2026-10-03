@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15414 |
-| Announced prefixes | 11464 |
-| GeoFeed-only prefixes | 3950 |
-| BGP-only prefixes | 10359 |
+| Prefixes | 15418 |
+| Announced prefixes | 11466 |
+| GeoFeed-only prefixes | 3952 |
+| BGP-only prefixes | 10363 |
 | Prefixes with PoP assignment | 3916 |
 | Ground station claims | 0 |
 
@@ -115,8 +115,8 @@ The resolver applies fixed precedence rules:
 | `ses_o3b` | 21 |
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
-| `speedcast` | 114 |
-| `starlink` | 6669 |
+| `speedcast` | 115 |
+| `starlink` | 6672 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -138,9 +138,9 @@ The resolver applies fixed precedence rules:
 | `geo_or_hybrid_satellite` | 5437 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6705 |
+| `leo` | 6708 |
 | `meo` | 21 |
-| `mixed_satellite` | 408 |
+| `mixed_satellite` | 409 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
