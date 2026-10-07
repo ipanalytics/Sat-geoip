@@ -1696,6 +1696,8 @@ prefix,pop_code,pop_iata,source
 179.238.135.0/24,limaper1,lim,starlink_pops_csv
 179.238.136.0/24,limaper1,lim,starlink_pops_csv
 179.238.137.0/24,limaper1,lim,starlink_pops_csv
+179.238.138.0/24,bnssarg1,eze,starlink_pops_csv
+179.238.139.0/24,bnssarg1,eze,starlink_pops_csv
 179.238.14.0/24,frtabra1,for,starlink_pops_csv
 179.238.15.0/24,frtabra1,for,starlink_pops_csv
 179.238.16.0/24,frtabra1,for,starlink_pops_csv
@@ -1812,8 +1814,8 @@ prefix,pop_code,pop_iata,source
 179.64.108.0/24,ashnvax2,iad,starlink_pops_csv
 179.64.109.0/24,ashnvax2,iad,starlink_pops_csv
 179.64.11.0/24,atlagax1,atl,starlink_pops_csv
-179.64.110.0/24,trnocan1,yyz,starlink_pops_csv
-179.64.111.0/24,trnocan1,yyz,starlink_pops_csv
+179.64.110.0/24,ashnvax2,iad,starlink_pops_csv
+179.64.111.0/24,ashnvax2,iad,starlink_pops_csv
 179.64.112.0/24,trnocan1,yyz,starlink_pops_csv
 179.64.113.0/24,trnocan1,yyz,starlink_pops_csv
 179.64.114.0/24,clgycan1,yyc,starlink_pops_csv
@@ -1993,7 +1995,11 @@ prefix,pop_code,pop_iata,source
 179.65.165.0/24,acklnzl1,akl,starlink_pops_csv
 179.65.166.0/24,sgnnvnm1,sgn,starlink_pops_csv
 179.65.167.0/24,sgnnvnm1,sgn,starlink_pops_csv
+179.65.168.0/24,tkyojpn1,nrt,starlink_pops_csv
+179.65.169.0/24,tkyojpn1,nrt,starlink_pops_csv
 179.65.17.0/24,klkaind1,ccu,starlink_pops_csv
+179.65.170.0/24,tkyojpn1,nrt,starlink_pops_csv
+179.65.171.0/24,tkyojpn1,nrt,starlink_pops_csv
 179.65.172.0/24,dllstxx1,dfw,starlink_pops_csv
 179.65.173.0/24,dllstxx1,dfw,starlink_pops_csv
 179.65.174.0/24,dllstxx1,dfw,starlink_pops_csv
@@ -3462,6 +3468,10 @@ prefix,pop_code,pop_iata,source
 9.170.20.0/24,nwyynyx1,lga,starlink_pops_csv
 9.170.21.0/24,nwyynyx1,lga,starlink_pops_csv
 9.170.22.0/24,knsymox1,mci,starlink_pops_csv
+9.170.224.0/24,jhngzaf1,jnb,starlink_pops_csv
+9.170.225.0/24,jhngzaf1,jnb,starlink_pops_csv
+9.170.228.0/24,nrbiken1,nbo,starlink_pops_csv
+9.170.229.0/24,nrbiken1,nbo,starlink_pops_csv
 9.170.23.0/24,knsymox1,mci,starlink_pops_csv
 9.170.230.0/24,mdrdesp1,mad,starlink_pops_csv
 9.170.231.0/24,mdrdesp1,mad,starlink_pops_csv
