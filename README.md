@@ -65,11 +65,11 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15495 |
-| Announced prefixes | 11493 |
-| GeoFeed-only prefixes | 4002 |
-| BGP-only prefixes | 10380 |
-| Prefixes with PoP assignment | 3979 |
+| Prefixes | 15559 |
+| Announced prefixes | 11522 |
+| GeoFeed-only prefixes | 4037 |
+| BGP-only prefixes | 10401 |
+| Prefixes with PoP assignment | 4022 |
 | Ground station claims | 0 |
 
 ### Operators
@@ -116,7 +116,7 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 115 |
-| `starlink` | 6749 |
+| `starlink` | 6813 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -138,7 +138,7 @@ The resolver applies fixed precedence rules:
 | `geo_or_hybrid_satellite` | 5437 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6786 |
+| `leo` | 6850 |
 | `meo` | 21 |
 | `mixed_satellite` | 409 |
 <!-- SAT_GEOIP_STATS_END -->
