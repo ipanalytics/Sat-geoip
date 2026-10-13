@@ -3364,7 +3364,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.205.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 179.65.206.0/23,,,,false,,false,45700,bgp_only
 179.65.206.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+179.65.207.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 179.65.208.0/23,,,,false,,false,45700,bgp_only
 179.65.208.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
 179.65.209.0/24,ID,ID-KR,Batam,true,btmmidn1,false,,planned_not_announced
@@ -4108,7 +4108,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1a00::/40,ZM,ZM-09,Lusaka,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/40,BI,BI-GI,Gitega,true,nrbiken1,true,14593,announced
 2605:59c0:1b00::/41,,,,false,,false,14593,bgp_only
-2605:59c0:1b80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1c00::/40,BJ,BJ-OU,Porto-Novo,true,lgosnga1,true,14593,announced
 2605:59c0:1d00::/40,CI,CI-AB,Abdijan,true,lgosnga1,true,14593,announced
 2605:59c0:1e00::/40,CM,CM-CE,Yaoundé,true,lgosnga1,true,14593,announced
@@ -4399,7 +4398,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c1:4400::/38,KE,KE-30,Nairobi,true,nrbiken1,true,14593,announced
 2605:59c1:4400::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4480::/41,,,,false,,false,14593,bgp_only
-2605:59c1:4500::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4600::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4680::/41,,,,false,,false,14593,bgp_only
 2605:59c1:4800::/38,US,US-MN,Minneapolis,true,mplsmnx1,true,14593,announced
@@ -4965,7 +4963,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:5100::/41,,,,false,,false,14593,bgp_only
 2803:9810:5180::/41,,,,false,,false,14593,bgp_only
 2803:9810:5200::/40,PA,PA-8,Panama City,true,bgtacol1,true,14593,announced
-2803:9810:5280::/41,,,,false,,false,14593,bgp_only
 2803:9810:5300::/40,UY,UY-MO,Montevideo,true,prtebra1,true,14593,announced
 2803:9810:5400::/40,AR,AR-C,Buenos Aires,true,prtebra1,true,14593,announced
 2803:9810:5500::/40,BR,BR-SP,Sao Paulo,true,bgtacol1,true,14593,announced
