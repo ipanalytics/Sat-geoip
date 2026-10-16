@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15586 |
-| Announced prefixes | 11544 |
-| GeoFeed-only prefixes | 4042 |
-| BGP-only prefixes | 10425 |
+| Prefixes | 15592 |
+| Announced prefixes | 11554 |
+| GeoFeed-only prefixes | 4038 |
+| BGP-only prefixes | 10430 |
 | Prefixes with PoP assignment | 4022 |
-| Active user claims | 11544 |
+| Active user claims | 11554 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -28,7 +28,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `gazprom_space_systems` | 49 |
 | `gilat_telecom` | 226 |
 | `gogo_business_aviation` | 1 |
-| `hispasat` | 40 |
+| `hispasat` | 33 |
 | `hughes` | 672 |
 | `inmarsat` | 58 |
 | `intelsat` | 96 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 115 |
-| `starlink` | 6825 |
+| `starlink` | 6838 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2706 |
+| `geo` | 2699 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5439 |
 | `geo_or_multi_orbit` | 96 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6862 |
+| `leo` | 6875 |
 | `meo` | 21 |
 | `mixed_satellite` | 412 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11544 |
-| `bgp_not_announced` | 4042 |
+| `bgp_announced` | 11554 |
+| `bgp_not_announced` | 4038 |
 | `geoip_invalid_country_city_pair` | 16 |
-| `geoip_valid` | 5161 |
-| `origin_asn_expected` | 11544 |
-| `pop_missing` | 1139 |
+| `geoip_valid` | 5162 |
+| `origin_asn_expected` | 11554 |
+| `pop_missing` | 1140 |
 | `pop_present` | 4022 |
-| `prefix_only_in_bgp` | 10425 |
-| `prefix_only_in_geofeed` | 4042 |
+| `prefix_only_in_bgp` | 10430 |
+| `prefix_only_in_geofeed` | 4038 |
 | `ptr_missing` | 4022 |
 
 
