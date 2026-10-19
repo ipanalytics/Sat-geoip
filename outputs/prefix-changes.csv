@@ -1,11 +1,6 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-129.224.205.0/24,changed,2026-10-18T08:01:18Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,SL,SL,SL-W,SL-W,Freetown,Freetown
-143.105.133.0/24,changed,2026-10-18T08:01:18Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,CI,CI,CI-AB,CI-AB,Abdijan,Abdijan
-9.246.38.0/24,changed,2026-10-18T08:01:18Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,YE,YE,YE-AD,YE-AD,Aden,Aden
-143.49.104.0/24,new,2026-10-18T08:01:18Z,starlink,,bgp_only,,14593,,,,,,,,,
-143.49.106.0/24,new,2026-10-18T08:01:18Z,starlink,,bgp_only,,14593,,,,,,,,,
-165.220.254.0/28,new,2026-10-18T08:01:18Z,viasat,,planned_not_announced,,,,,,SA,,,,Riyadh,
-165.220.254.128/26,new,2026-10-18T08:01:18Z,viasat,,planned_not_announced,,,,,,SA,,,,Riyadh,
-2605:59c1:4480::/41,new,2026-10-18T08:01:18Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c1:4500::/41,new,2026-10-18T08:01:18Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c1:4700::/41,new,2026-10-18T08:01:18Z,starlink,,bgp_only,,14593,,,,,,,,,
+148.227.103.0/24,changed,2026-10-19T08:51:14Z,starlink,starlink,planned_not_announced,announced,,14593,frtabra1,frtabra1,GF,GF,,,Cayenne,Cayenne
+98.97.161.0/24,changed,2026-10-19T08:51:14Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,ET,ET,ET-AA,ET-AA,Addis Ababa,Addis Ababa
+2803:9810:5280::/41,new,2026-10-19T08:51:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:b800::/41,new,2026-10-19T08:51:14Z,starlink,,bgp_only,,14593,,,,,,,,,
+2803:9810:b880::/41,new,2026-10-19T08:51:14Z,starlink,,bgp_only,,14593,,,,,,,,,

@@ -1271,7 +1271,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.101.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 148.227.102.0/23,,,,false,,false,14593,bgp_only
 148.227.102.0/24,GF,,Cayenne,true,frtabra1,false,,planned_not_announced
-148.227.103.0/24,GF,,Cayenne,true,frtabra1,true,14593,announced
+148.227.103.0/24,GF,,Cayenne,true,frtabra1,false,,planned_not_announced
 148.227.104.0/23,,,,false,,false,14593,bgp_only
 148.227.104.0/24,UY,UY-MO,Montevideo,true,bnssarg1,false,,planned_not_announced
 148.227.105.0/24,UY,UY-MO,Montevideo,true,bnssarg1,true,14593,announced
@@ -4990,6 +4990,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:5180::/41,,,,false,,false,14593,bgp_only
 2803:9810:5200::/40,PA,PA-8,Panama City,true,bgtacol1,true,14593,announced
 2803:9810:5200::/41,,,,false,,false,14593,bgp_only
+2803:9810:5280::/41,,,,false,,false,14593,bgp_only
 2803:9810:5300::/40,UY,UY-MO,Montevideo,true,prtebra1,true,14593,announced
 2803:9810:5400::/40,AR,AR-C,Buenos Aires,true,prtebra1,true,14593,announced
 2803:9810:5500::/40,BR,BR-SP,Sao Paulo,true,bgtacol1,true,14593,announced
@@ -5063,6 +5064,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:b680::/41,,,,false,,false,14593,bgp_only
 2803:9810:b700::/40,AR,AR-C,Buenos Aires,true,bnssarg1,false,,planned_not_announced
 2803:9810:b800::/40,EC,EC-P,Quito,true,bgtacol1,true,14593,announced
+2803:9810:b800::/41,,,,false,,false,14593,bgp_only
+2803:9810:b880::/41,,,,false,,false,14593,bgp_only
 2803:9810:b900::/40,PE,PE-LMA,Lima,true,bgtacol1,true,14593,announced
 2803:9810:ba00::/40,CR,CR-SJ,San Jose,true,bgtacol1,true,14593,announced
 2803:9810:bb00::/40,TT,TT-POS,Port of Spain,true,bgtacol1,true,14593,announced
@@ -6677,7 +6680,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.16.0/24,US,US-VA,Ashburn,true,ashnvax2,false,,planned_not_announced
 98.97.160.0/23,,,,false,,false,14593,bgp_only
 98.97.160.0/24,ET,ET-AA,Addis Ababa,true,nrbiken1,false,,planned_not_announced
-98.97.161.0/24,ET,ET-AA,Addis Ababa,true,nrbiken1,false,,planned_not_announced
+98.97.161.0/24,ET,ET-AA,Addis Ababa,true,nrbiken1,true,14593,announced
 98.97.162.0/23,,,,false,,false,14593,bgp_only
 98.97.162.0/24,MW,MW-LI,Lilongwe,true,nrbiken1,false,,planned_not_announced
 98.97.163.0/24,MW,MW-LI,Lilongwe,true,nrbiken1,false,,planned_not_announced
