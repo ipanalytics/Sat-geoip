@@ -65,18 +65,18 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15608 |
-| Announced prefixes | 11572 |
-| GeoFeed-only prefixes | 4036 |
-| BGP-only prefixes | 10443 |
-| Prefixes with PoP assignment | 4022 |
+| Prefixes | 15717 |
+| Announced prefixes | 11620 |
+| GeoFeed-only prefixes | 4097 |
+| BGP-only prefixes | 10481 |
+| Prefixes with PoP assignment | 4092 |
 | Ground station claims | 0 |
 
 ### Operators
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 72 |
+| `anuvu` | 74 |
 | `avanti` | 22 |
 | `bentley_walker` | 29 |
 | `caprock` | 3 |
@@ -86,12 +86,12 @@ The resolver applies fixed precedence rules:
 | `esa` | 81 |
 | `eutelsat_skylogic` | 271 |
 | `gazprom_space_systems` | 49 |
-| `gilat_telecom` | 227 |
+| `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 32 |
 | `hughes` | 672 |
 | `inmarsat` | 58 |
-| `intelsat` | 96 |
+| `intelsat` | 94 |
 | `intelsat_general` | 3 |
 | `iridium` | 11 |
 | `itc_global` | 8 |
@@ -116,14 +116,14 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 115 |
-| `starlink` | 6851 |
+| `starlink` | 6954 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 996 |
+| `turksat` | 1001 |
 | `usap` | 19 |
 | `viasat` | 5066 |
 | `yahsat` | 94 |
@@ -133,14 +133,14 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2699 |
+| `geo` | 2705 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5442 |
-| `geo_or_multi_orbit` | 96 |
+| `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6888 |
+| `leo` | 6991 |
 | `meo` | 21 |
-| `mixed_satellite` | 412 |
+| `mixed_satellite` | 414 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
