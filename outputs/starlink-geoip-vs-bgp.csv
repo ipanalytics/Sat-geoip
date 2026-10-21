@@ -540,8 +540,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 138.84.40.128/25,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 138.84.41.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
 138.84.42.0/23,,,,false,,false,14593,bgp_only
-138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-138.84.43.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+138.84.42.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+138.84.43.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 138.84.44.0/23,,,,false,,false,14593,bgp_only
 138.84.44.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 138.84.45.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
@@ -695,7 +695,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 143.105.127.0/24,VC,VC-04,Kingstown,true,mmmiflx1,false,,planned_not_announced
 143.105.128.0/23,,,,false,,false,14593,bgp_only
 143.105.128.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
-143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,true,14593,announced
+143.105.129.0/24,GY,GY-DE,Georgetown,true,frtabra1,false,,planned_not_announced
 143.105.13.0/24,US,US-IL,Chicago,true,chcoilx1,false,,planned_not_announced
 143.105.130.0/23,,,,false,,false,14593,bgp_only
 143.105.130.0/24,LC,LC-02,Castries,true,mmmiflx1,false,,planned_not_announced
@@ -1244,7 +1244,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.222.207.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
 148.222.208.0/23,,,,false,,false,14593,bgp_only
 148.222.208.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-148.222.209.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+148.222.209.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.222.210.0/23,,,,false,,false,14593,bgp_only
 148.222.210.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
 148.222.211.0/24,BR,BR-SP,Sao Paulo,true,splobra1,false,,planned_not_announced
@@ -1330,7 +1330,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.80.0/23,,,,false,,false,14593,bgp_only
 148.227.80.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 148.227.81.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
@@ -2640,7 +2640,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 170.203.195.0/24,RW,RW-01,Kigali,true,nrbiken1,false,,planned_not_announced
 170.203.196.0/23,,,,false,,false,14593,bgp_only
 170.203.196.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-170.203.197.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+170.203.197.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 170.203.198.0/23,,,,false,,false,14593,bgp_only
 170.203.198.0/24,CR,CR-SJ,San Jose,true,gtmygtm1,false,,planned_not_announced
 170.203.199.0/24,CR,CR-SJ,San Jose,true,gtmygtm1,false,,planned_not_announced
@@ -2826,7 +2826,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.148.0/23,,,,false,,false,14593,bgp_only
 179.238.148.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 179.238.149.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
-179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.238.15.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.150.0/23,,,,false,,false,14593,bgp_only
 179.238.150.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 179.238.151.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
@@ -2859,7 +2859,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.168.0/23,,,,false,,false,14593,bgp_only
 179.238.168.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 179.238.169.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
-179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.238.17.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.170.0/23,,,,false,,false,14593,bgp_only
 179.238.170.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
 179.238.171.0/24,CL,CL-RM,Santiago,true,sntochl1,false,,planned_not_announced
@@ -2947,7 +2947,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.6.0/23,,,,false,,false,14593,bgp_only
 179.238.6.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.238.60.0/23,,,,false,,false,14593,bgp_only
-179.238.60.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+179.238.60.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.61.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
 179.238.62.0/23,,,,false,,false,14593,bgp_only
 179.238.62.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
@@ -2995,7 +2995,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.91.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
 179.238.92.0/23,,,,false,,false,14593,bgp_only
 179.238.92.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-179.238.93.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.238.93.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.94.0/23,,,,false,,false,14593,bgp_only
 179.238.94.0/24,AR,AR-C,Buenos Aires,true,sntochl1,false,,planned_not_announced
 179.238.95.0/24,AR,AR-C,Buenos Aires,true,sntochl1,true,14593,announced
@@ -3006,8 +3006,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.98.0/24,PY,PY-ASU,Asuncion,true,prtebra1,false,,planned_not_announced
 179.238.99.0/24,PY,PY-ASU,Asuncion,true,prtebra1,false,,planned_not_announced
 179.60.168.0/22,,,,false,,false,14593,bgp_only
-179.60.168.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-179.60.169.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+179.60.168.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
+179.60.169.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.170.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.171.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.60.172.0/23,,,,false,,false,14593,bgp_only
@@ -3690,7 +3690,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 202.65.239.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 203.17.80.0/23,,,,false,,false,45700,bgp_only
 203.17.80.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-203.17.81.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+203.17.81.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 203.17.82.0/24,,,,false,,false,45700,bgp_only
 203.17.83.0/24,,,,false,,false,45700,bgp_only
 203.17.84.0/23,,,,false,,false,45700,bgp_only
@@ -4644,8 +4644,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:6500::/40,VE,VE-A,Caracas,true,frtabra1,true,14593,announced
 2605:59c8:6800::/40,GF,,Cayenne,true,frtabra1,true,14593,announced
 2605:59c8:6900::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-2605:59c8:6900::/41,,,,false,,false,14593,bgp_only
-2605:59c8:6980::/41,,,,false,,false,14593,bgp_only
 2605:59c8:6a00::/40,SR,SR-PM,Paramaribo,true,frtabra1,true,14593,announced
 2605:59c8:6b00::/40,US,US-AR,Little Rock,true,knsymox1,true,14593,announced
 2605:59c8:6c00::/40,ZM,ZM-09,Lusaka,true,jhngzaf1,true,14593,announced
@@ -4956,7 +4954,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1300::/41,,,,false,,false,14593,bgp_only
 2803:9810:1380::/41,,,,false,,false,14593,bgp_only
 2803:9810:1400::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
-2803:9810:1400::/41,,,,false,,false,14593,bgp_only
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1800::/41,,,,false,,false,14593,bgp_only
 2803:9810:1b00::/41,,,,false,,false,14593,bgp_only
@@ -4997,14 +4994,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3e00::/41,,,,false,,false,14593,bgp_only
 2803:9810:3e80::/41,,,,false,,false,14593,bgp_only
 2803:9810:3f00::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-2803:9810:3f00::/41,,,,false,,false,14593,bgp_only
-2803:9810:3f80::/41,,,,false,,false,14593,bgp_only
 2803:9810:4000::/40,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
 2803:9810:4000::/41,,,,false,,false,14593,bgp_only
 2803:9810:400::/38,GT,GT-01,Guatemala City,true,gtmygtm1,true,14593,announced
 2803:9810:4080::/41,,,,false,,false,14593,bgp_only
 2803:9810:4100::/40,PY,PY-ASU,Asuncion,true,splobra1,true,14593,announced
-2803:9810:4100::/41,,,,false,,false,14593,bgp_only
 2803:9810:4180::/41,,,,false,,false,14593,bgp_only
 2803:9810:4200::/40,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
 2803:9810:4200::/41,,,,false,,false,14593,bgp_only
@@ -5073,11 +5067,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:6880::/41,,,,false,,false,14593,bgp_only
 2803:9810:6c00::/38,BR,BR-RS,Porto Alegre,true,prtebra1,true,14593,announced
 2803:9810:7000::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-2803:9810:7000::/41,,,,false,,false,14593,bgp_only
-2803:9810:7080::/41,,,,false,,false,14593,bgp_only
 2803:9810:7200::/40,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
-2803:9810:7200::/41,,,,false,,false,14593,bgp_only
-2803:9810:7280::/41,,,,false,,false,14593,bgp_only
 2803:9810:7400::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:7800::/38,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
 2803:9810:8000::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
@@ -5580,7 +5570,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.221.0/24,US,US-NC,Charlotte,true,ashnvax2,false,,planned_not_announced
 74.244.222.0/23,,,,false,,false,14593,bgp_only
 74.244.222.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
-74.244.223.0/24,BR,BR-CE,Fortaleza,true,frtabra1,true,14593,announced
+74.244.223.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 74.244.224.0/23,,,,false,,false,14593,bgp_only
 74.244.224.0/24,QA,QA-DA,Doha,false,,false,,planned_not_announced
 74.244.225.0/24,QA,QA-DA,Doha,false,,false,,planned_not_announced

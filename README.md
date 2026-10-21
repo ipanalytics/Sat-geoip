@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15717 |
-| Announced prefixes | 11620 |
-| GeoFeed-only prefixes | 4097 |
-| BGP-only prefixes | 10481 |
+| Prefixes | 15709 |
+| Announced prefixes | 11600 |
+| GeoFeed-only prefixes | 4109 |
+| BGP-only prefixes | 10473 |
 | Prefixes with PoP assignment | 4092 |
 | Ground station claims | 0 |
 
@@ -76,7 +76,7 @@ The resolver applies fixed precedence rules:
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 74 |
+| `anuvu` | 76 |
 | `avanti` | 22 |
 | `bentley_walker` | 29 |
 | `caprock` | 3 |
@@ -97,7 +97,7 @@ The resolver applies fixed precedence rules:
 | `itc_global` | 8 |
 | `kacific` | 26 |
 | `kt_sat` | 4 |
-| `kuiper` | 2 |
+| `kuiper` | 4 |
 | `kvh` | 61 |
 | `marlink` | 30 |
 | `nasa_jpl` | 15 |
@@ -115,8 +115,8 @@ The resolver applies fixed precedence rules:
 | `ses_o3b` | 21 |
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
-| `speedcast` | 115 |
-| `starlink` | 6954 |
+| `speedcast` | 113 |
+| `starlink` | 6944 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -138,7 +138,7 @@ The resolver applies fixed precedence rules:
 | `geo_or_hybrid_satellite` | 5442 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6991 |
+| `leo` | 6983 |
 | `meo` | 21 |
 | `mixed_satellite` | 414 |
 <!-- SAT_GEOIP_STATS_END -->
