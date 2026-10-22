@@ -171,7 +171,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.178.0/24,EC,EC-P,Quito,true,limaper1,false,,planned_not_announced
 129.222.179.0/24,EC,EC-P,Quito,true,limaper1,true,14593,announced
 129.222.18.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
-129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,true,14593,announced
+129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
 129.222.181.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
 129.222.182.0/24,,,,false,,false,14593,bgp_only
 129.222.182.0/25,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
@@ -189,7 +189,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.19.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 129.222.190.0/23,,,,false,,false,14593,bgp_only
 129.222.190.0/24,CY,CY-01,Nicosia,true,sfiabgr1,false,,planned_not_announced
-129.222.191.0/24,CY,CY-01,Nicosia,true,sfiabgr1,false,,planned_not_announced
+129.222.191.0/24,CY,CY-01,Nicosia,true,sfiabgr1,true,14593,announced
 129.222.192.0/23,,,,false,,false,14593,bgp_only
 129.222.192.0/24,CA,CA-ON,Toronto,true,trnocan1,false,,planned_not_announced
 129.222.193.0/24,CA,CA-ON,Toronto,true,trnocan1,false,,planned_not_announced
@@ -4945,14 +4945,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 27.131.250.0/24,,,,false,,false,45700,bgp_only
 27.131.251.0/24,,,,false,,false,45700,bgp_only
 2803:9810:1000::/38,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
-2803:9810:1000::/41,,,,false,,false,14593,bgp_only
-2803:9810:1080::/41,,,,false,,false,14593,bgp_only
-2803:9810:1100::/41,,,,false,,false,14593,bgp_only
-2803:9810:1180::/41,,,,false,,false,14593,bgp_only
-2803:9810:1200::/41,,,,false,,false,14593,bgp_only
-2803:9810:1280::/41,,,,false,,false,14593,bgp_only
-2803:9810:1300::/41,,,,false,,false,14593,bgp_only
-2803:9810:1380::/41,,,,false,,false,14593,bgp_only
 2803:9810:1400::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
 2803:9810:1800::/41,,,,false,,false,14593,bgp_only
@@ -4972,7 +4964,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3500::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 2803:9810:3600::/40,BO,BO-S,Santa Cruz de la Sierra,true,sntochl1,true,14593,announced
 2803:9810:3700::/40,BO,BO-S,Santa Cruz de la Sierra,true,limaper1,true,14593,announced
-2803:9810:3700::/41,,,,false,,false,14593,bgp_only
 2803:9810:3780::/41,,,,false,,false,14593,bgp_only
 2803:9810:3800::/40,AR,AR-C,Buenos Aires,true,splobra1,true,14593,announced
 2803:9810:3800::/41,,,,false,,false,14593,bgp_only
@@ -5171,6 +5162,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
+2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
+2a0d:3341:e080::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:e400::/40,LY,LY-JI,Tripoli,true,sfiabgr1,true,14593,announced
 2a0d:3341:e500::/40,AE,AE-DU,Dubai,true,dohaqat1,true,14593,announced
 2a0d:3341:e600::/40,LU,LU-LU,Luxembourg,true,frntdeu1,true,14593,announced
