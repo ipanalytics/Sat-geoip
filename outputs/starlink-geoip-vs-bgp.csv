@@ -2342,8 +2342,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.206.0/25,US,US-GA,Atlanta,true,atlagax3,false,,planned_not_announced
 153.67.206.128/25,US,US-GA,Atlanta,true,atlagax3,false,,planned_not_announced
 153.67.207.0/24,,,,false,,false,14593,bgp_only
-153.67.207.0/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
-153.67.207.128/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
+153.67.207.0/25,US,US-OR,Portland,false,,false,,planned_not_announced
+153.67.207.128/25,US,US-OR,Portland,false,,false,,planned_not_announced
 153.67.208.0/23,,,,false,,false,14593,bgp_only
 153.67.208.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 153.67.209.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
@@ -3359,11 +3359,11 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.170.0/24,JP,JP-13,Tokyo,true,tkyojpn1,false,,planned_not_announced
 179.65.171.0/24,JP,JP-13,Tokyo,true,tkyojpn1,false,,planned_not_announced
 179.65.172.0/23,,,,false,,false,14593,bgp_only
-179.65.172.0/24,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
-179.65.173.0/24,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
+179.65.172.0/24,US,US-TX,El Paso,true,tmpeazx1,false,,planned_not_announced
+179.65.173.0/24,US,US-TX,El Paso,true,tmpeazx1,false,,planned_not_announced
 179.65.174.0/23,,,,false,,false,14593,bgp_only
-179.65.174.0/24,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
-179.65.175.0/24,US,US-TX,Dallas,true,dllstxx1,false,,planned_not_announced
+179.65.174.0/24,US,US-TX,El Paso,true,tmpeazx1,false,,planned_not_announced
+179.65.175.0/24,US,US-TX,El Paso,true,tmpeazx1,false,,planned_not_announced
 179.65.176.0/23,,,,false,,false,14593,bgp_only
 179.65.176.0/24,MM,MM-06,Yangon,true,kllrmys1,false,,planned_not_announced
 179.65.177.0/24,MM,MM-06,Yangon,true,kllrmys1,false,,planned_not_announced
@@ -3672,10 +3672,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 202.65.227.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 202.65.228.0/23,,,,false,,false,45700,bgp_only
 202.65.228.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-202.65.229.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+202.65.229.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 202.65.230.0/23,,,,false,,false,45700,bgp_only
 202.65.230.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+202.65.231.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 202.65.232.0/22,,,,false,,false,45700,bgp_only
 202.65.232.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
 202.65.233.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -3988,7 +3988,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 216.234.217.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,true,14593,announced
 216.234.218.0/23,,,,false,,false,14593,bgp_only
 216.234.218.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
-216.234.219.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
+216.234.219.0/24,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
 216.234.220.0/23,,,,false,,false,14593,bgp_only
 216.234.220.0/24,US,US-MI,Detroit,true,chcoilx1,false,,planned_not_announced
 216.234.221.0/24,US,US-MI,Detroit,true,chcoilx1,false,,planned_not_announced
@@ -4670,7 +4670,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:800::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8:8040::/42,,,,false,,false,14593,bgp_only
 2605:59c8:8100::/40,TG,TG-M,Lome,true,lgosnga1,true,14593,announced
-2605:59c8:8200::/40,US,US-OR,Portland,true,prtdorx3,true,14593,announced
+2605:59c8:8200::/40,US,US-OR,Portland,false,,true,14593,announced
 2605:59c8:8300::/40,US,US-GA,Atlanta,true,atlagax3,true,14593,announced
 2605:59c8:8400::/38,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
 2605:59c8:900::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
@@ -4964,6 +4964,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3500::/40,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 2803:9810:3600::/40,BO,BO-S,Santa Cruz de la Sierra,true,sntochl1,true,14593,announced
 2803:9810:3700::/40,BO,BO-S,Santa Cruz de la Sierra,true,limaper1,true,14593,announced
+2803:9810:3700::/41,,,,false,,false,14593,bgp_only
 2803:9810:3780::/41,,,,false,,false,14593,bgp_only
 2803:9810:3800::/40,AR,AR-C,Buenos Aires,true,splobra1,true,14593,announced
 2803:9810:3800::/41,,,,false,,false,14593,bgp_only
@@ -5408,7 +5409,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.244.128.0/23,,,,false,,false,14593,bgp_only
 74.244.128.0/24,ZM,ZM-09,Lusaka,true,jhngzaf1,false,,planned_not_announced
 74.244.129.0/24,ZM,ZM-09,Lusaka,true,jhngzaf1,true,14593,announced
-74.244.13.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
+74.244.13.0/24,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
 74.244.130.0/23,,,,false,,false,14593,bgp_only
 74.244.130.0/24,US,US-NV,Las Vegas,true,sltyutx1,false,,planned_not_announced
 74.244.131.0/24,US,US-NV,Las Vegas,true,sltyutx1,false,,planned_not_announced
@@ -6905,8 +6906,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.74.0/24,LY,LY-JI,Tripoli,true,mlnnita1,false,,planned_not_announced
 98.97.75.0/24,LY,LY-JI,Tripoli,true,mlnnita1,false,,planned_not_announced
 98.97.76.0/23,,,,false,,false,14593,bgp_only
-98.97.76.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
-98.97.77.0/24,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
+98.97.76.0/24,NG,NG-LA,Lagos,true,lgosnga1,true,14593,announced
+98.97.77.0/24,NG,NG-LA,Lagos,true,lgosnga1,true,14593,announced
 98.97.78.0/23,,,,false,,false,14593,bgp_only
 98.97.78.0/25,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
 98.97.78.128/25,NG,NG-LA,Lagos,true,lgosnga1,false,,planned_not_announced
