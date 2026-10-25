@@ -1,16 +1,11 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-153.67.207.0/25,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-153.67.207.128/25,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-179.65.172.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,tmpeazx1,dllstxx1,US,US,US-TX,US-TX,El Paso,Dallas
-179.65.173.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,tmpeazx1,dllstxx1,US,US,US-TX,US-TX,El Paso,Dallas
-179.65.174.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,tmpeazx1,dllstxx1,US,US,US-TX,US-TX,El Paso,Dallas
-179.65.175.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,planned_not_announced,planned_not_announced,,,tmpeazx1,dllstxx1,US,US,US-TX,US-TX,El Paso,Dallas
-202.65.229.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
-202.65.231.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
-216.234.219.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NE,NE,NE-8,NE-8,Niamey,Niamey
-2605:59c8:8200::/40,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,announced,14593,14593,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-74.244.13.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NE,NE,NE-8,NE-8,Niamey,Niamey
-98.97.76.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-98.97.77.0/24,changed,2026-10-24T08:07:40Z,starlink,starlink,announced,planned_not_announced,14593,,lgosnga1,lgosnga1,NG,NG,NG-LA,NG-LA,Lagos,Lagos
-2001:5b0:8200::/39,new,2026-10-24T08:07:40Z,hughes,,bgp_only,,6621,,,,,,,,,
-2803:9810:3700::/41,new,2026-10-24T08:07:40Z,starlink,,bgp_only,,14593,,,,,,,,,
+216.234.217.0/24,changed,2026-10-25T08:24:27Z,starlink,starlink,planned_not_announced,announced,,14593,jhngzaf1,jhngzaf1,MW,MW,MW-LI,MW-LI,Lilongwe,Lilongwe
+2401:e320:c00::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:c80::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:d00::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:d80::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:e00::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:e80::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:f00::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2401:e320:f80::/41,new,2026-10-25T08:24:27Z,starlink,,bgp_only,,45700,,,,,,,,,
+2605:59c0:3e80::/41,withdrawn,2026-10-25T08:24:27Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,

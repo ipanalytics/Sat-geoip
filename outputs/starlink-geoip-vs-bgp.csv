@@ -3985,7 +3985,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 216.234.215.0/24,ZW,ZW-HA,Harare,true,jhngzaf1,true,14593,announced
 216.234.216.0/23,,,,false,,false,14593,bgp_only
 216.234.216.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
-216.234.217.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,true,14593,announced
+216.234.217.0/24,MW,MW-LI,Lilongwe,true,jhngzaf1,false,,planned_not_announced
 216.234.218.0/23,,,,false,,false,14593,bgp_only
 216.234.218.0/24,NE,NE-8,Niamey,true,lgosnga1,false,,planned_not_announced
 216.234.219.0/24,NE,NE-8,Niamey,true,lgosnga1,true,14593,announced
@@ -4039,6 +4039,14 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2401:e320:800::/38,ID,ID-JK,Jakarta,true,jtnaidn2,true,45700,announced
 2401:e320::/38,ID,ID-KR,Batam,true,btmmidn1,true,45700,announced
 2401:e320:c00::/38,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
+2401:e320:c00::/41,,,,false,,false,45700,bgp_only
+2401:e320:c80::/41,,,,false,,false,45700,bgp_only
+2401:e320:d00::/41,,,,false,,false,45700,bgp_only
+2401:e320:d80::/41,,,,false,,false,45700,bgp_only
+2401:e320:e00::/41,,,,false,,false,45700,bgp_only
+2401:e320:e80::/41,,,,false,,false,45700,bgp_only
+2401:e320:f00::/41,,,,false,,false,45700,bgp_only
+2401:e320:f80::/41,,,,false,,false,45700,bgp_only
 2406:2d40:1000::/38,NZ,NZ-CAN,Christchurch,true,chrhnzl1,true,14593,announced
 2406:2d40:1400::/38,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 2406:2d40:1800::/38,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
@@ -4216,7 +4224,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:3d00::/40,ZW,ZW-HA,Harare,true,nrbiken1,true,14593,announced
 2605:59c0:3e00::/40,VE,VE-A,Caracas,true,bgtacol1,true,14593,announced
 2605:59c0:3e00::/41,,,,false,,false,14593,bgp_only
-2605:59c0:3e80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:3f00::/40,CA,CA-QC,Montreal,true,trnocan1,true,14593,announced
 2605:59c0:4000::/40,US,US-AZ,Phoenix,true,tmpeazx1,true,14593,announced
 2605:59c0:400::/40,US,US-VA,Ashburn,true,ashnvax2,true,14593,announced
