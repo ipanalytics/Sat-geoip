@@ -2937,7 +2937,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.53.0/24,PA,PA-8,Panama City,true,bgtacol1,false,,planned_not_announced
 179.238.54.0/23,,,,false,,false,14593,bgp_only
 179.238.54.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
-179.238.55.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
+179.238.55.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.56.0/23,,,,false,,false,14593,bgp_only
 179.238.56.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,false,,planned_not_announced
 179.238.57.0/24,MX,MX-CMX,Mexico City,true,qrtomex1,true,14593,announced
@@ -4035,7 +4035,15 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2401:e320:1002::/48,,,,false,,false,45700,bgp_only
 2401:e320:400::/38,ID,ID-JK,Jakarta,true,jtnaidn2,true,45700,announced
 2401:e320:400::/40,,,,false,,false,45700,bgp_only
+2401:e320:400::/41,,,,false,,false,45700,bgp_only
+2401:e320:480::/41,,,,false,,false,45700,bgp_only
 2401:e320:500::/40,,,,false,,false,45700,bgp_only
+2401:e320:500::/41,,,,false,,false,45700,bgp_only
+2401:e320:580::/41,,,,false,,false,45700,bgp_only
+2401:e320:600::/41,,,,false,,false,45700,bgp_only
+2401:e320:680::/41,,,,false,,false,45700,bgp_only
+2401:e320:700::/41,,,,false,,false,45700,bgp_only
+2401:e320:780::/41,,,,false,,false,45700,bgp_only
 2401:e320:800::/38,ID,ID-JK,Jakarta,true,jtnaidn2,true,45700,announced
 2401:e320::/38,ID,ID-KR,Batam,true,btmmidn1,true,45700,announced
 2401:e320:c00::/38,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
@@ -4975,7 +4983,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:3780::/41,,,,false,,false,14593,bgp_only
 2803:9810:3800::/40,AR,AR-C,Buenos Aires,true,splobra1,true,14593,announced
 2803:9810:3800::/41,,,,false,,false,14593,bgp_only
-2803:9810:3880::/41,,,,false,,false,14593,bgp_only
 2803:9810:3900::/40,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:3900::/41,,,,false,,false,14593,bgp_only
 2803:9810:3980::/41,,,,false,,false,14593,bgp_only
@@ -4998,7 +5005,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:400::/38,GT,GT-01,Guatemala City,true,gtmygtm1,true,14593,announced
 2803:9810:4080::/41,,,,false,,false,14593,bgp_only
 2803:9810:4100::/40,PY,PY-ASU,Asuncion,true,splobra1,true,14593,announced
-2803:9810:4180::/41,,,,false,,false,14593,bgp_only
 2803:9810:4200::/40,BR,BR-SP,Sao Paulo,true,splobra1,true,14593,announced
 2803:9810:4200::/41,,,,false,,false,14593,bgp_only
 2803:9810:4280::/41,,,,false,,false,14593,bgp_only

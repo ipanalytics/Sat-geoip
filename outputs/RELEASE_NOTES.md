@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15714 |
-| Announced prefixes | 11613 |
-| GeoFeed-only prefixes | 4101 |
-| BGP-only prefixes | 10478 |
+| Prefixes | 15720 |
+| Announced prefixes | 11618 |
+| GeoFeed-only prefixes | 4102 |
+| BGP-only prefixes | 10484 |
 | Prefixes with PoP assignment | 4089 |
-| Active user claims | 11613 |
+| Active user claims | 11618 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 113 |
-| `starlink` | 6946 |
+| `starlink` | 6952 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -79,7 +79,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `geo_or_hybrid_satellite` | 5442 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6985 |
+| `leo` | 6991 |
 | `meo` | 21 |
 | `mixed_satellite` | 413 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11613 |
-| `bgp_not_announced` | 4101 |
+| `bgp_announced` | 11618 |
+| `bgp_not_announced` | 4102 |
 | `geoip_invalid_country_city_pair` | 16 |
 | `geoip_valid` | 5236 |
-| `origin_asn_expected` | 11613 |
+| `origin_asn_expected` | 11618 |
 | `pop_missing` | 1147 |
 | `pop_present` | 4089 |
-| `prefix_only_in_bgp` | 10478 |
-| `prefix_only_in_geofeed` | 4101 |
+| `prefix_only_in_bgp` | 10484 |
+| `prefix_only_in_geofeed` | 4102 |
 | `ptr_missing` | 4089 |
 
 

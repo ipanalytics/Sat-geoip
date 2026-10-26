@@ -1,10 +1,11 @@
-{"prefix":"216.234.217.0/24","change_type":"changed","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"announced","previous_origin_asn":14593,"pop_code":"jhngzaf1","previous_pop_code":"jhngzaf1","geoip_country":"MW","previous_geoip_country":"MW","geoip_region":"MW-LI","previous_geoip_region":"MW-LI","geoip_city":"Lilongwe","previous_geoip_city":"Lilongwe"}
-{"prefix":"2401:e320:c00::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:c80::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:d00::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:d80::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:e00::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:e80::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:f00::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2401:e320:f80::/41","change_type":"new","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
-{"prefix":"2605:59c0:3e80::/41","change_type":"withdrawn","changed_at":"2026-10-25T08:24:27Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
+{"prefix":"179.238.55.0/24","change_type":"changed","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"announced","previous_origin_asn":14593,"pop_code":"qrtomex1","previous_pop_code":"qrtomex1","geoip_country":"MX","previous_geoip_country":"MX","geoip_region":"MX-CMX","previous_geoip_region":"MX-CMX","geoip_city":"Mexico City","previous_geoip_city":"Mexico City"}
+{"prefix":"2401:e320:400::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:480::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:500::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:580::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:600::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:680::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:700::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2401:e320:780::/41","change_type":"new","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":45700}
+{"prefix":"2803:9810:3880::/41","change_type":"withdrawn","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
+{"prefix":"2803:9810:4180::/41","change_type":"withdrawn","changed_at":"2026-10-26T08:53:42Z","operator":"starlink","previous_operator":"starlink","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":14593,"previous_origin_asn":14593}
