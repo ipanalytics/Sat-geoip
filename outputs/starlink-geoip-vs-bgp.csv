@@ -4541,7 +4541,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:e108::/48,,,,false,,false,14593,bgp_only
 2605:59c7:e109::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f000::/42,,,,false,,false,14593,bgp_only
-2605:59c7:f000::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f001::/48,US,US-AK,Nome,false,,true,14593,announced
 2605:59c7:f002::/48,US,US-AK,Dutch Harbor,false,,true,14593,announced
 2605:59c7:f003::/48,CA,CA-NU,Iqaluit,false,,true,14593,announced

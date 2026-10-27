@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15720 |
-| Announced prefixes | 11618 |
+| Prefixes | 15703 |
+| Announced prefixes | 11601 |
 | GeoFeed-only prefixes | 4102 |
-| BGP-only prefixes | 10484 |
+| BGP-only prefixes | 10467 |
 | Prefixes with PoP assignment | 4089 |
-| Active user claims | 11618 |
+| Active user claims | 11601 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -22,15 +22,15 @@ Generated artifacts for the current sat-geoip dataset build.
 | `caprock` | 3 |
 | `carnival` | 1 |
 | `castor_marine` | 6 |
-| `china_satcom` | 84 |
+| `china_satcom` | 77 |
 | `esa` | 81 |
-| `eutelsat_skylogic` | 271 |
+| `eutelsat_skylogic` | 270 |
 | `gazprom_space_systems` | 49 |
 | `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 32 |
 | `hughes` | 674 |
-| `inmarsat` | 58 |
+| `inmarsat` | 57 |
 | `intelsat` | 94 |
 | `intelsat_general` | 3 |
 | `iridium` | 11 |
@@ -56,14 +56,14 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 113 |
-| `starlink` | 6952 |
+| `starlink` | 6951 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 1003 |
+| `turksat` | 996 |
 | `usap` | 19 |
 | `viasat` | 5066 |
 | `yahsat` | 94 |
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2709 |
+| `geo` | 2695 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5442 |
+| `geo_or_hybrid_satellite` | 5440 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6991 |
+| `leo` | 6990 |
 | `meo` | 21 |
 | `mixed_satellite` | 413 |
 
@@ -88,14 +88,14 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11618 |
+| `bgp_announced` | 11601 |
 | `bgp_not_announced` | 4102 |
 | `geoip_invalid_country_city_pair` | 16 |
 | `geoip_valid` | 5236 |
-| `origin_asn_expected` | 11618 |
+| `origin_asn_expected` | 11601 |
 | `pop_missing` | 1147 |
 | `pop_present` | 4089 |
-| `prefix_only_in_bgp` | 10484 |
+| `prefix_only_in_bgp` | 10467 |
 | `prefix_only_in_geofeed` | 4102 |
 | `ptr_missing` | 4089 |
 

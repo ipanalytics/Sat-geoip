@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15720 |
-| Announced prefixes | 11618 |
+| Prefixes | 15703 |
+| Announced prefixes | 11601 |
 | GeoFeed-only prefixes | 4102 |
-| BGP-only prefixes | 10484 |
+| BGP-only prefixes | 10467 |
 | Prefixes with PoP assignment | 4089 |
 | Ground station claims | 0 |
 
@@ -82,15 +82,15 @@ The resolver applies fixed precedence rules:
 | `caprock` | 3 |
 | `carnival` | 1 |
 | `castor_marine` | 6 |
-| `china_satcom` | 84 |
+| `china_satcom` | 77 |
 | `esa` | 81 |
-| `eutelsat_skylogic` | 271 |
+| `eutelsat_skylogic` | 270 |
 | `gazprom_space_systems` | 49 |
 | `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 32 |
 | `hughes` | 674 |
-| `inmarsat` | 58 |
+| `inmarsat` | 57 |
 | `intelsat` | 94 |
 | `intelsat_general` | 3 |
 | `iridium` | 11 |
@@ -116,14 +116,14 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 113 |
-| `starlink` | 6952 |
+| `starlink` | 6951 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 1003 |
+| `turksat` | 996 |
 | `usap` | 19 |
 | `viasat` | 5066 |
 | `yahsat` | 94 |
@@ -133,12 +133,12 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2709 |
+| `geo` | 2695 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5442 |
+| `geo_or_hybrid_satellite` | 5440 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 6991 |
+| `leo` | 6990 |
 | `meo` | 21 |
 | `mixed_satellite` | 413 |
 <!-- SAT_GEOIP_STATS_END -->
