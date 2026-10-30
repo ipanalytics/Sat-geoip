@@ -171,7 +171,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 129.222.178.0/24,EC,EC-P,Quito,true,limaper1,false,,planned_not_announced
 129.222.179.0/24,EC,EC-P,Quito,true,limaper1,true,14593,announced
 129.222.18.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
-129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
+129.222.180.0/24,CL,CL-RM,Santiago,true,limaper1,true,14593,announced
 129.222.181.0/24,CL,CL-RM,Santiago,true,limaper1,false,,planned_not_announced
 129.222.182.0/24,,,,false,,false,14593,bgp_only
 129.222.182.0/25,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
@@ -2776,7 +2776,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.238.118.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.119.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 179.238.12.0/23,,,,false,,false,14593,bgp_only
-179.238.12.0/24,CO,CO-DC,Bogota,true,bgtacol1,true,14593,announced
+179.238.12.0/24,CO,CO-DC,Bogota,true,bgtacol1,false,,planned_not_announced
 179.238.120.0/23,,,,false,,false,14593,bgp_only
 179.238.120.0/24,MX,MX-CMX,Mexico City,true,gtmygtm1,false,,planned_not_announced
 179.238.121.0/24,MX,MX-CMX,Mexico City,true,gtmygtm1,false,,planned_not_announced
@@ -3639,7 +3639,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 200.189.19.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 200.189.20.0/23,,,,false,,false,14593,bgp_only
 200.189.20.0/24,BR,BR-SP,Sao Paulo,true,limaper1,false,,planned_not_announced
-200.189.21.0/24,BR,BR-SP,Sao Paulo,true,limaper1,false,,planned_not_announced
+200.189.21.0/24,BR,BR-SP,Sao Paulo,true,limaper1,true,14593,announced
 200.189.22.0/23,,,,false,,false,14593,bgp_only
 200.189.22.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
 200.189.23.0/24,BR,BR-DF,Brasilia,true,brsabra1,false,,planned_not_announced
@@ -4960,6 +4960,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2803:9810:1400::/38,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 2803:9810:1400::/41,,,,false,,false,14593,bgp_only
 2803:9810:1800::/38,CL,CL-RM,Santiago,true,sntochl1,true,14593,announced
+2803:9810:1800::/41,,,,false,,false,14593,bgp_only
 2803:9810:1c00::/38,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 2803:9810:2000::/38,BR,BR-DF,Brasilia,true,brsabra1,true,14593,announced
 2803:9810:2000::/48,,,,false,,false,14593,bgp_only
@@ -5174,6 +5175,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3341:dc00::/40,JO,JO-AM,Amman,true,sfiabgr1,false,,planned_not_announced
 2a0d:3341:dd00::/40,IT,IT-25,Milan,true,mlnnita1,false,,planned_not_announced
 2a0d:3341:de00::/40,IQ,IQ-BG,Baghdad,true,sfiabgr1,true,14593,announced
+2a0d:3341:de00::/41,,,,false,,false,14593,bgp_only
+2a0d:3341:de80::/41,,,,false,,false,14593,bgp_only
 2a0d:3341:df00::/40,SY,SY-DI,Damascus,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/40,SD,SD-KH,Khartoum,true,sfiabgr1,true,14593,announced
 2a0d:3341:e000::/41,,,,false,,false,14593,bgp_only
@@ -6834,7 +6837,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.189.0/24,US,US-AZ,Phoenix,true,tmpeazx1,false,,planned_not_announced
 98.97.19.0/24,US,US-WA,Seattle,true,sttlwax1,false,,planned_not_announced
 98.97.190.0/23,,,,false,,false,14593,bgp_only
-98.97.190.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
+98.97.190.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,true,14593,announced
 98.97.191.0/24,SD,SD-KH,Khartoum,true,jhngzaf1,false,,planned_not_announced
 98.97.2.0/23,,,,false,,false,14593,bgp_only
 98.97.2.0/24,US,US-CO,Denver,true,dnvrcox1,false,,planned_not_announced
