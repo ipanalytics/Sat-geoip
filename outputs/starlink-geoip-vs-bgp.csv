@@ -2341,8 +2341,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 153.67.206.0/25,US,US-GA,Atlanta,true,atlagax3,false,,planned_not_announced
 153.67.206.128/25,US,US-GA,Atlanta,true,atlagax3,false,,planned_not_announced
 153.67.207.0/24,,,,false,,false,14593,bgp_only
-153.67.207.0/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
-153.67.207.128/25,US,US-OR,Portland,true,prtdorx3,false,,planned_not_announced
+153.67.207.0/25,US,US-OR,Portland,false,,false,,planned_not_announced
+153.67.207.128/25,US,US-OR,Portland,false,,false,,planned_not_announced
 153.67.208.0/23,,,,false,,false,14593,bgp_only
 153.67.208.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 153.67.209.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
@@ -4172,6 +4172,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:1600::/40,ER,ER-MA,Asmara,true,nrbiken1,true,14593,announced
 2605:59c0:1700::/40,US,US-FL,Miami,true,mmmiflx1,true,14593,announced
 2605:59c0:1800::/40,SL,SL-W,Freetown,true,lgosnga1,true,14593,announced
+2605:59c0:1880::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1900::/40,LR,LR-MO,Monrovia,true,lgosnga1,true,14593,announced
 2605:59c0:1900::/41,,,,false,,false,14593,bgp_only
 2605:59c0:1980::/41,,,,false,,false,14593,bgp_only
@@ -4566,7 +4567,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c7:f80c::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f80e::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f80f::/48,,,,false,,false,14593,bgp_only
-2605:59c7:f811::/48,,,,false,,false,14593,bgp_only
 2605:59c7:f813::/48,,,,false,,false,14593,bgp_only
 2605:59c8:1000::/40,US,US-IL,Chicago,true,chcoilx1,true,14593,announced
 2605:59c8:100::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
@@ -4682,7 +4682,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:800::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
 2605:59c8:8040::/42,,,,false,,false,14593,bgp_only
 2605:59c8:8100::/40,TG,TG-M,Lome,true,lgosnga1,true,14593,announced
-2605:59c8:8200::/40,US,US-OR,Portland,true,prtdorx3,true,14593,announced
+2605:59c8:8200::/40,US,US-OR,Portland,false,,true,14593,announced
 2605:59c8:8300::/40,US,US-GA,Atlanta,true,atlagax3,true,14593,announced
 2605:59c8:8400::/38,UG,UG-102,Kampala,true,nrbiken1,true,14593,announced
 2605:59c8:900::/40,US,US-WA,Seattle,true,sttlwax1,true,14593,announced
@@ -6015,7 +6015,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.161.7.0/24,,,,false,,false,14593,bgp_only
 9.161.70.0/24,,,,false,,false,14593,bgp_only
 9.161.71.0/24,,,,false,,false,14593,bgp_only
-9.161.73.0/24,,,,false,,false,14593,bgp_only
 9.161.75.0/24,,,,false,,false,14593,bgp_only
 9.161.8.0/24,,,,false,,false,14593,bgp_only
 9.161.9.0/24,,,,false,,false,14593,bgp_only
