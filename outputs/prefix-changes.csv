@@ -1,7 +1,3 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-153.67.207.0/25,changed,2026-11-01T10:26:20Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-153.67.207.128/25,changed,2026-11-01T10:26:20Z,starlink,starlink,planned_not_announced,planned_not_announced,,,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-2605:59c8:8200::/40,changed,2026-11-01T10:26:20Z,starlink,starlink,announced,announced,14593,14593,,prtdorx3,US,US,US-OR,US-OR,Portland,Portland
-2605:59c0:1880::/41,new,2026-11-01T10:26:20Z,starlink,,bgp_only,,14593,,,,,,,,,
-2605:59c7:f811::/48,withdrawn,2026-11-01T10:26:20Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
-9.161.73.0/24,withdrawn,2026-11-01T10:26:20Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2406:2d40:1400::/41,new,2026-11-02T11:02:46Z,starlink,,bgp_only,,14593,,,,,,,,,
+2406:2d40:1480::/41,new,2026-11-02T11:02:46Z,starlink,,bgp_only,,14593,,,,,,,,,
