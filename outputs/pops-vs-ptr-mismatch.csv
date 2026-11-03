@@ -1461,6 +1461,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 153.67.205.0/24,dllstxx1,,ptr_missing
 153.67.206.0/25,atlagax3,,ptr_missing
 153.67.206.128/25,atlagax3,,ptr_missing
+153.67.207.0/25,prtdorx3,,ptr_missing
+153.67.207.128/25,prtdorx3,,ptr_missing
 153.67.208.0/24,wrswpol1,,ptr_missing
 153.67.209.0/24,wrswpol1,,ptr_missing
 153.67.21.0/24,bgtacol1,,ptr_missing
@@ -1971,6 +1973,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 179.65.0.0/24,chniind1,,ptr_missing
 179.65.1.0/24,chniind1,,ptr_missing
 179.65.10.0/24,chniind1,,ptr_missing
+179.65.104.0/24,sydyaus1,,ptr_missing
+179.65.105.0/24,sydyaus1,,ptr_missing
 179.65.108.0/24,sngesgp1,,ptr_missing
 179.65.109.0/24,sngesgp1,,ptr_missing
 179.65.11.0/24,chniind1,,ptr_missing
@@ -2796,6 +2800,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c8:7600::/40,qrtomex1,,ptr_missing
 2605:59c8:800::/40,sttlwax1,,ptr_missing
 2605:59c8:8100::/40,lgosnga1,,ptr_missing
+2605:59c8:8200::/40,prtdorx3,,ptr_missing
 2605:59c8:8300::/40,atlagax3,,ptr_missing
 2605:59c8:8400::/38,nrbiken1,,ptr_missing
 2605:59c8:900::/40,sttlwax1,,ptr_missing
