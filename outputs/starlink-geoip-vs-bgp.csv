@@ -3264,8 +3264,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.112.0/24,NP,NP-P3,Kathmandu,true,kllrmys1,false,,planned_not_announced
 179.65.113.0/24,NP,NP-P3,Kathmandu,true,kllrmys1,false,,planned_not_announced
 179.65.114.0/23,,,,false,,false,14593,bgp_only
-179.65.114.0/24,BT,BT-15,Thimphu,true,kllrmys1,false,,planned_not_announced
-179.65.115.0/24,BT,BT-15,Thimphu,true,kllrmys1,false,,planned_not_announced
+179.65.114.0/24,BT,BT-15,Thimphu,true,dhkabgd1,false,,planned_not_announced
+179.65.115.0/24,BT,BT-15,Thimphu,true,dhkabgd1,false,,planned_not_announced
 179.65.116.0/23,,,,false,,false,14593,bgp_only
 179.65.116.0/24,MY,MY-14,Kuala Lumpur,true,kllrmys1,false,,planned_not_announced
 179.65.117.0/24,MY,MY-14,Kuala Lumpur,true,kllrmys1,false,,planned_not_announced
@@ -4160,10 +4160,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:c00::/38,BD,BD-E,Dhaka,true,dhkabgd1,true,14593,announced
 2406:2d40:c400::/38,IN,IN-WB,Kolkata,true,klkaind1,true,14593,announced
 2406:2d40:c800::/38,IN,IN-TN,Chennai,true,chniind1,true,14593,announced
-2406:2d40:cc00::/38,IN,IN-DL,Delhi,true,dlhiind1,false,,planned_not_announced
+2406:2d40:cc00::/38,IN,IN-DL,Delhi,true,dlhiind1,true,14593,announced
 2406:2d40:d000::/38,MY,MY-14,Kuala Lumpur,true,kllrmys1,true,14593,announced
 2406:2d40:d400::/40,NP,NP-P3,Kathmandu,true,kllrmys1,true,14593,announced
-2406:2d40:d500::/40,BT,BT-15,Thimphu,true,kllrmys1,true,14593,announced
+2406:2d40:d500::/40,BT,BT-15,Thimphu,true,dhkabgd1,true,14593,announced
 2406:2d40:d600::/40,LK,LK-1,Colombo,true,kllrmys1,true,14593,announced
 2406:2d40:d700::/40,MM,MM-06,Yangon,true,kllrmys1,true,14593,announced
 2605:59c0:1000::/40,US,US-FL,Miami,true,mmmiflx1,true,14593,announced
@@ -4302,6 +4302,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5039::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503b::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503c::/48,,,,false,,false,14593,bgp_only
+2605:59c0:503d::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503e::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503f::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5040::/48,,,,false,,false,14593,bgp_only
