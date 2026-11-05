@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15787 |
-| Announced prefixes | 11680 |
+| Prefixes | 15784 |
+| Announced prefixes | 11677 |
 | GeoFeed-only prefixes | 4107 |
-| BGP-only prefixes | 10535 |
+| BGP-only prefixes | 10532 |
 | Prefixes with PoP assignment | 4095 |
 | Ground station claims | 0 |
 
@@ -123,7 +123,7 @@ The resolver applies fixed precedence rules:
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 986 |
+| `turksat` | 983 |
 | `usap` | 19 |
 | `viasat` | 5064 |
 | `yahsat` | 94 |
@@ -133,7 +133,7 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2756 |
+| `geo` | 2753 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5436 |
 | `geo_or_multi_orbit` | 94 |

@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15787 |
-| Announced prefixes | 11680 |
+| Prefixes | 15784 |
+| Announced prefixes | 11677 |
 | GeoFeed-only prefixes | 4107 |
-| BGP-only prefixes | 10535 |
+| BGP-only prefixes | 10532 |
 | Prefixes with PoP assignment | 4095 |
-| Active user claims | 11680 |
+| Active user claims | 11677 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -63,7 +63,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 986 |
+| `turksat` | 983 |
 | `usap` | 19 |
 | `viasat` | 5064 |
 | `yahsat` | 94 |
@@ -74,7 +74,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2756 |
+| `geo` | 2753 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5436 |
 | `geo_or_multi_orbit` | 94 |
@@ -88,14 +88,14 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11680 |
+| `bgp_announced` | 11677 |
 | `bgp_not_announced` | 4107 |
 | `geoip_invalid_country_city_pair` | 16 |
 | `geoip_valid` | 5252 |
-| `origin_asn_expected` | 11680 |
+| `origin_asn_expected` | 11677 |
 | `pop_missing` | 1157 |
 | `pop_present` | 4095 |
-| `prefix_only_in_bgp` | 10535 |
+| `prefix_only_in_bgp` | 10532 |
 | `prefix_only_in_geofeed` | 4107 |
 | `ptr_missing` | 4095 |
 
