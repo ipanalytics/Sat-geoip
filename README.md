@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15784 |
-| Announced prefixes | 11677 |
-| GeoFeed-only prefixes | 4107 |
-| BGP-only prefixes | 10532 |
+| Prefixes | 15755 |
+| Announced prefixes | 11645 |
+| GeoFeed-only prefixes | 4110 |
+| BGP-only prefixes | 10509 |
 | Prefixes with PoP assignment | 4095 |
 | Ground station claims | 0 |
 
@@ -76,7 +76,7 @@ The resolver applies fixed precedence rules:
 
 | Name | Count |
 |---|---:|
-| `anuvu` | 71 |
+| `anuvu` | 73 |
 | `avanti` | 22 |
 | `bentley_walker` | 28 |
 | `caprock` | 3 |
@@ -84,12 +84,12 @@ The resolver applies fixed precedence rules:
 | `castor_marine` | 6 |
 | `china_satcom` | 77 |
 | `esa` | 81 |
-| `eutelsat_skylogic` | 270 |
-| `gazprom_space_systems` | 49 |
+| `eutelsat_skylogic` | 269 |
+| `gazprom_space_systems` | 50 |
 | `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 32 |
-| `hughes` | 674 |
+| `hughes` | 652 |
 | `inmarsat` | 55 |
 | `intelsat` | 94 |
 | `intelsat_general` | 3 |
@@ -116,7 +116,7 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 112 |
-| `starlink` | 6983 |
+| `starlink` | 6980 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -125,7 +125,7 @@ The resolver applies fixed precedence rules:
 | `thuraya` | 10 |
 | `turksat` | 983 |
 | `usap` | 19 |
-| `viasat` | 5064 |
+| `viasat` | 5058 |
 | `yahsat` | 94 |
 
 ### Orbit Classes
@@ -133,14 +133,14 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2753 |
+| `geo` | 2732 |
 | `geo_mss` | 29 |
-| `geo_or_hybrid_satellite` | 5436 |
+| `geo_or_hybrid_satellite` | 5429 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 7022 |
+| `leo` | 7019 |
 | `meo` | 21 |
-| `mixed_satellite` | 408 |
+| `mixed_satellite` | 410 |
 <!-- SAT_GEOIP_STATS_END -->
 
 The checked-in `outputs/` directory is generated from live public feeds. The example evidence fixture remains in the repository to exercise acceptance cases and deterministic tests.
