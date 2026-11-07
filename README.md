@@ -65,10 +65,10 @@ The resolver applies fixed precedence rules:
 <!-- SAT_GEOIP_STATS_START -->
 | Dataset metric | Count |
 |---|---:|
-| Prefixes | 15755 |
-| Announced prefixes | 11645 |
-| GeoFeed-only prefixes | 4110 |
-| BGP-only prefixes | 10509 |
+| Prefixes | 15758 |
+| Announced prefixes | 11650 |
+| GeoFeed-only prefixes | 4108 |
+| BGP-only prefixes | 10512 |
 | Prefixes with PoP assignment | 4095 |
 | Ground station claims | 0 |
 
@@ -89,7 +89,7 @@ The resolver applies fixed precedence rules:
 | `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
 | `hispasat` | 32 |
-| `hughes` | 652 |
+| `hughes` | 647 |
 | `inmarsat` | 55 |
 | `intelsat` | 94 |
 | `intelsat_general` | 3 |
@@ -116,7 +116,7 @@ The resolver applies fixed precedence rules:
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 112 |
-| `starlink` | 6980 |
+| `starlink` | 6988 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -133,12 +133,12 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2732 |
+| `geo` | 2727 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5429 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 7019 |
+| `leo` | 7027 |
 | `meo` | 21 |
 | `mixed_satellite` | 410 |
 <!-- SAT_GEOIP_STATS_END -->
