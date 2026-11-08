@@ -1687,7 +1687,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.47.0/24,SI,SI-061,Ljubljana,true,sfiabgr1,false,,planned_not_announced
 150.228.48.0/23,,,,false,,false,14593,bgp_only
 150.228.48.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,false,,planned_not_announced
-150.228.49.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,false,,planned_not_announced
+150.228.49.0/24,GE,GE-TB,Tbilisi,true,sfiabgr1,true,14593,announced
 150.228.5.0/24,UA,UA-30,Kyiv,true,wrswpol1,false,,planned_not_announced
 150.228.50.0/23,,,,false,,false,14593,bgp_only
 150.228.50.0/24,MT,MT-60,Valletta,true,mlnnita1,false,,planned_not_announced
@@ -3692,7 +3692,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 202.65.239.0/24,ID,ID-JK,Jakarta,true,jtnaidn2,false,,planned_not_announced
 203.17.80.0/23,,,,false,,false,45700,bgp_only
 203.17.80.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
-203.17.81.0/24,ID,ID-JI,Surabaya,true,srbaidn2,false,,planned_not_announced
+203.17.81.0/24,ID,ID-JI,Surabaya,true,srbaidn2,true,45700,announced
 203.17.82.0/24,,,,false,,false,45700,bgp_only
 203.17.83.0/24,,,,false,,false,45700,bgp_only
 203.17.84.0/23,,,,false,,false,45700,bgp_only
