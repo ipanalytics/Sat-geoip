@@ -1,3 +1,2 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-150.228.49.0/24,changed,2026-11-08T10:19:47Z,starlink,starlink,announced,planned_not_announced,14593,,sfiabgr1,sfiabgr1,GE,GE,GE-TB,GE-TB,Tbilisi,Tbilisi
-203.17.81.0/24,changed,2026-11-08T10:19:47Z,starlink,starlink,announced,planned_not_announced,45700,,srbaidn2,srbaidn2,ID,ID,ID-JI,ID-JI,Surabaya,Surabaya
+74.245.243.0/24,withdrawn,2026-11-09T11:29:25Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,

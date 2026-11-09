@@ -5834,7 +5834,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 74.245.240.0/24,,,,false,,false,14593,bgp_only
 74.245.241.0/24,,,,false,,false,14593,bgp_only
 74.245.242.0/24,,,,false,,false,14593,bgp_only
-74.245.243.0/24,,,,false,,false,14593,bgp_only
 74.245.244.0/24,,,,false,,false,14593,bgp_only
 74.245.245.0/24,,,,false,,false,14593,bgp_only
 74.245.246.0/24,,,,false,,false,14593,bgp_only
