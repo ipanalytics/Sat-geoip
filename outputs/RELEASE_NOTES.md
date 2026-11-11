@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 6108 |
-| Announced prefixes | 862 |
-| GeoFeed-only prefixes | 5246 |
-| BGP-only prefixes | 862 |
-| Prefixes with PoP assignment | 4095 |
-| Active user claims | 862 |
+| Prefixes | 15793 |
+| Announced prefixes | 11656 |
+| GeoFeed-only prefixes | 4137 |
+| BGP-only prefixes | 10514 |
+| Prefixes with PoP assignment | 4125 |
+| Active user claims | 11656 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -28,34 +28,75 @@ Generated artifacts for the current sat-geoip dataset build.
 | `gazprom_space_systems` | 50 |
 | `gilat_telecom` | 228 |
 | `gogo_business_aviation` | 1 |
-| `hispasat` | 23 |
-| `starlink` | 4548 |
-| `viasat` | 698 |
+| `hispasat` | 32 |
+| `hughes` | 647 |
+| `inmarsat` | 55 |
+| `intelsat` | 94 |
+| `intelsat_general` | 3 |
+| `iridium` | 11 |
+| `itc_global` | 8 |
+| `kacific` | 26 |
+| `kt_sat` | 4 |
+| `kuiper` | 4 |
+| `kvh` | 61 |
+| `marlink` | 30 |
+| `nasa_jpl` | 15 |
+| `navarino` | 11 |
+| `nbn_sky_muster` | 474 |
+| `nsslglobal` | 1 |
+| `omniaccess` | 13 |
+| `oneweb` | 20 |
+| `panasonic_avionics` | 14 |
+| `rignet` | 1 |
+| `rocket_lab` | 2 |
+| `royal_caribbean` | 1 |
+| `rscc` | 30 |
+| `satcom_direct` | 4 |
+| `ses_o3b` | 21 |
+| `sky_perfect_jsat` | 6 |
+| `spacex_infrastructure` | 1 |
+| `speedcast` | 112 |
+| `starlink` | 7016 |
+| `swarm` | 1 |
+| `tampnet` | 6 |
+| `telesat` | 44 |
+| `telespazio` | 13 |
+| `thales_avionics` | 1 |
+| `thuraya` | 10 |
+| `turksat` | 986 |
+| `usap` | 19 |
+| `viasat` | 5065 |
+| `yahsat` | 92 |
 
 
 ## Orbit Classes
 
 | Name | Count |
 |---|---:|
-| `geo` | 431 |
-| `geo_or_hybrid_satellite` | 967 |
-| `leo` | 4548 |
-| `mixed_satellite` | 162 |
+| `deep_space` | 15 |
+| `geo` | 2727 |
+| `geo_mss` | 29 |
+| `geo_or_hybrid_satellite` | 5436 |
+| `geo_or_multi_orbit` | 94 |
+| `hybrid_satellite_offshore` | 6 |
+| `leo` | 7055 |
+| `meo` | 21 |
+| `mixed_satellite` | 410 |
 
 
 ## Quality Flags
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 862 |
-| `bgp_not_announced` | 5246 |
+| `bgp_announced` | 11656 |
+| `bgp_not_announced` | 4137 |
 | `geoip_invalid_country_city_pair` | 16 |
-| `geoip_valid` | 5246 |
-| `origin_asn_expected` | 862 |
-| `pop_missing` | 1151 |
-| `pop_present` | 4095 |
-| `prefix_only_in_bgp` | 862 |
-| `prefix_only_in_geofeed` | 5246 |
-| `ptr_missing` | 4095 |
+| `geoip_valid` | 5279 |
+| `origin_asn_expected` | 11656 |
+| `pop_missing` | 1154 |
+| `pop_present` | 4125 |
+| `prefix_only_in_bgp` | 10514 |
+| `prefix_only_in_geofeed` | 4137 |
+| `ptr_missing` | 4125 |
 
 
