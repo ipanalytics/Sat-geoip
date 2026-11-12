@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 15793 |
-| Announced prefixes | 11656 |
-| GeoFeed-only prefixes | 4137 |
-| BGP-only prefixes | 10514 |
+| Prefixes | 15812 |
+| Announced prefixes | 11676 |
+| GeoFeed-only prefixes | 4136 |
+| BGP-only prefixes | 10533 |
 | Prefixes with PoP assignment | 4125 |
-| Active user claims | 11656 |
+| Active user claims | 11676 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -42,7 +42,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `marlink` | 30 |
 | `nasa_jpl` | 15 |
 | `navarino` | 11 |
-| `nbn_sky_muster` | 474 |
+| `nbn_sky_muster` | 476 |
 | `nsslglobal` | 1 |
 | `omniaccess` | 13 |
 | `oneweb` | 20 |
@@ -56,7 +56,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 112 |
-| `starlink` | 7016 |
+| `starlink` | 7035 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
@@ -66,7 +66,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `turksat` | 986 |
 | `usap` | 19 |
 | `viasat` | 5065 |
-| `yahsat` | 92 |
+| `yahsat` | 90 |
 
 
 ## Orbit Classes
@@ -79,7 +79,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `geo_or_hybrid_satellite` | 5436 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 7055 |
+| `leo` | 7074 |
 | `meo` | 21 |
 | `mixed_satellite` | 410 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11656 |
-| `bgp_not_announced` | 4137 |
+| `bgp_announced` | 11676 |
+| `bgp_not_announced` | 4136 |
 | `geoip_invalid_country_city_pair` | 16 |
 | `geoip_valid` | 5279 |
-| `origin_asn_expected` | 11656 |
+| `origin_asn_expected` | 11676 |
 | `pop_missing` | 1154 |
 | `pop_present` | 4125 |
-| `prefix_only_in_bgp` | 10514 |
-| `prefix_only_in_geofeed` | 4137 |
+| `prefix_only_in_bgp` | 10533 |
+| `prefix_only_in_geofeed` | 4136 |
 | `ptr_missing` | 4125 |
 
 
