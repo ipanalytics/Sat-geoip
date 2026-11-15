@@ -1331,7 +1331,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 148.227.75.0/24,AR,AR-C,Buenos Aires,true,bnssarg1,true,14593,announced
 148.227.76.0/23,,,,false,,false,14593,bgp_only
 148.227.76.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
-148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,false,,planned_not_announced
+148.227.77.0/24,PE,PE-LMA,Lima,true,limaper1,true,14593,announced
 148.227.78.0/23,,,,false,,false,14593,bgp_only
 148.227.78.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
 148.227.79.0/24,BR,BR-CE,Fortaleza,true,frtabra1,false,,planned_not_announced
@@ -11800,6 +11800,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2a0d:3344:6900::/40,GE,GE-TB,Tbilisi,true,sfiabgr1,true,14593,announced
 2a0d:3344:6a00::/40,MK,MK-814,Skopje,true,sfiabgr1,true,14593,announced
 2a0d:3344:6b00::/40,RO,RO-B,Bucharest,true,sfiabgr1,true,14593,announced
+2a0d:3344:6b00::/41,,,,false,,false,14593,bgp_only
 2a0d:3344:6c00::/40,GR,GR-I,Athens,true,sfiabgr1,true,14593,announced
 2a0d:3344:6c00::/41,,,,false,,false,14593,bgp_only
 2a0d:3344:6c80::/41,,,,false,,false,14593,bgp_only
