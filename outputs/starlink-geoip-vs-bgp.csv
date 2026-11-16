@@ -1483,7 +1483,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 150.228.153.0/24,AU,AU-WA,Perth,true,prthaus1,false,,planned_not_announced
 150.228.154.0/23,,,,false,,false,14593,bgp_only
 150.228.154.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-150.228.155.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+150.228.155.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 150.228.156.0/23,,,,false,,false,14593,bgp_only
 150.228.156.0/24,PH,PH-00,Manila,true,mnlaphl1,false,,planned_not_announced
 150.228.157.0/24,PH,PH-00,Manila,true,mnlaphl1,false,,planned_not_announced
@@ -3399,10 +3399,10 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 179.65.183.0/24,AU,AU-VIC,Melbourne,true,mlbeaus1,false,,planned_not_announced
 179.65.184.0/23,,,,false,,false,14593,bgp_only
 179.65.184.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-179.65.185.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+179.65.185.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 179.65.186.0/23,,,,false,,false,14593,bgp_only
 179.65.186.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-179.65.187.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+179.65.187.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 179.65.188.0/23,,,,false,,false,14593,bgp_only
 179.65.188.0/24,PH,PH-00,Manila,true,mnlaphl1,false,,planned_not_announced
 179.65.189.0/24,PH,PH-00,Manila,true,mnlaphl1,false,,planned_not_announced
@@ -3760,8 +3760,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.224.89.0/24,,,,false,,false,14593,bgp_only
 206.83.100.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 206.83.101.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-206.83.102.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-206.83.103.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+206.83.102.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+206.83.103.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 206.83.104.0/24,,,,false,,false,14593,bgp_only
 206.83.104.0/25,JP,JP-13,Tokyo,true,tkyojpn1,false,,planned_not_announced
 206.83.104.128/25,JP,JP-13,Tokyo,true,tkyojpn1,false,,planned_not_announced
@@ -3810,8 +3810,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 206.83.96.0/21,,,,false,,false,14593,bgp_only
 206.83.96.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
 206.83.97.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-206.83.98.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
-206.83.99.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,false,,planned_not_announced
+206.83.98.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
+206.83.99.0/24,NZ,NZ-AUK,Auckland,true,acklnzl1,true,14593,announced
 209.198.128.0/23,,,,false,,false,14593,bgp_only
 209.198.128.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
 209.198.129.0/24,GB,GB-LND,London,true,lndngbr1,false,,planned_not_announced
@@ -15417,7 +15417,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 98.97.18.0/24,US,US-WA,Seattle,true,sttlwax1,false,,planned_not_announced
 98.97.180.0/23,,,,false,,false,14593,bgp_only
 98.97.180.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
-98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
+98.97.181.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,true,14593,announced
 98.97.182.0/24,,,,false,,false,14593,bgp_only
 98.97.182.0/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced
 98.97.182.128/25,BH,BH-13,Manama,true,dohaqat1,false,,planned_not_announced

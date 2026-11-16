@@ -1,3 +1,9 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-148.227.77.0/24,changed,2026-11-15T10:51:12Z,starlink,starlink,announced,planned_not_announced,14593,,limaper1,limaper1,PE,PE,PE-LMA,PE-LMA,Lima,Lima
-2a0d:3344:6b00::/41,new,2026-11-15T10:51:12Z,starlink,,bgp_only,,14593,,,,,,,,,
+150.228.155.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+179.65.185.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+179.65.187.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+206.83.102.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+206.83.103.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+206.83.98.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+206.83.99.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+98.97.181.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,DJ,DJ,DJ-DJ,DJ-DJ,Djibouti,Djibouti
