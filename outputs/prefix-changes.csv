@@ -1,9 +1,50 @@
 prefix,change_type,changed_at,operator,previous_operator,bgp_state,previous_bgp_state,origin_asn,previous_origin_asn,pop_code,previous_pop_code,geoip_country,previous_geoip_country,geoip_region,previous_geoip_region,geoip_city,previous_geoip_city
-150.228.155.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-179.65.185.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-179.65.187.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-206.83.102.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-206.83.103.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-206.83.98.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-206.83.99.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
-98.97.181.0/24,changed,2026-11-16T11:15:18Z,starlink,starlink,announced,planned_not_announced,14593,,nrbiken1,nrbiken1,DJ,DJ,DJ-DJ,DJ-DJ,Djibouti,Djibouti
+129.224.215.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+143.105.109.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,PY,PY,PY-ASU,PY-ASU,Asuncion,Asuncion
+143.105.136.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+143.105.137.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.194.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.203.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.217.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.222.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.222.223.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.227.105.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,UY,UY,UY-MO,UY-MO,Montevideo,Montevideo
+148.227.121.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.227.69.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.227.74.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+148.227.75.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+150.228.229.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,announced,planned_not_announced,14593,,acklnzl1,acklnzl1,NZ,NZ,NZ-AUK,NZ-AUK,Auckland,Auckland
+153.67.103.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,BR,BR,BR-SP,BR-SP,Sao Paulo,Sao Paulo
+153.67.13.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+153.67.15.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+153.67.181.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+153.67.183.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+153.67.7.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+179.238.41.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+179.238.43.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+179.238.45.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+179.238.47.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+179.64.37.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+200.189.19.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+200.189.31.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+74.244.135.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+98.97.134.0/24,changed,2026-11-17T11:50:09Z,starlink,starlink,planned_not_announced,announced,,14593,bnssarg1,bnssarg1,AR,AR,AR-C,AR-C,Buenos Aires,Buenos Aires
+2803:9810:3900::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3980::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3e00::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:3e80::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:5900::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:5980::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8180::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8200::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:8280::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b000::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b080::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b100::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b200::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b400::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b480::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b500::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b580::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b600::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
+2803:9810:b680::/41,withdrawn,2026-11-17T11:50:09Z,starlink,starlink,withdrawn_recently,bgp_only,14593,14593,,,,,,,,
