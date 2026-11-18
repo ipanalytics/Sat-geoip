@@ -4333,7 +4333,6 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5039::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503b::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503c::/48,,,,false,,false,14593,bgp_only
-2605:59c0:503d::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503e::/48,,,,false,,false,14593,bgp_only
 2605:59c0:503f::/48,,,,false,,false,14593,bgp_only
 2605:59c0:5040::/48,,,,false,,false,14593,bgp_only
@@ -4364,6 +4363,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:5800::/40,US,US-MT,Billings,true,clgycan1,true,14593,announced
 2605:59c0:5900::/40,NA,NA-KH,Windhoek,true,jhngzaf1,true,14593,announced
 2605:59c0:5a00::/40,CF,CF-BGF,Bangui,true,nrbiken1,true,14593,announced
+2605:59c0:5a00::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5b00::/40,CF,CF-BGF,Bangui,true,lgosnga1,true,14593,announced
 2605:59c0:5b80::/41,,,,false,,false,14593,bgp_only
 2605:59c0:5c00::/38,SN,SN-DK,Dakar,true,dkrrsen1,true,14593,announced

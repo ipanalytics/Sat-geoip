@@ -1,12 +1,12 @@
 {
   "total_prefixes": 24314,
-  "announced_prefixes": 11633,
-  "geofeed_only_prefixes": 12681,
+  "announced_prefixes": 11634,
+  "geofeed_only_prefixes": 12680,
   "bgp_only_prefixes": 10513,
   "prefixes_with_pop": 4125,
   "operators": {
     "anuvu": 73,
-    "avanti": 22,
+    "avanti": 23,
     "bentley_walker": 28,
     "caprock": 3,
     "carnival": 1,
@@ -39,7 +39,7 @@
     "rignet": 1,
     "rocket_lab": 2,
     "royal_caribbean": 1,
-    "rscc": 30,
+    "rscc": 29,
     "satcom_direct": 4,
     "ses_o3b": 21,
     "sky_perfect_jsat": 6,
@@ -69,17 +69,17 @@
     "mixed_satellite": 410
   },
   "quality_flags": {
-    "bgp_announced": 11633,
-    "bgp_not_announced": 12681,
+    "bgp_announced": 11634,
+    "bgp_not_announced": 12680,
     "geoip_invalid_country_city_pair": 88,
     "geoip_valid": 13801,
-    "origin_asn_expected": 11633,
+    "origin_asn_expected": 11634,
     "pop_missing": 9676,
     "pop_present": 4125,
     "prefix_only_in_bgp": 10513,
-    "prefix_only_in_geofeed": 12681,
+    "prefix_only_in_geofeed": 12680,
     "ptr_missing": 4125
   },
   "ground_station_claims": 0,
-  "active_user_claims": 11633
+  "active_user_claims": 11634
 }

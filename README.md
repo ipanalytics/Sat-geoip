@@ -66,8 +66,8 @@ The resolver applies fixed precedence rules:
 | Dataset metric | Count |
 |---|---:|
 | Prefixes | 24314 |
-| Announced prefixes | 11633 |
-| GeoFeed-only prefixes | 12681 |
+| Announced prefixes | 11634 |
+| GeoFeed-only prefixes | 12680 |
 | BGP-only prefixes | 10513 |
 | Prefixes with PoP assignment | 4125 |
 | Ground station claims | 0 |
@@ -77,7 +77,7 @@ The resolver applies fixed precedence rules:
 | Name | Count |
 |---|---:|
 | `anuvu` | 73 |
-| `avanti` | 22 |
+| `avanti` | 23 |
 | `bentley_walker` | 28 |
 | `caprock` | 3 |
 | `carnival` | 1 |
@@ -110,7 +110,7 @@ The resolver applies fixed precedence rules:
 | `rignet` | 1 |
 | `rocket_lab` | 2 |
 | `royal_caribbean` | 1 |
-| `rscc` | 30 |
+| `rscc` | 29 |
 | `satcom_direct` | 4 |
 | `ses_o3b` | 21 |
 | `sky_perfect_jsat` | 6 |

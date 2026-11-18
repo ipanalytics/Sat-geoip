@@ -5,11 +5,11 @@ Generated artifacts for the current sat-geoip dataset build.
 | Metric | Count |
 |---|---:|
 | Prefixes | 24314 |
-| Announced prefixes | 11633 |
-| GeoFeed-only prefixes | 12681 |
+| Announced prefixes | 11634 |
+| GeoFeed-only prefixes | 12680 |
 | BGP-only prefixes | 10513 |
 | Prefixes with PoP assignment | 4125 |
-| Active user claims | 11633 |
+| Active user claims | 11634 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -17,7 +17,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `anuvu` | 73 |
-| `avanti` | 22 |
+| `avanti` | 23 |
 | `bentley_walker` | 28 |
 | `caprock` | 3 |
 | `carnival` | 1 |
@@ -50,7 +50,7 @@ Generated artifacts for the current sat-geoip dataset build.
 | `rignet` | 1 |
 | `rocket_lab` | 2 |
 | `royal_caribbean` | 1 |
-| `rscc` | 30 |
+| `rscc` | 29 |
 | `satcom_direct` | 4 |
 | `ses_o3b` | 21 |
 | `sky_perfect_jsat` | 6 |
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11633 |
-| `bgp_not_announced` | 12681 |
+| `bgp_announced` | 11634 |
+| `bgp_not_announced` | 12680 |
 | `geoip_invalid_country_city_pair` | 88 |
 | `geoip_valid` | 13801 |
-| `origin_asn_expected` | 11633 |
+| `origin_asn_expected` | 11634 |
 | `pop_missing` | 9676 |
 | `pop_present` | 4125 |
 | `prefix_only_in_bgp` | 10513 |
-| `prefix_only_in_geofeed` | 12681 |
+| `prefix_only_in_geofeed` | 12680 |
 | `ptr_missing` | 4125 |
 
 
