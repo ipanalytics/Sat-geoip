@@ -2800,7 +2800,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c8:5500::/40,mdrdesp1,,ptr_missing
 2605:59c8:5600::/40,lgosnga1,,ptr_missing
 2605:59c8:5700::/40,knsymox1,,ptr_missing
-2605:59c8:5800::/38,nrbiken1,,ptr_missing
 2605:59c8:5c00::/38,knsymox1,,ptr_missing
 2605:59c8:6000::/40,atlagax1,,ptr_missing
 2605:59c8:600::/40,sttlwax1,,ptr_missing
@@ -3707,8 +3706,6 @@ prefix,pop_code,ptr_pop_code,ptr_state
 9.170.85.0/24,clgycan1,,ptr_missing
 9.170.86.0/24,kmpauga1,,ptr_missing
 9.170.87.0/24,kmpauga1,,ptr_missing
-9.170.88.0/24,nrbiken1,,ptr_missing
-9.170.89.0/24,nrbiken1,,ptr_missing
 9.170.9.0/24,snjecax1,,ptr_missing
 9.170.90.0/24,nrbiken1,,ptr_missing
 9.170.91.0/24,nrbiken1,,ptr_missing

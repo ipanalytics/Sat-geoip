@@ -4088,6 +4088,9 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2406:2d40:1400::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1480::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1500::/41,,,,false,,false,14593,bgp_only
+2406:2d40:1580::/41,,,,false,,false,14593,bgp_only
+2406:2d40:1600::/41,,,,false,,false,14593,bgp_only
+2406:2d40:1680::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1700::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1780::/41,,,,false,,false,14593,bgp_only
 2406:2d40:1800::/38,AU,AU-NSW,Sydney,true,sydyaus1,true,14593,announced
@@ -11168,7 +11171,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c8:5500::/40,ML,ML-BKO,Bamako,true,mdrdesp1,true,14593,announced
 2605:59c8:5600::/40,BF,BF-03,Ouagadougou,true,lgosnga1,true,14593,announced
 2605:59c8:5700::/40,US,US-OK,Oklahoma City,true,knsymox1,true,14593,announced
-2605:59c8:5800::/38,DJ,DJ-DJ,Djibouti,true,nrbiken1,true,14593,announced
+2605:59c8:5800::/38,DJ,DJ-DJ,Djibouti,false,,true,14593,announced
 2605:59c8:5c00::/38,US,US-MO,Kansas City,true,knsymox1,true,14593,announced
 2605:59c8:6000::/40,US,US-GA,Atlanta,true,atlagax1,true,14593,announced
 2605:59c8:600::/40,CA,CA-AB,Calgary,true,sttlwax1,true,14593,announced
@@ -14937,8 +14940,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.170.86.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
 9.170.87.0/24,UG,UG-102,Kampala,true,kmpauga1,false,,planned_not_announced
 9.170.88.0/23,,,,false,,false,14593,bgp_only
-9.170.88.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
-9.170.89.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced
+9.170.88.0/24,DJ,DJ-DJ,Djibouti,false,,false,,planned_not_announced
+9.170.89.0/24,DJ,DJ-DJ,Djibouti,false,,false,,planned_not_announced
 9.170.9.0/24,US,US-CA,San Jose,true,snjecax1,false,,planned_not_announced
 9.170.90.0/23,,,,false,,false,14593,bgp_only
 9.170.90.0/24,DJ,DJ-DJ,Djibouti,true,nrbiken1,false,,planned_not_announced

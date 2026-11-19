@@ -2800,7 +2800,6 @@ prefix,pop_code,pop_iata,source
 2605:59c8:5500::/40,mdrdesp1,mad,starlink_pops_csv
 2605:59c8:5600::/40,lgosnga1,los,starlink_pops_csv
 2605:59c8:5700::/40,knsymox1,mci,starlink_pops_csv
-2605:59c8:5800::/38,nrbiken1,nbo,starlink_pops_csv
 2605:59c8:5c00::/38,knsymox1,mci,starlink_pops_csv
 2605:59c8:6000::/40,atlagax1,atl,starlink_pops_csv
 2605:59c8:600::/40,sttlwax1,sea,starlink_pops_csv
@@ -3707,8 +3706,6 @@ prefix,pop_code,pop_iata,source
 9.170.85.0/24,clgycan1,yyc,starlink_pops_csv
 9.170.86.0/24,kmpauga1,ebb,starlink_pops_csv
 9.170.87.0/24,kmpauga1,ebb,starlink_pops_csv
-9.170.88.0/24,nrbiken1,nbo,starlink_pops_csv
-9.170.89.0/24,nrbiken1,nbo,starlink_pops_csv
 9.170.9.0/24,snjecax1,sjc,starlink_pops_csv
 9.170.90.0/24,nrbiken1,nbo,starlink_pops_csv
 9.170.91.0/24,nrbiken1,nbo,starlink_pops_csv
