@@ -4,12 +4,12 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Metric | Count |
 |---|---:|
-| Prefixes | 24320 |
-| Announced prefixes | 11638 |
-| GeoFeed-only prefixes | 12682 |
-| BGP-only prefixes | 10498 |
-| Prefixes with PoP assignment | 4146 |
-| Active user claims | 11638 |
+| Prefixes | 24330 |
+| Announced prefixes | 11641 |
+| GeoFeed-only prefixes | 12689 |
+| BGP-only prefixes | 10497 |
+| Prefixes with PoP assignment | 4154 |
+| Active user claims | 11641 |
 | Ground station claims | 0 |
 
 ## Operators
@@ -56,14 +56,14 @@ Generated artifacts for the current sat-geoip dataset build.
 | `sky_perfect_jsat` | 6 |
 | `spacex_infrastructure` | 1 |
 | `speedcast` | 112 |
-| `starlink` | 15540 |
+| `starlink` | 15552 |
 | `swarm` | 1 |
 | `tampnet` | 6 |
 | `telesat` | 44 |
 | `telespazio` | 13 |
 | `thales_avionics` | 1 |
 | `thuraya` | 10 |
-| `turksat` | 986 |
+| `turksat` | 984 |
 | `usap` | 19 |
 | `viasat` | 5065 |
 | `yahsat` | 90 |
@@ -74,12 +74,12 @@ Generated artifacts for the current sat-geoip dataset build.
 | Name | Count |
 |---|---:|
 | `deep_space` | 15 |
-| `geo` | 2728 |
+| `geo` | 2726 |
 | `geo_mss` | 29 |
 | `geo_or_hybrid_satellite` | 5437 |
 | `geo_or_multi_orbit` | 94 |
 | `hybrid_satellite_offshore` | 6 |
-| `leo` | 15579 |
+| `leo` | 15591 |
 | `meo` | 21 |
 | `mixed_satellite` | 411 |
 
@@ -88,15 +88,15 @@ Generated artifacts for the current sat-geoip dataset build.
 
 | Name | Count |
 |---|---:|
-| `bgp_announced` | 11638 |
-| `bgp_not_announced` | 12682 |
+| `bgp_announced` | 11641 |
+| `bgp_not_announced` | 12689 |
 | `geoip_invalid_country_city_pair` | 88 |
-| `geoip_valid` | 13822 |
-| `origin_asn_expected` | 11638 |
-| `pop_missing` | 9676 |
-| `pop_present` | 4146 |
-| `prefix_only_in_bgp` | 10498 |
-| `prefix_only_in_geofeed` | 12682 |
-| `ptr_missing` | 4146 |
+| `geoip_valid` | 13833 |
+| `origin_asn_expected` | 11641 |
+| `pop_missing` | 9679 |
+| `pop_present` | 4154 |
+| `prefix_only_in_bgp` | 10497 |
+| `prefix_only_in_geofeed` | 12689 |
+| `ptr_missing` | 4154 |
 
 
