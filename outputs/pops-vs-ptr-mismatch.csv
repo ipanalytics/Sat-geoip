@@ -1479,6 +1479,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 153.67.203.0/24,snjecax1,,ptr_missing
 153.67.204.0/24,dllstxx1,,ptr_missing
 153.67.205.0/24,dllstxx1,,ptr_missing
+153.67.206.0/25,atlagax3,,ptr_missing
+153.67.206.128/25,atlagax3,,ptr_missing
 153.67.207.0/25,prtdorx3,,ptr_missing
 153.67.207.128/25,prtdorx3,,ptr_missing
 153.67.208.0/24,wrswpol1,,ptr_missing
@@ -2858,6 +2860,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c8:800::/40,sttlwax1,,ptr_missing
 2605:59c8:8100::/40,lgosnga1,,ptr_missing
 2605:59c8:8200::/40,prtdorx3,,ptr_missing
+2605:59c8:8300::/40,atlagax3,,ptr_missing
 2605:59c8:8400::/38,nrbiken1,,ptr_missing
 2605:59c8:900::/40,sttlwax1,,ptr_missing
 2605:59c8::/40,sttlwax1,,ptr_missing
@@ -3043,6 +3046,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2803:9810:7200::/40,frtabra1,,ptr_missing
 2803:9810:7400::/38,brsabra1,,ptr_missing
 2803:9810:7800::/38,splobra1,,ptr_missing
+2803:9810:7c00::/38,brsabra1,,ptr_missing
 2803:9810:8000::/38,bnssarg1,,ptr_missing
 2803:9810:800::/38,bgtacol1,,ptr_missing
 2803:9810:8400::/40,sntochl1,,ptr_missing
