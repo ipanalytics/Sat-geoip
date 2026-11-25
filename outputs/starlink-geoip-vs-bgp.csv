@@ -4485,7 +4485,7 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 2605:59c0:b500::/40,US,US-MS,Jackson,true,sttlwax1,true,14593,announced
 2605:59c0:b600::/40,JM,JM-01,Kingston,true,mmmiflx1,true,14593,announced
 2605:59c0:b700::/40,DO,DO-01,Santo Domingo,true,mmmiflx1,true,14593,announced
-2605:59c0:b800::/38,PR,,San Juan,false,,true,14593,announced
+2605:59c0:b800::/38,PR,,San Juan,true,snjnprx1,true,14593,announced
 2605:59c0:bc00::/40,HT,HT-OU,Port-au-Prince,true,mmmiflx1,true,14593,announced
 2605:59c0:bd00::/40,PR,,San Juan,true,mmmiflx1,true,14593,announced
 2605:59c0:be00::/40,MQ,,Fort-de-France,true,mmmiflx1,true,14593,announced
@@ -14706,8 +14706,8 @@ prefix,geoip_country,geoip_region,geoip_city,in_pops_csv,pop_code,bgp_announced,
 9.170.154.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
 9.170.155.0/24,GH,GH-AA,Accra,true,lgosnga1,false,,planned_not_announced
 9.170.156.0/23,,,,false,,false,14593,bgp_only
-9.170.156.0/24,PR,,San Juan,false,,false,,planned_not_announced
-9.170.157.0/24,PR,,San Juan,false,,false,,planned_not_announced
+9.170.156.0/24,PR,,San Juan,true,snjnprx1,false,,planned_not_announced
+9.170.157.0/24,PR,,San Juan,true,snjnprx1,false,,planned_not_announced
 9.170.158.0/23,,,,false,,false,14593,bgp_only
 9.170.158.0/24,PR,,San Juan,true,mmmiflx1,false,,planned_not_announced
 9.170.159.0/24,PR,,San Juan,true,mmmiflx1,false,,planned_not_announced

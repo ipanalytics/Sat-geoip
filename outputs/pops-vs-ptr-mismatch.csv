@@ -2720,6 +2720,7 @@ prefix,pop_code,ptr_pop_code,ptr_state
 2605:59c0:b500::/40,sttlwax1,,ptr_missing
 2605:59c0:b600::/40,mmmiflx1,,ptr_missing
 2605:59c0:b700::/40,mmmiflx1,,ptr_missing
+2605:59c0:b800::/38,snjnprx1,,ptr_missing
 2605:59c0:bc00::/40,mmmiflx1,,ptr_missing
 2605:59c0:bd00::/40,mmmiflx1,,ptr_missing
 2605:59c0:be00::/40,mmmiflx1,,ptr_missing
@@ -3581,6 +3582,8 @@ prefix,pop_code,ptr_pop_code,ptr_state
 9.170.153.0/24,chcoilx1,,ptr_missing
 9.170.154.0/24,lgosnga1,,ptr_missing
 9.170.155.0/24,lgosnga1,,ptr_missing
+9.170.156.0/24,snjnprx1,,ptr_missing
+9.170.157.0/24,snjnprx1,,ptr_missing
 9.170.158.0/24,mmmiflx1,,ptr_missing
 9.170.159.0/24,mmmiflx1,,ptr_missing
 9.170.16.0/24,chcoilx1,,ptr_missing
