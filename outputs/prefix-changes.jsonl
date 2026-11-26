@@ -1,11 +1,608 @@
-{"prefix":"2605:59c0:b800::/38","change_type":"changed","changed_at":"2026-11-25T12:52:37Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"announced","origin_asn":14593,"previous_origin_asn":14593,"pop_code":"snjnprx1","geoip_country":"PR","previous_geoip_country":"PR","geoip_city":"San Juan","previous_geoip_city":"San Juan"}
-{"prefix":"9.170.156.0/24","change_type":"changed","changed_at":"2026-11-25T12:52:37Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","pop_code":"snjnprx1","geoip_country":"PR","previous_geoip_country":"PR","geoip_city":"San Juan","previous_geoip_city":"San Juan"}
-{"prefix":"9.170.157.0/24","change_type":"changed","changed_at":"2026-11-25T12:52:37Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","pop_code":"snjnprx1","geoip_country":"PR","previous_geoip_country":"PR","geoip_city":"San Juan","previous_geoip_city":"San Juan"}
-{"prefix":"2a02:ba0:102f::/48","change_type":"new","changed_at":"2026-11-25T12:52:37Z","operator":"gilat_telecom","bgp_state":"bgp_only","origin_asn":12491}
-{"prefix":"81.199.21.0/24","change_type":"new","changed_at":"2026-11-25T12:52:37Z","operator":"gilat_telecom","bgp_state":"bgp_only","origin_asn":12491}
-{"prefix":"178.233.4.0/22","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"turksat","previous_operator":"turksat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":47524,"previous_origin_asn":47524}
-{"prefix":"185.155.196.0/24","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"viasat","previous_operator":"viasat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155}
-{"prefix":"85.199.196.0/24","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"viasat","previous_operator":"viasat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155}
-{"prefix":"85.199.197.0/24","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"viasat","previous_operator":"viasat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155}
-{"prefix":"85.199.198.0/24","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"viasat","previous_operator":"viasat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155}
-{"prefix":"85.199.199.0/24","change_type":"withdrawn","changed_at":"2026-11-25T12:52:37Z","operator":"viasat","previous_operator":"viasat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155}
+{"prefix":"179.238.11.0/24","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"bgtacol1","previous_pop_code":"bgtacol1","geoip_country":"CO","previous_geoip_country":"CO","geoip_region":"CO-DC","previous_geoip_region":"CO-DC","geoip_city":"Bogota","previous_geoip_city":"Bogota"}
+{"prefix":"2605:59c7:a000:19e::/64","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"EG","previous_geoip_country":"JO","geoip_region":"EG-C","previous_geoip_region":"JO-AM","geoip_city":"Cairo","previous_geoip_city":"Amman"}
+{"prefix":"2605:59c7:a000:1bc::/64","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"AF","previous_geoip_country":"TJ","geoip_region":"AF-KAB","previous_geoip_region":"TJ-DU","geoip_city":"Kabul","previous_geoip_city":"Dushanbe"}
+{"prefix":"2605:59c7:a000:2e5::/64","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"TR","previous_geoip_country":"AZ","geoip_region":"TR-34","previous_geoip_region":"AZ-BA","geoip_city":"Istanbul","previous_geoip_city":"Baku"}
+{"prefix":"2605:59c7:a000:331::/64","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"IR","previous_geoip_country":"TJ","geoip_region":"IR-23","previous_geoip_region":"TJ-DU","geoip_city":"Tehran","previous_geoip_city":"Dushanbe"}
+{"prefix":"69.195.172.18/31","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"EG","previous_geoip_country":"JO","geoip_region":"EG-C","previous_geoip_region":"JO-AM","geoip_city":"Cairo","previous_geoip_city":"Amman"}
+{"prefix":"69.195.172.20/31","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"EG","previous_geoip_country":"JO","geoip_region":"EG-C","previous_geoip_region":"JO-AM","geoip_city":"Cairo","previous_geoip_city":"Amman"}
+{"prefix":"69.195.172.230/31","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"AF","previous_geoip_country":"TJ","geoip_region":"AF-KAB","previous_geoip_region":"TJ-DU","geoip_city":"Kabul","previous_geoip_city":"Dushanbe"}
+{"prefix":"69.195.181.44/30","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"TR","previous_geoip_country":"AZ","geoip_region":"TR-34","previous_geoip_region":"AZ-BA","geoip_city":"Istanbul","previous_geoip_city":"Baku"}
+{"prefix":"69.195.181.48/29","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"TR","previous_geoip_country":"AZ","geoip_region":"TR-34","previous_geoip_region":"AZ-BA","geoip_city":"Istanbul","previous_geoip_city":"Baku"}
+{"prefix":"69.195.181.56/30","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"TR","previous_geoip_country":"AZ","geoip_region":"TR-34","previous_geoip_region":"AZ-BA","geoip_city":"Istanbul","previous_geoip_city":"Baku"}
+{"prefix":"69.195.181.60/31","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"TR","previous_geoip_country":"AZ","geoip_region":"TR-34","previous_geoip_region":"AZ-BA","geoip_city":"Istanbul","previous_geoip_city":"Baku"}
+{"prefix":"69.195.183.4/31","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"planned_not_announced","previous_bgp_state":"planned_not_announced","geoip_country":"IR","previous_geoip_country":"TJ","geoip_region":"IR-23","previous_geoip_region":"TJ-DU","geoip_city":"Tehran","previous_geoip_city":"Dushanbe"}
+{"prefix":"74.244.89.0/24","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"lgosnga1","previous_pop_code":"lgosnga1","geoip_country":"BF","previous_geoip_country":"BF","geoip_region":"BF-03","previous_geoip_region":"BF-03","geoip_city":"Ouagadougou","previous_geoip_city":"Ouagadougou"}
+{"prefix":"9.246.157.0/24","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","previous_operator":"starlink","bgp_state":"announced","previous_bgp_state":"planned_not_announced","origin_asn":14593,"pop_code":"sfiabgr1","previous_pop_code":"sfiabgr1","geoip_country":"BG","previous_geoip_country":"BG","geoip_region":"BG-22","previous_geoip_region":"BG-22","geoip_city":"Sofia","previous_geoip_city":"Sofia"}
+{"prefix":"99.196.200.0/24","change_type":"changed","changed_at":"2026-11-26T12:29:56Z","operator":"viasat","previous_operator":"viasat","bgp_state":"announced","previous_bgp_state":"bgp_only","origin_asn":7155,"previous_origin_asn":7155,"geoip_country":"AU","geoip_city":"Southbank"}
+{"prefix":"179.65.42.0/23","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"24.133.230.0/23","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"turksat","bgp_state":"bgp_only","origin_asn":47524}
+{"prefix":"2605:59c0:5057::/48","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"2605:59c0:5b00::/41","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"2605:59c7:a000:101::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Zhongli"}
+{"prefix":"2605:59c7:a000:1038::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Morand"}
+{"prefix":"2605:59c7:a000:103f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Brighton"}
+{"prefix":"2605:59c7:a000:1040::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"chelmsford"}
+{"prefix":"2605:59c7:a000:105::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AX","geoip_city":"Mariehamn"}
+{"prefix":"2605:59c7:a000:105b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Granada"}
+{"prefix":"2605:59c7:a000:1077::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Acapulco"}
+{"prefix":"2605:59c7:a000:107a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Bordeaux"}
+{"prefix":"2605:59c7:a000:1086::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB"}
+{"prefix":"2605:59c7:a000:1099::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Dammam"}
+{"prefix":"2605:59c7:a000:109::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JO","geoip_city":"As Samik"}
+{"prefix":"2605:59c7:a000:109f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Puebla"}
+{"prefix":"2605:59c7:a000:10ab::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Bristol"}
+{"prefix":"2605:59c7:a000:10ac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CL"}
+{"prefix":"2605:59c7:a000:10b5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KE"}
+{"prefix":"2605:59c7:a000:10b6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Birmingham"}
+{"prefix":"2605:59c7:a000:10c0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CH","geoip_city":"Basel"}
+{"prefix":"2605:59c7:a000:10d1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ZA","geoip_city":"Durban"}
+{"prefix":"2605:59c7:a000:10d6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Lucknow"}
+{"prefix":"2605:59c7:a000:10e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"YT","geoip_city":"Mamoudzou"}
+{"prefix":"2605:59c7:a000:10f5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Malaga"}
+{"prefix":"2605:59c7:a000:110::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NC","geoip_city":"Noumea"}
+{"prefix":"2605:59c7:a000:110d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Torino"}
+{"prefix":"2605:59c7:a000:1116::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BE"}
+{"prefix":"2605:59c7:a000:111::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Gharroli"}
+{"prefix":"2605:59c7:a000:1156::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Numbugga"}
+{"prefix":"2605:59c7:a000:1160::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Kinoulton"}
+{"prefix":"2605:59c7:a000:1164::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KW"}
+{"prefix":"2605:59c7:a000:117::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"2605:59c7:a000:1186::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Wuhan"}
+{"prefix":"2605:59c7:a000:11a3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GL","geoip_city":"Qaanaaq"}
+{"prefix":"2605:59c7:a000:11bb::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RU"}
+{"prefix":"2605:59c7:a000:11e3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Zamboanga"}
+{"prefix":"2605:59c7:a000:1204::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO"}
+{"prefix":"2605:59c7:a000:1218::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GH"}
+{"prefix":"2605:59c7:a000:123f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Newcastle"}
+{"prefix":"2605:59c7:a000:1254::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Dalian"}
+{"prefix":"2605:59c7:a000:125::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EE","geoip_city":"Jarveotsa"}
+{"prefix":"2605:59c7:a000:125e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ZA","geoip_city":"Pretoria"}
+{"prefix":"2605:59c7:a000:1278::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CU","geoip_city":"Havana"}
+{"prefix":"2605:59c7:a000:1291::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Derby"}
+{"prefix":"2605:59c7:a000:12b2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TR"}
+{"prefix":"2605:59c7:a000:12d1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES"}
+{"prefix":"2605:59c7:a000:12d5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Liverpool"}
+{"prefix":"2605:59c7:a000:12e9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CH","geoip_city":"Bern"}
+{"prefix":"2605:59c7:a000:12e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Taguig City"}
+{"prefix":"2605:59c7:a000:12f3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CH","geoip_city":"Lausanne"}
+{"prefix":"2605:59c7:a000:12f7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NI"}
+{"prefix":"2605:59c7:a000:1309::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CA"}
+{"prefix":"2605:59c7:a000:130d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO"}
+{"prefix":"2605:59c7:a000:1314::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Waitangi"}
+{"prefix":"2605:59c7:a000:131::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PF","geoip_city":"Papeete"}
+{"prefix":"2605:59c7:a000:131b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Montpellier"}
+{"prefix":"2605:59c7:a000:133d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Okinawa"}
+{"prefix":"2605:59c7:a000:1367::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NF","geoip_city":"Kingston"}
+{"prefix":"2605:59c7:a000:1368::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Mazatlan"}
+{"prefix":"2605:59c7:a000:1379::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ET"}
+{"prefix":"2605:59c7:a000:1381::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Alicante"}
+{"prefix":"2605:59c7:a000:13aa::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Kinoulton"}
+{"prefix":"2605:59c7:a000:13b3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Bangalore"}
+{"prefix":"2605:59c7:a000:13b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RE","geoip_city":"Saint-Denis"}
+{"prefix":"2605:59c7:a000:13c7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Cambridge"}
+{"prefix":"2605:59c7:a000:13d4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Bhubaneswar"}
+{"prefix":"2605:59c7:a000:13d8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Hiroshima"}
+{"prefix":"2605:59c7:a000:13d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VN","geoip_city":"Quang Ha"}
+{"prefix":"2605:59c7:a000:13e2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EC"}
+{"prefix":"2605:59c7:a000:13ef::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Hampshire"}
+{"prefix":"2605:59c7:a000:13f0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PE"}
+{"prefix":"2605:59c7:a000:140a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Essen"}
+{"prefix":"2605:59c7:a000:140c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Tijuana"}
+{"prefix":"2605:59c7:a000:1414::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GT"}
+{"prefix":"2605:59c7:a000:1423::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Wollongong"}
+{"prefix":"2605:59c7:a000:144::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KY","geoip_city":"George Town"}
+{"prefix":"2605:59c7:a000:145::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PE","geoip_city":"Santa Rosa"}
+{"prefix":"2605:59c7:a000:1460::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Shenyang"}
+{"prefix":"2605:59c7:a000:1475::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP"}
+{"prefix":"2605:59c7:a000:1483::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IL","geoip_city":"Tel Aviv"}
+{"prefix":"2605:59c7:a000:1491::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Cardiff"}
+{"prefix":"2605:59c7:a000:149f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Mulegé"}
+{"prefix":"2605:59c7:a000:14f2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Sapporo"}
+{"prefix":"2605:59c7:a000:14f3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Nottingham"}
+{"prefix":"2605:59c7:a000:14f4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Sardinia"}
+{"prefix":"2605:59c7:a000:150f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Chengdu"}
+{"prefix":"2605:59c7:a000:1548::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Urumqi"}
+{"prefix":"2605:59c7:a000:154f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR","geoip_city":"Rio De Janeiro"}
+{"prefix":"2605:59c7:a000:1556::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ZA"}
+{"prefix":"2605:59c7:a000:156d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Gold Coast"}
+{"prefix":"2605:59c7:a000:158a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Chongqing"}
+{"prefix":"2605:59c7:a000:159b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO"}
+{"prefix":"2605:59c7:a000:15a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA","geoip_city":"Vinnytsia"}
+{"prefix":"2605:59c7:a000:15b5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE"}
+{"prefix":"2605:59c7:a000:160::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JE","geoip_city":"Saint Helier"}
+{"prefix":"2605:59c7:a000:160d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Newcastle"}
+{"prefix":"2605:59c7:a000:163::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AZ","geoip_city":"Lankaran"}
+{"prefix":"2605:59c7:a000:163b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR","geoip_city":"Recife"}
+{"prefix":"2605:59c7:a000:1641::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Puerto Vallarta"}
+{"prefix":"2605:59c7:a000:1642::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN"}
+{"prefix":"2605:59c7:a000:1669::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RU","geoip_city":"Osipovka"}
+{"prefix":"2605:59c7:a000:167::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Qaryat ad Duhnah"}
+{"prefix":"2605:59c7:a000:1687::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Davao City"}
+{"prefix":"2605:59c7:a000:16a9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Monterrey"}
+{"prefix":"2605:59c7:a000:16ea::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Bilbao"}
+{"prefix":"2605:59c7:a000:170b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Stuttgart"}
+{"prefix":"2605:59c7:a000:1714::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR","geoip_city":"Curitiba"}
+{"prefix":"2605:59c7:a000:171b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Heidelberg"}
+{"prefix":"2605:59c7:a000:1721::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VA","geoip_city":"Vatican City"}
+{"prefix":"2605:59c7:a000:1728::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Marseille"}
+{"prefix":"2605:59c7:a000:174e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Hannover"}
+{"prefix":"2605:59c7:a000:1768::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Venice"}
+{"prefix":"2605:59c7:a000:1786::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Oxford"}
+{"prefix":"2605:59c7:a000:178f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Florence"}
+{"prefix":"2605:59c7:a000:1796::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Hermosillo"}
+{"prefix":"2605:59c7:a000:17a3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Grenoble"}
+{"prefix":"2605:59c7:a000:17ac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VI"}
+{"prefix":"2605:59c7:a000:17b7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ"}
+{"prefix":"2605:59c7:a000:17e5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM","geoip_city":"Meiktila"}
+{"prefix":"2605:59c7:a000:17f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AZ","geoip_city":"Buzovna"}
+{"prefix":"2605:59c7:a000:180b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Sudzal"}
+{"prefix":"2605:59c7:a000:180e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Dresden"}
+{"prefix":"2605:59c7:a000:1810::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Manchester"}
+{"prefix":"2605:59c7:a000:184c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Coventry"}
+{"prefix":"2605:59c7:a000:184f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CH","geoip_city":"Geneva"}
+{"prefix":"2605:59c7:a000:186b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GL","geoip_city":"Danmarkshavn"}
+{"prefix":"2605:59c7:a000:1899::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Beijing"}
+{"prefix":"2605:59c7:a000:18a0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Valorbiquet"}
+{"prefix":"2605:59c7:a000:18b7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ZA","geoip_city":"Cape Town"}
+{"prefix":"2605:59c7:a000:18d1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PF","geoip_city":"Rikitea"}
+{"prefix":"2605:59c7:a000:18e2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"2605:59c7:a000:18e4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Fukuoka"}
+{"prefix":"2605:59c7:a000:18f0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PA"}
+{"prefix":"2605:59c7:a000:1917::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Munich"}
+{"prefix":"2605:59c7:a000:1920::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Lyon"}
+{"prefix":"2605:59c7:a000:1949::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID"}
+{"prefix":"2605:59c7:a000:194e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL"}
+{"prefix":"2605:59c7:a000:1961::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL"}
+{"prefix":"2605:59c7:a000:1962::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Nuremberg"}
+{"prefix":"2605:59c7:a000:1966::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Sevilla"}
+{"prefix":"2605:59c7:a000:1968::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Kaiserslautern"}
+{"prefix":"2605:59c7:a000:198d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Pune"}
+{"prefix":"2605:59c7:a000:199::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TK","geoip_city":"Fakaofu Village"}
+{"prefix":"2605:59c7:a000:19ac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MA"}
+{"prefix":"2605:59c7:a000:19e1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"US"}
+{"prefix":"2605:59c7:a000:19f8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Iloilo"}
+{"prefix":"2605:59c7:a000:19f9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Dusseldorf"}
+{"prefix":"2605:59c7:a000:1a10::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Hamburg"}
+{"prefix":"2605:59c7:a000:1a29::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TR"}
+{"prefix":"2605:59c7:a000:1a5a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Dunedin"}
+{"prefix":"2605:59c7:a000:1a5c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Veracruz"}
+{"prefix":"2605:59c7:a000:1a8d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AT"}
+{"prefix":"2605:59c7:a000:1a9e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Leipzig"}
+{"prefix":"2605:59c7:a000:1a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KZ","geoip_city":"Malaya Timofeyevka"}
+{"prefix":"2605:59c7:a000:1aad::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NL"}
+{"prefix":"2605:59c7:a000:1ab::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cebu City"}
+{"prefix":"2605:59c7:a000:1ac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BD","geoip_city":"Patrun"}
+{"prefix":"2605:59c7:a000:1af::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VI","geoip_city":"Saint Thomas"}
+{"prefix":"2605:59c7:a000:1b6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"OM","geoip_city":"As Sib"}
+{"prefix":"2605:59c7:a000:1bf::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TH","geoip_city":"Ban Bang Kaeo"}
+{"prefix":"2605:59c7:a000:1d0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Lord Howe Island"}
+{"prefix":"2605:59c7:a000:1fd::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MN","geoip_city":"Khovd"}
+{"prefix":"2605:59c7:a000:1fe::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO","geoip_city":"El Esfuerzo"}
+{"prefix":"2605:59c7:a000:207::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Brest"}
+{"prefix":"2605:59c7:a000:208::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FO","geoip_city":"Torshavn"}
+{"prefix":"2605:59c7:a000:20c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LR","geoip_city":"Harbelville"}
+{"prefix":"2605:59c7:a000:216::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Wellington"}
+{"prefix":"2605:59c7:a000:22d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Qaryat Ash Shabakah"}
+{"prefix":"2605:59c7:a000:231::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PM","geoip_city":"Miquelon"}
+{"prefix":"2605:59c7:a000:233::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Badaganhatti"}
+{"prefix":"2605:59c7:a000:234::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GU","geoip_city":"Hagatna"}
+{"prefix":"2605:59c7:a000:23e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GG","geoip_city":"Saint Peter Port"}
+{"prefix":"2605:59c7:a000:23f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Cawnpore"}
+{"prefix":"2605:59c7:a000:240::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Lido di Mondello"}
+{"prefix":"2605:59c7:a000:246::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CW","geoip_city":"Willemstad"}
+{"prefix":"2605:59c7:a000:24c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NP","geoip_city":"Pokhara"}
+{"prefix":"2605:59c7:a000:24f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"2605:59c7:a000:260::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AI","geoip_city":"The Valley"}
+{"prefix":"2605:59c7:a000:261::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Jessheim"}
+{"prefix":"2605:59c7:a000:267::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID","geoip_city":"Kampungutan"}
+{"prefix":"2605:59c7:a000:26e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA","geoip_city":"Kukhmisterskaya Sloboda"}
+{"prefix":"2605:59c7:a000:270::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GP","geoip_city":"Pointe-a-Pitre"}
+{"prefix":"2605:59c7:a000:27d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NU","geoip_city":"Alofi"}
+{"prefix":"2605:59c7:a000:28a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BL","geoip_city":"Gustavia"}
+{"prefix":"2605:59c7:a000:28e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"La Golondrina"}
+{"prefix":"2605:59c7:a000:292::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Okubo-naka"}
+{"prefix":"2605:59c7:a000:2a2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Kladno"}
+{"prefix":"2605:59c7:a000:2a5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KE","geoip_city":"Kingongo"}
+{"prefix":"2605:59c7:a000:2a7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AS","geoip_city":"Pago Pago"}
+{"prefix":"2605:59c7:a000:2ad::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TZ","geoip_city":"Mtoni"}
+{"prefix":"2605:59c7:a000:2af::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Medina"}
+{"prefix":"2605:59c7:a000:2b0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Rennes"}
+{"prefix":"2605:59c7:a000:2b7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Manukau City"}
+{"prefix":"2605:59c7:a000:2c4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MN","geoip_city":"Shara-Hobiin-Dugang"}
+{"prefix":"2605:59c7:a000:2d5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"As Sulaymaniyah"}
+{"prefix":"2605:59c7:a000:2dc::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BM","geoip_city":"Hamilton"}
+{"prefix":"2605:59c7:a000:2df::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MF","geoip_city":"Marigot"}
+{"prefix":"2605:59c7:a000:2e6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AQ","geoip_city":"McMurdo"}
+{"prefix":"2605:59c7:a000:2fd::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Biyut Sa`id `Abbud"}
+{"prefix":"2605:59c7:a000:304::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Kampung Jaya Sepakat"}
+{"prefix":"2605:59c7:a000:30b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"Bayamon"}
+{"prefix":"2605:59c7:a000:319::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MS","geoip_city":"Plymouth"}
+{"prefix":"2605:59c7:a000:31b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Kampung Buntal"}
+{"prefix":"2605:59c7:a000:31c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SM","geoip_city":"San Marino"}
+{"prefix":"2605:59c7:a000:328::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IM","geoip_city":"Douglas"}
+{"prefix":"2605:59c7:a000:32f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FK","geoip_city":"Stanley"}
+{"prefix":"2605:59c7:a000:333::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Kaohsiung"}
+{"prefix":"2605:59c7:a000:334::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PG","geoip_city":"Arawa"}
+{"prefix":"2605:59c7:a000:338::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BH","geoip_city":"Halat an Na`im"}
+{"prefix":"2605:59c7:a000:348::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HK","geoip_city":"Hong Kong"}
+{"prefix":"2605:59c7:a000:350::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KE","geoip_city":"Mto Panga"}
+{"prefix":"2605:59c7:a000:354::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KR","geoip_city":"Pak-ch'on"}
+{"prefix":"2605:59c7:a000:371::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BD","geoip_city":"Dhangar Char"}
+{"prefix":"2605:59c7:a000:378::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Marseille"}
+{"prefix":"2605:59c7:a000:37a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PW","geoip_city":"Koror"}
+{"prefix":"2605:59c7:a000:37d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Brno"}
+{"prefix":"2605:59c7:a000:37e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GI","geoip_city":"Gibraltar"}
+{"prefix":"2605:59c7:a000:389::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LB","geoip_city":"Tahouitet el Ghadir"}
+{"prefix":"2605:59c7:a000:396::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KW","geoip_city":"Al Bida`"}
+{"prefix":"2605:59c7:a000:39d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Dammam"}
+{"prefix":"2605:59c7:a000:3a9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RS","geoip_city":"Rucka"}
+{"prefix":"2605:59c7:a000:3ac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RS","geoip_city":"Novi Sad"}
+{"prefix":"2605:59c7:a000:3b0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Chamartin"}
+{"prefix":"2605:59c7:a000:3b3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CK","geoip_city":"Avarua"}
+{"prefix":"2605:59c7:a000:3cb::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LK","geoip_city":"Mahaweediya"}
+{"prefix":"2605:59c7:a000:3ce::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HN","geoip_city":"America"}
+{"prefix":"2605:59c7:a000:3d4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Ondipudur"}
+{"prefix":"2605:59c7:a000:3de::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Impaya-ao"}
+{"prefix":"2605:59c7:a000:3e2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM","geoip_city":"Mandalay"}
+{"prefix":"2605:59c7:a000:3e5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"Moca"}
+{"prefix":"2605:59c7:a000:3ed::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Angeles City"}
+{"prefix":"2605:59c7:a000:402::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Bernal"}
+{"prefix":"2605:59c7:a000:404::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SX","geoip_city":"Philipsburg"}
+{"prefix":"2605:59c7:a000:40c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GT","geoip_city":"Colonia Los Eucaliptos Uno"}
+{"prefix":"2605:59c7:a000:41d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TZ","geoip_city":"Dar es Salaam"}
+{"prefix":"2605:59c7:a000:41e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GF","geoip_city":"Cayenne"}
+{"prefix":"2605:59c7:a000:425::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EC","geoip_city":"Oyacoto"}
+{"prefix":"2605:59c7:a000:433::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CI","geoip_city":"Ndakonankro"}
+{"prefix":"2605:59c7:a000:44::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID","geoip_city":"Ponggalan"}
+{"prefix":"2605:59c7:a000:44b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM","geoip_city":"Tadagyi"}
+{"prefix":"2605:59c7:a000:463::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MP","geoip_city":"Saipan"}
+{"prefix":"2605:59c7:a000:475::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CA","geoip_city":"Bells Corners"}
+{"prefix":"2605:59c7:a000:4c0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Edinburgh"}
+{"prefix":"2605:59c7:a000:4c6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PK"}
+{"prefix":"2605:59c7:a000:4f0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Belfast"}
+{"prefix":"2605:59c7:a000:502::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_region":"IN-WB","geoip_city":"Kolkata"}
+{"prefix":"2605:59c7:a000:505::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Osaka"}
+{"prefix":"2605:59c7:a000:518::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA"}
+{"prefix":"2605:59c7:a000:51e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"US","geoip_region":"US-LA","geoip_city":"Central"}
+{"prefix":"2605:59c7:a000:545::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Sendai"}
+{"prefix":"2605:59c7:a000:55c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PT","geoip_city":"Porto"}
+{"prefix":"2605:59c7:a000:561::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cagayan De Oro"}
+{"prefix":"2605:59c7:a000:570::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Cairns"}
+{"prefix":"2605:59c7:a000:5b7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Ciudad Juarez"}
+{"prefix":"2605:59c7:a000:5cb::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR","geoip_city":"Salvador"}
+{"prefix":"2605:59c7:a000:5e3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"torpoint"}
+{"prefix":"2605:59c7:a000:5e8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"2605:59c7:a000:608::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Guadalajara"}
+{"prefix":"2605:59c7:a000:619::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Hangzhou"}
+{"prefix":"2605:59c7:a000:62d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Guinobatan"}
+{"prefix":"2605:59c7:a000:63::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IO","geoip_city":"Diego Garcia"}
+{"prefix":"2605:59c7:a000:64::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SR","geoip_city":"De Drie Gebroeders"}
+{"prefix":"2605:59c7:a000:660::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LB"}
+{"prefix":"2605:59c7:a000:675::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IR","geoip_city":"Mashhad"}
+{"prefix":"2605:59c7:a000:68d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Genoa"}
+{"prefix":"2605:59c7:a000:690::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DK"}
+{"prefix":"2605:59c7:a000:694::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU"}
+{"prefix":"2605:59c7:a000:6a9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SG"}
+{"prefix":"2605:59c7:a000:6d8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Dundee"}
+{"prefix":"2605:59c7:a000:6d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"2605:59c7:a000:6f8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cebu"}
+{"prefix":"2605:59c7:a000:6f9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Leeds"}
+{"prefix":"2605:59c7:a000:6f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EG","geoip_city":"Nazlat Tall al Hisn"}
+{"prefix":"2605:59c7:a000:70a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CA","geoip_region":"CA-AB","geoip_city":"Peace River"}
+{"prefix":"2605:59c7:a000:71::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Gadapur"}
+{"prefix":"2605:59c7:a000:72c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ"}
+{"prefix":"2605:59c7:a000:73::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PK","geoip_city":"Goth Sahibdad"}
+{"prefix":"2605:59c7:a000:743::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Brittany"}
+{"prefix":"2605:59c7:a000:748::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IR"}
+{"prefix":"2605:59c7:a000:76d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SV"}
+{"prefix":"2605:59c7:a000:789::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AE"}
+{"prefix":"2605:59c7:a000:79d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH"}
+{"prefix":"2605:59c7:a000:7a4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BO"}
+{"prefix":"2605:59c7:a000:7ab::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RU","geoip_city":"Moscow"}
+{"prefix":"2605:59c7:a000:7b3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RU","geoip_city":"Saint Petersburg"}
+{"prefix":"2605:59c7:a000:7ba::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Strasbourg"}
+{"prefix":"2605:59c7:a000:7d6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Nanjing"}
+{"prefix":"2605:59c7:a000:7f0::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HK","geoip_city":"Hong kong"}
+{"prefix":"2605:59c7:a000:7ff::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GR"}
+{"prefix":"2605:59c7:a000:811::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RU","geoip_city":"St Petersburg"}
+{"prefix":"2605:59c7:a000:81a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VE","geoip_city":"Piedras Negras"}
+{"prefix":"2605:59c7:a000:82f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Wellington"}
+{"prefix":"2605:59c7:a000:83a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Jaipur"}
+{"prefix":"2605:59c7:a000:83f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Nice"}
+{"prefix":"2605:59c7:a000:859::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Hampshire"}
+{"prefix":"2605:59c7:a000:85a::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM"}
+{"prefix":"2605:59c7:a000:869::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Zhangjiamo"}
+{"prefix":"2605:59c7:a000:881::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RO"}
+{"prefix":"2605:59c7:a000:8b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO","geoip_city":"La Elvira"}
+{"prefix":"2605:59c7:a000:8e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Bergen"}
+{"prefix":"2605:59c7:a000:927::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Sencelles"}
+{"prefix":"2605:59c7:a000:938::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Oaxaca"}
+{"prefix":"2605:59c7:a000:947::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Guangzhou"}
+{"prefix":"2605:59c7:a000:948::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Cologne"}
+{"prefix":"2605:59c7:a000:96::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PA","geoip_city":"Pacora"}
+{"prefix":"2605:59c7:a000:96e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CR"}
+{"prefix":"2605:59c7:a000:9d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NC","geoip_city":"Tamoa"}
+{"prefix":"2605:59c7:a000:a09::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Kent"}
+{"prefix":"2605:59c7:a000:a1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AW","geoip_city":"Oranjestad"}
+{"prefix":"2605:59c7:a000:a5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Riyadh"}
+{"prefix":"2605:59c7:a000:a62::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Ahmedabad"}
+{"prefix":"2605:59c7:a000:a89::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Frankfurt"}
+{"prefix":"2605:59c7:a000:aab::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO"}
+{"prefix":"2605:59c7:a000:aae::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IL"}
+{"prefix":"2605:59c7:a000:ab5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Shenzhen"}
+{"prefix":"2605:59c7:a000:ace::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GU"}
+{"prefix":"2605:59c7:a000:ae::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"San Juan"}
+{"prefix":"2605:59c7:a000:b0b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"San Juan de la Rambla"}
+{"prefix":"2605:59c7:a000:b1d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VN"}
+{"prefix":"2605:59c7:a000:b25::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PS","geoip_city":"Hebron"}
+{"prefix":"2605:59c7:a000:b2b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR"}
+{"prefix":"2605:59c7:a000:b38::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID"}
+{"prefix":"2605:59c7:a000:b4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TC","geoip_city":"Grand Turk"}
+{"prefix":"2605:59c7:a000:b5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MK","geoip_city":"Ilinden"}
+{"prefix":"2605:59c7:a000:b74::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Aberdeen"}
+{"prefix":"2605:59c7:a000:b9b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Glasgow"}
+{"prefix":"2605:59c7:a000:b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MQ","geoip_city":"Fort-de-France"}
+{"prefix":"2605:59c7:a000:ba5::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR"}
+{"prefix":"2605:59c7:a000:bb::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TN","geoip_city":"Ariana"}
+{"prefix":"2605:59c7:a000:bbc::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SE"}
+{"prefix":"2605:59c7:a000:bbe::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Pampanga"}
+{"prefix":"2605:59c7:a000:bc7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LU"}
+{"prefix":"2605:59c7:a000:bc::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VG","geoip_city":"East End"}
+{"prefix":"2605:59c7:a000:c01::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Napoli"}
+{"prefix":"2605:59c7:a000:c0d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PF","geoip_city":"Taiohae"}
+{"prefix":"2605:59c7:a000:c3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Istres"}
+{"prefix":"2605:59c7:a000:c4d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PT","geoip_city":"Faro"}
+{"prefix":"2605:59c7:a000:c56::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Bronte Park"}
+{"prefix":"2605:59c7:a000:c75::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CA","geoip_region":"CA-BC","geoip_city":"Comox"}
+{"prefix":"2605:59c7:a000:c83::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Adelaide"}
+{"prefix":"2605:59c7:a000:c93::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KI","geoip_city":"Kiritimati"}
+{"prefix":"2605:59c7:a000:c99::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GL","geoip_city":"Ittoqqortoormiit"}
+{"prefix":"2605:59c7:a000:ca9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Chandigarh"}
+{"prefix":"2605:59c7:a000:cac::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Perugia"}
+{"prefix":"2605:59c7:a000:cb4::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Lille"}
+{"prefix":"2605:59c7:a000:cc3::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Shanghai"}
+{"prefix":"2605:59c7:a000:ccb::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IL","geoip_city":"Haifa"}
+{"prefix":"2605:59c7:a000:cd6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EG"}
+{"prefix":"2605:59c7:a000:cdf::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Surat"}
+{"prefix":"2605:59c7:a000:cec::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Canberra"}
+{"prefix":"2605:59c7:a000:cf1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IS"}
+{"prefix":"2605:59c7:a000:d1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Butterworth"}
+{"prefix":"2605:59c7:a000:d1b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Valencia"}
+{"prefix":"2605:59c7:a000:d36::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Sheffield"}
+{"prefix":"2605:59c7:a000:d49::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_region":"IN-TN","geoip_city":"Chennai"}
+{"prefix":"2605:59c7:a000:d62::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GR"}
+{"prefix":"2605:59c7:a000:d65::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ"}
+{"prefix":"2605:59c7:a000:dc7::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Sicilia"}
+{"prefix":"2605:59c7:a000:df6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BR","geoip_city":"Belo Horizonte"}
+{"prefix":"2605:59c7:a000:e05::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IE"}
+{"prefix":"2605:59c7:a000:e0c::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Bristol"}
+{"prefix":"2605:59c7:a000:e17::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Nagoya"}
+{"prefix":"2605:59c7:a000:e1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Nice"}
+{"prefix":"2605:59c7:a000:e28::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Cadiz"}
+{"prefix":"2605:59c7:a000:e43::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Chalakudy"}
+{"prefix":"2605:59c7:a000:e4d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CN","geoip_city":"Xi'an"}
+{"prefix":"2605:59c7:a000:e6f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AR"}
+{"prefix":"2605:59c7:a000:e77::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MO","geoip_city":"Macau"}
+{"prefix":"2605:59c7:a000:e7f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Bologna"}
+{"prefix":"2605:59c7:a000:e8b::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Cambridge"}
+{"prefix":"2605:59c7:a000:e91::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Toulouse"}
+{"prefix":"2605:59c7:a000:e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Sha`ib al Malqah"}
+{"prefix":"2605:59c7:a000:ea1::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR"}
+{"prefix":"2605:59c7:a000:eb9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KI","geoip_city":"Canton Island"}
+{"prefix":"2605:59c7:a000:ec8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Chihuahua"}
+{"prefix":"2605:59c7:a000:ed8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BG"}
+{"prefix":"2605:59c7:a000:ee8::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PS"}
+{"prefix":"2605:59c7:a000:efe::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Bacolod"}
+{"prefix":"2605:59c7:a000:f1d::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DE","geoip_city":"Bremen"}
+{"prefix":"2605:59c7:a000:f35::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Hyderabad"}
+{"prefix":"2605:59c7:a000:f59::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VE"}
+{"prefix":"2605:59c7:a000:f6e::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HU"}
+{"prefix":"2605:59c7:a000:f6f::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PT"}
+{"prefix":"2605:59c7:a000:f97::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Indore"}
+{"prefix":"2605:59c7:a000:fc6::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HR"}
+{"prefix":"2605:59c7:a000:fca::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CH"}
+{"prefix":"2605:59c7:a000:fe2::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Guanajuato"}
+{"prefix":"2605:59c7:a000:fe9::/64","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GB","geoip_city":"Bath"}
+{"prefix":"2605:59c7:f815::/48","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"2a0d:3341:e480::/41","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"2a0d:3344:6b80::/41","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"69.195.160.104/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MQ","geoip_city":"Fort-de-France"}
+{"prefix":"69.195.160.112/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Sha`ib al Malqah"}
+{"prefix":"69.195.160.188/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KZ","geoip_city":"Malaya Timofeyevka"}
+{"prefix":"69.195.162.242/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IO","geoip_city":"Diego Garcia"}
+{"prefix":"69.195.162.244/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SR","geoip_city":"De Drie Gebroeders"}
+{"prefix":"69.195.162.6/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID","geoip_city":"Ponggalan"}
+{"prefix":"69.195.162.8/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID","geoip_city":"Ponggalan"}
+{"prefix":"69.195.163.58/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"69.195.163.62/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EG","geoip_city":"Nazlat Tall al Hisn"}
+{"prefix":"69.195.163.64/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EG","geoip_city":"Nazlat Tall al Hisn"}
+{"prefix":"69.195.163.68/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EG","geoip_city":"Nazlat Tall al Hisn"}
+{"prefix":"69.195.163.72/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Gadapur"}
+{"prefix":"69.195.163.82/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PK","geoip_city":"Goth Sahibdad"}
+{"prefix":"69.195.164.130/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PA","geoip_city":"Pacora"}
+{"prefix":"69.195.164.196/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NC","geoip_city":"Tamoa"}
+{"prefix":"69.195.164.212/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AW","geoip_city":"Oranjestad"}
+{"prefix":"69.195.164.234/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Riyadh"}
+{"prefix":"69.195.164.236/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Riyadh"}
+{"prefix":"69.195.164.34/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO","geoip_city":"La Elvira"}
+{"prefix":"69.195.164.50/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Bergen"}
+{"prefix":"69.195.164.52/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Bergen"}
+{"prefix":"69.195.164.56/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Bergen"}
+{"prefix":"69.195.164.64/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Bergen"}
+{"prefix":"69.195.165.132/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TC","geoip_city":"Grand Turk"}
+{"prefix":"69.195.165.134/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MK","geoip_city":"Ilinden"}
+{"prefix":"69.195.165.206/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TN","geoip_city":"Ariana"}
+{"prefix":"69.195.165.208/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TN","geoip_city":"Ariana"}
+{"prefix":"69.195.165.210/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VG","geoip_city":"East End"}
+{"prefix":"69.195.165.70/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"San Juan"}
+{"prefix":"69.195.165.72/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"San Juan"}
+{"prefix":"69.195.166.102/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Butterworth"}
+{"prefix":"69.195.166.104/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Butterworth"}
+{"prefix":"69.195.166.226/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Nice"}
+{"prefix":"69.195.166.228/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Nice"}
+{"prefix":"69.195.166.232/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Nice"}
+{"prefix":"69.195.166.4/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Istres"}
+{"prefix":"69.195.166.8/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Istres"}
+{"prefix":"69.195.167.190/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Zhongli"}
+{"prefix":"69.195.167.192/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Zhongli"}
+{"prefix":"69.195.167.214/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AX","geoip_city":"Mariehamn"}
+{"prefix":"69.195.167.236/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JO","geoip_city":"As Samik"}
+{"prefix":"69.195.168.18/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NC","geoip_city":"Noumea"}
+{"prefix":"69.195.168.20/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Gharroli"}
+{"prefix":"69.195.168.212/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EE","geoip_city":"Jarveotsa"}
+{"prefix":"69.195.168.4/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"YT","geoip_city":"Mamoudzou"}
+{"prefix":"69.195.168.68/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Jeddah"}
+{"prefix":"69.195.169.118/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RE","geoip_city":"Saint-Denis"}
+{"prefix":"69.195.169.120/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RE","geoip_city":"Saint-Denis"}
+{"prefix":"69.195.169.124/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VN","geoip_city":"Quang Ha"}
+{"prefix":"69.195.169.128/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VN","geoip_city":"Quang Ha"}
+{"prefix":"69.195.169.150/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KY","geoip_city":"George Town"}
+{"prefix":"69.195.169.152/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PE","geoip_city":"Santa Rosa"}
+{"prefix":"69.195.169.22/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Taguig City"}
+{"prefix":"69.195.169.24/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Taguig City"}
+{"prefix":"69.195.169.32/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Taguig City"}
+{"prefix":"69.195.169.62/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PF","geoip_city":"Papeete"}
+{"prefix":"69.195.169.64/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PF","geoip_city":"Papeete"}
+{"prefix":"69.195.170.20/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA","geoip_city":"Vinnytsia"}
+{"prefix":"69.195.170.24/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA","geoip_city":"Vinnytsia"}
+{"prefix":"69.195.170.44/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JE","geoip_city":"Saint Helier"}
+{"prefix":"69.195.170.60/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AZ","geoip_city":"Lankaran"}
+{"prefix":"69.195.170.90/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Qaryat ad Duhnah"}
+{"prefix":"69.195.171.242/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TK","geoip_city":"Fakaofu Village"}
+{"prefix":"69.195.171.48/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AZ","geoip_city":"Buzovna"}
+{"prefix":"69.195.172.124/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cebu City"}
+{"prefix":"69.195.172.128/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cebu City"}
+{"prefix":"69.195.172.132/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Cebu City"}
+{"prefix":"69.195.172.134/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BD","geoip_city":"Patrun"}
+{"prefix":"69.195.172.136/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BD","geoip_city":"Patrun"}
+{"prefix":"69.195.172.168/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"VI","geoip_city":"Saint Thomas"}
+{"prefix":"69.195.172.202/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"OM","geoip_city":"As Sib"}
+{"prefix":"69.195.172.204/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"OM","geoip_city":"As Sib"}
+{"prefix":"69.195.172.248/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TH","geoip_city":"Ban Bang Kaeo"}
+{"prefix":"69.195.173.0/28","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TH","geoip_city":"Ban Bang Kaeo"}
+{"prefix":"69.195.173.128/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AU","geoip_city":"Lord Howe Island"}
+{"prefix":"69.195.173.16/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TH","geoip_city":"Ban Bang Kaeo"}
+{"prefix":"69.195.174.210/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MN","geoip_city":"Khovd"}
+{"prefix":"69.195.174.212/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CO","geoip_city":"El Esfuerzo"}
+{"prefix":"69.195.175.120/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Wellington"}
+{"prefix":"69.195.175.24/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Brest"}
+{"prefix":"69.195.175.32/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FO","geoip_city":"Torshavn"}
+{"prefix":"69.195.175.62/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LR","geoip_city":"Harbelville"}
+{"prefix":"69.195.176.148/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GG","geoip_city":"Saint Peter Port"}
+{"prefix":"69.195.176.150/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Cawnpore"}
+{"prefix":"69.195.176.152/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IT","geoip_city":"Lido di Mondello"}
+{"prefix":"69.195.176.206/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CW","geoip_city":"Willemstad"}
+{"prefix":"69.195.176.232/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NP","geoip_city":"Pokhara"}
+{"prefix":"69.195.176.64/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Qaryat Ash Shabakah"}
+{"prefix":"69.195.176.78/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PM","geoip_city":"Miquelon"}
+{"prefix":"69.195.176.82/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Badaganhatti"}
+{"prefix":"69.195.176.84/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GU","geoip_city":"Hagatna"}
+{"prefix":"69.195.177.10/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"69.195.177.12/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"69.195.177.156/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AI","geoip_city":"The Valley"}
+{"prefix":"69.195.177.158/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Jessheim"}
+{"prefix":"69.195.177.16/28","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"69.195.177.160/28","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Jessheim"}
+{"prefix":"69.195.177.176/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NO","geoip_city":"Jessheim"}
+{"prefix":"69.195.177.210/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ID","geoip_city":"Kampungutan"}
+{"prefix":"69.195.177.32/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"69.195.177.40/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PL","geoip_city":"Pruszkow"}
+{"prefix":"69.195.178.0/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"UA","geoip_city":"Kukhmisterskaya Sloboda"}
+{"prefix":"69.195.178.136/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NU","geoip_city":"Alofi"}
+{"prefix":"69.195.178.14/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GP","geoip_city":"Pointe-a-Pitre"}
+{"prefix":"69.195.178.16/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GP","geoip_city":"Pointe-a-Pitre"}
+{"prefix":"69.195.178.212/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BL","geoip_city":"Gustavia"}
+{"prefix":"69.195.178.234/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"La Golondrina"}
+{"prefix":"69.195.178.236/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"La Golondrina"}
+{"prefix":"69.195.179.138/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Kladno"}
+{"prefix":"69.195.179.14/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Okubo-naka"}
+{"prefix":"69.195.179.140/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Kladno"}
+{"prefix":"69.195.179.144/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Kladno"}
+{"prefix":"69.195.179.152/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Kladno"}
+{"prefix":"69.195.179.16/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"JP","geoip_city":"Okubo-naka"}
+{"prefix":"69.195.179.168/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KE","geoip_city":"Kingongo"}
+{"prefix":"69.195.179.178/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AS","geoip_city":"Pago Pago"}
+{"prefix":"69.195.179.206/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TZ","geoip_city":"Mtoni"}
+{"prefix":"69.195.179.216/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Medina"}
+{"prefix":"69.195.179.220/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Medina"}
+{"prefix":"69.195.179.222/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Rennes"}
+{"prefix":"69.195.179.224/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Rennes"}
+{"prefix":"69.195.179.232/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Rennes"}
+{"prefix":"69.195.180.12/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Manukau City"}
+{"prefix":"69.195.180.218/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"As Sulaymaniyah"}
+{"prefix":"69.195.180.6/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Manukau City"}
+{"prefix":"69.195.180.8/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"NZ","geoip_city":"Manukau City"}
+{"prefix":"69.195.180.88/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MN","geoip_city":"Shara-Hobiin-Dugang"}
+{"prefix":"69.195.181.10/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BM","geoip_city":"Hamilton"}
+{"prefix":"69.195.181.182/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IQ","geoip_city":"Biyut Sa`id `Abbud"}
+{"prefix":"69.195.181.216/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Kampung Jaya Sepakat"}
+{"prefix":"69.195.181.22/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MF","geoip_city":"Marigot"}
+{"prefix":"69.195.181.252/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"Bayamon"}
+{"prefix":"69.195.181.62/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"AQ","geoip_city":"McMurdo"}
+{"prefix":"69.195.182.0/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PR","geoip_city":"Bayamon"}
+{"prefix":"69.195.182.196/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IM","geoip_city":"Douglas"}
+{"prefix":"69.195.182.76/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MS","geoip_city":"Plymouth"}
+{"prefix":"69.195.182.90/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Kampung Buntal"}
+{"prefix":"69.195.182.92/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MY","geoip_city":"Kampung Buntal"}
+{"prefix":"69.195.182.94/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SM","geoip_city":"San Marino"}
+{"prefix":"69.195.183.0/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FK","geoip_city":"Stanley"}
+{"prefix":"69.195.183.12/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Kaohsiung"}
+{"prefix":"69.195.183.128/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HK","geoip_city":"Hong Kong"}
+{"prefix":"69.195.183.16/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TW","geoip_city":"Kaohsiung"}
+{"prefix":"69.195.183.18/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PG","geoip_city":"Arawa"}
+{"prefix":"69.195.183.186/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KE","geoip_city":"Mto Panga"}
+{"prefix":"69.195.183.212/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KR","geoip_city":"Pak-ch'on"}
+{"prefix":"69.195.183.30/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BH","geoip_city":"Halat an Na`im"}
+{"prefix":"69.195.184.146/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"BD","geoip_city":"Dhangar Char"}
+{"prefix":"69.195.184.222/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Marseille"}
+{"prefix":"69.195.184.224/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Marseille"}
+{"prefix":"69.195.184.232/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"FR","geoip_city":"Marseille"}
+{"prefix":"69.195.184.240/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PW","geoip_city":"Koror"}
+{"prefix":"69.195.184.254/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Brno"}
+{"prefix":"69.195.185.0/28","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Brno"}
+{"prefix":"69.195.185.16/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CZ","geoip_city":"Brno"}
+{"prefix":"69.195.185.20/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GI","geoip_city":"Gibraltar"}
+{"prefix":"69.195.185.238/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KW","geoip_city":"Al Bida`"}
+{"prefix":"69.195.185.240/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"KW","geoip_city":"Al Bida`"}
+{"prefix":"69.195.185.98/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LB","geoip_city":"Tahouitet el Ghadir"}
+{"prefix":"69.195.186.142/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RS","geoip_city":"Rucka"}
+{"prefix":"69.195.186.144/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RS","geoip_city":"Rucka"}
+{"prefix":"69.195.186.152/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"RS","geoip_city":"Novi Sad"}
+{"prefix":"69.195.186.180/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Chamartin"}
+{"prefix":"69.195.186.184/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Chamartin"}
+{"prefix":"69.195.186.192/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"ES","geoip_city":"Chamartin"}
+{"prefix":"69.195.186.218/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CK","geoip_city":"Avarua"}
+{"prefix":"69.195.186.38/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Dammam"}
+{"prefix":"69.195.186.40/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SA","geoip_city":"Dammam"}
+{"prefix":"69.195.187.104/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"LK","geoip_city":"Mahaweediya"}
+{"prefix":"69.195.187.118/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"HN","geoip_city":"America"}
+{"prefix":"69.195.187.142/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"IN","geoip_city":"Ondipudur"}
+{"prefix":"69.195.187.198/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Impaya-ao"}
+{"prefix":"69.195.187.200/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Impaya-ao"}
+{"prefix":"69.195.187.240/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM","geoip_city":"Mandalay"}
+{"prefix":"69.195.187.248/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"Moca"}
+{"prefix":"69.195.187.252/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"DO","geoip_city":"Moca"}
+{"prefix":"69.195.188.234/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Bernal"}
+{"prefix":"69.195.188.236/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Bernal"}
+{"prefix":"69.195.188.240/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MX","geoip_city":"Bernal"}
+{"prefix":"69.195.188.254/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"SX","geoip_city":"Philipsburg"}
+{"prefix":"69.195.188.80/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Angeles City"}
+{"prefix":"69.195.188.88/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"PH","geoip_city":"Angeles City"}
+{"prefix":"69.195.189.164/30","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"TZ","geoip_city":"Dar es Salaam"}
+{"prefix":"69.195.189.168/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GF","geoip_city":"Cayenne"}
+{"prefix":"69.195.189.206/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EC","geoip_city":"Oyacoto"}
+{"prefix":"69.195.189.208/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"EC","geoip_city":"Oyacoto"}
+{"prefix":"69.195.189.38/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GT","geoip_city":"Colonia Los Eucaliptos Uno"}
+{"prefix":"69.195.189.40/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"GT","geoip_city":"Colonia Los Eucaliptos Uno"}
+{"prefix":"69.195.190.224/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MM","geoip_city":"Tadagyi"}
+{"prefix":"69.195.190.52/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CI","geoip_city":"Ndakonankro"}
+{"prefix":"69.195.191.108/31","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"MP","geoip_city":"Saipan"}
+{"prefix":"69.195.191.200/29","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"planned_not_announced","geoip_country":"CA","geoip_city":"Bells Corners"}
+{"prefix":"70.41.52.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"viasat","bgp_state":"bgp_only","origin_asn":7155}
+{"prefix":"74.245.56.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"89.254.20.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"speedcast","bgp_state":"bgp_only","origin_asn":4913}
+{"prefix":"9.161.24.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"9.161.77.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"starlink","bgp_state":"bgp_only","origin_asn":14593}
+{"prefix":"94.54.44.0/23","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"turksat","bgp_state":"bgp_only","origin_asn":47524}
+{"prefix":"95.210.4.0/24","change_type":"new","changed_at":"2026-11-26T12:29:56Z","operator":"eutelsat_skylogic","bgp_state":"bgp_only","origin_asn":29286}
+{"prefix":"156.238.84.0/24","change_type":"withdrawn","changed_at":"2026-11-26T12:29:56Z","operator":"yahsat","previous_operator":"yahsat","bgp_state":"withdrawn_recently","previous_bgp_state":"bgp_only","origin_asn":198247,"previous_origin_asn":198247}
